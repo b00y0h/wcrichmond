@@ -1,0 +1,44 @@
+
+#newsEventsBlock{
+  padding-top:10px;
+}
+.blogTitleWrap{
+  padding:0;
+}
+
+.foundationSubMenu{
+  width:728px; margin-left:298px;
+}
+.foundationSubMenu #menu-sub-menu{
+  width:728px;
+}
+
+#footer{
+  width:auto;
+}
+
+.footerPhones{
+  margin-right:20px;
+}
+
+.footerWrapper{
+  width:1025px;
+  margin:auto;
+}
+
+.waysToGiveWrapper{
+	height:550px !important;
+	background:#9DB8B6 url(/phpages/wp-content/themes/wcr/images/foundation_bg.png) no-repeat !important;
+}
+
+.waysToGiveWrapper .subpageContentWrapper{
+	height:500px;
+} 
+
+.waysToGiveWrapper .subpageContentWrapper .jsSubContentText.single{
+	height:440px !important;
+}
+
+#sectionLogo {
+   margin-left:15px;
+}
