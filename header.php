@@ -26,7 +26,8 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class($class); ?>>
-  
+
+
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
