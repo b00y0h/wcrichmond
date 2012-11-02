@@ -18,6 +18,7 @@
     <div style="float:left;margin:0px 5px 10px 30px;">
       <a href="<?php bloginfo('home');?>/news/">
         <img src="<?php bloginfo('template_directory');?>/images/news_events.png">
+        
       </a>
     </div>
     <div style="float:right;border-bottom:1px solid #999999;height:30px;width:680px;">&nbsp;</div>
