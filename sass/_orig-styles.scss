@@ -1,0 +1,803 @@
+
+#subNav {
+	padding-left: 38px;
+	position: relative;
+	}
+#subNav a.subnavlogo {
+	position: absolute;
+  display:block;
+  height:90px;
+  width:260px;
+  margin-bottom: -20px;
+}
+.lt-ie8 #subNav a.subnavlogo {
+	left: 20px;
+	}
+.home a.subnavlogo, .parent-pageid-9 a.subnavlogo, .parent-pageid-11 a.subnavlogo,.page-id-258 a.subnavlogo {
+  background:url('images/live-life-logo.png') no-repeat;
+}
+.page-id-5 a.subnavlogo, .parent-pageid-5 a.subnavlogo {
+	background:url('images/about-us-logo.png') no-repeat;
+	}
+.page-id-15 a.subnavlogo {
+	background:url('images/contact-us-logo.png') no-repeat;
+	}
+.page-id-13 a.subnavlogo, .parent-pageid-13 a.subnavlogo {
+	background:url('images/foundation-logo.png') no-repeat;
+	}
+.page-id-65 a.subnavlogo {
+	background:url('images/careers-logo.png') no-repeat;
+	}
+/* converted inline styles */
+.shift-up-5 {
+  margin-top:-5px;
+}
+.shift-up-3 {
+  margin-top:-3px;
+}
+
+.floatmargin051030 {
+  float:left;margin:0px 5px 10px 30px;
+}
+.thickgreyline {
+  float:right;border-bottom:1px solid #999999;height:30px;width:680px;
+}
+.subMenu ul li:hover, .subMenu ul li.current_page_item, .subMenu ul li.current_page_parent {
+  border-top:3px solid #CD0B47;
+  padding-top:4px !important;
+}
+.newsFeed p {
+  margin:0;
+}
+.phoneNumber {
+  font-size:14px;
+}
+.phoneNumber span, .phoneNumber a {
+  font-size:17px;
+  text-decoration:none;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+/* =================== */
+/* = existing styles = */
+/* =================== */
+
+body{
+  margin:0;
+  padding:0;
+  background-color:#BED0D1;
+}
+
+input{
+  outline:none;
+}
+
+a{
+  color:#000;
+  text-decoration:underline;
+}
+
+a:hover{
+  color:#d31245;
+  text-decoration:underline;
+}
+
+/*
+Westminster Canturbury Website
+Main font stacks
+SANS
+font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+
+SERIF
+font-family: Palatino, "Times New Roman", Georgia, serif;
+
+++++
+
+GLOBAL ELEMENTS
+Secondary navigation
+
+(top) Home, About Us, Contact Us, Search. (bottom) Careers, Foundation, About
+Serif, 14px
+
+Footer phone #'s
+Sans, 24px
+
+Footer small-print
+font-family: Verdana, Arial, sans-serif;
+font-size: 10px;
+++++
+
+INTERIOR PAGE
+
+Left block tabs
+Sans, 16px
+
+Copy Headlines
+Serif, 24px
+
+Copy paragraph
+Serif, 18px
+
+Right side links (and serif links elsewhere)
+Serif, 16px
+*/
+#contentWrapper{
+  background-color:#fff;
+  padding-bottom:10px;
+  -webkit-box-shadow: 0px 0px 25px #555;
+  -moz-box-shadow: 0px 0px 25px #555;
+}
+
+#header{
+  padding:30px;
+  border:1px solid #fff;
+}
+
+#logo{
+  float:left;
+}
+
+/* Menus */
+
+#menu-top-menu{
+  padding:0;
+}
+
+.topMenu ul{
+  margin-bottom:5px;
+  float:right;
+  margin-right:-27px;
+}
+
+#topMenu ul li{
+  list-style:none;
+  float:left;
+  border-right:1px solid #999999;
+  margin:5px;
+}
+
+#topMenu a, .footerMenu a{
+	display: block;
+  text-decoration:none;
+  font-size:14px;
+  text-transform:uppercase;
+  color:#000;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  margin: 0px 16px 0px 6px;
+}
+
+.footerMenu a{
+  font-size:14px;
+}
+
+#menu-item-75{
+  padding-left:0px !important;
+  margin-left:3px !important;
+}
+
+#menu-item-431{
+	border-left:1px solid #999;
+}
+
+
+#searchBox{
+  float:right;
+  margin:10px 20px 0px 0px;
+}
+
+#searchform{
+  display:inline;
+}
+
+.searchInput{
+  background: url(images/search_icon.png) left no-repeat;
+  border:2px solid #888;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding:2px 5px 2px 20px;
+}
+
+#searchsubmit{
+  background:none;
+  border:none;
+  color:#666;
+  font-size:14px;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  cursor:pointer;
+}
+
+.subMenu{
+  margin-left:200px;
+  height:53px;
+  overflow: hidden;
+}
+	.page-id-15 .subMenu {
+		border-bottom:1px solid #999;
+		margin-bottom: 10px;
+		height: 32px!important;
+		margin-left: 280px;
+	}
+
+.lt-ie8 .subMenu{
+  margin-left:160px;
+}
+.lt-ie8 .page-id-15 .subMenu {
+		margin-left: 240px;
+	}
+
+
+#menu-sub-menu{
+  float:left;
+  padding:0;
+  margin-top:10px;
+  margin-bottom:2px;
+  border-bottom:1px solid #999;
+  width:100%;
+}
+
+.foundationSubMenu{
+  margin-left:260px;
+}
+
+
+#subNav ul li{
+  list-style:none;
+  float:left;
+  margin-right:25px;
+  padding:7px 3px 4px 3px;
+}
+
+#subNav ul li a{
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#000;
+}
+
+.subMenu .menu-item-83:hover, .subMenu .menu-item-83.current_page_item, .subMenu .menu-item-83.active {
+  border-top:3px solid #a5d2cf;
+  padding-top:4px !important;
+}
+
+.subMenu .menu-item-84:hover, .subMenu .menu-item-84.current_page_item, .subMenu .menu-item-84.active {
+  border-top:3px solid #663366;
+  padding-top:4px !important;
+}
+
+.subMenu .menu-item-85:hover, .subMenu .menu-item-85.current_page_item, .subMenu .menu-item-85.active {
+  border-top:3px solid #e94347;
+  padding-top:4px !important;
+}
+
+.subMenu .menu-item-86:hover, .subMenu .menu-item-86.current_page_item, .subMenu .menu-item-86.active {
+  border-top:3px solid #86b243;
+  padding-top:4px !important;
+}
+
+.subMenu .menu-item-87:hover, .subMenu .menu-item-87.current_page_item, .subMenu .menu-item-87.active {
+  border-top:3px solid #e5b257;
+  padding-top:4px !important;
+}
+
+.subMenu .menu-item-88:hover, .subMenu .menu-item-88.current_page_item, .subMenu .menu-item-88.active {
+  border-top:3px solid #6e8c95;
+  padding-top:4px !important;
+}
+
+li.menu-item-77{
+ border-right:0px !important;
+}
+
+#homeBanner{
+  height:317px;
+  position:relative;
+}
+
+#pageContent{
+  min-height:317px;
+}
+
+rapper{
+  height:158px;
+  margin:5px 0px 20px 0px;
+}
+
+#newsEventsBlock{
+  float:left;
+  padding:15px;
+  width:350px;
+  height:147px;
+  background-color:#E6E6E6;
+  margin-right:10px;
+}
+
+h3.blockTitle{
+  padding:0;
+  margin:0;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  font-size:20px;
+  color:#000;
+  font-weight:normal;
+}
+
+.newsFeed{
+  height:120px;
+}
+
+.newsReadMore{
+  text-align:right;
+}
+
+.newsReadMore a{
+  text-decoration:none;
+  color:#000;
+}
+
+#lifeCareBlock{
+  float:left;
+}
+
+
+/* Footer */
+
+.footerWrapper{
+  background-color:#E6E6E6;
+}
+
+#menu-footer-menu{
+  padding:0;
+  margin:0;
+}
+
+.footerMenu ul li{
+  list-style:none;
+  float:left;
+  padding:0px 20px 0px 15px;
+  border-right:1px solid #999999;
+  margin:5px;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+}
+
+
+
+.footerLogos{
+  float:left;
+  margin-left:15px;
+}
+
+.copyText{
+  float:left;
+  width:650px;
+  padding:0px 25px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* Residence Styles */
+.subpageWrapper{
+  background-color:#A2D9D5;
+  margin-bottom:10px;
+  padding:0px 0px 20px 0px;
+}
+.subpagePageTitle{
+  /*background-color:#ECF6F6;*/
+  padding:12px 25px 2px 100px;
+  margin-bottom:15px;
+  float:right;
+  text-align:right;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size:24px;
+}
+.subpageNavigation{
+  float:left;
+  width:150px;
+}
+.subpageNavigation ul{
+  padding:0;
+  margin:0;
+  width:150px;
+  position:absolute;
+}
+.subpageNavigation li{
+  list-style:none;
+  width:140px;
+  padding:15px 15px 4px 0px;
+  margin-bottom:4px;
+  text-align:right;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  font-size:15px;
+  background-color:#fff;
+  color:#555;
+  cursor:pointer;
+}
+.subpageNavigation li:hover{
+  color:#000;
+}
+.subpageNavigation li.current{
+  /*-webkit-box-shadow: 5px 4px 4px #555;*/
+  padding-right:45px;
+  background-color:#e6e6e6;
+
+}
+.subpageNavigation li.current:hover{
+  color:#555;
+}
+.subpageContentWrapper{
+  float:right;
+ /* min-height:424px;*/
+  width:867px;
+  background-color:#fff;
+}
+.jsSubPhotoViewer{
+  float:left;
+  z-index:10;
+}
+
+.jsSubPhotoNav{
+  position:absolute;
+  margin:300px 0px 0px 0px;
+  padding:0px 5px 0px 25px;
+  width:333px;
+}
+
+.jsSubPhotoThumb{
+  width:50px;
+  height:50px;
+  border:2px solid #ccc;
+  background-color:#ccc;
+  float:left;
+  margin:0px 10px 6px 0px;
+  cursor:pointer;
+}
+
+.jsSubPhotoThumb.current_photo_thumb{
+  border:2px solid #fff;
+}
+
+.jsSubPhoto{
+  display:none;
+}
+
+.jsSubPhoto.current_photo{
+  display:block;
+}
+
+.subpageCopy{
+
+}
+
+
+.jsSubContentText{
+  float:right;
+  width:250px;
+  font-family: Palatino, "Times New Roman", Georgia, serif;
+  font-size:18px;
+  color:#333;
+  height:384px;
+  overflow:auto;
+  line-height:22px;
+  padding:40px 30px 0px 0px;
+}
+.jsSubContentText.single{
+  padding:40px 60px 0px 20px;
+  width:350px;
+}
+
+.jsSubContentTitle{
+ font-size:22px;
+ color:#222;
+}
+
+
+.jsSubContentFlex{
+  float:right;
+  width:150px;
+  min-height:364px;
+  background-color:#e6e6e6;
+  padding:40px 20px 20px 20px;
+
+  font-size:14px;
+}
+.jsSubContentFlex ul{
+  padding:0;
+  margin:0;
+}
+
+.jsSubContentFlex ul li{
+  /*list-style-type:none;*/
+  margin:10px 0px 0px 20px;
+}
+
+.jsSubContent{
+  display:none;
+}
+
+.jsSubContent.current_sub_content{
+  display:block;
+}
+
+.blogWidget h2{
+  color:#d31245;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:20px;
+  font-weight:normal;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  border-bottom:1px solid #8d8d8d;
+  margin-bottom:8px;
+  padding-bottom:3px;
+}
+.blogWidget{
+  font-family:Palatino, "Times New Roman", Georgia, serif;
+}
+.blogContentWrap{
+  background-color:#e6e6e6;
+
+}
+.blogColumn{
+  padding:20px 0px 10px 60px;
+  margin-right:20px;
+  width:665px;
+  float:left;
+  border-right:15px solid #fff;
+}
+
+.blogSidebar{
+  padding:20px 5px 10px 20px;
+  width:240px;
+  float:left;
+}
+
+.post{
+  margin-bottom:15px;
+}
+
+h2.blogEntryTitle{
+  margin-bottom:0px;
+  float:left;
+}
+h2.blogEntryTitle a{
+  color:#d31245;
+  text-decoration:none;
+  font-weight:normal;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+}
+.blog.entry{
+  padding-left:30px;
+  width:565px;
+  font-family:Palatino, "Times New Roman", Georgia, serif;
+}
+
+.blogMeta{
+  padding:10px 15px;
+  background-color:#f2f2f2;
+  width:620px;
+  float:right;
+  font-size:12px;
+}
+
+.postReadMore{
+  float:right;
+  margin-right:70px;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+}
+.postReadMore a{
+  color:#333;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.postTags{
+  float:left;
+  font-family: Verdana, Arial, sans-serif;
+}
+.postTags a{
+  color:#333;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family: Verdana, Arial, sans-serif;
+}
+.blogDate{
+  width:650px;
+  float:right;
+  border-bottom:1px solid #8d8d8d;
+}
+.datestamp{
+  float:right;
+  margin:27px 83px 0px 0px;
+  color:#4c4c4c;
+  padding-bottom:5px;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+}
+
+.pageContentWrap{
+  background-color:#e6e6e6;
+
+}
+.pageColumn{
+  padding:20px 15px 10px 60px;
+  margin-right:0px;
+  width:650px;
+  float:left;
+  min-height:500px;
+  border-right:15px solid #fff;
+  color:#333;
+}
+
+.pageTitle{
+  border-bottom:1px solid #333;
+}
+
+.pageTitle h1{
+  color:#d31245;
+  font-weight:normal;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  margin-bottom:5px;
+}
+
+.page strong{
+  color:#d31245;
+}
+
+.page a strong{
+	color:inherit;
+}
+
+.pageSidebar{
+  padding:100px 5px 10px 0px;
+  width:240px;
+  float:left;
+}
+
+.pageWidget{
+  margin:5px 0px;
+}
+
+.blogSnippetLink{
+  color:#d31245;
+  font-weight:normal;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  font-size:15px;
+  padding:5px 0px;
+}
+
+.events{
+  width:220px;
+}
+.eventWrap{
+  margin:5px 0px 10px 0px;
+}
+
+.blogTitleWrap{
+  padding:5px 0px;
+}
+
+.tipsTitle{
+  padding:15px 0px 10px 0px;
+  background-color:#fff;
+  text-transform:uppercase;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  width:284px;
+  margin-left:-40px;
+  text-align:center;
+  font-size:20px;
+}
+.tipsText{
+  padding:0px 8px;
+}
+
+.tipsText div{
+  padding:0px 8px;
+}
+
+
+.gform_title, .gform_heading{
+  margin-bottom:3px !important;
+}
+
+#field_1_1 > label.gfield_label{
+  display:none;
+}
+
+.footerNewsBlock{
+	margin-bottom:10px;
+	height:120px;
+	overflow:hidden;
+}
+
+.datestamp{
+   margin-top:15px;
+ }
+ .postShare{
+   float:right;
+   margin-top:-10px;
+   margin-right:100px;
+   width:140px;
+ }
+ .addthis_default_style a{
+   text-decoration:none;
+   color:rgb(75,111,198);
+   text-transform:uppercase;
+   font-size:13px;
+ }
+	.facebookButton{
+	position: absolute;
+   right:20px;
+   top: 100px;
+   float:right;
+ }
+
+	.videosTitle{
+	  width:285px;
+	  margin-left:-40px;
+	  padding:60px 0px 0px 0px;
+	  background-image:url(images/Videos.png);
+	  background-repeat:no-repeat;
+	  text-indent:-9999px;
+	  border:none;
+	}
+	.widget_archive h2{
+		width:285px;
+	  margin:20px 0px 0px -40px;
+	  padding:60px 0px 0px 0px;
+	  background-image:url(images/Archives.png);
+	  background-repeat:no-repeat;
+	  text-indent:-9999px;
+	  border:none;
+		font-size:0px;
+	}
+
+	.vimeoVideos a{
+   margin:3px 0px;
+   display:block;
+ }
+
+ .playButton{
+   position:absolute;
+   margin:34px 0px 0px 75px;
+ }
+
+img.alignright {float:right; margin:10px 0 1em 1em}
+img.alignleft {float:left; margin:10px 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img {border:none;}
+
+.positionCategory{
+	margin:30px 0px 20px 0px;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+}
+
+#homeBanner img{
+  height:auto;
+ position:absolute;
+ width:100%;
+ z-index:100;
+}
+
+.subnavlogo{
+ position:relative;
+ z-index:150;
+}
+
+.lt-ie8 #subNav {position:static;}
