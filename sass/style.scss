@@ -1,0 +1,19 @@
+/*
+Theme Name: Westminster Canterbury
+Theme URI: http://www.wcrichmond.org
+Description: Theme for Westminster Canterbury of Richmond
+Version: 1.1
+Author: Andre Fredette, Bobby Smith
+Author URI: http://reality66.com, http://reversetye.com;
+*/
+
+@import "variables";
+
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+@import "partials/fonts";
+
+@import "partials/layout";
+@import "_orig-styles";
+@import "_styles";

@@ -1,0 +1,10 @@
+#contentWrapper {
+    @include outer-container;
+}
+
+.triptic {
+    @include outer-container;
+    .module {
+        @include span-columns(4);
+    }
+}
