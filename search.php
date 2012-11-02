@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="blogContentWrap">
-  
+
 <div class="blogColumn"><br><br>
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -11,22 +11,22 @@
   	<div class="entrytext">
   	  <?php the_excerpt(); ?>
   	  <?php the_date(); ?>
-  	  
+
   	</div>
   	<div class="newsReadMore" style="font-family: 'Century Gothic', Trebuchet, Helvetica, Arial, sans-serif;font-size:12px">
-      <a href="<? bloginfo('home');?>/news/">READ MORE ></a>
+      <a href="<?php bloginfo('home');?>/news/">READ MORE ></a>
     </div>
-    </div>	
+    </div>
   <?php endwhile; else: ?>
 
 	<div class="post">
-	
+
 		<h2>No Results</h2>
-		
+
 		<p>Sorry, but it looks like we dont have any pages matching that search. Please try something else.</p>
-		
+
 		<?php include(TEMPLATEPATH.'/searchform.php'); ?>
-	
+
 	</div> <!-- .post -->
 
 	<?php endif; ?>
@@ -35,7 +35,7 @@
 		<div class="left"><?php next_posts_link('&laquo; Older Entries') ?></div>
 		<div class="right"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
 	</div>
-	
+
 </div>
 <div class="blogSidebar">
   <?php get_sidebar('blog'); ?>
