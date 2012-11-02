@@ -1,33 +1,17 @@
+<div class="triptic">
 
-<div class="blockWrapper">
-  <div id="newsEventsBlock">
-    <h3 class="blockTitle"><a href="<?php bloginfo('home');?>/news">News &amp; Calendar</a></h3>
-    <div class="newsFeed">
-      <?php $latest_news = get_posts('numberposts=1'); 
-         foreach($latest_news as $post) :
-            setup_postdata($post);
-       ?>
-       <div class="footerNewsBlock">
-         <div class="blogTitleWrap"><a class="blogSnippetLink" href="<?php the_permalink(); ?>"><?php echo trimstring(get_the_title(),42); ?></a></div>
-         <div style="font-size:12px;padding-bottom:5px;font-family: 'Century Gothic', Trebuchet, Helvetica, Arial, sans-serif;"><?php the_date();?></div> 
-         <?php
-          $content= get_the_content();
-          echo the_excerpt();
-         ?>
-       </div>
-       <?php endforeach; ?>
-     
-    </div>
-    <div class="newsReadMore" style="font-family: 'Century Gothic', Trebuchet, Helvetica, Arial, sans-serif;font-size:12px">
-      <a href="<? bloginfo('home');?>/news/">READ MORE ></a>
-    </div>
-  </div>
-  
-  <div id="lifeCareBlock">
-    <a href="<? bloginfo('home');?>/lifecare/">
-      <img src="<?php bloginfo('template_directory');?>/images/lifecare-block.png">
+    <a href="/act-now/" id="act-now" class="module">
+        <h2>Act Now!</h2>
+        <p>Take advantage of special incentives and limited offers before fees increase on October 1, 2012.</p>
     </a>
-  </div>
-  
-  <div style="clear:both;"></div>
-</div>
+
+        <a href="/contact-us/" id="contact-us" class="module grey-module">
+                <h2 class="header">Contact Us</h2>
+                <p>Click here to request information or schedule a tour.</p>
+        </a>
+
+        <a href="/lifecare/" id="life-care" class="module">
+            <h2 class="transparent header">Life Care</h2>
+        </a>
+
+</div> <!-- .triptic -->
