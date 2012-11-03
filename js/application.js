@@ -6,7 +6,6 @@
   (function($){
     $(document).ready(function(){
 
-
         // redraw certain items on browser resize so that the css font
         // size value of 'vw' work
         var causeRepaintsOn = $("#act-now h2");
