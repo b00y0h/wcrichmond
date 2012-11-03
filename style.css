@@ -93,9 +93,6 @@ body:before {
   width: 260px;
   margin-bottom: -20px; }
 
-.lt-ie8 #subNav a.subnavlogo {
-  left: 20px; }
-
 .home a.subnavlogo, .parent-pageid-9 a.subnavlogo, .parent-pageid-11 a.subnavlogo, .page-id-258 a.subnavlogo {
   background: url("images/live-life-logo.png") no-repeat; }
 
@@ -290,12 +287,6 @@ Serif, 16px
   margin-bottom: 10px;
   height: 32px!important;
   margin-left: 280px; }
-
-.lt-ie8 .subMenu {
-  margin-left: 160px; }
-
-.lt-ie8 .page-id-15 .subMenu {
-  margin-left: 240px; }
 
 #menu-sub-menu {
   float: left;
@@ -796,9 +787,6 @@ a img {
 .subnavlogo {
   position: relative;
   z-index: 150; }
-
-.lt-ie8 #subNav {
-  position: static; }
 
 body {
   font-family: "QuicksandLight", Arial, sans-serif; }
