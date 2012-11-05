@@ -57,7 +57,7 @@
             <?php include('searchform.php'); ?>
         </div> <!-- #secondaryNav -->
 
-        <div id="primaryNav">
-            <?php wp_nav_menu( array( 'theme_location' => 'sub-menu','container_class'=>'subMenu' ) ); ?>
-        </div>
+        <nav id="access" role="navigation">
+            <?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
+        </nav>
     </header>

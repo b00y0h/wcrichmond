@@ -8,3 +8,15 @@
         @include span-columns(4);
     }
 }
+
+// menu
+#menu-top-menu {
+    @include row();
+    > li {
+        margin:0;
+        padding:0;
+        width:16.6667%;
+        display:block;
+        float:left;
+    }
+}
