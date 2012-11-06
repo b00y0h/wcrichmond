@@ -1,6 +1,26 @@
 <?php
 
 /**
+ * Tell WordPress to run wcrichmond_setup() when the 'after_setup_theme' hook is run.
+ */
+add_action( 'after_setup_theme', 'wcrichmond_setup' );
+
+if ( ! function_exists( 'wcrichmond_setup' ) ):
+
+    function wcrichmond_setup() {
+            add_theme_support( 'post-thumbnails' );
+            update_option('thumbnail_size_w', 300);
+            update_option('thumbnail_size_h', 100);
+            update_option('thumbnail_crop', 0);
+
+            add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
+            add_image_size( 'homepage-thumb', 300, 100, true ); //(cropped)
+    }
+
+endif; // wcrichmond_setup
+
+
+/**
  * Enqueue scripts and styles
  */
 function _add_scripts_styles() {
@@ -71,6 +91,19 @@ function improved_trim_excerpt($text) {
 
 remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 add_filter('get_the_excerpt', 'improved_trim_excerpt');
+
+
+function limit_words($string, $word_limit) {
+ // creates an array of words from $string (this will be our excerpt)
+  // explode divides the excerpt up by using a space character
+ $words = explode(' ', $string);
+ // this next bit chops the $words array and sticks it back together
+  // starting at the first word '0' and ending at the $word_limit
+  // the $word_limit which is passed in the function will be the number
+  // of words we want to use
+  // implode glues the chopped up array back together using a space character
+ return implode(' ', array_slice($words, 0, $word_limit));
+}
 
 function add_iframe($initArray) {
 $initArray['extended_valid_elements'] = "iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]";

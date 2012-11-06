@@ -5,6 +5,46 @@
             <a class="phoneNumber" href="/about-us/child-development-center/">Child Development Center <strong>804-200-1176</strong></a>
         </div>
 
+<?php if(is_front_page()) { ?>
+<section id="extra-footer-home">
+<?php wp_nav_menu( array( 'theme_location' => 'sub-menu', 'container' => '' ) ); ?>
+        <?php
+global $post;
+$args = array( 'numberposts' => 1, 'offset'=> 1, 'category' => 1 );
+$myposts = get_posts( $args );
+foreach( $myposts as $post ) :  setup_postdata($post); ?>
+<div id="around-our-community" class="module grey-module span-columns-8">
+        <h2 class="header">Around Our Community</h2>
+    <article>
+        <div class="column1">
+            <h3>
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            </h3>
+                <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'homepage-thumb' ); } ?>
+
+        </div>
+        <div class="column2">
+            <p>
+                <?php echo limit_words(get_the_excerpt(), '43'); ?>
+            <?php
+            // echo get_the_excerpt();
+                // $excerpt = get_the_excerpt();
+                // if ( empty($excerpt) ) {
+                //         echo "no excerpt for this posting.";
+                // }
+                // echo $excerpt;
+             ?>
+             </p>
+            <hr>
+            <span class="meta"><?php the_date(); ?> <a href="<?php the_permalink(); ?>">Read More &gt;</a></span>
+        </div>
+    </article>
+        </div>
+<?php endforeach; ?>
+
+</section>
+<?php } ?>
+
         <footer>
             <div class="footerCopy">
               <div class="footerLogos">
@@ -20,7 +60,7 @@
                   All material copyrighted <?php echo date('Y'); ?> Westminster Canterbury Richmond. All rights reserved.
                 </p>
                 <p>
-                  Website produced by J H I. &nbsp;&nbsp;&nbsp;-&nbsp; <a href="<?php bloginfo('home');?>/sitemap/">Sitemap</a> &nbsp;&nbsp; <a href="<?php bloginfo('home');?>/phpages/wp-login.php">Admin</a>
+                  Website produced by J H I. &amp; Release the Hounds
                 </p>
               </div>
             </div>
