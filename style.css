@@ -62,6 +62,31 @@ body:before {
     display: table; }
   #contentWrapper:after {
     clear: both; }
+  #contentWrapper header {
+    zoom: 1;
+    display: block; }
+    #contentWrapper header:before, #contentWrapper header:after {
+      content: "";
+      display: table; }
+    #contentWrapper header:after {
+      clear: both; }
+    #contentWrapper header #logo {
+      display: block;
+      float: left;
+      margin-right: 1.17647%;
+      width: 49.41176%;
+      padding-left: 75px;
+      padding-bottom: 40px; }
+      #contentWrapper header #logo:last-child {
+        margin-right: 0; }
+    #contentWrapper header #secondaryNav {
+      display: block;
+      float: left;
+      margin-right: 1.17647%;
+      width: 49.41176%;
+      margin-right: 0; }
+      #contentWrapper header #secondaryNav:last-child {
+        margin-right: 0; }
 
 .triptic {
   zoom: 1;
@@ -914,8 +939,34 @@ body {
 #contentWrapper {
   padding-top: 27px; }
 
+#secondaryNav {
+  padding-right: 1em;
+  text-align: right; }
+  #secondaryNav [class^="icon-"] {
+    display: inline-block;
+    width: 33px;
+    height: 27px;
+    background-color: transparent;
+    border: 0;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    border-right: 1px solid #e6e6e6;
+    margin-right: 20px;
+    padding-right: 10px; }
+  #secondaryNav a {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; }
+  #secondaryNav nav, #secondaryNav form {
+    display: inline-block;
+    vertical-align: bottom; }
+
 .icon-home {
   background: url(images/home_icon.png) no-repeat; }
+
+.icon-facebook {
+  background: url(images/facebook-icon.png) no-repeat; }
 
 h2 {
   font-size: 24px;

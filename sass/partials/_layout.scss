@@ -1,5 +1,17 @@
 #contentWrapper {
     @include outer-container;
+    header {
+        @include row();
+        #logo {
+            @include span-columns(6);
+            padding-left:75px;
+            padding-bottom:40px;
+        }
+        #secondaryNav {
+            @include span-columns(6);
+            @include omega();
+        }
+    }
 }
 
 .triptic {

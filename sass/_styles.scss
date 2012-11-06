@@ -9,8 +9,31 @@ body {font-family:$header-font;}
     padding-top:27px;
 }
 
+#secondaryNav {
+    padding-right:1em;
+    text-align:right;
+    [class^="icon-"] {
+        display:inline-block;
+        width:33px;
+        height:27px;
+        @include hide-text;
+        border-right:1px solid $grey;
+        margin-right:20px;
+        padding-right:10px;
+    }
+    a {
+        @include box-sizing(content-box);
+    }
+    nav, form {
+        display:inline-block;
+        vertical-align:bottom;
+    }
+}
 .icon-home {
     background: url(images/home_icon.png) no-repeat;
+}
+.icon-facebook {
+    background: url(images/facebook-icon.png) no-repeat;
 }
 h2 {
     font-size: 24px;
