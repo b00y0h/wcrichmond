@@ -64,6 +64,7 @@ get_header(); ?>
 
 <div id="homeBanner">
       <?php echo do_shortcode('[SlideDeck2 id=1992]'); ?>
+      <?php echo do_shortcode('[SlideDeck2 id=2003]'); ?>
 </div>
 
 <!-- Closed Loop -->
