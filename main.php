@@ -63,13 +63,7 @@ get_header(); ?>
 </script>
 
 <div id="homeBanner">
-  <img class="intro" src="<?php bloginfo('template_directory');?>/images/home_banners/intro.png" alt="image1">
-  <img class="menu-item-83" src="<?php bloginfo('template_directory');?>/images/home_banners/residence-options.png" style="display:none;" alt="image2">
-  <img class="menu-item-84" src="<?php bloginfo('template_directory');?>/images/home_banners/dining-cocktails.png" style="display:none;" alt="image3">
-  <img class="menu-item-85" src="<?php bloginfo('template_directory');?>/images/home_banners/artsculture.png" style="display:none;" alt="image4">
-  <img class="menu-item-86" src="<?php bloginfo('template_directory');?>/images/home_banners/healthfitness.png" style="display:none;" alt="image5">
-  <img class="menu-item-87" src="<?php bloginfo('template_directory');?>/images/home_banners/social-educational-activities.png" style="display:none;" alt="image6">
-  <img class="menu-item-88" src="<?php bloginfo('template_directory');?>/images/home_banners/spiritual-life.png" style="display:none;" alt="image7">
+      <?php echo do_shortcode('[SlideDeck2 id=1992]'); ?>
 </div>
 
 <!-- Closed Loop -->
