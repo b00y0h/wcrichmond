@@ -90,6 +90,12 @@ ul li:hover > ul {
     li {
         margin-bottom:3px;
         text-align:center;
+        // offset .module padding
+        margin-left:-20px;
+        margin-right:-20px;
+        &:last-child {
+            margin-bottom:0;
+        }
         a {
             @extend .red-radial-gradient;
             color:$white;

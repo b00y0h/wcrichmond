@@ -134,12 +134,12 @@ body:before {
   #extra-footer-home:after {
     clear: both; }
 
-#menu-sub-menu {
+.menu-sub-menu {
   display: block;
   float: left;
   margin-right: 1.17647%;
   width: 32.54902%; }
-  #menu-sub-menu:last-child {
+  .menu-sub-menu:last-child {
     margin-right: 0; }
 
 .span-columns-8 {
@@ -235,7 +235,11 @@ body:before {
   list-style: none; }
   #menu-sub-menu li {
     margin-bottom: 3px;
-    text-align: center; }
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -20px; }
+    #menu-sub-menu li:last-child {
+      margin-bottom: 0; }
     #menu-sub-menu li a {
       color: white;
       display: block;

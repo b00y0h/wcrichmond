@@ -35,7 +35,7 @@
 #extra-footer-home {
     @include outer-container;
 }
-#menu-sub-menu {
+.menu-sub-menu {
     @include span-columns(4);
 }
 .span-columns-8 {

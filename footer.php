@@ -7,7 +7,7 @@
 
 <?php if(is_front_page()) { ?>
 <section id="extra-footer-home">
-<?php wp_nav_menu( array( 'theme_location' => 'sub-menu', 'container' => '' ) ); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'sub-menu', 'container' => 'div', 'container_class' => 'module menu-sub-menu' ) ); ?>
         <?php
 global $post;
 $args = array( 'numberposts' => 1, 'offset'=> 1, 'category' => 1 );
