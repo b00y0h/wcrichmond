@@ -1,24 +1,25 @@
 #access {
     clear:both;
-  ul {
-    list-style: none;
-    padding-left: 0;
+    ul {
+        list-style: none;
+        padding-left: 0;
 
-    &.menu {
+        &.menu {
         // only outside menu
         > li {
-        padding-top:7px;
-        padding-bottom:7px;
-        border-top:1px solid #8d8d8d;
-        border-bottom:1px solid #8d8d8d;
-    }
-
+            padding-top:7px;
+            padding-bottom:7px;
+            border-top:1px solid #8d8d8d;
+            border-bottom:1px solid #8d8d8d;
         }
+
     }
-  li {
+}
+li {
     position: relative;
-    }
-  a {
+    &:last-child a {border-right:none;}
+}
+a {
     display: block;
     line-height: 27px;
     height:27px;
@@ -26,8 +27,8 @@
     text-decoration: none;
     text-transform:uppercase;
     border-right:1px solid #8d8d8d;
-    }
-  ul ul {
+}
+ul ul {
     display: none;
     float: left;
     margin: 0;
@@ -44,18 +45,18 @@
       border-top:none;
       &:last-child {
         border-bottom-width:2px;
-      }
+    }
 
 
-    }
-    li:hover a {
-        background-color:$red;
-        color:$white;
-    }
-    ul {
-      left: 100%;
-      top: 0; }
-    a {
+}
+li:hover a {
+    background-color:$red;
+    color:$white;
+}
+ul {
+  left: 100%;
+  top: 0; }
+  a {
       background: $white;
       color: #444;
       font-size: 13px;
@@ -64,15 +65,15 @@
       line-height: 1.4em;
       padding: 10px 10px;
       border:none;
-      }
-    }
-  li:hover > a, ul ul :hover > a, a:focus {
+  }
+}
+li:hover > a, ul ul :hover > a, a:focus {
     background: $red;
-    }
-  li:hover > a, a:focus {
+}
+li:hover > a, a:focus {
     background-color:$white;
-   }
-  ul li:hover > ul {
+}
+ul li:hover > ul {
     display: block; }
-  .current-menu-item > a, .current-menu-ancestor > a, .current_page_item > a, .current_page_ancestor > a {
-    font-weight: bold; } }
+    .current-menu-item > a, .current-menu-ancestor > a, .current_page_item > a, .current_page_ancestor > a {
+        font-weight: bold; } }
