@@ -20,3 +20,17 @@
         float:left;
     }
 }
+#extra-footer-home {
+    @include outer-container;
+}
+#menu-sub-menu {
+    @include span-columns(4);
+}
+.span-columns-8 {
+    @include span-columns(8);
+    .column1, .column2 {
+        @include span-columns(6,8);
+        p {margin-top:0;}
+        img {width:100%;height:auto;}
+    }
+}

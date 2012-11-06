@@ -12,7 +12,6 @@ body {font-family:$header-font;}
 .icon-home {
     background: url(images/home_icon.png) no-repeat;
 }
-
 h2 {
     font-size: 24px;
     line-height: 25px;
@@ -44,11 +43,7 @@ h2 {
 .triptic {
     @extend .grey-border-top;
     .module {
-        @extend .grey-border;
         height:280px;
-        line-height:1.4em;
-        padding-left:20px;
-        padding-right:20px;
     }
     h2 {
         margin:0 -20px;
@@ -60,17 +55,31 @@ h2 {
 .module {
         color:$red;
         text-decoration:none;
+        @extend .grey-border;
+        line-height:1.4em;
+        padding-left:20px;
+        padding-right:20px;
+        &:first-child {
+            border-left:none;
+        }
+        &:last-child {
+            border-right:none;
+        }
         &:hover {
             color:inherit;
             text-decoration:none;
         }
     h2.header {
-            @include box-shadow(0 5px 5px rgba(0,0,0,.1));
-            background-color:#fff;
-            color:#808080;
-            height:50px;
-            line-height:50px;
-            margin-bottom:1em;
+        @include box-shadow(0 5px 5px rgba(0,0,0,.1));
+        background-color:#fff;
+        color:#808080;
+        height:50px;
+        line-height:50px;
+        margin:0 -20px 1em;
+        padding-left:20px;
+        padding-right:20px;
+        text-transform:uppercase;
+
             &.transparent {
                 background-color:rgba(255,255,255,.9);
             }
@@ -88,11 +97,45 @@ h2 {
     }
 }
 #contact-us {
-    background:#E6E6E6 url('images/live-life-well.png') center bottom no-repeat;
+    position:relative; // for the full width image
     p {
         font-family:'QuicksandBold';
     }
+    img.source-image {
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+    }
 }
+#extra-footer-home {@extend .grey-border-top;@extend .grey-border-bottom;}
+#around-our-community {
+    h3 {
+        font-family: 'QuicksandBook';
+        margin-top:0;
+        text-transform:uppercase;
+        a {
+            text-decoration:none;
+            color:$red;
+        }
+    }
+    p {
+        font-family:$georgia;
+        color:$dark-text;
+    }
+    .meta {
+        color:$dark-text;
+        text-transform:uppercase;
+        font-size:.9em;
+        a {
+            text-decoration:none;
+            color:$red;
+            font-family: 'QuicksandBook';
+            float: right;
+        }
+    }
+}
+
 #life-care {
     background:transparent url('images/life-care-couple.jpg') left top no-repeat;
 }
@@ -105,6 +148,7 @@ h2 {
     background-color:$grey;
     text-align:center;
     padding:.7em;
+    margin-bottom:1em;
     strong {
         font-family:'QuicksandBook';
         color:$red;
@@ -122,3 +166,5 @@ h2 {
       }
     }
 }
+
+
