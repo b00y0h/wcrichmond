@@ -175,6 +175,17 @@ body:before {
         padding-bottom: 7px;
         border-top: 1px solid #8d8d8d;
         border-bottom: 1px solid #8d8d8d; }
+        #access ul.menu > li.dropdown > a:after {
+          position: absolute;
+          display: block;
+          content: " ";
+          width: 0;
+          height: 0;
+          top: 40%;
+          right: 10%;
+          border-top: 8px solid #e6e6e6;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent; }
   #access li {
     position: relative; }
     #access li:last-child a {
