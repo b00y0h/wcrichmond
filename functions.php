@@ -105,6 +105,17 @@ function limit_words($string, $word_limit) {
  return implode(' ', array_slice($words, 0, $word_limit));
 }
 
+
+// add the 'dropdown' class to parents of sub menus
+add_filter( 'nav_menu_css_class', 'check_for_submenu', 10, 2);
+function check_for_submenu($classes, $item) {
+    global $wpdb;
+    $has_children = $wpdb->get_var("SELECT COUNT(meta_id) FROM wp_postmeta WHERE meta_key='_menu_item_menu_item_parent' AND meta_value='".$item->ID."'");
+    if ($has_children > 0) array_push($classes,'dropdown'); // add the class dropdown to the current list
+    return $classes;
+}
+
+
 function add_iframe($initArray) {
 $initArray['extended_valid_elements'] = "iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]";
 return $initArray;
