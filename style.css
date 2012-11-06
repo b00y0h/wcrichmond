@@ -102,11 +102,13 @@ body:before {
   #access ul {
     list-style: none;
     padding-left: 0; }
-    #access ul.menu > li {
-      padding-top: 7px;
-      padding-bottom: 7px;
-      border-top: 1px solid #8d8d8d;
-      border-bottom: 1px solid #8d8d8d; }
+    #access ul.menu {
+      margin: 0; }
+      #access ul.menu > li {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-top: 1px solid #8d8d8d;
+        border-bottom: 1px solid #8d8d8d; }
   #access li {
     position: relative; }
     #access li:last-child a {
@@ -968,7 +970,7 @@ h2 {
   height: 100%;
   padding: 0px;
   margin: 0px;
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #8D8D8D; }
 
 .lens-wc-richmond dd {
   width: 500px;
