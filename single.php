@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div id="row">
             <!--BEGIN #primary .hfeed-->
             <div id="primary" class="hfeed">
 
@@ -28,7 +28,7 @@
             <?php endif; ?>
             <!--END #primary .hfeed-->
             </div>
-
 <?php get_sidebar(); ?>
+</div> <!-- .row -->
 
 <?php get_footer(); ?>

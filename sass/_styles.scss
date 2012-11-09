@@ -35,14 +35,6 @@ body {font-family:$header-font;}
 .icon-facebook {
     background: url(images/facebook-icon.png) no-repeat;
 }
-h2 {
-    font-size: 24px;
-    line-height: 25px;
-    #act-now & {
-        font-size: 48px;
-        font-size: 2.7vw;
-    }
-}
 
 .red-radial-gradient {
     @include radial-gradient(#cc2933, darken(#b42027,8));
@@ -190,4 +182,67 @@ h2 {
     }
 }
 
+/* Blog Stuff */
+.blogHeading {
+    color:$red;
+    margin:1em 0 0 20px;
+    line-height:.5em;
+    text-transform:uppercase;
+}
 
+#primary, #sidebar {
+    background-color:$grey;
+}
+#primary {
+    padding:0 60px;
+}
+h2.entry-title {
+    border-bottom:1px solid $darkgrey;
+    margin-right:-60px;
+    padding-top:20px;
+    text-transform:uppercase;
+    a {display:block;text-decoration:none;}
+    .entry-meta {
+    float:right;
+    font-size:12px;
+    padding-right:10px;
+    }
+}
+.entry-content {
+    font-family:$georgia;
+    a {
+        color:$red;
+    }
+}
+.more-link {
+    display:block;
+    padding:1em 0;
+}
+.post-thumb img {
+    width:100%;
+    height:auto;
+}
+
+
+
+
+
+
+/* Social Buttons */
+.postShare {
+    background-color:#efefef;
+    clear:both;
+    padding:.5em 1em;
+    margin-right:-60px;
+}
+.addthis_toolbox {
+    display:inline-block;
+    text-transform:uppercase;
+    font-size:.8em;
+    a {
+        color:#556fc6;
+        font-weight:bold;
+        text-decoration:none;
+        span {margin-top:-3px;}
+    }
+}

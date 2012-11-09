@@ -46,7 +46,7 @@
         img {width:100%;height:auto;}
     }
 }
-
+.row {@include outer-container;}
 #primary {
     @include span-columns(8);
 }
