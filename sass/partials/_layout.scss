@@ -46,3 +46,10 @@
         img {width:100%;height:auto;}
     }
 }
+
+#primary {
+    @include span-columns(8);
+}
+#sidebar {
+    @include span-columns(4);
+}
