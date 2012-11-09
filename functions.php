@@ -341,3 +341,156 @@ function posts_for_hr($query) {
 	return $query;
 }
 add_filter('pre_get_posts', 'posts_for_hr');
+
+
+function wcrichmond_post_end() { wcrichmond_do_contextual_hook('wcrichmond_post_end'); }
+
+/**
+ * Adds contextual action hooks. Users do not need to use WordPress conditional tags
+ * because this function handles the logic.
+ *
+ * Basic hook would be 'wcrichmond_head'. wcrichmond_do_contextual_hook() function extends
+ * the hook with context (i.e., 'wcrichmond_head_singular' or 'wcrichmond_head_home')
+ *
+ * Thanks to Ptah Dunbar for this function
+ * @link https://twitter.com/ptahdunbar
+ *
+ * @since 0.1
+ * @uses wcrichmond_get_query_context() Gets the context of the current page
+ * @param string $tag Usually the location of the hook but defines the base hook
+ */
+if ( !function_exists( 'wcrichmond_do_contextual_hook' ) ) {
+    function wcrichmond_do_contextual_hook( $tag = '', $args = '' ) {
+        if ( !$tag ) { return false; }
+
+        do_action( $tag, $args );
+
+        foreach( (array) wcrichmond_get_query_context() as $context ) {
+            do_action( "{$tag}_{$context}", $args );
+        }
+    }
+}
+
+/**
+ * Retrieve the context of the queried template
+ *
+ * @since 0.1
+ * @return array $query_context
+ */
+
+if ( ! function_exists( 'wcrichmond_get_query_context' ) ) {
+    function wcrichmond_get_query_context() {
+        global $wp_query, $query_context;
+
+        /* Return query_context if set -------------------------------------------*/
+        if ( isset( $query_context->context ) && is_array( $query_context->context ) ) {
+            return $query_context->context;
+        }
+
+        /* Figure out the context ------------------------------------------------*/
+        $query_context = new stdClass(); // instantiate $query_context explicitely
+        $query_context->context = array();
+
+        /* Front page */
+        if ( is_front_page() ) {
+            $query_context->context[] = 'home';
+        }
+
+        /* Blog page */
+        if ( is_home() && ! is_front_page() ) {
+            $query_context->context[] = 'blog';
+
+        /* Singular views. */
+        } elseif ( is_singular() ) {
+
+            $query_context->context[] = 'singular';
+            $query_context->context[] = "singular-{$wp_query->post->post_type}";
+
+            /* Page Templates. */
+            if ( is_page_template() ) {
+                $to_skip = array( 'page', 'post' );
+
+                $page_template = basename( get_page_template() );
+                $page_template = str_replace( '.php', '', $page_template );
+                $page_template = str_replace( '.', '-', $page_template );
+
+                if ( $page_template && ! in_array( $page_template, $to_skip ) ) {
+                    $query_context->context[] = $page_template;
+                }
+            }
+
+            $query_context->context[] = "singular-{$wp_query->post->post_type}-{$wp_query->post->ID}";
+        }
+
+        /* Archive views. */
+        elseif ( is_archive() ) {
+            $query_context->context[] = 'archive';
+
+            /* Taxonomy archives. */
+            if ( is_tax() || is_category() || is_tag() ) {
+                $term = $wp_query->get_queried_object();
+                $query_context->context[] = 'taxonomy';
+                $query_context->context[] = $term->taxonomy;
+                $query_context->context[] = "{$term->taxonomy}-" . sanitize_html_class( $term->slug, $term->term_id );
+            }
+
+            /* User/author archives. */
+            elseif ( is_author() ) {
+                $query_context->context[] = 'user';
+                $query_context->context[] = 'user-' . sanitize_html_class( get_the_author_meta( 'user_nicename', get_query_var( 'author' ) ), $wp_query->get_queried_object_id() );
+            }
+
+            /* Time/Date archives. */
+            else {
+                if ( is_date() ) {
+                    $query_context->context[] = 'date';
+                    if ( is_year() )
+                        $query_context->context[] = 'year';
+                    if ( is_month() )
+                        $query_context->context[] = 'month';
+                    if ( get_query_var( 'w' ) )
+                        $query_context->context[] = 'week';
+                    if ( is_day() )
+                        $query_context->context[] = 'day';
+                }
+                if ( is_time() ) {
+                    $query_context->context[] = 'time';
+                    if ( get_query_var( 'hour' ) )
+                        $query_context->context[] = 'hour';
+                    if ( get_query_var( 'minute' ) )
+                        $query_context->context[] = 'minute';
+                }
+            }
+        }
+
+        /* Search results. */
+        elseif ( is_search() ) {
+            $query_context->context[] = 'search';
+
+        /* Error 404 pages. */
+        } elseif ( is_404() ) {
+            $query_context->context[] = 'error-404';
+        }
+
+        return $query_context->context;
+    }
+}
+
+
+
+
+add_action('wcrichmond_post_end','add_sharing');
+function add_sharing()
+{
+    ?>
+    <div class="postShare">
+       <div class="fb-like" data-href="<?php the_permalink(); ?>" data-send="false" data-layout="button_count" data-width="50" data-show-faces="false"></div>
+
+       <!-- AddThis Button BEGIN -->
+       <div class="addthis_toolbox addthis_default_style ">
+           <a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4e6fd8e92d1b1216" class="addthis_button_compact" addthis:url="<?php the_permalink(); ?>">Share</a>
+       </div>
+       <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4e6fd8e92d1b1216"></script>
+       <!-- AddThis Button END -->
+   </div>
+   <?php }
