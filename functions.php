@@ -3,8 +3,6 @@
 /**
  * Tell WordPress to run wcrichmond_setup() when the 'after_setup_theme' hook is run.
  */
-add_action( 'after_setup_theme', 'wcrichmond_setup' );
-
 if ( ! function_exists( 'wcrichmond_setup' ) ):
 
     function wcrichmond_setup() {
@@ -15,14 +13,27 @@ if ( ! function_exists( 'wcrichmond_setup' ) ):
 
             add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
             add_image_size( 'homepage-thumb', 300, 100, true ); //(cropped)
+            add_image_size( 'blog-index', 600, '', true); // blog index/single pages
+
+            /* Register WP 3.0+ Menus ---------------------------------------------------*/
+            register_nav_menus(
+                array(
+                    'primary-menu' => __( 'Primary Menu' ),
+                    'sub-menu' => __( 'Sub Menu' ),
+                    'footer-menu' => __( 'Footer Menu' )
+                )
+            );
+
+
     }
 
 endif; // wcrichmond_setup
+add_action( 'after_setup_theme', 'wcrichmond_setup' );
 
 
-/**
- * Enqueue scripts and styles
- */
+/*-----------------------------------------------------------------------------------*/
+/* Enqueue scripts and styles
+/*-----------------------------------------------------------------------------------*/
 function _add_scripts_styles() {
     wp_deregister_script('l10n');
 
@@ -40,34 +51,34 @@ add_action( 'wp_enqueue_scripts', '_add_scripts_styles' );
 
 
 
+/*-----------------------------------------------------------------------------------*/
+/*  Register Sidebars
+/*-----------------------------------------------------------------------------------*/
 
+if ( !function_exists( 'register_sidebar_init' ) ) {
 
-if ( function_exists('register_sidebar') )
-  register_sidebar(array(
-    'name' => 'Blog Sidebar',
-    'before_widget' => '<div id="%1$s" class="blogWidget %2$s">',
-    'after_widget' => '</div>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>'
-  ));
-  register_sidebar(array(
-    'name' => 'Page Sidebar',
-    'before_widget' => '<div class="pageWidget">',
-    'after_widget' => '</div>',
-    'before_title' => '<h2>',
-    'after_title' => '</h2>'
-  ));
-
-function register_theme_menus() {
-  register_nav_menus(
-  		array(
-  			'primary-menu' => __( 'Primary Menu' ),
-  			'sub-menu' => __( 'Sub Menu' ),
-  			'footer-menu' => __( 'Footer Menu' )
-  		)
-  	);
-  }
-add_action( 'init', 'register_theme_menus' );
+    function register_sidebar_init() {
+      register_sidebar(array(
+        'name' => 'Blog Sidebar',
+        'description' => __('Widget area for blog pages.', 'wcrichmond'),
+        'id' => 'sidebar-blog',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+      ));
+      register_sidebar(array(
+        'name' => 'Page Sidebar',
+        'description' => __('Widget area for pages.', 'zilla'),
+        'id' => 'sidebar-page',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+      ));
+    }
+}
+add_action( 'widgets_init', 'register_sidebar_init' );
 
 function improved_trim_excerpt($text) {
   global $post;
