@@ -1076,55 +1076,69 @@ body {
 /* line 199, sass/_styles.scss */
 h2.entry-title {
   border-bottom: 1px solid #8e8e8e;
+  font-family: 'QuicksandBold';
   margin-right: -60px;
   padding-top: 20px;
   text-transform: uppercase; }
-  /* line 204, sass/_styles.scss */
+  /* line 205, sass/_styles.scss */
   h2.entry-title a {
     display: block;
-    text-decoration: none; }
-  /* line 205, sass/_styles.scss */
+    text-decoration: none;
+    color: #4c4c4c; }
+  /* line 206, sass/_styles.scss */
   h2.entry-title .entry-meta {
     float: right;
     font-size: 12px;
     padding-right: 10px; }
 
-/* line 211, sass/_styles.scss */
+/* line 212, sass/_styles.scss */
 .entry-content {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
-  /* line 213, sass/_styles.scss */
+  /* line 214, sass/_styles.scss */
   .entry-content a {
     color: #cc2933; }
 
-/* line 217, sass/_styles.scss */
+/* line 218, sass/_styles.scss */
 .more-link {
   display: block;
   padding: 1em 0; }
 
-/* line 221, sass/_styles.scss */
+/* line 222, sass/_styles.scss */
 .post-thumb img {
   width: 100%;
   height: auto; }
 
+/* Page Navigation */
+/* line 228, sass/_styles.scss */
+.page-navigation {
+  padding: 1em 0;
+  font-family: 'QuicksandBold';
+  font-size: 1.3em;
+  text-transform: uppercase; }
+  /* line 233, sass/_styles.scss */
+  .page-navigation a {
+    color: #4c4c4c;
+    text-decoration: none; }
+
 /* Social Buttons */
-/* line 232, sass/_styles.scss */
+/* line 243, sass/_styles.scss */
 .postShare {
   background-color: #efefef;
   clear: both;
   padding: .5em 1em;
   margin-right: -60px; }
 
-/* line 238, sass/_styles.scss */
+/* line 249, sass/_styles.scss */
 .addthis_toolbox {
   display: inline-block;
   text-transform: uppercase;
   font-size: .8em; }
-  /* line 242, sass/_styles.scss */
+  /* line 253, sass/_styles.scss */
   .addthis_toolbox a {
     color: #556fc6;
     font-weight: bold;
     text-decoration: none; }
-    /* line 246, sass/_styles.scss */
+    /* line 257, sass/_styles.scss */
     .addthis_toolbox a span {
       margin-top: -3px; }
 

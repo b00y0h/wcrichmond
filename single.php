@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="row">
+<div class="row">
             <!--BEGIN #primary .hfeed-->
             <div id="primary" class="hfeed">
 

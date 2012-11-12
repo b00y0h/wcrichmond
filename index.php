@@ -26,8 +26,8 @@
                 <!--BEGIN .navigation .page-navigation -->
                 <div class="navigation page-navigation">
                     <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
-                    <div class="nav-next"><?php next_posts_link(__('&larr; Older Entries', 'wcrichmond')) ?></div>
-                    <div class="nav-previous"><?php previous_posts_link(__('Newer Entries &rarr;', 'wcrichmond')) ?></div>
+                    <div class="nav-next"><?php next_posts_link(__('&lt; See Older Entries', 'wcrichmond')) ?></div>
+                    <div class="nav-previous"><?php previous_posts_link(__('See Newer Entries &gt;', 'wcrichmond')) ?></div>
                     <?php } ?>
                 <!--END .navigation .page-navigation -->
                 </div>

@@ -1,66 +1,91 @@
 <?php get_header(); ?>
 
-<div class="pageContentWrap">
+<h1 class="blogHeading">
 
-  <div class="pageColumn">
+        <?php if(have_posts()) : ?>
 
-		<?php if(have_posts()) : ?>
+        <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+        <?php /* If this is a category archive */
+        if (is_category()) { ?>
+            Archive for the &#8216;<?php single_cat_title(); ?>&#8217; Category
+        <?php /* If this is a tag archive */
+        } elseif( is_tag() ) { ?>
+            Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;
+        <?php /* If this is a daily archive */
+        } elseif (is_day()) { ?>
+            Archive for <?php the_time('F jS, Y'); ?>
+        <?php /* If this is a monthly archive */
+        } elseif (is_month()) { ?>
+            Archive for <?php the_time('F, Y'); ?>
+        <?php /* If this is a yearly archive */
+        } elseif (is_year()) { ?>
+            Archive for <?php the_time('Y'); ?>
+        <?php /* If this is an author archive */
+        } elseif (is_author()) { ?>
+            Author Archive
+        <?php /* If this is a paged archive */
+        } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+        Blog Archives
+        <?php } endif; ?>
 
-		<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
-		<?php /* If this is a category archive */ if (is_category()) { ?>
-		<h4 class="pagetitle">Archive for the &#8216;<?php single_cat_title(); ?>&#8217; Category</h4>
-		<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
-		<h4 class="pagetitle">Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h4>
-		<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
-		<h4 class="pagetitle">Archive for <?php the_time('F jS, Y'); ?></h4>
-		<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-		<h4 class="pagetitle">Archive for <?php the_time('F, Y'); ?></h4>
-		<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-		<h4 class="pagetitle">Archive for <?php the_time('Y'); ?></h4>
-		<?php /* If this is an author archive */ } elseif (is_author()) { ?>
-		<h4 class="pagetitle">Author Archive</h4>
-		<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-		<h4 class="pagetitle">Blog Archives</h4>
-		<?php } ?>
 
-		<?php while(have_posts()) : the_post(); ?>
 
-		<div class="post" id="post-<?php the_ID(); ?>">
+</h1>
 
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
-			<div class="entry">
-				<?php the_content(); ?>
-			</div>
 
-		</div> <!-- .post -->
+<div class="row">
+            <!--BEGIN #primary .hfeed-->
+            <div id="primary" class="hfeed">
 
-		<?php endwhile; else : ?>
 
-		<div class="post">
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<h2>Page Not Found</h2>
+                <!--BEGIN .hentry -->
+                <div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-			<p>Looks like the page you're looking for isn't here anymore. Try browsing the <a href="">categories</a>, <a href="">archives</a>, or using the search box below.</p>
+                    <?php
+                    $format = get_post_format();
+                    get_template_part( 'content', $format );
+                    ?>
 
-			<?php include(TEMPLATEPATH.'/searchform.php'); ?>
+                    <?php wcrichmond_post_end(); ?>
+                <!--END .hentry-->
+                </div>
 
-		</div> <!-- .post -->
+                <?php endwhile; ?>
 
-		<?php endif; ?>
+                <!--BEGIN .navigation .page-navigation -->
+                <div class="navigation page-navigation">
+                    <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } else { ?>
+                    <div class="nav-next"><?php next_posts_link(__('&lt; See Older Entries', 'wcrichmond')) ?></div>
+                    <div class="nav-previous"><?php previous_posts_link(__('See Newer Entries &gt;', 'wcrichmond')) ?></div>
+                    <?php } ?>
+                <!--END .navigation .page-navigation -->
+                </div>
 
-		<div class="navigation clear">
-			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
-			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-		</div>
+            <?php else : ?>
 
-  </div>
+                <!--BEGIN #post-0-->
+                <div id="post-0" <?php post_class(); ?>>
 
-  <div class="pageSidebar">
-    <?php get_sidebar('page'); ?>
-  </div>
-  <div style="clear:both"></div>
-</div>
+                    <h2 class="entry-title"><?php _e('Error 404 - Not Found', 'wcrichmond') ?></h2>
+
+                    <!--BEGIN .entry-content-->
+                    <div class="entry-content">
+                        <p><?php _e("Sorry, but you are looking for something that isn't here.", "wcrichmond") ?></p>
+                    <!--END .entry-content-->
+                    </div>
+
+                <!--END #post-0-->
+                </div>
+
+            <?php endif; ?>
+
+    <!--END #primary .hfeed-->
+    </div>
+<?php get_sidebar(); ?>
+</div> <!-- .row -->
 
 
 <?php get_footer(); ?>

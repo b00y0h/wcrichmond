@@ -198,10 +198,11 @@ body {font-family:$header-font;}
 }
 h2.entry-title {
     border-bottom:1px solid $darkgrey;
+    font-family:'QuicksandBold';
     margin-right:-60px;
     padding-top:20px;
     text-transform:uppercase;
-    a {display:block;text-decoration:none;}
+    a {display:block;text-decoration:none;color:#4c4c4c;}
     .entry-meta {
     float:right;
     font-size:12px;
@@ -223,7 +224,17 @@ h2.entry-title {
     height:auto;
 }
 
-
+/* Page Navigation */
+.page-navigation {
+    padding:1em 0;
+    font-family:'QuicksandBold';
+    font-size:1.3em;
+    text-transform:uppercase;
+    a {
+        color:#4c4c4c;
+        text-decoration:none;
+    }
+}
 
 
 
