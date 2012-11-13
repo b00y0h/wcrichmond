@@ -20,6 +20,15 @@
         @include span-columns(4);
     }
 }
+.diptic {
+    @include outer-container;
+    .module{
+        @include span-columns(4);
+        &:first-child {
+            @include span-columns(8);
+        }
+    }
+}
 
 // menu
 #menu-top-menu {
@@ -47,6 +56,13 @@
     }
 }
 .row {@include outer-container;}
+
+// let's get these faux columns in check
+#contentWrapper .row { overflow:hidden; }
+#primary, #sidebar {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px!important;
+}
 #primary {
     @include span-columns(8);
 }
