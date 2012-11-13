@@ -85,7 +85,9 @@
     <!--END #primary .hfeed-->
     </div>
 <?php get_sidebar(); ?>
+
 </div> <!-- .row -->
+<?php  get_template_part( 'sidebar', 'footerbanner-lifestyle-lifecare' ); ?>
 
 
 <?php get_footer(); ?>

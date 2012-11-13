@@ -9,40 +9,34 @@
         dynamic_sidebar( 'sidebar-page' );
     } else { ?>
 
+    <h3>Calendar &amp; Events</h3>
+    <h3>Archives</h3>
+    <ul class="blog-list-archive">
+      <?php
+      /**/
 
+      $years = $wpdb->get_col("SELECT DISTINCT YEAR(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' ORDER BY post_date DESC");
 
-      <ul class="blog-list-archive">
-          <?php
-          /**/
+      if( is_array($years)){
+        foreach($years as $year) {
+        ?>
+            <li><a href="#"><?php echo $year; ?></a>
 
-          $years = $wpdb->get_col("SELECT DISTINCT YEAR(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' ORDER BY post_date DESC");
-
-          if( is_array($years)){
-            foreach($years as $year) {
-            ?>
-                <li><a href="#"><?php echo $year; ?></a>
-
-                    <ul class="archive-sub-menu">
-                    <?php  $months = $wpdb->get_col("SELECT DISTINCT MONTH(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' AND YEAR(post_date) = '".$year."' ORDER BY post_date DESC");
-                        if( is_array($months) ){
-                          foreach($months as $month) {
-                        ?>
-                        <li><a href="<?php echo get_month_link($year, $month); ?>"><?php echo date( 'F Y', mktime(0, 0, 0, $month) );?> </a></li>
-                        <?php
-                          }
-                        }?>
-                    </ul>
-                </li>
-            <?php
-            }
-          } ?>
-      </ul>
-
-<style type="text/css">.archive-sub-menu {
-
-display:none;
-
-}</style>
+                <ul class="archive-sub-menu">
+                <?php  $months = $wpdb->get_col("SELECT DISTINCT MONTH(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' AND YEAR(post_date) = '".$year."' ORDER BY post_date DESC");
+                    if( is_array($months) ){
+                      foreach($months as $month) {
+                    ?>
+                    <li><a href="<?php echo get_month_link($year, $month); ?>"><?php echo date( 'F Y', mktime(0, 0, 0, $month) );?> </a></li>
+                    <?php
+                      }
+                    }?>
+                </ul>
+            </li>
+        <?php
+        }
+      } ?>
+    </ul>
 
  <?php   } ?>
 
