@@ -22,6 +22,18 @@
       "initialSize" : 370633,
       "fileType" : 8192
     },
+    "\/sass\/bourbon\/css3\/_background-size.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bourbon\/css3\/_background-size.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_background-size.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/images\/backgrounds\/LC_AssistedLiving.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -54,18 +66,6 @@
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/thumbnails\/t_5.jpg",
       "initialSize" : 2534,
       "fileType" : 4096
-    },
-    "\/sass\/bourbon\/css3\/_background-size.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bourbon\/css3\/_background-size.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_background-size.css",
-      "fileType" : 4,
-      "debugStyle" : 1
     },
     "\/images\/foundation_gallery\/waystogive\/8_PlannedGiving.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -100,17 +100,6 @@
       "initialSize" : 180735,
       "fileType" : 4096
     },
-    "\/images\/foundation_gallery\/waystogive\/2_DonateOnline.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/foundation_gallery\/waystogive\/2_DonateOnline.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/foundation_gallery\/waystogive\/2_DonateOnline.jpg",
-      "initialSize" : 145787,
-      "fileType" : 4096
-    },
     "\/images\/play.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -121,6 +110,17 @@
       "outputAbbreviatedPath" : "\/images\/play.png",
       "initialSize" : 3788,
       "fileType" : 8192
+    },
+    "\/images\/foundation_gallery\/waystogive\/2_DonateOnline.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/foundation_gallery\/waystogive\/2_DonateOnline.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/foundation_gallery\/waystogive\/2_DonateOnline.jpg",
+      "initialSize" : 145787,
+      "fileType" : 4096
     },
     "\/images\/residence_gallery\/Thumbs\/6_HomesOnTheGreen_th.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -144,6 +144,15 @@
       "initialSize" : 142,
       "fileType" : 8192
     },
+    "\/social.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/social.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/images\/social_gallery\/ResidentGardens2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -154,15 +163,6 @@
       "outputAbbreviatedPath" : "\/images\/social_gallery\/ResidentGardens2.jpg",
       "initialSize" : 230338,
       "fileType" : 4096
-    },
-    "\/social.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/social.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/images\/social_gallery\/ChildDev1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -283,14 +283,16 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/health.php" : {
+    "\/images\/lifestyle-teacup.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/health.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/lifestyle-teacup.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/lifestyle-teacup.jpg",
+      "initialSize" : 13633,
+      "fileType" : 4096
     },
     "\/images\/slidedeck\/arrowstyle_6.thumb.png" : {
       "ignoreWasSetByUser" : 0,
@@ -314,6 +316,18 @@
       "initialSize" : 130409,
       "fileType" : 4096
     },
+    "\/sass\/neat\/settings\/_default.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/neat\/settings\/_default.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_default.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/images\/backgrounds\/LS_ResOpts.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -324,17 +338,6 @@
       "outputAbbreviatedPath" : "\/images\/backgrounds\/LS_ResOpts.png",
       "initialSize" : 38643,
       "fileType" : 8192
-    },
-    "\/images\/lifestyle-teacup.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/lifestyle-teacup.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/lifestyle-teacup.jpg",
-      "initialSize" : 13633,
-      "fileType" : 4096
     },
     "\/images\/residence_gallery\/Thumbs\/8_Courtyard_th.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -347,17 +350,14 @@
       "initialSize" : 25642,
       "fileType" : 4096
     },
-    "\/sass\/neat\/settings\/_default.scss" : {
+    "\/health.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/neat\/settings\/_default.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_default.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/health.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/library\/prettyPhoto\/images\/fullscreen\/5.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -456,17 +456,6 @@
       "initialSize" : 174646,
       "fileType" : 4096
     },
-    "\/images\/residence_gallery\/4_Homes_on_the_Green\/8_HomesOnTheGreen.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/residence_gallery\/4_Homes_on_the_Green\/8_HomesOnTheGreen.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/residence_gallery\/4_Homes_on_the_Green\/8_HomesOnTheGreen.jpg",
-      "initialSize" : 135820,
-      "fileType" : 4096
-    },
     "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite_x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -489,6 +478,17 @@
       "outputAbbreviatedPath" : "\/.\/_prefixer.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/images\/residence_gallery\/4_Homes_on_the_Green\/8_HomesOnTheGreen.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/residence_gallery\/4_Homes_on_the_Green\/8_HomesOnTheGreen.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/residence_gallery\/4_Homes_on_the_Green\/8_HomesOnTheGreen.jpg",
+      "initialSize" : 135820,
+      "fileType" : 4096
     },
     "\/images\/health_gallery\/HealthClinic2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -521,15 +521,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/residence_gallery\/3_Garden_Apartments\/4_GardenApts.jpg" : {
+    "\/images\/residence_gallery\/Thumbs\/4_Tower_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/residence_gallery\/3_Garden_Apartments\/4_GardenApts.jpg",
+      "inputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/4_Tower_th.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/residence_gallery\/3_Garden_Apartments\/4_GardenApts.jpg",
-      "initialSize" : 116143,
+      "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/4_Tower_th.jpg",
+      "initialSize" : 26475,
       "fileType" : 4096
     },
     "\/images\/lifecare_gallery\/LC_AsstLivingOverview.jpg" : {
@@ -543,6 +543,17 @@
       "initialSize" : 169496,
       "fileType" : 4096
     },
+    "\/images\/residence_gallery\/3_Garden_Apartments\/4_GardenApts.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/residence_gallery\/3_Garden_Apartments\/4_GardenApts.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/residence_gallery\/3_Garden_Apartments\/4_GardenApts.jpg",
+      "initialSize" : 116143,
+      "fileType" : 4096
+    },
     "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/contentPatternLeft.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -553,17 +564,6 @@
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/contentPatternLeft.png",
       "initialSize" : 137,
       "fileType" : 8192
-    },
-    "\/images\/residence_gallery\/Thumbs\/4_Tower_th.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/4_Tower_th.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/4_Tower_th.jpg",
-      "initialSize" : 26475,
-      "fileType" : 4096
     },
     "\/sass\/bourbon\/functions\/_modular-scale.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -667,17 +667,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite.png",
-      "initialSize" : 6682,
-      "fileType" : 8192
-    },
     "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/btnNext.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -687,6 +676,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/btnNext.png",
       "initialSize" : 845,
+      "fileType" : 8192
+    },
+    "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite.png",
+      "initialSize" : 6682,
       "fileType" : 8192
     },
     "\/images\/slidedeck\/icon_arrow-large.png" : {
@@ -711,6 +711,17 @@
       "initialSize" : 137402,
       "fileType" : 4096
     },
+    "\/images\/foundation_gallery\/programs\/Wellness.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/Wellness.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/Wellness.jpg",
+      "initialSize" : 269822,
+      "fileType" : 4096
+    },
     "\/images\/residence_gallery\/Thumbs\/4_Courtyard_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -731,17 +742,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/1_Glebe_th.jpg",
       "initialSize" : 25880,
-      "fileType" : 4096
-    },
-    "\/images\/foundation_gallery\/programs\/Wellness.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/Wellness.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/Wellness.jpg",
-      "initialSize" : 269822,
       "fileType" : 4096
     },
     "\/images\/slidedeck\/arrowstyle_6-vert-med.png" : {
@@ -875,6 +875,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/images\/lifecare-block.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/lifecare-block.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/lifecare-block.png",
+      "initialSize" : 172189,
+      "fileType" : 8192
+    },
     "\/sass\/partials\/_menu.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -884,18 +895,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/.\/_menu.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/sass\/neat\/grid\/_global-variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/neat\/grid\/_global-variables.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_global-variables.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -910,16 +909,17 @@
       "initialSize" : 203589,
       "fileType" : 4096
     },
-    "\/images\/lifecare-block.png" : {
+    "\/sass\/neat\/grid\/_global-variables.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/lifecare-block.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/lifecare-block.png",
-      "initialSize" : 172189,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/neat\/grid\/_global-variables.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_global-variables.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/images\/arts_gallery\/Thumbs\/HScottNovemberGallery_th.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -977,17 +977,6 @@
       "initialSize" : 226518,
       "fileType" : 4096
     },
-    "\/images\/eho_logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/eho_logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/eho_logo.png",
-      "initialSize" : 1049,
-      "fileType" : 8192
-    },
     "\/images\/residence_gallery\/1_The_Tower\/4_Tower.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -998,6 +987,17 @@
       "outputAbbreviatedPath" : "\/images\/residence_gallery\/1_The_Tower\/4_Tower.jpg",
       "initialSize" : 149123,
       "fileType" : 4096
+    },
+    "\/images\/eho_logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/eho_logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/eho_logo.png",
+      "initialSize" : 1049,
+      "fileType" : 8192
     },
     "\/images\/tips\/1_HealthyWeight.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1010,17 +1010,6 @@
       "initialSize" : 7448,
       "fileType" : 8192
     },
-    "\/images\/wcr_logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/wcr_logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/wcr_logo.png",
-      "initialSize" : 7273,
-      "fileType" : 8192
-    },
     "\/images\/lifecare_gallery\/LC_GablesTherapy.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1031,6 +1020,17 @@
       "outputAbbreviatedPath" : "\/images\/lifecare_gallery\/LC_GablesTherapy.jpg",
       "initialSize" : 116449,
       "fileType" : 4096
+    },
+    "\/images\/wcr_logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/wcr_logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/wcr_logo.png",
+      "initialSize" : 7273,
+      "fileType" : 8192
     },
     "\/images\/backgrounds\/LS_Dining.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1129,6 +1129,15 @@
       "initialSize" : 167877,
       "fileType" : 4096
     },
+    "\/foundation.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/foundation.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/neat\/grid\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1140,15 +1149,6 @@
       "outputAbbreviatedPath" : "\/.\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 1
-    },
-    "\/foundation.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/foundation.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/images\/backgrounds\/LC_Gables.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1349,17 +1349,6 @@
       "initialSize" : 156292,
       "fileType" : 4096
     },
-    "\/images\/lifecare_gallery\/Thumbs\/_MG_3120_th.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/lifecare_gallery\/Thumbs\/_MG_3120_th.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/lifecare_gallery\/Thumbs\/_MG_3120_th.jpg",
-      "initialSize" : 27417,
-      "fileType" : 4096
-    },
     "\/sass\/bourbon\/functions\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1371,6 +1360,17 @@
       "outputAbbreviatedPath" : "\/.\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/images\/lifecare_gallery\/Thumbs\/_MG_3120_th.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/lifecare_gallery\/Thumbs\/_MG_3120_th.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/lifecare_gallery\/Thumbs\/_MG_3120_th.jpg",
+      "initialSize" : 27417,
+      "fileType" : 4096
     },
     "\/images\/residence_gallery\/Thumbs\/1_Tower_th.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1783,18 +1783,6 @@
       "initialSize" : 126506,
       "fileType" : 4096
     },
-    "\/sass\/neat\/functions\/_private.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/neat\/functions\/_private.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_private.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
     "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/btnPrevious.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1818,37 +1806,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/backgrounds\/Aboutus_Careers_Foundation_Contact.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/backgrounds\/Aboutus_Careers_Foundation_Contact.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/backgrounds\/Aboutus_Careers_Foundation_Contact.png",
-      "initialSize" : 41330,
-      "fileType" : 8192
-    },
-    "\/library\/prettyPhoto\/images\/fullscreen\/4.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/fullscreen\/4.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/fullscreen\/4.jpg",
-      "initialSize" : 98304,
-      "fileType" : 4096
-    },
-    "\/sass\/bourbon\/functions\/_flex-grid.scss" : {
+    "\/sass\/neat\/functions\/_private.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bourbon\/functions\/_flex-grid.scss",
+      "inputAbbreviatedPath" : "\/sass\/neat\/functions\/_private.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_flex-grid.css",
+      "outputAbbreviatedPath" : "\/.\/_private.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -1862,6 +1828,40 @@
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/sprite.png",
       "initialSize" : 3507,
       "fileType" : 8192
+    },
+    "\/images\/backgrounds\/Aboutus_Careers_Foundation_Contact.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/backgrounds\/Aboutus_Careers_Foundation_Contact.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/backgrounds\/Aboutus_Careers_Foundation_Contact.png",
+      "initialSize" : 41330,
+      "fileType" : 8192
+    },
+    "\/sass\/bourbon\/functions\/_flex-grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bourbon\/functions\/_flex-grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_flex-grid.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/library\/prettyPhoto\/images\/fullscreen\/4.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/fullscreen\/4.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/fullscreen\/4.jpg",
+      "initialSize" : 98304,
+      "fileType" : 4096
     },
     "\/sass\/neat\/functions\/helpers\/_new-breakpoint.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2083,6 +2083,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
     "\/js\/application.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2093,15 +2102,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/application-ck.js",
       "fileType" : 64
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
     },
     "\/images\/residence_gallery\/Thumbs\/3_Tower_th.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2168,16 +2168,14 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/social_gallery\/Pond.jpg" : {
+    "\/content.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/social_gallery\/Pond.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/social_gallery\/Pond.jpg",
-      "initialSize" : 238331,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/content.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/sass\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2203,17 +2201,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/library\/prettyPhoto\/images\/thumbnails\/t_3.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/thumbnails\/t_3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/thumbnails\/t_3.jpg",
-      "initialSize" : 1937,
-      "fileType" : 4096
-    },
     "\/images\/residence_gallery\/1_The_Tower\/2_Tower.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2223,17 +2210,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/residence_gallery\/1_The_Tower\/2_Tower.jpg",
       "initialSize" : 117704,
-      "fileType" : 4096
-    },
-    "\/images\/lifecare_gallery\/LC_AvalonDesign.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/lifecare_gallery\/LC_AvalonDesign.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/lifecare_gallery\/LC_AvalonDesign.jpg",
-      "initialSize" : 170017,
       "fileType" : 4096
     },
     "\/images\/residence_gallery\/Thumbs\/5_HomesOnTheGreen_th.jpg" : {
@@ -2247,6 +2223,39 @@
       "initialSize" : 25806,
       "fileType" : 4096
     },
+    "\/library\/prettyPhoto\/images\/thumbnails\/t_3.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/thumbnails\/t_3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/thumbnails\/t_3.jpg",
+      "initialSize" : 1937,
+      "fileType" : 4096
+    },
+    "\/images\/social_gallery\/Pond.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/social_gallery\/Pond.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/social_gallery\/Pond.jpg",
+      "initialSize" : 238331,
+      "fileType" : 4096
+    },
+    "\/images\/lifecare_gallery\/LC_AvalonDesign.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/lifecare_gallery\/LC_AvalonDesign.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/lifecare_gallery\/LC_AvalonDesign.jpg",
+      "initialSize" : 170017,
+      "fileType" : 4096
+    },
     "\/images\/tips\/tips_bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2257,15 +2266,6 @@
       "outputAbbreviatedPath" : "\/images\/tips\/tips_bg.png",
       "initialSize" : 5518,
       "fileType" : 8192
-    },
-    "\/content.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/images\/foundation_gallery\/waystogive\/7_PayrollDeduction.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2366,17 +2366,6 @@
       "initialSize" : 303,
       "fileType" : 8192
     },
-    "\/library\/prettyPhoto\/images\/prettyPhoto\/light_square\/btnPrevious.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/light_square\/btnPrevious.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/light_square\/btnPrevious.png",
-      "initialSize" : 1442,
-      "fileType" : 8192
-    },
     "\/sass\/bourbon\/css3\/_box-shadow.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2388,6 +2377,17 @@
       "outputAbbreviatedPath" : "\/.\/_box-shadow.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/library\/prettyPhoto\/images\/prettyPhoto\/light_square\/btnPrevious.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/light_square\/btnPrevious.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/light_square\/btnPrevious.png",
+      "initialSize" : 1442,
+      "fileType" : 8192
     },
     "\/images\/residence_gallery\/3_Garden_Apartments\/2_GardenApts.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2429,17 +2429,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/images\/home_banners\/healthfitness.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/home_banners\/healthfitness.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/home_banners\/healthfitness.png",
-      "initialSize" : 455328,
-      "fileType" : 8192
-    },
     "\/screenshot.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2450,15 +2439,6 @@
       "outputAbbreviatedPath" : "\/screenshot.png",
       "initialSize" : 101404,
       "fileType" : 8192
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/sass\/bourbon\/addons\/_font-face.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2472,6 +2452,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/content-meta-footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-meta-footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/images\/residence_gallery\/Thumbs\/1_HomesOnTheGreen_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2482,6 +2471,15 @@
       "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/1_HomesOnTheGreen_th.jpg",
       "initialSize" : 28963,
       "fileType" : 4096
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/backgrounds\/LS_SocialEd.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2494,24 +2492,15 @@
       "initialSize" : 46264,
       "fileType" : 8192
     },
-    "\/content-meta-footer.php" : {
+    "\/images\/home_banners\/healthfitness.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-meta-footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/images\/tips\/8_LiveAdventurously.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/tips\/8_LiveAdventurously.png",
+      "inputAbbreviatedPath" : "\/images\/home_banners\/healthfitness.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/tips\/8_LiveAdventurously.png",
-      "initialSize" : 9030,
+      "outputAbbreviatedPath" : "\/images\/home_banners\/healthfitness.png",
+      "initialSize" : 455328,
       "fileType" : 8192
     },
     "\/images\/lifestyle-block.png" : {
@@ -2523,6 +2512,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/lifestyle-block.png",
       "initialSize" : 178396,
+      "fileType" : 8192
+    },
+    "\/images\/tips\/8_LiveAdventurously.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/tips\/8_LiveAdventurously.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/tips\/8_LiveAdventurously.png",
+      "initialSize" : 9030,
       "fileType" : 8192
     },
     "\/images\/residence_gallery\/Thumbs\/2_Courtyard_th.jpg" : {
@@ -2567,15 +2567,6 @@
       "initialSize" : 1593,
       "fileType" : 8192
     },
-    "\/main.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/main.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/library\/prettyPhoto\/images\/fullscreen\/6.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2586,6 +2577,15 @@
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/fullscreen\/6.jpg",
       "initialSize" : 962237,
       "fileType" : 4096
+    },
+    "\/main.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/main.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/lifecare_gallery\/Thumbs\/Avalon2_th.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2632,17 +2632,6 @@
       "initialSize" : 170470,
       "fileType" : 4096
     },
-    "\/images\/search_icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/search_icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/search_icon.png",
-      "initialSize" : 315,
-      "fileType" : 8192
-    },
     "\/images\/social_gallery\/ChildDev2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2653,6 +2642,17 @@
       "outputAbbreviatedPath" : "\/images\/social_gallery\/ChildDev2.jpg",
       "initialSize" : 204990,
       "fileType" : 4096
+    },
+    "\/images\/search_icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/search_icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/search_icon.png",
+      "initialSize" : 315,
+      "fileType" : 8192
     },
     "\/library\/prettyPhoto\/images\/prettyPhoto\/default\/sprite_next.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2727,16 +2727,14 @@
       "initialSize" : 189160,
       "fileType" : 4096
     },
-    "\/images\/residence_gallery\/Thumbs\/2_Glebe_th.jpg" : {
+    "\/sidebar-footerbanner2.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/2_Glebe_th.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/2_Glebe_th.jpg",
-      "initialSize" : 27151,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/sidebar-footerbanner2.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/footer.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2747,14 +2745,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sidebar-footerbanner2.php" : {
+    "\/images\/residence_gallery\/Thumbs\/2_Glebe_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sidebar-footerbanner2.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/2_Glebe_th.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/2_Glebe_th.jpg",
+      "initialSize" : 27151,
+      "fileType" : 4096
     },
     "\/images\/social_gallery\/ResidentGardens1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2767,16 +2767,16 @@
       "initialSize" : 288176,
       "fileType" : 4096
     },
-    "\/images\/social_gallery\/LS_Social_Events.jpg" : {
+    "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/btnPrevious.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/social_gallery\/LS_Social_Events.jpg",
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/btnPrevious.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/social_gallery\/LS_Social_Events.jpg",
-      "initialSize" : 160010,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/btnPrevious.png",
+      "initialSize" : 1442,
+      "fileType" : 8192
     },
     "\/library\/modernizr.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2811,16 +2811,16 @@
       "initialSize" : 2091,
       "fileType" : 8192
     },
-    "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/btnPrevious.png" : {
+    "\/images\/social_gallery\/LS_Social_Events.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/btnPrevious.png",
+      "inputAbbreviatedPath" : "\/images\/social_gallery\/LS_Social_Events.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_square\/btnPrevious.png",
-      "initialSize" : 1442,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/social_gallery\/LS_Social_Events.jpg",
+      "initialSize" : 160010,
+      "fileType" : 4096
     },
     "\/images\/foundation_gallery\/programs\/HealthServices.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2944,17 +2944,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/sidebarfallback.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/sidebarfallback.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/sidebarfallback.png",
-      "initialSize" : 326,
-      "fileType" : 8192
-    },
     "\/images\/slidedeck\/arrowstyle_6-vert.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2977,15 +2966,15 @@
       "initialSize" : 26046,
       "fileType" : 4096
     },
-    "\/sass\/bourbon\/css3\/_appearance.scss" : {
+    "\/sass\/bourbon\/functions\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bourbon\/css3\/_appearance.scss",
+      "inputAbbreviatedPath" : "\/sass\/bourbon\/functions\/_radial-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_appearance.css",
+      "outputAbbreviatedPath" : "\/.\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -3000,6 +2989,18 @@
       "initialSize" : 192982,
       "fileType" : 4096
     },
+    "\/sass\/bourbon\/css3\/_appearance.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bourbon\/css3\/_appearance.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_appearance.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/images\/arts_gallery\/Thumbs\/HScottNovemberGallery2_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3010,18 +3011,6 @@
       "outputAbbreviatedPath" : "\/images\/arts_gallery\/Thumbs\/HScottNovemberGallery2_th.jpg",
       "initialSize" : 26918,
       "fileType" : 4096
-    },
-    "\/sass\/bourbon\/functions\/_radial-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bourbon\/functions\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 1
     },
     "\/images\/residence_gallery\/1_The_Tower\/1_Tower.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3066,16 +3055,17 @@
       "initialSize" : 24762,
       "fileType" : 4096
     },
-    "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/sprite.png" : {
+    "\/sass\/_orig-styles.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/sprite.png",
-      "initialSize" : 4227,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/_orig-styles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_orig-styles.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/images\/residence_gallery\/2_The_Courtyard\/8_Courtyard.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3088,17 +3078,16 @@
       "initialSize" : 142997,
       "fileType" : 4096
     },
-    "\/sass\/_orig-styles.scss" : {
+    "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/sprite.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_orig-styles.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_orig-styles.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/sprite.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/facebook\/sprite.png",
+      "initialSize" : 4227,
+      "fileType" : 8192
     },
     "\/images\/lifecare_gallery\/LC_MMP2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3341,16 +3330,14 @@
       "initialSize" : 25023,
       "fileType" : 4096
     },
-    "\/images\/foundation_gallery\/programs\/EmployeeEd.jpg" : {
+    "\/foundation-programs.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/EmployeeEd.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/EmployeeEd.jpg",
-      "initialSize" : 184508,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/foundation-programs.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/archive.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3372,6 +3359,17 @@
       "initialSize" : 116449,
       "fileType" : 4096
     },
+    "\/images\/foundation_gallery\/programs\/EmployeeEd.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/EmployeeEd.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/foundation_gallery\/programs\/EmployeeEd.jpg",
+      "initialSize" : 184508,
+      "fileType" : 4096
+    },
     "\/images\/residence_gallery\/Thumbs\/5_Courtyard_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3383,15 +3381,6 @@
       "initialSize" : 25514,
       "fileType" : 4096
     },
-    "\/foundation-programs.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/foundation-programs.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/home_banners\/social-educational-activities.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3402,17 +3391,6 @@
       "outputAbbreviatedPath" : "\/images\/home_banners\/social-educational-activities.png",
       "initialSize" : 549461,
       "fileType" : 8192
-    },
-    "\/images\/residence_gallery\/5_The_Glebe_Homes\/2_Glebe.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/residence_gallery\/5_The_Glebe_Homes\/2_Glebe.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/residence_gallery\/5_The_Glebe_Homes\/2_Glebe.jpg",
-      "initialSize" : 208960,
-      "fileType" : 4096
     },
     "\/sass\/bourbon\/functions\/_grid-width.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -3426,6 +3404,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/images\/residence_gallery\/5_The_Glebe_Homes\/2_Glebe.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/residence_gallery\/5_The_Glebe_Homes\/2_Glebe.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/residence_gallery\/5_The_Glebe_Homes\/2_Glebe.jpg",
+      "initialSize" : 208960,
+      "fileType" : 4096
+    },
     "\/images\/lifecare_gallery\/Thumbs\/_MG_5890_1_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3437,6 +3426,18 @@
       "initialSize" : 26311,
       "fileType" : 4096
     },
+    "\/sass\/bourbon\/css3\/_box-sizing.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/bourbon\/css3\/_box-sizing.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_box-sizing.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/library\/prettyPhoto\/images\/thumbnails\/t_2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3447,15 +3448,6 @@
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/thumbnails\/t_2.jpg",
       "initialSize" : 2379,
       "fileType" : 4096
-    },
-    "\/page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/page-noside.php" : {
       "ignoreWasSetByUser" : 0,
@@ -3488,6 +3480,15 @@
       "initialSize" : 160116,
       "fileType" : 4096
     },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/bourbon\/functions\/_tint-shade.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3500,28 +3501,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/backgrounds\/LS_HealthFitness.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/backgrounds\/LS_HealthFitness.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/backgrounds\/LS_HealthFitness.png",
-      "initialSize" : 50580,
-      "fileType" : 8192
-    },
-    "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/sprite.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/sprite.png",
-      "initialSize" : 4076,
-      "fileType" : 8192
-    },
     "\/library\/prettyPhoto\/images\/fullscreen\/3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3533,15 +3512,15 @@
       "initialSize" : 35532,
       "fileType" : 4096
     },
-    "\/images\/slidedeck\/arrowstyle_6-sml.png" : {
+    "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/sprite.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-sml.png",
+      "inputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/sprite.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-sml.png",
-      "initialSize" : 1519,
+      "outputAbbreviatedPath" : "\/library\/prettyPhoto\/images\/prettyPhoto\/dark_rounded\/sprite.png",
+      "initialSize" : 4076,
       "fileType" : 8192
     },
     "\/images\/residence_gallery\/Thumbs\/2_Tower_th.jpg" : {
@@ -3555,24 +3534,34 @@
       "initialSize" : 25251,
       "fileType" : 4096
     },
-    "\/sass\/bourbon\/css3\/_box-sizing.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/bourbon\/css3\/_box-sizing.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_box-sizing.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/index.php" : {
+    "\/images\/backgrounds\/LS_HealthFitness.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
+      "inputAbbreviatedPath" : "\/images\/backgrounds\/LS_HealthFitness.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/backgrounds\/LS_HealthFitness.png",
+      "initialSize" : 50580,
+      "fileType" : 8192
+    },
+    "\/images\/slidedeck\/arrowstyle_6-sml.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-sml.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-sml.png",
+      "initialSize" : 1519,
+      "fileType" : 8192
+    },
+    "\/page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -3619,17 +3608,6 @@
       "initialSize" : 124647,
       "fileType" : 4096
     },
-    "\/images\/health_gallery\/AquaticCenter.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/health_gallery\/AquaticCenter.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/health_gallery\/AquaticCenter.jpg",
-      "initialSize" : 180254,
-      "fileType" : 4096
-    },
     "\/sass\/bourbon\/addons\/_button.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3639,6 +3617,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/.\/_button.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/sass\/neat\/grid\/_visual-grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/neat\/grid\/_visual-grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/.\/_visual-grid.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
@@ -3665,17 +3655,16 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/sass\/neat\/grid\/_visual-grid.scss" : {
+    "\/images\/health_gallery\/AquaticCenter.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/neat\/grid\/_visual-grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/.\/_visual-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/images\/health_gallery\/AquaticCenter.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/health_gallery\/AquaticCenter.jpg",
+      "initialSize" : 180254,
+      "fileType" : 4096
     },
     "\/library\/prettyPhoto\/jquery.prettyPhoto.js" : {
       "ignoreWasSetByUser" : 0,
@@ -3688,16 +3677,16 @@
       "outputAbbreviatedPath" : "\/library\/prettyPhoto\/jquery.prettyPhoto-ck.js",
       "fileType" : 64
     },
-    "\/images\/slidedeck\/arrowstyle_6-med.png" : {
+    "\/images\/dining_gallery\/Kathleens.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-med.png",
+      "inputAbbreviatedPath" : "\/images\/dining_gallery\/Kathleens.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-med.png",
-      "initialSize" : 1575,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/dining_gallery\/Kathleens.jpg",
+      "initialSize" : 146636,
+      "fileType" : 4096
     },
     "\/images\/life-care-couple.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -3710,6 +3699,17 @@
       "initialSize" : 13382,
       "fileType" : 4096
     },
+    "\/images\/slidedeck\/arrowstyle_6-med.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-med.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/slidedeck\/arrowstyle_6-med.png",
+      "initialSize" : 1575,
+      "fileType" : 8192
+    },
     "\/images\/residence_gallery\/Thumbs\/1_Courtyard_th.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3719,17 +3719,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/residence_gallery\/Thumbs\/1_Courtyard_th.jpg",
       "initialSize" : 27216,
-      "fileType" : 4096
-    },
-    "\/images\/dining_gallery\/Kathleens.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/dining_gallery\/Kathleens.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/dining_gallery\/Kathleens.jpg",
-      "initialSize" : 146636,
       "fileType" : 4096
     },
     "\/images\/backgrounds\/LS_Arts.png" : {
@@ -3763,15 +3752,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/residence.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/residence.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/sass\/bourbon\/css3\/_transition.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3795,6 +3775,15 @@
       "outputAbbreviatedPath" : "\/.\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/residence.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/residence.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/images\/pdf.png" : {
       "ignoreWasSetByUser" : 0,

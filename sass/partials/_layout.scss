@@ -69,3 +69,6 @@
 #sidebar {
     @include span-columns(4);
 }
+.lt-ie9 #sidebar {
+    margin-right:0;
+}

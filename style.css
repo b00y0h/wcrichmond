@@ -283,6 +283,10 @@ h2 {
   #sidebar:last-child {
     margin-right: 0; }
 
+/* line 72, sass/partials/_layout.scss */
+.lt-ie9 #sidebar {
+  margin-right: 0; }
+
 /* Main Header Navigation */
 /* line 3, sass/partials/_menu.scss */
 #access {
