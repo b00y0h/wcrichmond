@@ -30,6 +30,13 @@ if ( ! function_exists( 'wcrichmond_setup' ) ):
 endif; // wcrichmond_setup
 add_action( 'after_setup_theme', 'wcrichmond_setup' );
 
+// Enhanced Custom Fields Framework
+require('_framework/enhanced-custom-fields/enhanced-custom-fields.php');
+
+require('_theme_settings/theme-post-types.php');
+require('_theme_settings/theme-custom-fields.php');
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /* Enqueue scripts and styles
