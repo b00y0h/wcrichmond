@@ -1142,6 +1142,32 @@ h2.entry-title {
     .addthis_toolbox a span {
       margin-top: -3px; }
 
+/* sidebar */
+/* line 263, sass/_styles.scss */
+.blog-list-archive {
+  font-family: 'QuicksandBold'; }
+  /* line 265, sass/_styles.scss */
+  .blog-list-archive li {
+    list-style: none;
+    line-height: 1.2em; }
+  /* line 270, sass/_styles.scss */
+  .blog-list-archive > li:before {
+    content: "\25B6";
+    position: relative;
+    left: -20px;
+    font-size: .5em; }
+  /* line 276, sass/_styles.scss */
+  .blog-list-archive > li.selected:before {
+    content: "\25BC"; }
+  /* line 280, sass/_styles.scss */
+  .blog-list-archive ul {
+    padding-left: .6em; }
+  /* line 283, sass/_styles.scss */
+  .blog-list-archive a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em; }
+
 /* line 1, sass/partials/_slidedeck.scss */
 .lens-wc-richmond {
   position: relative;
