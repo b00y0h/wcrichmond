@@ -1215,65 +1215,66 @@ h2.entry-title {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #cc2933;
   line-height: 2em;
-  text-align: center; }
-  /* line 275, sass/_styles.scss */
+  text-align: center;
+  color: white; }
+  /* line 276, sass/_styles.scss */
   #sidebar h3 a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 284, sass/_styles.scss */
+/* line 285, sass/_styles.scss */
 .blog-list-archive {
   font-family: 'QuicksandBold'; }
-  /* line 286, sass/_styles.scss */
+  /* line 287, sass/_styles.scss */
   .blog-list-archive .archive-sub-menu {
     display: none; }
-  /* line 289, sass/_styles.scss */
+  /* line 290, sass/_styles.scss */
   .blog-list-archive li {
     list-style: none;
     line-height: 1.2em; }
-  /* line 294, sass/_styles.scss */
+  /* line 295, sass/_styles.scss */
   .blog-list-archive > li:before {
     content: "\25B6";
     position: relative;
     left: -20px;
     font-size: .5em; }
-  /* line 300, sass/_styles.scss */
+  /* line 301, sass/_styles.scss */
   .blog-list-archive > li.selected:before {
     content: "\25BC"; }
-  /* line 304, sass/_styles.scss */
+  /* line 305, sass/_styles.scss */
   .blog-list-archive ul {
     padding-left: .6em; }
-  /* line 307, sass/_styles.scss */
+  /* line 308, sass/_styles.scss */
   .blog-list-archive a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8em; }
 
-/* line 312, sass/_styles.scss */
+/* line 313, sass/_styles.scss */
 .post-type-archive-video-items #primary {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 316, sass/_styles.scss */
+/* line 317, sass/_styles.scss */
 .video-items {
   margin-bottom: 3em;
   margin-top: 3em;
   padding-left: 20px;
   padding-right: 20px; }
-  /* line 321, sass/_styles.scss */
+  /* line 322, sass/_styles.scss */
   .video-items:nth-child(2n) {
     border-left: 1px solid #676767; }
-  /* line 324, sass/_styles.scss */
+  /* line 325, sass/_styles.scss */
   .video-items img {
     width: 100%;
     height: auto; }
-  /* line 328, sass/_styles.scss */
+  /* line 329, sass/_styles.scss */
   .video-items h2 {
     color: #cc2933;
     border-bottom: none;
     font-size: 1em; }
-  /* line 333, sass/_styles.scss */
+  /* line 334, sass/_styles.scss */
   .video-items p {
     font-family: 'QuicksandLight';
     line-height: 1.5em;

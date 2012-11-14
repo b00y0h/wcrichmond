@@ -9,7 +9,7 @@
         dynamic_sidebar( 'sidebar-page' );
     } else { ?>
 
-    <h3>Calendar &amp; Events</h3>
+    <h3><a href="#">Calendar &amp; Events</a></h3>
     <h3>Archives</h3>
     <ul class="blog-list-archive">
       <?php
