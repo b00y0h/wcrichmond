@@ -1,5 +1,5 @@
 <?php
-
+$children = '';
   $ancestors =  get_post_ancestors($post);
   //print_r($ancestors);
   if(!empty($ancestors)){
@@ -7,7 +7,7 @@
     if(sizeof($ancestors)==1){
       // page is secondary
       $children = wp_list_pages('title_li=&child_of='.$post->ID."&echo=0&depth=1");
-    }  
+    }
     else if(sizeof($ancestors)==2){
       // page is tertiary
       $children = wp_list_pages('title_li=&child_of='.$post->post_parent."&echo=0&depth=1");
@@ -55,7 +55,7 @@
       width:200px;
       display:block;
     }
-    
+
   </style>
     <ul class="tertiaryNav">
       <?php echo $children; ?>
@@ -63,5 +63,5 @@
 <?php endif; ?>
 
 <?php 	/* Widgetized sidebar, if you have the plugin installed. */
-		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Page Sidebar") ) : ?>  
+		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Page Sidebar") ) : ?>
 <?php endif; ?>

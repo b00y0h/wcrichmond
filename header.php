@@ -45,14 +45,14 @@
 
 
         <div id="logo">
-            <a href="<?php bloginfo('home'); ?>">
+            <a href="<?php bloginfo('url'); ?>">
                 <img src="<?php bloginfo('template_directory');?>/images/wcr_logo.png" alt="Westminster Canterbury Richmond Logo">
             </a>
         </div> <!-- #logo -->
 
         <div id="secondaryNav">
             <nav>
-                <a class="icon-home" href="<?php bloginfo('home'); ?>">Home</a><a class="icon-facebook" href="http://www.facebook.com/pages/Westminster-Canterbury-Richmond/154964607919165">Facebook</a>
+                <a class="icon-home" href="<?php bloginfo('url'); ?>">Home</a><a class="icon-facebook" href="http://www.facebook.com/pages/Westminster-Canterbury-Richmond/154964607919165">Facebook</a>
             </nav>
             <?php include('searchform.php'); ?>
         </div> <!-- #secondaryNav -->
