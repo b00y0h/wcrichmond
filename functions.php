@@ -14,6 +14,8 @@ if ( ! function_exists( 'wcrichmond_setup' ) ):
             add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
             add_image_size( 'homepage-thumb', 300, 100, true ); //(cropped)
             add_image_size( 'blog-index', 600, '', true); // blog index/single pages
+            add_image_size('featured_preview', 55, 55, true);
+
 
             /* Register WP 3.0+ Menus ---------------------------------------------------*/
             register_nav_menus(
@@ -35,6 +37,17 @@ require('_framework/enhanced-custom-fields/enhanced-custom-fields.php');
 
 require('_theme_settings/theme-post-types.php');
 require('_theme_settings/theme-custom-fields.php');
+
+
+// Fix <p>'s and <br>'s from showing up around shortcodes.
+add_filter('the_content', 'shortcode_empty_paragraph_fix');
+function shortcode_empty_paragraph_fix($content)
+{
+    $array = array ( '<p>[' => '[', ']</p>' => ']', ']<br />' => ']' );
+    $content = strtr($content, $array);
+    return $content;
+}
+
 
 
 
