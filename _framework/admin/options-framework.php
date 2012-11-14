@@ -49,7 +49,7 @@ function optionsframework_rolescheck () {
 	}
 }
 
-/* 
+/*
  * Creates the settings in the database by looping through the array
  * we supplied in options.php.  This is a neat way to do it since
  * we won't have to save settings for headers, descriptions, or arguments.
@@ -65,17 +65,17 @@ function optionsframework_init() {
 	require_once TEMPLATEPATH.'/_framework/admin/options-sanitize.php';
 	require_once TEMPLATEPATH.'/_framework/admin/options-interface.php';
 	require_once TEMPLATEPATH.'/_framework/admin/options-medialibrary-uploader.php';
-	
+
 	// Loads the options array from the theme
 	if (file_exists( TEMPLATEPATH.'_theme_settings/theme-options.php' ) ) {
 		require_once TEMPLATEPATH.'_theme_settings/theme-options.php';
 	}
-	
+
 	$optionsframework_settings = get_option('optionsframework');
-	
+
 	// Updates the unique option id in the database if it has changed
 	optionsframework_option_name();
-	
+
 	// Gets the unique id, returning a default if it isn't defined
 	if ( isset($optionsframework_settings['id']) ) {
 		$option_name = $optionsframework_settings['id'];
@@ -83,17 +83,17 @@ function optionsframework_init() {
 	else {
 		$option_name = 'optionsframework';
 	}
-	
+
 	// If the option has no saved data, load the defaults
 	if ( ! get_option($option_name) ) {
 		optionsframework_setdefaults();
 	}
-	
+
 	// Registers the settings fields and callback
 	register_setting( 'optionsframework', $option_name, 'optionsframework_validate' );
 }
 
-/* 
+/*
  * Adds default options to the database if they aren't already present.
  * May update this later to load only on plugin activation, or theme
  * activation since most people won't be editing the options.php
@@ -104,20 +104,20 @@ function optionsframework_init() {
  */
 
 function optionsframework_setdefaults() {
-	
+
 	$optionsframework_settings = get_option('optionsframework');
 
 	// Gets the unique option id
 	$option_name = $optionsframework_settings['id'];
-	
-	/* 
+
+	/*
 	 * Each theme will hopefully have a unique id, and all of its options saved
 	 * as a separate option set.  We need to track all of these option sets so
 	 * it can be easily deleted if someone wishes to remove the plugin and
-	 * its associated data.  No need to clutter the database.  
+	 * its associated data.  No need to clutter the database.
 	 *
 	 */
-	
+
 	if ( isset($optionsframework_settings['knownoptions']) ) {
 		$knownoptions =  $optionsframework_settings['knownoptions'];
 		if ( !in_array($option_name, $knownoptions) ) {
@@ -130,13 +130,13 @@ function optionsframework_setdefaults() {
 		$optionsframework_settings['knownoptions'] = $newoptionname;
 		update_option('optionsframework', $optionsframework_settings);
 	}
-	
+
 	// Gets the default options data from the array in options.php
 	$options = optionsframework_options();
-	
+
 	// If the options haven't been added to the database yet, they are added now
 	$values = of_get_default_values();
-	
+
 	if ( isset($values) ) {
 		add_option( $option_name, $values ); // Add option with default settings
 	}
@@ -148,11 +148,11 @@ if ( !function_exists( 'optionsframework_add_page' ) ) {
 function optionsframework_add_page() {
 
 	$of_page = add_theme_page('Theme Options', 'Theme Options', 'edit_theme_options', 'options-framework', 'optionsframework_page');
-	
+
 	// Adds actions to hook in the required css and javascript
 	add_action("admin_print_styles-$of_page",'optionsframework_load_styles');
 	add_action("admin_print_scripts-$of_page", 'optionsframework_load_scripts');
-	
+
 }
 }
 
@@ -161,7 +161,7 @@ function optionsframework_add_page() {
 function optionsframework_load_styles() {
 	wp_enqueue_style('admin-style', OPTIONS_FRAMEWORK_DIRECTORY.'css/admin-style.css');
 	wp_enqueue_style('color-picker', OPTIONS_FRAMEWORK_DIRECTORY.'css/colorpicker.css');
-}	
+}
 
 /* Loads the javascript */
 
@@ -169,7 +169,7 @@ function optionsframework_load_scripts() {
 
 	// Inline scripts from options-interface.php
 	add_action('admin_head', 'of_admin_head');
-	
+
 	// Enqueued scripts
 	wp_enqueue_script('jquery-ui-core');
 	wp_enqueue_script('color-picker', OPTIONS_FRAMEWORK_DIRECTORY.'js/colorpicker.js', array('jquery'));
@@ -183,7 +183,7 @@ function of_admin_head() {
 	do_action( 'optionsframework_custom_scripts' );
 }
 
-/* 
+/*
  * Builds out the options panel.
  *
  * If we were using the Settings API as it was likely intended we would use
@@ -205,12 +205,12 @@ function optionsframework_page() {
 		$themename = get_theme_data(STYLESHEETPATH . '/style.css');
 	}
 	$themename = $themename['Name'];
-	
+
 	settings_errors();
 	?>
-    
+
 	<div class="wrap">
-      
+
     <div id="of_container">
        <form action="options.php" method="post">
 	  <?php settings_fields('optionsframework'); ?>
@@ -235,18 +235,18 @@ function optionsframework_page() {
         </div>
         <div class="of_admin_bar">
 			<input type="submit" class="button-primary" name="update" value="<?php esc_attr_e( 'Save Options' ); ?>" />
-            <input type="submit" class="reset-button button-secondary" name="reset" value="<?php esc_attr_e( 'Restore Defaults' ); ?>" onclick="return confirm( '<?php print esc_js( __( 'Click OK to reset. Any theme settings will be lost!','born' ) ); ?>' );" />
+            <input type="submit" class="reset-button button-secondary" name="reset" value="<?php esc_attr_e( 'Restore Defaults' ); ?>" onclick="return confirm( '<?php print esc_js( __( 'Click OK to reset. Any theme settings will be lost!','wcrichmond' ) ); ?>' );" />
 		</div>
 		<div class="clear"></div>
 	</form>
-</div> <!-- / #container -->  
+</div> <!-- / #container -->
 </div> <!-- / .wrap -->
 
 <?php
 }
 }
 
-/** 
+/**
  * Validate Options.
  *
  * This runs after the submit/reset button has been clicked and
@@ -264,16 +264,16 @@ function optionsframework_validate( $input ) {
 	 * button, the options defined in the theme's options.php
 	 * file will be added to the option for the active theme.
 	 */
-	 
+
 	if ( isset( $_POST['reset'] ) ) {
-		add_settings_error( 'options-framework', 'restore_defaults', __( 'Default options restored.','born'), 'updated fade' );
+		add_settings_error( 'options-framework', 'restore_defaults', __( 'Default options restored.','wcrichmond'), 'updated fade' );
 		return of_get_default_values();
 	}
 
 	/*
 	 * Udpdate Settings.
 	 */
-	 
+
 	if ( isset( $_POST['update'] ) ) {
 		$clean = array();
 		$options = optionsframework_options();
@@ -300,7 +300,7 @@ function optionsframework_validate( $input ) {
 					$input[$id][$key] = '0';
 				}
 			}
-			
+
 			// Set each item in the multicheck to false if it wasn't sent in the $_POST
 			if ( 'multicheckHomepageBlocks' == $option['type'] && ! isset( $input[$id] ) ) {
 				foreach ( $option['options'] as $key => $value ) {
@@ -314,14 +314,14 @@ function optionsframework_validate( $input ) {
 			}
 		}
 
-		add_settings_error( 'options-framework', 'save_options', __( 'Options saved.','born'), 'updated fade' );
+		add_settings_error( 'options-framework', 'save_options', __( 'Options saved.','wcrichmond'), 'updated fade' );
 		return $clean;
 	}
 
 	/*
 	 * Request Not Recognized.
 	 */
-	
+
 	return of_get_default_values();
 }
 
@@ -338,7 +338,7 @@ function optionsframework_validate( $input ) {
  *
  * @access    private
  */
- 
+
 function of_get_default_values() {
 	$output = array();
 	$config = optionsframework_options();
@@ -362,17 +362,17 @@ function of_get_default_values() {
 /**
  * Add Theme Options menu item to Admin Bar.
  */
- 
+
 add_action( 'wp_before_admin_bar_render', 'optionsframework_adminbar' );
 
 function optionsframework_adminbar() {
-	
+
 	global $wp_admin_bar;
-	
+
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'appearance',
 		'id' => 'of_theme_options',
-		'title' => __( 'Theme Options','born' ),
+		'title' => __( 'Theme Options','wcrichmond' ),
 		'href' => admin_url( 'themes.php?page=options-framework' )
   ));
 }
@@ -386,10 +386,10 @@ if ( ! function_exists( 'of_get_option' ) ) {
 	 * If no value has been saved, it returns $default.
 	 * Needed because options are saved as serialized strings.
 	 */
-	 
+
 	function of_get_option( $name, $default = false ) {
 		$config = get_option( 'optionsframework' );
-		
+
 		if ( ! isset( $config['id'] ) ) {
 			return $default;
 		}

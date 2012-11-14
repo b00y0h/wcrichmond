@@ -31,7 +31,7 @@ function my_html_tags_code() {
 // Timezone Settings
 if ( !function_exists('getTimezoneByOffset') ) {
 	function getTimezoneByOffset($offset){
-	
+
 	 	$offset *= 3600; // convert hour offset to seconds
         $abbrarray = timezone_abbreviations_list();
         foreach ($abbrarray as $abbr){
@@ -43,13 +43,13 @@ if ( !function_exists('getTimezoneByOffset') ) {
         }
 
         return false;
-	
+
 	}
 
 	$timezone_setting = get_option('timezone_string');
 	$offset_setting = get_option('gmt_offset');
 	if (!$timezone_setting) { $timezone_setting = getTimezoneByOffset($offset_setting); }
-	
+
 	date_default_timezone_set($timezone_setting);
 
 }
@@ -81,13 +81,13 @@ if ( !function_exists('getTimezoneText') ) {
 // Load timezone settings for datetimepicker
 if ( !function_exists('js_admin_custom_scripts')){
 	function js_admin_custom_scripts() {
-	
-		if (of_get_option('js_time_format') && of_get_option('js_time_format') == '24h'){	
+
+		if (of_get_option('js_time_format') && of_get_option('js_time_format') == '24h'){
 			echo '<script type="text/javascript" src="'.get_stylesheet_directory_uri().'/_framework/enhanced-custom-fields/tpls/jqueryui/datepicker_24h.js"></script>';
 		} else {
 			echo '<script type="text/javascript" src="'.get_stylesheet_directory_uri().'/_framework/enhanced-custom-fields/tpls/jqueryui/datepicker_12h.js"></script>';
 		}
-		
+
 	}
 	add_action('admin_head','js_admin_custom_scripts');
 }
@@ -95,12 +95,12 @@ if ( !function_exists('js_admin_custom_scripts')){
 // New Requirement for WP 3.3, Loading Scripts the Proper Way
 if ( !function_exists('js_admin_script_loader')){
 	function js_admin_script_loader() {
-	
+
 		// Date Field for Custom Meta Boxes
 		wp_enqueue_script('jqueryui-datepicker', get_stylesheet_directory_uri() . '/_framework/enhanced-custom-fields/tpls/jqueryui/jquery-ui-1.8.16.custom.min.js');
 		wp_enqueue_script('jqueryui-timepicker', get_stylesheet_directory_uri() . '/_framework/enhanced-custom-fields/tpls/jqueryui/jquery.timepicker.js');
 		wp_enqueue_style('jqueryui-datepicker', get_stylesheet_directory_uri() . '/_framework/enhanced-custom-fields/tpls/jqueryui/smoothness/jquery-ui-1.8.16.custom.css');
-		
+
 	}
 	add_action('admin_init','js_admin_script_loader');
 }
@@ -151,6 +151,4 @@ add_filter('the_content', 'js_formatter', 99);
 add_filter('widget_text', 'js_formatter', 99);
 
 set_site_transient( 'update_themes', null ); // Force update check for testing purposes.
-include_once('class-custom-theme-updater.php');
-$theme_updater = new Custom_Theme_Updater('http://demo.scheetzdesigns.com/_theme_updates/born/api/', 'born');
 ?>
