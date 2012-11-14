@@ -30,6 +30,12 @@
     }
 }
 
+// Layout for video archive page
+.video-items {
+    @include span-columns(6, 8);
+    @include nth-omega(2n);
+}
+
 // menu
 #menu-top-menu {
     @include row();
