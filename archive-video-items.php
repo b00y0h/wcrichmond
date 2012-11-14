@@ -8,27 +8,37 @@
             <!--BEGIN #primary .hfeed-->
             <div id="primary" class="hfeed">
 
-<?php
-    $featured_items = get_posts(array('post_type' => array('video-items'), 'numberposts' => -1, 'orderby' => $orderby, 'order'=>$order));
-// echo nl2br(print_r($featured_items,true));
-$custom_meta = get_post_custom($featured_items->ID);
-// echo nl2br(print_r($custom_meta,true));
+            <?php
+                $featured_args = array(
+                                  'post_type' => 'video-items', 
+                                  'limit' => 1, 
+                                  'orderby' => 'post_date', 
+                                  'order'=>'DESC',
+                                  'meta_key' => '_video_featured',
+                                  'meta_value' => serialize(array('featured'))
+                                  );
+                // The Featured Video Loop
+                query_posts($featured_args);
+                while ( have_posts() ) : the_post();
+                  global $post; 
+                    $featured_video_id = $post->ID;
+                  ?>
+        
+                    <?php get_template_part( 'content', 'video' ); ?>
 
-    if ($featured_items) :
-        foreach ($featured_items as $i) :
-            $is_featured = get_post_meta($i->ID, '_video_featured', true);
+                	<?php
+                endwhile;
+                // Reset Query
+                wp_reset_query();
 
-        // sets $is_featured = "featured" is is in fact featured
-        if ($is_featured) { $is_featured = $is_featured[0]; } else { $is_featured = 0; }
-
-        endforeach;
-    endif;
-
-
-
-
- ?>
-
+             ?>
+            <?php query_posts(array(
+                    'post_type' => 'video-items',
+                    'orderby' => 'post_date', 
+                    'order'=>'DESC',
+                    'post__not_in' => array($featured_video_id) // exclude featured video
+                  )); 
+            ?>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                 <!--BEGIN .hentry -->
