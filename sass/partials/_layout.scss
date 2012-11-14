@@ -34,6 +34,18 @@
 .video-items {
     @include span-columns(6, 8);
     @include nth-omega(2n);
+    &.featured {
+        @include fill-parent;
+         .entry-content {
+            @include clearfix();
+                 .thumbnail-wrap{
+                     @include span-columns(6);
+                 }
+                 .entry-content-snippet {
+                     @include span-columns(6);
+                 }
+             }
+    }
 }
 
 // menu

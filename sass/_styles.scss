@@ -316,12 +316,10 @@ h2.entry-title {
 }
 .video-items {
     margin-bottom:3em;
-    margin-top:3em;
     padding-left:20px;
     padding-right:20px;
-    &:nth-child(2n) {
-        border-left:1px solid darken($grey, 50);
-    }
+    border-right:1px solid darken($grey, 50);
+    &:nth-child(2n+1) {border-right:none;}
     img {
         width:100%;
         height:auto;
@@ -336,4 +334,18 @@ h2.entry-title {
         line-height:1.5em;
         font-size:.9em;
     }
+    &.featured {
+    margin-top:3em;
+    border-left:none;
+     .entry-content {
+        @extend .grey-border-bottom;
+        @include clearfix();
+            div {padding-left:20px;padding-right:20px;}
+         }
+    h2 {
+        margin-top:0;
+        padding-top:0;
+    }
+}
+
 }

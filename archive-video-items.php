@@ -10,9 +10,9 @@
 
             <?php
                 $featured_args = array(
-                                  'post_type' => 'video-items', 
-                                  'limit' => 1, 
-                                  'orderby' => 'post_date', 
+                                  'post_type' => 'video-items',
+                                  'limit' => 1,
+                                  'orderby' => 'post_date',
                                   'order'=>'DESC',
                                   'meta_key' => '_video_featured',
                                   'meta_value' => serialize(array('featured'))
@@ -20,12 +20,12 @@
                 // The Featured Video Loop
                 query_posts($featured_args);
                 while ( have_posts() ) : the_post();
-                  global $post; 
+                  global $post;
                     $featured_video_id = $post->ID;
                   ?>
-        
+                    <div <?php post_class('featured'); ?>>
                     <?php get_template_part( 'content', 'video' ); ?>
-
+                    </div>
                 	<?php
                 endwhile;
                 // Reset Query
@@ -34,10 +34,10 @@
              ?>
             <?php query_posts(array(
                     'post_type' => 'video-items',
-                    'orderby' => 'post_date', 
+                    'orderby' => 'post_date',
                     'order'=>'DESC',
                     'post__not_in' => array($featured_video_id) // exclude featured video
-                  )); 
+                  ));
             ?>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
