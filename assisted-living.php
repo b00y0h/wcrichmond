@@ -1,4 +1,4 @@
-<?php /* Template Name: Assisted Living */ get_header(); ?> 
+<?php /* Template Name: Assisted Living */ get_header(); ?>
 
 <script type="text/javascript" charset="utf-8">
   jQuery(document).ready(function($){
@@ -6,13 +6,13 @@
       $(".jsubNavItem").click(function(){
         $(".jsubNavItem").removeClass("current");
         $(this).addClass('current');
-        
+
         var block = $(this).attr('id');
         $(".jsSubContent").removeClass("current_sub_content");
         $("."+block).addClass("current_sub_content");
-        
+
       })
-      
+
      $(".jsSubPhotoThumb").click(function(){
         $(".jsSubPhotoThumb").removeClass("current_photo_thumb")
         $(this).addClass("current_photo_thumb")
@@ -23,20 +23,12 @@
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background-color:#A2D9D5;
-  }
- 
-</style>
-
-  <div class="subpageWrapper" style="background:url(<?php bloginfo('template_directory');?>/images/backgrounds/LC_AssistedLiving.png) no-repeat;">
+  <div class="subpageWrapper">
 
     <div class="subpagePageTitle">
       Assisted Living
     </div>
-    <div style="clear:both;"></div>
-    
+
     <div class="subpageNavigation">
        <ul>
          <li id="jsc_1" class="jsubNavItem current">
@@ -55,24 +47,10 @@
      </div>
 
     <div class="subpageContentWrapper" >
-      <div class="subpageCopy">    
+      <div class="subpageCopy">
         <div class="jsSubContent jsc_1 current_sub_content">
-          
-          
-            <div class="jsSubContentFlex" style="padding: 10px 20px 4px;">
-               <ul>
-                 <li>24/7 access to RNs, LPNs and Certified Nursing Assistants</li>
-                 <li>Assistance with daily living tasks</li>
-                 <li>Indoor pool (with whirlpool), gardens and courtyards for recreation</li>
-                 <li>Educational and intergenerational programs</li>
-                 <li>Social and entertainment choices</li>
-                 <li>Caring staff who encourage residents’ full potential</li>
-                 <li>Social worker support for residents and family</li>
-               </ul>
-            </div>
-          
 
-          <div class="resPhotoViewer" style="float:left;">
+          <div class="resPhotoViewer">
             <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_AsstLivingOverview.jpg" width="363" height="424">
           </div>
 
@@ -88,40 +66,37 @@
 
             <?php endwhile; endif; ?>
           </div>
-          
-        </div>
-        
-        <div class="jsSubContent jsc_2">
-          
-          
-            <div class="jsSubContentFlex" style="padding: 10px 20px 4px;">
+
+            <div class="jsSubContentFlex">
                <ul>
                  <li>24/7 access to RNs, LPNs and Certified Nursing Assistants</li>
-                  <li>Assistance with daily living tasks</li>
-                  <li>Indoor pool (with whirlpool), gardens and courtyards for recreation</li>
-                  <li>Educational and intergenerational programs</li>
-                  <li>Social and entertainment choices</li>
-                  <li>Caring staff who encourage residents’ full potential</li>
-                  <li>Social worker support for residents and family</li>
+                 <li>Assistance with daily living tasks</li>
+                 <li>Indoor pool (with whirlpool), gardens and courtyards for recreation</li>
+                 <li>Educational and intergenerational programs</li>
+                 <li>Social and entertainment choices</li>
+                 <li>Caring staff who encourage residents’ full potential</li>
+                 <li>Social worker support for residents and family</li>
                </ul>
             </div>
-          
 
-          <div class="resPhotoViewer" style="float:left;">
+
+        </div>
+
+        <div class="jsSubContent jsc_2">
+
+
+
+
+          <div class="resPhotoViewer">
             <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_AvalonDesign.jpg" width="363" height="424">
           </div>
 
           <div class="jsSubContentText">
-            <div class="jsSubContentTitle">Avalon Design</div>
+            <h3 class="jsSubContentTitle">Avalon Design</h3>
             <p>The design of Avalon assisted living embraces two needs: that of the individual resident for minimal to moderate assistance; and that of the couple where only one person needs such help but they wish to keep living together. In either instance, Avalon’s caring staff provides help to the minimal extent needed, mindful of the resident’s need to maintain independence to the fullest extent possible. For couples, this frees the independent spouse from the burden of the caregiver role. For couples-floor eligibility, one spouse must be independent; and one, age 62.</p>
           </div>
-          
-        </div>
-        
-        <div class="jsSubContent jsc_3">
 
-
-            <div class="jsSubContentFlex" style="padding: 10px 20px 4px;">
+            <div class="jsSubContentFlex">
                <ul>
                  <li>24/7 access to RNs, LPNs and Certified Nursing Assistants</li>
                   <li>Assistance with daily living tasks</li>
@@ -132,24 +107,24 @@
                   <li>Social worker support for residents and family</li>
                </ul>
             </div>
+        </div>
+
+        <div class="jsSubContent jsc_3">
 
 
-          <div class="resPhotoViewer" style="float:left;">
-           
+
+
+          <div class="resPhotoViewer">
+
             <img class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_AvalonResidences.jpg" width="363" height="424">
           </div>
 
           <div class="jsSubContentText">
-              <div class="jsSubContentTitle">Avalon Residences</div>
+              <h3 class="jsSubContentTitle">Avalon Residences</h3>
               <p>Avalon apartments are ideal living spaces for residents who need minimal assistance. For an individual resident, the floor plan features a living-dining room, bedroom, kitchenette and bathroom. On Avalon’s couples floor, 15 two-bedroom, two-bath apartments enable couples to share life together while the dependent spouse receives assisted living help. Avalon residences have bay windows and crown molding, plus other distinctive appointments. Each Avalon floor has a central dining room, a resort-like spa, and comfortably furnished rooms for socializing with friends and family.</p>
           </div>
 
-        </div>
-          
-        <div class="jsSubContent jsc_4">
-
-
-            <div class="jsSubContentFlex" style="padding: 10px 20px 4px;">
+            <div class="jsSubContentFlex">
                <ul>
                  <li>24/7 access to RNs, LPNs and Certified Nursing Assistants</li>
                   <li>Assistance with daily living tasks</li>
@@ -160,38 +135,51 @@
                   <li>Social worker support for residents and family</li>
                </ul>
             </div>
+        </div>
 
+        <div class="jsSubContent jsc_4">
 
-          <div class="resPhotoViewer" style="float:left;">
-            <div class="jsSubPhotoNav" style="margin-top:360px;">
+          <div class="resPhotoViewer">
+            <div class="jsSubPhotoNav">
                 <div id="jsubphoto_1" class="jsSubPhotoThumb current_photo_thumb">
-                  <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/Thumbs/_MG_5890_th.jpg"> 
+                  <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/Thumbs/_MG_5890_th.jpg">
                 </div>
                 <div id="jsubphoto_2" class="jsSubPhotoThumb">
-                  <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/Thumbs/_MG_5877_th.jpg"> 
-                </div>           
+                  <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/Thumbs/_MG_5877_th.jpg">
+                </div>
             </div>
             <img class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_AsstdLiving_Pavilion1.jpg" width="363" height="424">
             <img class="jsubphoto_2 jsSubPhoto" src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_AsstdLiving_Pavilion2.jpg" width="363" height="424">
           </div>
 
           <div class="jsSubContentText">
-              <div class="jsSubContentTitle">Pavilion</div>
+              <h3 class="jsSubContentTitle">Pavilion</h3>
              <p> For assisted-living residents who need a moderate level of help  daily, Westminster Canterbury Richmond has the ideal living spaces  in the Pavilion. In these studio apartments, residents can live as  independently as their abilities allow under the patient and attentive care of our skilled staff. Kinds of help include dressing and bathing, basic incontinence care, and taking medications on schedule. Pavilion  residents retain the freedom to enjoy their favorite activities, while  they and their families remain secure in the knowledge that their care  needs are being both well and expertly met.</p>
           </div>
+
+            <div class="jsSubContentFlex">
+               <ul>
+                 <li>24/7 access to RNs, LPNs and Certified Nursing Assistants</li>
+                  <li>Assistance with daily living tasks</li>
+                  <li>Indoor pool (with whirlpool), gardens and courtyards for recreation</li>
+                  <li>Educational and intergenerational programs</li>
+                  <li>Social and entertainment choices</li>
+                  <li>Caring staff who encourage residents’ full potential</li>
+                  <li>Social worker support for residents and family</li>
+               </ul>
+            </div>
+
 
         </div>
 
       </div><!-- .subpageCopy -->
     </div>
-
-    <div style="clear:both;"></div>
   </div>
 
 
 
-  
- 
+
+
 <?php get_sidebar('footerbanner2'); ?>
 
 <?php get_footer(); ?>

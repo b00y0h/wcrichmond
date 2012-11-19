@@ -545,12 +545,11 @@ a img {border:none;}
 
 
 .jsSubContentText{
-  font-family: Palatino, "Times New Roman", Georgia, serif;
+  font-family: $georgia;
   font-size:18px;
   color:#333;
   overflow:auto;
   line-height:22px;
-  padding:40px 30px 0px 0px;
 }
 .jsSubContentText.single{
   padding:40px 60px 0px 20px;
@@ -560,13 +559,14 @@ a img {border:none;}
 .jsSubContentTitle{
  font-size:22px;
  color:#222;
+ @extend h3;
 }
 
 
 .jsSubContentFlex{
-  // min-height:364px;
+  font-family:$georgia;
   background-color:#e6e6e6;
-  padding:40px 20px 20px 20px;
+  padding:10px 20px 4px;
   font-size:14px;
 }
 .jsSubContentFlex ul{
@@ -593,11 +593,48 @@ a img {border:none;}
   display:block;
 }
   .subpageWrapper{
-    background-color:#ADD3CF;
-    body[class*="dining"] &{background-color:#482859;}
-    body[class*="arts"] &{background-color:#E94347;}
-    body[class*="health"] &{background-color:#86B243;}
-    body[class*="social"] &{background-color:#E5B257;}
-    body[class*="spiritual"] &{background-color:#6E8C95;}
+    background-color:$teal;
+    body[class*="dining"] &,body[class*="health-center"] &{background-color:$purple;}
+    body[class*="arts"] &{background-color:$salmon;}
+    body[class*="health"] &, body[class*="memory-support"] &{background-color:$green;}
+    body[class*="social"] &{background-color:$orange;}
+    body[class*="spiritual"] &{background-color:$dark-teal;}
+    body[class*="assisted-living"] &{background-color:$blue-teal;}
   }
+
+
+    ul.tertiaryNav{
+      margin:0;
+      padding:0;
+    }
+    ul.tertiaryNav li{
+      list-style:none;
+      background-color:#d31145;
+      /*height:37px;*/
+      margin:5px 0px;
+    }
+    ul.tertiaryNav li:hover{
+      background-color:#fff;
+    }
+    ul.tertiaryNav li:hover a{
+      color:#d31145;
+      background-color:#fff;
+    }
+    ul.tertiaryNav li.current_page_item{
+      margin-left:-30px;
+    }
+    ul.tertiaryNav li.current_page_item a{
+      padding-right:105px;
+    }
+    ul.tertiaryNav li a{
+      font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+      text-transform:uppercase;
+      text-decoration:none;
+      color:#FFF;
+      background-color:#d31145;
+      font-size:14px;
+      padding:10px 75px 10px 10px;
+      width:200px;
+      display:block;
+    }
 

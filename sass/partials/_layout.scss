@@ -1,3 +1,17 @@
+.oneoftwelve {@include span-columns(1 of 12);}
+.twooftwelve {@include span-columns(2 of 12);}
+.threeoftwelve {@include span-columns(3 of 12);}
+.fouroftwelve {@include span-columns(4 of 12);}
+.fiveoftwelve {@include span-columns(5 of 12);}
+.sixoftwelve {@include span-columns(6 of 12);}
+.sevenoftwelve {@include span-columns(7 of 12);}
+.eightoftwelve {@include span-columns(8 of 12);}
+.nineoftwelve {@include span-columns(9 of 12);}
+.tenoftwelve {@include span-columns(10 of 12);}
+.elevenoftwelve {@include span-columns(11 of 12);}
+.twelveoftwelve {@include span-columns(12 of 12);}
+.omega {@include omega;}
+
 #contentWrapper {
     @include outer-container;
     header {
@@ -75,20 +89,40 @@
 }
 .row {@include outer-container;}
 
+.subpageWrapper {
+    @include clearfix;
+}
 .subpageNavigation {
         @include span-columns(2);
 }
 .subpageContentWrapper {
     @include span-columns(10);
     @include omega();
-    .jsSubPhotoViewer {
+    .jsSubPhotoViewer,.resPhotoViewer {
         @include span-columns(5 of 10);
+        img {width:100%;height:auto;}
     }
     .jsSubContentText {
         @include span-columns(3 of 10);
     }
     .jsSubContentFlex {
         @include span-columns(2 of 10);
+    }
+    &.full {
+        @include fill-parent;
+        .oneoftwelve {@include span-columns(1 of 12);}
+        .twooftwelve {@include span-columns(2 of 12);}
+        .threeoftwelve {@include span-columns(3 of 12);}
+        .fouroftwelve {@include span-columns(4 of 12);}
+        .fiveoftwelve {@include span-columns(5 of 12);}
+        .sixoftwelve {@include span-columns(6 of 12);}
+        .sevenoftwelve {@include span-columns(7 of 12);}
+        .eightoftwelve {@include span-columns(8 of 12);}
+        .nineoftwelve {@include span-columns(9 of 12);}
+        .tenoftwelve {@include span-columns(10 of 12);}
+        .elevenoftwelve {@include span-columns(11 of 12);}
+        .twelveoftwelve {@include span-columns(12 of 12);}
+        .omega {@include omega;}
     }
 }
 
@@ -111,4 +145,8 @@
 }
 .lt-ie9 #sidebar {
     margin-right:0;
+}
+
+.resPhotoViewer {
+
 }

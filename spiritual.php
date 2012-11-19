@@ -52,7 +52,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Spiritual Life</div>
+          <h3 class="jsSubContentTitle">Spiritual Life</h3>
           <p>
             Exploring aspects of spiritual life and taking part in spiritual activities are a big part of our community. The Chaplain’s Lecture Series features guest speakers on a wide range of religious subjects. The weekly schedule includes nearly two dozen opportunities for prayer, study and discussion that is respectful of all faith traditions.
           </p>

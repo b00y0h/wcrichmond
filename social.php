@@ -69,7 +69,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Events &amp; Series</div>
+          <h3 class="jsSubContentTitle">Events &amp; Series</h3>
           <p>
             A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like. Visit <a href="<?php bloginfo('home');?>/news/">News &amp; Calendar</a> for information on recent and upcoming activities.
           </p>
@@ -95,7 +95,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Volunteer, Anyone?</div>
+          <h3 class="jsSubContentTitle">Volunteer, Anyone?</h3>
           <p>
            Residents enrich our community by taking part in its day-to-day operation in meaningful ways. Volunteers raise funds for the Foundation, and run a number of campus shops. Many more serve on committees for everything from finance, flowers, and hosting tours to healthcare visitation, recreation and technology. A desire to help out has many outlets here.
          </p>
@@ -109,7 +109,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Excursions &amp; Travel</div>
+          <h3 class="jsSubContentTitle">Excursions &amp; Travel</h3>
           <p>
            Our residents get up and go! There are short excursions to tour Richmond, picnics, museums, Maymont, concerts, festivals, malls and the state fair. Day trips go to Washington D.C. tours, to Kennedy Center performances, the National D-Day Memorial, Monticello and Poplar Forest. And longer trips may go anywhere.
          </p>

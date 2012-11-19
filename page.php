@@ -1,4 +1,4 @@
-<?php get_header(); ?> 
+<?php get_header(); ?>
 <script type="text/javascript" charset="utf-8">
   jQuery(document).ready(function($){
       // $ is now safe within this function
@@ -11,37 +11,50 @@
           $(".pageColumn").css('height',parseFloat(side_h+80)+"px");
         }
       }, 150);
-      
-      
+
+
   })
 </script>
 
-<div class="pageContentWrap">
-  
-  <div class="pageColumn">
-    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-      
-      <div class="post page" id="post-<?php the_ID(); ?>">
-        
-        <div class="pageTitle"><h1><?php the_title();?></h1></div>
-        
- 	      <div class="entry">
-    		  <?php the_content(); ?>
-      	</div>
+<h1 class="blogHeading"><?php the_title();?></h1>
+<div class="row">
+            <!--BEGIN #primary .hfeed-->
+            <div id="primary" class="hfeed">
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-      </div> <!-- .post -->
+                <!--BEGIN .hentry -->
+                <div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+                    <?php
+                    get_template_part( 'content', 'page');
+                    ?>
+                <!--END .hentry-->
+                </div>
 
-    <?php endwhile; endif; ?>
-  </div>
-  
-  <div class="pageSidebar">
-    <?php get_sidebar('page'); ?>
-  </div>
-  <div style="clear:both"></div>
-</div>
+                <?php endwhile; ?>
+            <?php else : ?>
 
-<?php if(in_array($_SERVER['REMOTE_ADDR'],array("74.110.159.100"))) : ?>
-   <?php get_sidebar('footerbanner'); ?>
-<?php endif; ?>
+                <!--BEGIN #post-0-->
+                <div id="post-0" <?php post_class(); ?>>
+
+                    <h2 class="entry-title"><?php _e('Error 404 - Not Found', 'wcrichmond') ?></h2>
+
+                    <!--BEGIN .entry-content-->
+                    <div class="entry-content">
+                        <p><?php _e("Sorry, but you are looking for something that isn't here.", "wcrichmond") ?></p>
+                    <!--END .entry-content-->
+                    </div>
+
+                <!--END #post-0-->
+                </div>
+
+            <?php endif; ?>
+
+    <!--END #primary .hfeed-->
+    </div>
+<?php get_sidebar(); ?>
+
+</div> <!-- .row -->
+<?php  get_template_part( 'sidebar', 'footerbanner-lifestyle-lifecare' ); ?>
+
 
 <?php get_footer(); ?>

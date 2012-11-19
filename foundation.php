@@ -8,11 +8,11 @@ get_header(); ?>
       $(".jsubNavItem").click(function(){
         $(".jsubNavItem").removeClass("current");
         $(this).addClass('current');
-        
+
         var block = $(this).attr('id');
         $(".jsSubContent").removeClass("current_sub_content");
         $("."+block).addClass("current_sub_content");
-        
+
       })
   })
 </script>
@@ -28,17 +28,17 @@ get_header(); ?>
     height:480px;
   }
   .jsSubContentText{
-    
+
   }
 </style>
 
 <div class="subpageWrapper">
-  
+
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
   <div style="clear:both;"></div>
-  
+
   <div class="subpageNavigation">
     <ul>
       <li id="jsc_1" class="jsubNavItem current">
@@ -52,17 +52,17 @@ get_header(); ?>
       </li>
     </ul>
   </div>
-  
+
   <div class="subpageContentWrapper">
-    <div class="subpageCopy">    
+    <div class="subpageCopy">
       <div class="jsSubContent jsc_1 current_sub_content">
-        
+
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/foundation.jpg" width="363" height="424">
         </div>
-        
+
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Overview</div>
+          <h3 class="jsSubContentTitle">Overview</h3>
           <p>Since 1980, Westminster Canterbury Foundation has had a single focus: <strong>improving the lives of those we serve every day.</strong> Even before Westminster Canterbury Richmond opened its doors 1975, our founders began raising Fellowship assistance - charitable funds to assist older adults with significant financial need to become and remain residents. As our community and its needs grew, our support grew right along with it, thanks to successful fundraising and the generosity of donors.</p>
 
          <p> Our <a href="/foundation/programs/#fellowship">Annual Fellowship</a> Fund, our only annual appeal, is solely to provide Fellowship grants.</p>
@@ -70,21 +70,21 @@ get_header(); ?>
          <p> Special projects fundraising has helped make possible enhanced <a href="http://www.wcrichmond.org/foundation/programs/#health-services">health services</a>, <a href="http://www.wcrichmond.org/foundation/programs/#wellness">wellness</a> and <a href="http://www.wcrichmond.org/foundation/programs/#child-development">Child Development Center</a> programming, <a href="http://www.wcrichmond.org/foundation/programs/#pastoral-care">pastoral care</a>, <a href="http://www.wcrichmond.org/foundation/programs/#memory-support">memory support therapy</a>, <a href="http://www.wcrichmond.org/foundation/programs/#performing-arts">performing</a> and <a href="http://www.wcrichmond.org/foundation/programs/#studio-arts">studio arts</a>, and <a href="http://www.wcrichmond.org/foundation/programs/#employee-education">employee education</a> assistance.</p>
 
           <p>Current and planned <a href="/foundation/ways-to-give/">charitable gifts</a> from donors, for restricted and unrestricted purposes, make a meaningful difference in the quality of life and care at Westminster Canterbury Richmond.</p>
-          
+
 					<p>For more information, please call <br>804-264-6066.</p>
-					
+
         </div>
       </div>
-      
+
       <div class="jsSubContent jsc_2">
-        
+
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/foundation.jpg" width="363" height="424">
         </div>
-        
+
         <div class="jsSubContentText single" style="width:400px;">
-          <div class="jsSubContentTitle">Westminster Canterbury Foundation Board of Trustees</div>
-          
+          <h3 class="jsSubContentTitle">Westminster Canterbury Foundation Board of Trustees</h3>
+
           <style type="text/css" media="screen">
             .boardMembers{
               font-size:14px;
@@ -93,7 +93,7 @@ get_header(); ?>
               font-size:16px;
             }
           </style>
-          
+
           <div class="boardMembers">
             <p><strong>David D. Addison, Esq.</strong><br>
             Attorney, Williams Mullen</p>
@@ -168,26 +168,26 @@ get_header(); ?>
             Retired Chairman and CEO, Morton G. Thalhimer, Inc.</p>
 
             <p><strong>Michael D. Williams</strong><br>
-            Director of Wealth Management, StellarOne Bank</p>          
+            Director of Wealth Management, StellarOne Bank</p>
           </div>
         </div>
       </div>
-      
+
       <div class="jsSubContent jsc_3">
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/foundation.jpg" width="363" height="424">
         </div>
-    
-        
+
+
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Westminster Canterbury Foundation Staff</div>
+          <h3 class="jsSubContentTitle">Westminster Canterbury Foundation Staff</h3>
           <p>
             Kelly del Campo Merricks, CFRE<br>
              Director Resource Development<br>
             804.264.6702<br>
             <a href="mailto:&#x4B;&#x4D;&#x65;&#x72;&#x72;&#x69;&#x63;&#x6B;&#x73;&#x40;&#x77;&#x63;&#x72;&#x69;&#x63;&#x68;&#x6D;&#x6F;&#x6E;&#x64;&#x2E;&#x6F;&#x72;&#x67;">KMerricks@wcrichmond.org</a>
           </p>
-          <p>   
+          <p>
             Virginia S. “Ginny” Purcell, CFRE<br>
             Senior Development Officer<br>
             804.264.6202<br>
@@ -207,21 +207,21 @@ get_header(); ?>
            <a href="mailto:&#x4B;&#x48;&#x65;&#x6E;&#x64;&#x65;&#x72;&#x73;&#x6F;&#x6E;&#x40;&#x77;&#x63;&#x72;&#x69;&#x63;&#x68;&#x6D;&#x6F;&#x6E;&#x64;&#x2E;&#x6F;&#x72;&#x67;">KHenderson@wcrichmond.org</a>
           </p>
 
-           <p> 
+           <p>
              Anita E. Adkins<br>
             Fundraising Services Coordinator<br>
             804.264.6066<br>
             <a href="mailto:&#x41;&#x41;&#x64;&#x6B;&#x69;&#x6E;&#x73;&#x40;&#x77;&#x63;&#x72;&#x69;&#x63;&#x68;&#x6D;&#x6F;&#x6E;&#x64;&#x2E;&#x6F;&#x72;&#x67;">AAdkins@wcrichmond.org</a>
           </p>
        </div>
-       
+
       </div>
-      
-      
+
+
     </div>
     </div><!-- .subpageCopy -->
   </div>
-  
+
   <div style="clear:both;"></div>
   <?php get_sidebar('footerbanner'); ?>
 </div>

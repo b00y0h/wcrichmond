@@ -86,7 +86,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Aquatic Center</div>
+          <h3 class="jsSubContentTitle">Aquatic Center</h3>
           <p>
            The aquatics area of the Aquatic and Fitness Center offers a heated therapeutic pool for laps, aerobics or even playing with grandchildren. The weekly schedule of nearly 50 aquatics activities includes free and lap-swim times in the comfortable three-to-four foot depth.
          </p>
@@ -114,7 +114,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Fitness Center</div>
+          <h3 class="jsSubContentTitle">Fitness Center</h3>
           <p>
            The fitness area of the Aquatic and Fitness Center offers machines and free weights, cardio equipment, a floor exercise room, a variety of group fitness classes weekly, and a certified trainer plus three full-time fitness specialists to demonstrate and assist with equipment.
          </p>
@@ -128,7 +128,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Brain Fitness</div>
+          <h3 class="jsSubContentTitle">Brain Fitness</h3>
           <p>
            Our computer-based brain fitness program may be accessed on public computers available around campus. Six areas of mental acuity exercise comprehension through the full range of mental activity using puzzles and other fun games. Reserved time slots ensure availability.
          </p>
@@ -152,7 +152,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Health Clinic</div>
+          <h3 class="jsSubContentTitle">Health Clinic</h3>
           <p>
            Our Health Clinic is open daily and staffed with nurses to help you monitor your health and prevent illness. Residents may make appointments with our full time medical director or continue seeing their current physician, or see both. Specialists in podiatry, ophthalmology, psychiatry, audiology, dentistry and other fields also maintain regular hours in the clinic.
          </p>
@@ -177,7 +177,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Pharmacy</div>
+          <h3 class="jsSubContentTitle">Pharmacy</h3>
           <p>
            Our pharmacy stocks everything from over-the-counter to special-order medications and is at your service daily, Monday through Friday. Customer records are carefully monitored to safeguard against drug interactions and prevent duplication. Pharmacists are always available for private medication counseling.
          </p>

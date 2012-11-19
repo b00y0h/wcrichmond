@@ -122,7 +122,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Overview</div>
+          <h3 class="jsSubContentTitle">Overview</h3>
           <p>
             Whether you choose a charming one-bedroom Tower residence, a spacious <a href="#garden-apartments">Garden</a> or <a href="#courtyard">Courtyard apartment</a> or a freestanding residence in <a href="#glebe-homes">The Glebe</a> or <a href="#homes-on-the-green">Homes on the Green</a>, you'll find a floor plan that suits your lifestyle and budget. All include individual climate controls, local phone service, basic cable TV, weekly housekeeping and linen service. Customize your residence to your taste and furnish it with your favorite pieces. You'll feel right at home.
          </p>
@@ -169,7 +169,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">The Tower</div>
+          <h3 class="jsSubContentTitle">The Tower</h3>
           <p>
            The Tower offers 15 appealing floor plans, from cozy studios to one- and two-bedroom residences with dining rooms and well equipped kitchens. All have large windows, plush carpet and ample closet space, with community amenities a short, enclosed walk away.
          </p>
@@ -241,7 +241,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">The Courtyard</div>
+          <h3 class="jsSubContentTitle">The Courtyard</h3>
           <p>
             Tall windows flood our one-, two- and three-bedroom Courtyard residences with natural light. Each of the ten versatile floor plans – most with den or sunroom; all with balcony or patio – feature nine foot ceilings and can be decorated to personal tastes.
           </p>
@@ -290,7 +290,7 @@ get_header(); ?>
           </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Garden Apartments</div>
+          <h3 class="jsSubContentTitle">Garden Apartments</h3>
           <p>
             With parking just outside, the Garden Apartments offer the feel of seclusion with close proximity to all our community has to offer. Each of 11 floor plans features ceilings nine feet or higher, arched windows, and a balcony or terrace—some, even a second balcony or den or crafts-room space.
           </p>
@@ -357,7 +357,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-           <div class="jsSubContentTitle">Homes on the Green</div>
+           <h3 class="jsSubContentTitle">Homes on the Green</h3>
            <p>Relaxing front porches. Sunny backyard patios. Nine-foot ceilings. Large master bedrooms. Two-car garages. Our Homes on the Green have everything you like in a spacious floor plan – some with sunrooms or dens, others with finished second floors, adding two more bedrooms. </p>
 
             <p>
@@ -407,7 +407,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">The Glebe Homes</div>
+          <h3 class="jsSubContentTitle">The Glebe Homes</h3>
           <p>Red brick exteriors, private yards with brick terraces or wood decks, and attached two-car garages characterize The Glebe Homes, our most spacious two-, three- and four-bedroom residences. Sunrooms, country kitchens, and gas fireplaces are just some of the many upgrades.  </p>
 
           <p>

@@ -108,7 +108,13 @@ img.full {
         background-color:#E6E6E6;
     }
 }
-
+.extra-sideitems {
+    .module {
+        display:block;
+        height:280px;
+        border:none;
+    }
+}
 #act-now {
     @extend .red-radial-gradient;
     padding-top:50px;

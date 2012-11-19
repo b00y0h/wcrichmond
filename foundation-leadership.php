@@ -8,11 +8,11 @@ get_header(); ?>
       $(".jsubNavItem").click(function(){
         $(".jsubNavItem").removeClass("current");
         $(this).addClass('current');
-        
+
         var block = $(this).attr('id');
         $(".jsSubContent").removeClass("current_sub_content");
         $("."+block).addClass("current_sub_content");
-        
+
       })
   })
 </script>
@@ -24,16 +24,16 @@ get_header(); ?>
   .resPhotoViewer{
      float:left;
    }
- 
+
 </style>
 
 <div class="subpageWrapper">
-  
+
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
   <div style="clear:both;"></div>
-  
+
   <div class="subpageNavigation">
     <ul>
       <li id="jsc_1" class="jsubNavItem current">
@@ -44,17 +44,17 @@ get_header(); ?>
       </li>
     </ul>
   </div>
-  
+
   <div class="subpageContentWrapper">
-    <div class="subpageCopy">    
+    <div class="subpageCopy">
       <div class="jsSubContent jsc_1 current_sub_content">
-        
+
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/" width="363" height="424">
         </div>
-        
+
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Westminster Canterbury Foundation Board of Trustees</div>
+          <h3 class="jsSubContentTitle">Westminster Canterbury Foundation Board of Trustees</h3>
           <p>
             David D. Addison, Esq., Attorney, Williams Mullen<br>
 
@@ -102,15 +102,15 @@ get_header(); ?>
           </p>
         </div>
       </div>
-      
+
       <div class="jsSubContent jsc_2">
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/" width="363" height="424">
         </div>
-    
-        
+
+
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">Westminster Canterbury Foundation Staff<div>
+          <h3 class="jsSubContentTitle">Westminster Canterbury Foundation Staff<h3>
           <p>
             [PHOTO]<br><br>
 
@@ -150,14 +150,14 @@ get_header(); ?>
             <a href="mailto:&#x41;&#x6E;&#x69;&#x74;&#x61;&#x5F;&#x61;&#x64;&#x6B;&#x69;&#x6E;&#x73;&#x40;&#x77;&#x65;&#x73;&#x63;&#x61;&#x6E;&#x72;&#x69;&#x63;&#x2E;&#x6F;&#x72;&#x67;">Anita_adkins@wescanric.org</a>
           </p>
        </div>
-       
+
       </div>
- 
+
     </div><!-- .subpageCopy -->
   </div>
-  
+
   <div style="clear:both;"></div>
-  
+
   <?php get_sidebar('footerbanner'); ?>
 </div>
 
@@ -168,7 +168,7 @@ get_header(); ?>
 
 <div class="post" id="post-<?php the_ID(); ?>">
 
-	
+
 
 	<div class="entry">
 		<?php //the_content(); ?>
@@ -178,7 +178,7 @@ get_header(); ?>
 
 <?php endwhile; endif; ?>
 
-	
+
 
 
 <?php get_footer(); ?>

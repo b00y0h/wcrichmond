@@ -91,7 +91,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Sara Belle November Theater</div>
+          <h3 class="jsSubContentTitle">Sara Belle November Theater</h3>
           <p>
             Located in our Cultural and Creative Arts Center, the Sara Belle November Theater stages events year round for our residents. Comfortable seating for 335, including wheelchair areas, makes music, dramas and other entertainment delightful for all. There is no charge for most programs; however, all events require tickets through the Low-November Box Office.
           </p>
@@ -130,7 +130,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">H. Scott November Gallery</div>
+          <h3 class="jsSubContentTitle">H. Scott November Gallery</h3>
           <p>
            Located in the Cultural and Creative Arts Center, the H. Scott November Gallery features quarterly exhibitions of original art by established and emerging Virginia artists. Paintings, sculpture and other works are selected by an experienced professional curator familiar with the local art community.
          </p>
@@ -154,7 +154,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-          <div class="jsSubContentTitle">Lettie Pate Whitehead Evans Room</div>
+          <h3 class="jsSubContentTitle">Lettie Pate Whitehead Evans Room</h3>
           <p>
           On Foundation Hall in the Cultural and Creative Arts Center is the Lettie Pate Whitehead Evans Room, a quiet and sumptuously furnished sitting room for reading, relaxing and meetings. Available to residents for family and other private functions.
           </p>
@@ -170,7 +170,7 @@ get_header(); ?>
 
 
         <div class="jsSubContentText single">
-          <div class="jsSubContentTitle">McGue-Millhiser Arts Studio</div>
+          <h3 class="jsSubContentTitle">McGue-Millhiser Arts Studio</h3>
           <p>
             The McGue-Millhiser Arts Studio has whatever the artist in you needs to answer your inner muse, from handlooms and artist easels to a wheelchair accessible kiln, plus room to work and plenty of natural light for inspiration. Popular classes include drawing, flower arranging, jewelry making, painting, printmaking, weaving and working in clay.
           </p>
@@ -197,7 +197,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentText">
-           <div class="jsSubContentTitle">Woodworking Shop</div>
+           <h3 class="jsSubContentTitle">Woodworking Shop</h3>
            <p>Our Woodworking Shop in the Cultural and Creative Arts Center has virtually all the hand and power tools for whatever project you may have in mind, with plenty of room for your neighbors’ projects, too. Weekly visits by a skilled instructor provide training and help as required. </p>
         </div>
 
@@ -210,7 +210,7 @@ get_header(); ?>
 
 
         <div class="jsSubContentText single">
-           <div class="jsSubContentTitle">Library</div>
+           <h3 class="jsSubContentTitle">Library</h3>
            <p>Conveniently located in The Tower, the Westminster Canterbury Library has a constantly growing collection of more than 5000 volumes, from popular classics to the latest best-sellers: in most genres of fiction and on a wide variety of non-fiction subjects. The library remains open at all hours. </p>
         </div>
 
