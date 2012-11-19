@@ -8,28 +8,33 @@ get_header(); ?>
       $(".jsubNavItem").click(function(){
         $(".jsubNavItem").removeClass("current");
         $(this).addClass('current');
-        
+
         var block = $(this).attr('id');
         $(".jsSubContent").removeClass("current_sub_content");
         $("."+block).addClass("current_sub_content");
-        
+
       })
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background-color:#6E8C95;
-  }
-</style>
+<div class="subpageWrapper">
 
-<div class="subpageWrapper" style="background:url(<?php bloginfo('template_directory');?>/images/backgrounds/LS_SpiritualLife.png) no-repeat;">
-  
+<?php $defaults = array(
+    'menu'            => 'lifestyle-submenu',
+    'container'       => 'div',
+    'container_class' => 'lifestyle-submenu',
+    'items_wrap'      => '%3$s',
+    'depth'           => 0
+);
+?>
+
+<?php wp_nav_menu( $defaults ) ?>
+
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
   <div style="clear:both;"></div>
-  
+
   <div class="subpageNavigation">
     <ul>
       <li id="jsc_1" class="jsubNavItem current">
@@ -37,15 +42,15 @@ get_header(); ?>
       </li>
     </ul>
   </div>
-  
+
   <div class="subpageContentWrapper">
-    <div class="subpageCopy">    
+    <div class="subpageCopy">
       <div class="jsSubContent jsc_1 current_sub_content">
-        
+
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/spiritual_gallery/SpiritualLife.jpg" width="363" height="424">
         </div>
-        
+
         <div class="jsSubContentText single">
           <div class="jsSubContentTitle">Spiritual Life</div>
           <p>
@@ -53,10 +58,10 @@ get_header(); ?>
           </p>
         </div>
       </div>
-      
+
     </div><!-- .subpageCopy -->
   </div>
-  
+
   <div style="clear:both;"></div>
 </div>
 
@@ -66,7 +71,7 @@ get_header(); ?>
 
 <div class="post" id="post-<?php the_ID(); ?>">
 
-	
+
 
 	<div class="entry">
 		<?php the_content(); ?>

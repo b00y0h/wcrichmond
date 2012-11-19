@@ -8,29 +8,33 @@ get_header(); ?>
       $(".jsubNavItem").click(function(){
         $(".jsubNavItem").removeClass("current");
         $(this).addClass('current');
-        
+
         var block = $(this).attr('id');
         $(".jsSubContent").removeClass("current_sub_content");
         $("."+block).addClass("current_sub_content");
-        
+
       })
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background-color:#E5B257;
-  }
- 
-</style>
+<div class="subpageWrapper">
 
-<div class="subpageWrapper" style="background:url(<?php bloginfo('template_directory');?>/images/backgrounds/LS_SocialEd.png) no-repeat;">
-  
+      <?php $defaults = array(
+    'menu'            => 'lifestyle-submenu',
+    'container'       => 'div',
+    'container_class' => 'lifestyle-submenu',
+    'items_wrap'      => '%3$s',
+    'depth'           => 0
+);
+?>
+
+<?php wp_nav_menu( $defaults ) ?>
+
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
   <div style="clear:both;"></div>
-  
+
   <div class="subpageNavigation">
     <ul>
       <li id="jsc_1" class="jsubNavItem current">
@@ -44,15 +48,15 @@ get_header(); ?>
       </li>
     </ul>
   </div>
-  
+
   <div class="subpageContentWrapper">
-    <div class="subpageCopy">    
+    <div class="subpageCopy">
       <div class="jsSubContent jsc_1 current_sub_content">
-        
+
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/social_gallery/LS_Social_Events.jpg" width="363" height="424">
         </div>
-        
+
         <div class="jsSubContentFlex">
           Featuring:
           <ul>
@@ -63,20 +67,20 @@ get_header(); ?>
              <li>Book Clubs</li>
           </ul>
         </div>
-        
+
         <div class="jsSubContentText">
           <div class="jsSubContentTitle">Events &amp; Series</div>
           <p>
-            A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like. Visit <a href="<?php bloginfo('home');?>/news/">News &amp; Calendar</a> for information on recent and upcoming activities. 
+            A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like. Visit <a href="<?php bloginfo('home');?>/news/">News &amp; Calendar</a> for information on recent and upcoming activities.
           </p>
         </div>
       </div>
-      
+
       <div class="jsSubContent jsc_2">
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/social_gallery/LS_Social_Volunteering.jpg" width="363" height="424">
         </div>
-        
+
         <div class="jsSubContentFlex">
            Featuring:
            <ul>
@@ -89,33 +93,33 @@ get_header(); ?>
              <li>Child Development Center (reading, helping on walks and art projects) </li>
            </ul>
         </div>
-        
+
         <div class="jsSubContentText">
           <div class="jsSubContentTitle">Volunteer, Anyone?</div>
           <p>
-           Residents enrich our community by taking part in its day-to-day operation in meaningful ways. Volunteers raise funds for the Foundation, and run a number of campus shops. Many more serve on committees for everything from finance, flowers, and hosting tours to healthcare visitation, recreation and technology. A desire to help out has many outlets here. 
+           Residents enrich our community by taking part in its day-to-day operation in meaningful ways. Volunteers raise funds for the Foundation, and run a number of campus shops. Many more serve on committees for everything from finance, flowers, and hosting tours to healthcare visitation, recreation and technology. A desire to help out has many outlets here.
          </p>
        </div>
-       
+
       </div>
-      
+
       <div class="jsSubContent jsc_3">
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/social_gallery/LS_Social_Excursions.jpg" width="363" height="424">
         </div>
- 
+
         <div class="jsSubContentText single">
           <div class="jsSubContentTitle">Excursions &amp; Travel</div>
           <p>
-           Our residents get up and go! There are short excursions to tour Richmond, picnics, museums, Maymont, concerts, festivals, malls and the state fair. Day trips go to Washington D.C. tours, to Kennedy Center performances, the National D-Day Memorial, Monticello and Poplar Forest. And longer trips may go anywhere. 
+           Our residents get up and go! There are short excursions to tour Richmond, picnics, museums, Maymont, concerts, festivals, malls and the state fair. Day trips go to Washington D.C. tours, to Kennedy Center performances, the National D-Day Memorial, Monticello and Poplar Forest. And longer trips may go anywhere.
          </p>
        </div>
-       
+
       </div>
- 
+
     </div><!-- .subpageCopy -->
   </div>
-  
+
   <div style="clear:both;"></div>
 </div>
 
@@ -125,7 +129,7 @@ get_header(); ?>
 
 <div class="post" id="post-<?php the_ID(); ?>">
 
-	
+
 
 	<div class="entry">
 		<?php the_content(); ?>
@@ -135,7 +139,7 @@ get_header(); ?>
 
 <?php endwhile; endif; ?>
 
-	
+
 <?php get_sidebar('footerbanner'); ?>
 
 <?php get_footer(); ?>

@@ -123,3 +123,24 @@
             }
         }
     }
+
+.lifestyle-submenu {
+   background-color:$white;
+   font-size:.9em;
+   padding:.75em;
+   text-align:center;
+   margin-bottom:.5em;
+   li {
+    display:inline;
+    &.current-menu-item {
+        a {
+            color:$red;
+        }
+    }
+    }
+   a {
+    padding:.75em;
+    text-decoration:none;
+    text-transform:uppercase;
+   }
+}

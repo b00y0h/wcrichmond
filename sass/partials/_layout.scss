@@ -75,6 +75,28 @@
 }
 .row {@include outer-container;}
 
+.subpageNavigation {
+        @include span-columns(2);
+}
+.subpageContentWrapper {
+    @include span-columns(10);
+    @include omega();
+    .jsSubPhotoViewer {
+        @include span-columns(5 of 10);
+    }
+    .jsSubContentText {
+        @include span-columns(3 of 10);
+    }
+    .jsSubContentFlex {
+        @include span-columns(2 of 10);
+    }
+}
+
+    .subpagePageTitle {
+        @include span-columns(5);
+        @include shift(7);
+    }
+
 // let's get these faux columns in check
 #contentWrapper .row { overflow:hidden; }
 #primary, #sidebar {

@@ -2,6 +2,11 @@ body {font-family:$header-font;}
 
 .clearfix {@include clearfix();}
 
+img.full {
+    width:100%;
+    height:auto;
+        }
+
 .pageWrapper {
     padding:0 20px;
 }
@@ -348,4 +353,8 @@ h2.entry-title {
     }
 }
 
+}
+
+.entry-footer {
+    margin-bottom:1em;
 }

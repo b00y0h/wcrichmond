@@ -459,3 +459,145 @@ a img {border:none;}
  position:relative;
  z-index:150;
 }
+
+/* Residence Styles */
+.subpageWrapper{
+  background-color:#A2D9D5;
+  margin-bottom:10px;
+  padding:15px 0px 20px 0px;
+}
+.subpagePageTitle{
+  background-color:rgba(255,255,255,.8);
+  padding:12px 25px 2px 100px;
+  text-align:right;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size:24px;
+}
+.subpageNavigation {z-index: 1000;position:relative;}
+.subpageNavigation ul {margin:0;padding:0;}
+.subpageNavigation li{
+  list-style:none;
+  padding:15px 15px 4px 0px;
+  margin-bottom:4px;
+  text-align:right;
+  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  font-size:15px;
+  background-color:#fff;
+  color:#555;
+  cursor:pointer;
+}
+.subpageNavigation li:hover{
+  color:#000;
+}
+.subpageNavigation li.current{
+    margin-right:-45px;
+  padding-right:45px;
+  background-color:#e6e6e6;
+
+}
+.subpageNavigation li.current:hover{
+  color:#555;
+}
+.subpageContentWrapper{
+  min-height:424px;
+  background-color:#fff;
+  background-color:rgba(255,255,255,.9);
+}
+.jsSubPhotoViewer{
+  float:left;
+  z-index:10;
+}
+
+.jsSubPhotoNav{
+  position:absolute;
+  margin:300px 0px 0px 0px;
+  padding:0px 5px 0px 25px;
+  width:333px;
+}
+
+.jsSubPhotoThumb{
+  width:50px;
+  height:50px;
+  border:2px solid #ccc;
+  background-color:#ccc;
+  float:left;
+  margin:0px 10px 6px 0px;
+  cursor:pointer;
+}
+
+.jsSubPhotoThumb.current_photo_thumb{
+  border:2px solid #fff;
+}
+
+.jsSubPhoto{
+  display:none;
+}
+
+.jsSubPhoto.current_photo{
+  display:block;
+}
+
+.subpageCopy{
+
+}
+
+
+.jsSubContentText{
+  font-family: Palatino, "Times New Roman", Georgia, serif;
+  font-size:18px;
+  color:#333;
+  overflow:auto;
+  line-height:22px;
+  padding:40px 30px 0px 0px;
+}
+.jsSubContentText.single{
+  padding:40px 60px 0px 20px;
+  width:350px;
+}
+
+.jsSubContentTitle{
+ font-size:22px;
+ color:#222;
+}
+
+
+.jsSubContentFlex{
+  // min-height:364px;
+  background-color:#e6e6e6;
+  padding:40px 20px 20px 20px;
+  font-size:14px;
+}
+.jsSubContentFlex ul{
+  padding:0;
+  margin:0;
+}
+
+.jsSubContentFlex ul li{
+  /*list-style-type:none;*/
+  margin:10px 0px 0px 20px;
+}
+
+.jsSubContent{
+  display:none;
+}
+.jsSubPhotoViewer {
+    img {
+       width:100%;
+        height:auto;
+    }
+}
+
+.jsSubContent.current_sub_content{
+  display:block;
+}
+  .subpageWrapper{
+    background-color:#ADD3CF;
+    body[class*="dining"] &{background-color:#482859;}
+    body[class*="arts"] &{background-color:#E94347;}
+    body[class*="health"] &{background-color:#86B243;}
+    body[class*="social"] &{background-color:#E5B257;}
+    body[class*="spiritual"] &{background-color:#6E8C95;}
+  }
+
