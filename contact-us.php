@@ -1,27 +1,45 @@
-<?php /* Template Name:Contact Us */ get_header(); ?> 
+<?php /* Template Name:Contact Us */ get_header(); ?>
 
-<div class="pageContentWrap">
-  
-  <div class="pageColumn">
-    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-      
-      <div class="post page" id="post-<?php the_ID(); ?>">
-        
- 	      <div class="entry">
-    		  <?php the_content(); ?>
-      	</div>
+<h1 class="blogHeading"><?php the_title();?></h1>
+<div class="row">
+            <!--BEGIN #primary .hfeed-->
+            <div id="primary" class="hfeed">
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-      </div> <!-- .post -->
+                <!--BEGIN .hentry -->
+                <div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+                    <?php
+                    get_template_part( 'content', 'page');
+                    ?>
+                <!--END .hentry-->
+                </div>
 
-    <?php endwhile; endif; ?>
-  </div>
-  
-  <div class="pageSidebar">
-    <?php get_sidebar('page'); ?>
-  </div>
-  <div style="clear:both"></div>
-</div>
-<!-- Closed Loop -->
+                <?php endwhile; ?>
+            <?php else : ?>
+
+                <!--BEGIN #post-0-->
+                <div id="post-0" <?php post_class(); ?>>
+
+                    <h2 class="entry-title"><?php _e('Error 404 - Not Found', 'wcrichmond') ?></h2>
+
+                    <!--BEGIN .entry-content-->
+                    <div class="entry-content">
+                        <p><?php _e("Sorry, but you are looking for something that isn't here.", "wcrichmond") ?></p>
+                    <!--END .entry-content-->
+                    </div>
+
+                <!--END #post-0-->
+                </div>
+
+            <?php endif; ?>
+
+    <!--END #primary .hfeed-->
+    </div>
+<?php get_sidebar('contact'); ?>
+
+</div> <!-- .row -->
+<?php  get_template_part( 'sidebar', 'footerbanner-lifestyle-lifecare' ); ?>
+
+
 <IMG SRC="http://ad.adlegend.com/ping?spacedesc=1087894_1061349_1x1_1061349_1061349&amp;db_afcr=123&amp;group=WMC&amp;event=ContactUs" WIDTH=1 HEIGHT=1 ALT=" ">
-
-<?php get_footer(); ?>
+<?php get_footer(); ?><!-- Closed Loop -->

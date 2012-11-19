@@ -1795,74 +1795,80 @@ h2.entry-title {
   background-color: #cc2933;
   line-height: 2em;
   text-align: center;
-  color: white; }
-  /* line 287, sass/_styles.scss */
+  color: white;
+  text-transform: uppercase; }
+  /* line 288, sass/_styles.scss */
   #sidebar h3 a, #sidebar .jsSubContentTitle a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
+/* line 295, sass/_styles.scss */
+#sidebar.contact-sidebar h3, #sidebar.contact-sidebar .jsSubContentTitle {
+  background-color: white;
+  color: black;
+  margin: 0; }
 
-/* line 296, sass/_styles.scss */
+/* line 304, sass/_styles.scss */
 .blog-list-archive {
   font-family: 'QuicksandBold'; }
-  /* line 298, sass/_styles.scss */
+  /* line 306, sass/_styles.scss */
   .blog-list-archive .archive-sub-menu {
     display: none; }
-  /* line 301, sass/_styles.scss */
+  /* line 309, sass/_styles.scss */
   .blog-list-archive li {
     list-style: none;
     line-height: 1.2em; }
-  /* line 306, sass/_styles.scss */
+  /* line 314, sass/_styles.scss */
   .blog-list-archive > li:before {
     content: "\25B6";
     position: relative;
     left: -20px;
     font-size: .5em; }
-  /* line 312, sass/_styles.scss */
+  /* line 320, sass/_styles.scss */
   .blog-list-archive > li.selected:before {
     content: "\25BC"; }
-  /* line 316, sass/_styles.scss */
+  /* line 324, sass/_styles.scss */
   .blog-list-archive ul {
     padding-left: .6em; }
-  /* line 319, sass/_styles.scss */
+  /* line 327, sass/_styles.scss */
   .blog-list-archive a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8em; }
 
-/* line 324, sass/_styles.scss */
+/* line 332, sass/_styles.scss */
 .post-type-archive-video-items #primary {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 328, sass/_styles.scss */
+/* line 336, sass/_styles.scss */
 .video-items {
   margin-bottom: 3em;
   padding-left: 20px;
   padding-right: 20px;
   border-right: 1px solid #676767; }
-  /* line 333, sass/_styles.scss */
+  /* line 341, sass/_styles.scss */
   .video-items:nth-child(2n+1) {
     border-right: none; }
-  /* line 334, sass/_styles.scss */
+  /* line 342, sass/_styles.scss */
   .video-items img {
     width: 100%;
     height: auto; }
-  /* line 338, sass/_styles.scss */
+  /* line 346, sass/_styles.scss */
   .video-items h2 {
     color: #cc2933;
     border-bottom: none;
     font-size: 1em; }
-  /* line 343, sass/_styles.scss */
+  /* line 351, sass/_styles.scss */
   .video-items p {
     font-family: 'QuicksandLight';
     line-height: 1.5em;
     font-size: .9em; }
-  /* line 348, sass/_styles.scss */
+  /* line 356, sass/_styles.scss */
   .video-items.featured {
     margin-top: 3em;
     border-left: none; }
-    /* line 351, sass/_styles.scss */
+    /* line 359, sass/_styles.scss */
     .video-items.featured .entry-content {
       zoom: 1; }
       /* line 18, sass/bourbon/addons/_clearfix.scss */
@@ -1872,18 +1878,39 @@ h2.entry-title {
       /* line 23, sass/bourbon/addons/_clearfix.scss */
       .video-items.featured .entry-content:after {
         clear: both; }
-      /* line 354, sass/_styles.scss */
+      /* line 362, sass/_styles.scss */
       .video-items.featured .entry-content div {
         padding-left: 20px;
         padding-right: 20px; }
-    /* line 356, sass/_styles.scss */
+    /* line 364, sass/_styles.scss */
     .video-items.featured h2 {
       margin-top: 0;
       padding-top: 0; }
 
-/* line 364, sass/_styles.scss */
+/* line 372, sass/_styles.scss */
 .entry-footer {
   margin-bottom: 1em; }
+
+/* line 376, sass/_styles.scss */
+.tel, .email {
+  background-color: #cc2933;
+  color: white;
+  display: block;
+  line-height: 1.2em;
+  padding: 1em 1em .8em;
+  border-bottom: 1px solid white; }
+  /* line 383, sass/_styles.scss */
+  .tel:last-of-type, .email:last-of-type {
+    margin-bottom: 1em; }
+  /* line 386, sass/_styles.scss */
+  .tel span, .email span {
+    display: block; }
+  /* line 389, sass/_styles.scss */
+  .tel .type, .email .type {
+    text-transform: uppercase; }
+  /* line 392, sass/_styles.scss */
+  .tel .value, .email .value {
+    font-weight: bold; }
 
 /* line 1, sass/partials/_slidedeck.scss */
 .lens-wc-richmond {

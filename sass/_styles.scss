@@ -284,10 +284,18 @@ h2.entry-title {
         line-height:2em;
         text-align:center;
         color:$white;
+        text-transform:uppercase;
         a {
             color:$white;
             text-decoration:none;
             text-transform:uppercase;
+        }
+    }
+    &.contact-sidebar {
+        h3 {
+            background-color:$white;
+            color:$dark-text;
+            margin:0;
         }
     }
 }
@@ -363,4 +371,25 @@ h2.entry-title {
 
 .entry-footer {
     margin-bottom:1em;
+}
+
+.tel, .email {
+    background-color:$red;
+    color:$white;
+    display:block;
+    line-height:1.2em;
+    padding:1em 1em .8em;
+    border-bottom:1px solid $white;
+    &:last-of-type {
+        margin-bottom:1em;
+    }
+    span {
+        display:block;
+    }
+    .type {
+        text-transform:uppercase;
+    }
+    .value {
+        font-weight:bold;
+    }
 }
