@@ -1,9 +1,8 @@
 <?php get_header(); ?>
 
-<div class="pageContentWrap">
-  
-  <div class="pageColumn">
-      
+<div class="row">
+            <div id="primary">
+
       <div class="post">
 
   			<h2>Page Not Found</h2>
@@ -14,15 +13,11 @@
 
   		</div> <!-- .post -->
 
-  </div>
-  
-  <div class="pageSidebar">
-    <?php get_sidebar('page'); ?>
-  </div>
-  <div style="clear:both"></div>
+<!--END #primary .hfeed-->
 </div>
 
+<?php get_sidebar(); ?>
+
+</div> <!-- .row -->
 
 <?php get_footer(); ?>
-
-		
