@@ -1,0 +1,15 @@
+input {
+    text-transform:uppercase;
+}
+
+.gform_wrapper input[type=text],
+.gform_wrapper input[type=url],
+.gform_wrapper input[type=email],
+.gform_wrapper input[type=tel],
+.gform_wrapper input[type=number],
+.gform_wrapper input[type=password] {
+    @include border-radius(4px);
+    border:2px solid $darkgrey;
+    padding:.5em!important;
+    font-family: 'QuicksandBold'!important;
+}

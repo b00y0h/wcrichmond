@@ -393,3 +393,47 @@ h2.entry-title {
         font-weight:bold;
     }
 }
+.hero {
+    @extend .clearfix;
+    color:$white;
+    position:relative;
+    margin:0 -60px;
+    background-color:$red;
+    // background:$red url('images/would-love-to-hear-from-you.png') no-repeat left bottom;
+    .column1, .column2 {
+        @include span-columns(5 of 10);
+        position:relative;
+    }
+    p {
+        padding:1em .5em 1em 0;
+        line-height:1.3em;
+        margin-bottom:0;
+    }
+    .noshow {
+        text-indent:-9999em;
+    }
+    img.source-image {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+}
+
+
+.page-template-contact-us-php {
+    #primary h3 {
+        background-color:$white!important;
+        font-family: 'QuicksandBook';
+        line-height:1.5em!important;
+        margin:1em 0important;
+        margin-left:-60px!important;
+        padding:.5em!important;
+        padding-left:60px!important;
+        text-transform:uppercase;
+        width:70%!important;
+        @include box-shadow(0 5px 5px rgba(0,0,0,.2));
+    }
+}
+
+

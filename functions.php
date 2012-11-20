@@ -514,3 +514,5 @@ function add_sharing()
        <!-- AddThis Button END -->
    </div>
    <?php }
+
+
