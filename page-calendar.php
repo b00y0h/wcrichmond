@@ -1,4 +1,4 @@
-<?php /* Template Name:Contact Us */ get_header(); ?>
+<?php /* Template Name:Calendar */ get_header(); ?>
 
 <h1 class="blogHeading"><?php the_title();?></h1>
 <div class="row">
@@ -24,26 +24,22 @@
                 <!--END .hentry-->
                 </div>
 
-                <?php endwhile; ?>
-            <?php else : ?>
-
-                <!--BEGIN #post-0-->
-                <div id="post-0" <?php post_class(); ?>>
-
-                    <h2 class="entry-title"><?php _e('Error 404 - Not Found', 'wcrichmond') ?></h2>
-
-                    <!--BEGIN .entry-content-->
-                    <div class="entry-content">
-                        <p><?php _e("Sorry, but you are looking for something that isn't here.", "wcrichmond") ?></p>
-                    <!--END .entry-content-->
-                    </div>
-
-                <!--END #post-0-->
-                </div>
-
-            <?php endif; ?>
-
+                <?php endwhile;  endif; ?>
     <!--END #primary .hfeed-->
+        <div class="inner-wrapper">
+            <div id='upcoming-events'><a href="/news/master-calendar/?ai1ec_cat_ids=7">Vew all upcoming Events</a></div>
+            <div id='local-calendars' class="calendar-list">
+                <a href="">Avalon Calendar</a>
+                <a href="">Pavilion Calendar</a>
+                <a href="">Monticello Calendar</a>
+                <a href="">Gabels Calendar</a>
+            </div> <!-- .other-local-calendars -->
+            <div id="offsite-calendars" class="calendar-list">
+                <a href="">Westminster Canterbury<br><span>Shenandoah Calendar</span></a>
+                <a href="">Westminster Canterbury<br><span>Chesapeake Calendar</span></a>
+                <a href="">Westminster Canterbury<br><span>Piedmont Calendar</span></a>
+            </div>
+        </div>
     </div>
 <?php get_sidebar('calendar'); ?>
 

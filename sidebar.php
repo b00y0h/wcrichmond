@@ -6,7 +6,6 @@
 
     /* Widgetised Area */
     if( is_page() ) {
-
         $children = '';
         $ancestors =  get_post_ancestors($post);
         //print_r($ancestors);

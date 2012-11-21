@@ -436,4 +436,45 @@ h2.entry-title {
     }
 }
 
+.inner-wrapper {
+    margin-left:-60px;
+    margin-right:-60px;
+}
+// calendar Stuff
+#upcoming-events {
+    margin-bottom: 2em;
+    background-color:$red;
+    padding:.5em;
+    color:$white;
+    text-align:right;
+    a {
+        color:$white;
+        text-decoration:none;
+        text-transform:uppercase;
+    }
+}
+.calendar-list {
+    @extend .grey-border-top;
+    @include clearfix();
+    a {
+        background-color:$red;
+        display:block;
+        float:left;
+        text-align:center;
+        text-transform:uppercase;
+        text-decoration:none;
+        color:$white;
+        margin-right:1%;
+        padding:1em .5em;
+        &:last-of-type {margin-right:0;}
+    }
+}
+#local-calendars {
+    a {
+        width:24.25%;
+    }
+}
+#offsite-calendars {
+    a {width:32.6%;background-color:$darkgrey;}
 
+}

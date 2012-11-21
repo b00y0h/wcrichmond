@@ -1546,7 +1546,7 @@ img.full {
   margin-bottom: 1em; }
 
 /* line 57, sass/_styles.scss */
-.grey-border-top, .triptic, .diptic, #extra-footer-home, #footer {
+.grey-border-top, .triptic, .diptic, #extra-footer-home, #footer, .calendar-list {
   border-top: 1px solid #8d8d8d;
   padding-top: 1em;
   margin-top: 1em; }
@@ -1936,6 +1936,58 @@ h2.entry-title {
   width: 70%!important;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); }
+
+/* line 439, sass/_styles.scss */
+.inner-wrapper {
+  margin-left: -60px;
+  margin-right: -60px; }
+
+/* line 444, sass/_styles.scss */
+#upcoming-events {
+  margin-bottom: 2em;
+  background-color: #cc2933;
+  padding: .5em;
+  color: white;
+  text-align: right; }
+  /* line 450, sass/_styles.scss */
+  #upcoming-events a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+/* line 456, sass/_styles.scss */
+.calendar-list {
+  zoom: 1; }
+  /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .calendar-list:before, .calendar-list:after {
+    content: "";
+    display: table; }
+  /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .calendar-list:after {
+    clear: both; }
+  /* line 459, sass/_styles.scss */
+  .calendar-list a {
+    background-color: #cc2933;
+    display: block;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-right: 1%;
+    padding: 1em .5em; }
+    /* line 469, sass/_styles.scss */
+    .calendar-list a:last-of-type {
+      margin-right: 0; }
+
+/* line 473, sass/_styles.scss */
+#local-calendars a {
+  width: 24.25%; }
+
+/* line 478, sass/_styles.scss */
+#offsite-calendars a {
+  width: 32.6%;
+  background-color: #8e8e8e; }
 
 /* line 1, sass/partials/_slidedeck.scss */
 .lens-wc-richmond {
