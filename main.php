@@ -1,10 +1,13 @@
 <?php /* Template Name: Home Page */
 
 get_header(); ?>
-<div id="homeBanner">
-      <?php echo do_shortcode('[SlideDeck2 id=1992 ress=1]'); ?>
-      <?php echo do_shortcode('[SlideDeck2 id=2003 ress=1]'); ?>
-</div>
+            <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+              <div class="post" id="homeBanner">
+                      <?php the_content(); ?>
+              </div> <!-- .post#homebanner-->
+
+            <?php endwhile; endif; ?>
 
 <?php get_sidebar('footerbanner'); ?>
 
