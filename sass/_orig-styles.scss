@@ -499,14 +499,13 @@ a img {border:none;}
   background-color:#fff;
   background-color:rgba(255,255,255,.9);
 }
-.jsSubPhotoViewer{
-  float:left;
-  z-index:10;
-}
 
+.resPhotoViewer, .jsSubPhotoViewer {
+    position:relative;
+}
 .jsSubPhotoNav{
   position:absolute;
-  margin:300px 0px 0px 0px;
+  bottom:30px;
   padding:0px 5px 0px 25px;
   width:333px;
 }
@@ -535,6 +534,7 @@ a img {border:none;}
 
 
 .jsSubContentText{
+    padding-top:1em;
   font-family: $georgia;
   font-size:18px;
   color:#333;

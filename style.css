@@ -420,7 +420,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 15.68627%;
-  padding-top: 42px; }
+  padding-top: 43px; }
   /* line 63, sass/neat/grid/_grid.scss */
   .subpageNavigation:last-child {
     margin-right: 0; }
@@ -1324,19 +1324,18 @@ a img {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9); }
 
-/* line 502, sass/_orig-styles.scss */
-.jsSubPhotoViewer {
-  float: left;
-  z-index: 10; }
+/* line 503, sass/_orig-styles.scss */
+.resPhotoViewer, .jsSubPhotoViewer {
+  position: relative; }
 
-/* line 507, sass/_orig-styles.scss */
+/* line 506, sass/_orig-styles.scss */
 .jsSubPhotoNav {
   position: absolute;
-  margin: 300px 0px 0px 0px;
+  bottom: 30px;
   padding: 0px 5px 0px 25px;
   width: 333px; }
 
-/* line 514, sass/_orig-styles.scss */
+/* line 513, sass/_orig-styles.scss */
 .jsSubPhotoThumb {
   width: 50px;
   height: 50px;
@@ -1346,20 +1345,21 @@ a img {
   margin: 0px 10px 6px 0px;
   cursor: pointer; }
 
-/* line 524, sass/_orig-styles.scss */
+/* line 523, sass/_orig-styles.scss */
 .jsSubPhotoThumb.current_photo_thumb {
   border: 2px solid #fff; }
 
-/* line 528, sass/_orig-styles.scss */
+/* line 527, sass/_orig-styles.scss */
 .jsSubPhoto {
   display: none; }
 
-/* line 532, sass/_orig-styles.scss */
+/* line 531, sass/_orig-styles.scss */
 .jsSubPhoto.current_photo {
   display: block; }
 
-/* line 537, sass/_orig-styles.scss */
+/* line 536, sass/_orig-styles.scss */
 .jsSubContentText {
+  padding-top: 1em;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   color: #333;
