@@ -512,3 +512,21 @@ h2.entry-title {
         color:$darkgrey;
     }
 }
+
+.full-calendar {
+    #ai1ec-calendar-view {
+        margin-top:2em;
+    }
+    .ai1ec-filters-container {
+    display:none;
+    }
+    #ai1ec-container {
+        margin:0;
+    }
+    .ai1ec-calendar-title {
+        margin-left:30px!important;
+    }
+    .ai1ec-title-buttons {
+        margin-right:30px!important;
+    }
+}

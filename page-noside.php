@@ -1,24 +1,19 @@
-<?php /*Template Name: Page nosidebar */ get_header(); ?> 
+<?php /*Template Name: Page nosidebar */ get_header(); ?>
+<h1 class="blogHeading"><?php the_title();?></h1>
+<div class="row full-calendar">
 
-<div class="pageContentWrap">
-  
-  <div class="pageColumn" style="border:none;">
-    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-      
-      <div class="post page" id="post-<?php the_ID(); ?>">
-        
-        <div class="pageTitle"><h1><?php the_title();?></h1></div>
-        
- 	      <div class="entry">
-    		  <?php the_content(); ?>
-      	</div>
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-      </div> <!-- .post -->
+    <!--BEGIN .hentry -->
+    <div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+        <?php
+        get_template_part( 'content', 'page');
+        ?>
+    <!--END .hentry-->
+    </div>
 
-    <?php endwhile; endif; ?>
-  </div>
+    <?php endwhile;  endif; ?>
 
-  <div style="clear:both"></div>
 </div>
 
 

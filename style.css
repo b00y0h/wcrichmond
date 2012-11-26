@@ -2021,6 +2021,22 @@ h2.entry-title {
     background-color: #e6e6e6;
     color: #8e8e8e; }
 
+/* line 517, sass/_styles.scss */
+.full-calendar #ai1ec-calendar-view {
+  margin-top: 2em; }
+/* line 520, sass/_styles.scss */
+.full-calendar .ai1ec-filters-container {
+  display: none; }
+/* line 523, sass/_styles.scss */
+.full-calendar #ai1ec-container {
+  margin: 0; }
+/* line 526, sass/_styles.scss */
+.full-calendar .ai1ec-calendar-title {
+  margin-left: 30px!important; }
+/* line 529, sass/_styles.scss */
+.full-calendar .ai1ec-title-buttons {
+  margin-right: 30px!important; }
+
 /* line 1, sass/partials/_slidedeck.scss */
 .lens-wc-richmond {
   position: relative;
