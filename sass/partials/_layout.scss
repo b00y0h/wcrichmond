@@ -147,6 +147,12 @@
     margin-right:0;
 }
 
-.resPhotoViewer {
-
+footer {
+    .footerLogos {
+        @include span-columns(2);
+        padding:1em;
+    }
+    .copyText {
+        @include span-columns(10);
+    }
 }
