@@ -237,7 +237,6 @@ class LiveLifeWellWidget extends WP_Widget {
 
     </div>
     </div>
-    <div style="clear:both;"></div>
     <?php
 
       	/* After widget (defined by themes). */

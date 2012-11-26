@@ -99,7 +99,7 @@ get_header(); ?>
 
       <div class="jsSubContent jsc_2">
         <div class="jsSubPhotoViewer">
-          <div class="jsSubPhotoNav"  style="margin-top:360px;">
+          <div class="jsSubPhotoNav">
               <div id="jsubphoto_1" class="jsSubPhotoThumb current_photo_thumb">
                 <img src="<?php bloginfo('template_directory');?>/images/arts_gallery/Thumbs/HScottNovemberGallery_th.jpg">
               </div>
@@ -217,8 +217,6 @@ get_header(); ?>
 
     </div><!-- .subpageCopy -->
   </div>
-
-  <div style="clear:both;"></div>
 </div>
 
 

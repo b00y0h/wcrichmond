@@ -187,7 +187,7 @@ get_header(); ?>
     </div><!-- .subpageCopy -->
   </div>
 
-  <div style="clear:both;"></div>
+
 </div>
 
 

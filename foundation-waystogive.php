@@ -177,8 +177,6 @@ get_header(); ?>
 
     </div><!-- .subpageCopy -->
   </div>
-
-  <div style="clear:both;"></div>
 </div>
 <?php get_sidebar('footerbanner'); ?>
 

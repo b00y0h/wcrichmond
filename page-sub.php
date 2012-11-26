@@ -1,15 +1,13 @@
-<?php /* Template Name: Sub Page */ get_header(); ?> 
-  <div class="subpageWrapper" style="background:url(<?php bloginfo('template_directory');?>/images/backgrounds/LS_ResOpts.png) no-repeat;">
+<?php /* Template Name: Sub Page */ get_header(); ?>
+  <div class="subpageWrapper">
 
     <div class="subpagePageTitle">
       <?php the_title(); ?>
     </div>
-    <div style="clear:both;"></div>
-
-    <div class="subpageContentWrapper" style="width:1026px;">
-      <div class="subpageCopy">    
+    <div class="subpageContentWrapper">
+      <div class="subpageCopy">
         <div class="jsSubContent jsc_1 current_sub_content">
-          
+
            <?php if(!1): ?>
             <div class="jsSubContentFlex">
                <ul>
@@ -20,7 +18,7 @@
             </div>
             <?php endif; ?>
 
-          <div class="resPhotoViewer" style="float:left;">
+          <div class="resPhotoViewer">
             <img src="<?php bloginfo('template_directory');?>/images/residence_gallery/2_The_Courtyard/1_Courtyard.jpg" width="363" height="424">
           </div>
 
@@ -36,7 +34,7 @@
 
             <?php endwhile; endif; ?>
           </div>
-          
+
         </div>
 
         <div class="jsSubContent jsc_2">
@@ -63,14 +61,12 @@
 
       </div><!-- .subpageCopy -->
     </div>
-
-    <div style="clear:both;"></div>
   </div>
 
 
 
-  
- 
+
+
 <?php get_sidebar('footerbanner3'); ?>
 
 <?php get_footer(); ?>

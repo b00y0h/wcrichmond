@@ -66,7 +66,7 @@ get_header(); ?>
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/foundation.jpg" width="363" height="424">
         </div>
 
-        <div class="jsSubContentText single" style="width:400px;">
+        <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">Westminster Canterbury Foundation Board of Trustees</h3>
 
           <style type="text/css" media="screen">
@@ -205,8 +205,6 @@ get_header(); ?>
     </div>
     </div><!-- .subpageCopy -->
   </div>
-
-  <div style="clear:both;"></div>
   <?php get_sidebar('footerbanner'); ?>
 </div>
 

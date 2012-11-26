@@ -24,7 +24,7 @@ get_header(); ?>
   </div>
 
 
-  <div class="subpageContentWrapper" style="width:1025px;">
+  <div class="subpageContentWrapper">
     <div class="subpageCopy">
       <div class="jsSubContent jsc_1 current_sub_content">
 
@@ -32,7 +32,7 @@ get_header(); ?>
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/plannedgiving.jpg" width="363" height="424">
         </div>
 
-        <div class="jsSubContentText single" style="width:500px;">
+        <div class="jsSubContentText single">
           <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
             <div class="post page" id="post-<?php the_ID(); ?>">
@@ -65,8 +65,6 @@ get_header(); ?>
 
     </div><!-- .subpageCopy -->
   </div>
-
-  <div style="clear:both;"></div>
 </div>
 <?php get_sidebar('footerbanner'); ?>
 

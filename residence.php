@@ -134,7 +134,7 @@ get_header(); ?>
       <div class="jsSubContent jsc_2">
         <div class="jsSubPhotoViewer">
 
-          <div class="jsSubPhotoNav" style="margin-top:360px;">
+          <div class="jsSubPhotoNav">
               <div id="jsubphoto_1" class="jsSubPhotoThumb current_photo_thumb">
                 <img alt=""  src="<?php bloginfo('template_directory');?>/images/residence_gallery/Thumbs/1_Tower_th.jpg">
               </div>
@@ -175,9 +175,8 @@ get_header(); ?>
          </p>
 
          <p>
-           <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Fee Schedule</a>
-           <div style="clear:both;height:2px;"></div>
-           <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/tower_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Floorplans</a>
+           <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
+           <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/tower_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
          </p>
        </div>
 
@@ -247,9 +246,8 @@ get_header(); ?>
           </p>
 
           <p>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Fee Schedule</a>
-            <div style="clear:both;height:2px;"></div>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/courtyard_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Floorplans</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Fee Schedule</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/courtyard_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Floorplans</a>
           </p>
         </div>
 
@@ -257,7 +255,7 @@ get_header(); ?>
 
       <div class="jsSubContent jsc_4">
         <div class="jsSubPhotoViewer">
-          <div class="jsSubPhotoNav" style="margin-top:360px;">
+          <div class="jsSubPhotoNav">
               <div id="jsubphoto_1" class="jsSubPhotoThumb current_photo_thumb">
                 <img alt=""  src="<?php bloginfo('template_directory');?>/images/residence_gallery/Thumbs/1_GardenApts_th.jpg">
               </div>
@@ -296,9 +294,8 @@ get_header(); ?>
           </p>
 
           <p>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Fee Schedule</a>
-            <div style="clear:both;height:2px;"></div>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/garden_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Floorplans</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/garden_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
           </p>
 
         </div>
@@ -361,9 +358,8 @@ get_header(); ?>
            <p>Relaxing front porches. Sunny backyard patios. Nine-foot ceilings. Large master bedrooms. Two-car garages. Our Homes on the Green have everything you like in a spacious floor plan – some with sunrooms or dens, others with finished second floors, adding two more bedrooms. </p>
 
             <p>
-               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Fee Schedule</a>
-               <div style="clear:both;height:2px;"></div>
-               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/homes-on-the-green-floor-plans-11-2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Floorplans</a>
+               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
+               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/homes-on-the-green-floor-plans-11-2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
              </p>
         </div>
 
@@ -371,7 +367,7 @@ get_header(); ?>
 
       <div class="jsSubContent jsc_6">
         <div class="jsSubPhotoViewer">
-           <div class="jsSubPhotoNav" style="margin-top:360px;">
+           <div class="jsSubPhotoNav">
                 <div id="jsubphoto_1" class="jsSubPhotoThumb current_photo_thumb">
                   <img alt=""  src="<?php bloginfo('template_directory');?>/images/residence_gallery/Thumbs/1_Glebe_th.jpg">
                 </div>
@@ -411,9 +407,8 @@ get_header(); ?>
           <p>Red brick exteriors, private yards with brick terraces or wood decks, and attached two-car garages characterize The Glebe Homes, our most spacious two-, three- and four-bedroom residences. Sunrooms, country kitchens, and gas fireplaces are just some of the many upgrades.  </p>
 
           <p>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Fee Schedule</a>
-            <div style="clear:both;height:2px;"></div>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/glebe_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" style="margin-top:-10px;"> Floorplans</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/glebe_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
           </p>
         </div>
 
@@ -425,7 +420,6 @@ get_header(); ?>
     </div><!-- .subpageCopy -->
   </div>
 
-  <div style="clear:both;"></div>
 </div>
 
 

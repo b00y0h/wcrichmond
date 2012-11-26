@@ -12,9 +12,9 @@
             setup_postdata($post);
        ?>
        <div class="footerNewsBlock">
-         <div style="padding:5px 0px;"><a class="blogSnippetLink" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-         <div style="font-size:12px;padding-bottom:5px;font-family: 'Century Gothic', Trebuchet, Helvetica, Arial, sans-serif;"><?php the_date();?></div>
-         <p style="font-size:13px;">
+         <div><a class="blogSnippetLink" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+         <div><?php the_date();?></div>
+         <p>
          <?php
           $content= get_the_content();
           echo the_excerpt();
@@ -24,7 +24,7 @@
        <?php endforeach; ?>
 
     </div>
-    <div class="newsReadMore" style="font-family: 'Century Gothic', Trebuchet, Helvetica, Arial, sans-serif;font-size:12px">
+    <div class="newsReadMore">
       <a href="<?php bloginfo('home');?>/news/">READ MORE ></a>
     </div>
   </div>
@@ -36,5 +36,5 @@
     </a>
   </div>
 
-  <div style="clear:both;"></div>
+
 </div>
