@@ -63,9 +63,5 @@
         $(this).parent().siblings().removeClass('selected');
         return false;
     });
-
-
-
-
     });
   })(jQuery);

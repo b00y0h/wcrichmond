@@ -16,7 +16,6 @@ if ( ! function_exists( 'wcrichmond_setup' ) ):
             add_image_size( 'blog-index', 600, '', true); // blog index/single pages
             add_image_size('featured_preview', 55, 55, true);
 
-
             /* Register WP 3.0+ Menus ---------------------------------------------------*/
             register_nav_menus(
                 array(
