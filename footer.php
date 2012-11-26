@@ -90,6 +90,5 @@ cct.cct_log('0820-AP9aDgFe7V1i0e6w888E4EEA98E5C444C90689FF');
 </script>
 
 <?php wp_footer(); ?>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
