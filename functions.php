@@ -60,7 +60,7 @@ function _add_scripts_styles() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
 
     wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'application', get_template_directory_uri() . '/js/application-ck.js', array( 'jquery' ), '20120928', true );
+    wp_enqueue_script( 'application', get_template_directory_uri() . '/js/application.js', array( 'jquery' ), '20120928', true );
     wp_enqueue_script( 'modernizr',   get_template_directory_uri() . '/library/modernizr.js', null, '1.6', false);
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

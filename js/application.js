@@ -47,16 +47,16 @@
 
 
     // prettyPhoto
-    $(".vimeoVideos a[rel^='prettyPhoto']").prettyPhoto({
-        theme: 'light_rounded',
-        slideshow: false,
-        social_tools: '',
-        deeplinking: false
-    });
+    // $(".vimeoVideos a[rel^='prettyPhoto']").prettyPhoto({
+    //     theme: 'light_rounded',
+    //     slideshow: false,
+    //     social_tools: '',
+    //     deeplinking: false
+    // });
 
     // archive listing
     $('.blog-list-archive li ul').hide();
-    $('.blog-list-archive li a').click(function(){
+    $('.blog-list-archive > li > a').click(function(){
         $(this).parent().addClass('selected');
         $(this).parent().children('ul').slideDown(250);
         $(this).parent().siblings().children('ul').slideUp(250);

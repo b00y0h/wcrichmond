@@ -56,7 +56,7 @@
       if( is_array($years)){
         foreach($years as $year) {
         ?>
-            <li><a href="#"><?php echo $year; ?></a>
+            <li class="click-year"><a href="#"><?php echo $year; ?></a>
 
                 <ul class="archive-sub-menu">
                 <?php  $months = $wpdb->get_col("SELECT DISTINCT MONTH(post_date) FROM $wpdb->posts WHERE post_status = 'publish' AND post_type = 'post' AND YEAR(post_date) = '".$year."' ORDER BY post_date DESC");
