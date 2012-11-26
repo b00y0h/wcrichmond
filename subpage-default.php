@@ -17,16 +17,6 @@ get_header(); ?>
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background-color:#A2D9D5;
-  }
-  .subpagePageTitle{
-    background-color:#ECF6F6;
-  }
-
-</style>
-
 <div class="subpageWrapper">
 
   <div class="subpagePageTitle">

@@ -17,27 +17,11 @@ get_header(); ?>
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background:url(<?php bloginfo('template_directory');?>/images/foundation_bg.png) no-repeat;
-  }
-  .resPhotoViewer{
-    float:left;
-  }
-  .subpageWrapper{
-    height:480px;
-  }
-  .jsSubContentText{
-
-  }
-</style>
-
 <div class="subpageWrapper">
 
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
-  <div style="clear:both;"></div>
 
   <div class="subpageNavigation">
     <ul>

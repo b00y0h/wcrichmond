@@ -17,38 +17,11 @@ get_header(); ?>
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background:url(<?php bloginfo('template_directory');?>/images/foundation_bg.png) no-repeat;
-  }
-  .resPhotoViewer{
-    float:left;
-  }
-  .subpageWrapper{
-    height:520px;
-  }
-  .jsSubContentText{
-    height:410px;
-  }
-
-	@-moz-document url-prefix() {
-	    .jsubNavItem{
-				height:32px;
-				padding-top:5px;
-				line-height:17px;
-			}
-			.footerNewsBlock{
-				height:115px;
-			}
-	}
-</style>
-
 <div class="subpageWrapper waysToGiveWrapper">
 
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
-  <div style="clear:both;"></div>
 
   <div class="subpageNavigation">
     <ul>

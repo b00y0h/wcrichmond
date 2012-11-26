@@ -41,36 +41,11 @@ get_header(); ?>
 
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background:url(<?php bloginfo('template_directory');?>/images/programs_bg.png) no-repeat;
-  }
-  .subpageCopy{
-    height:585px;
-  }
-  .resPhotoViewer{
-    float:left;
-  }
-
-  .jsSubContent{
-    height:595px;
-  }
-
-  .jsSubContentText{
-    height:540px;
-  }
-  .jsSubContentFlex{
-    height:525px;
-  }
-
-</style>
-
 <div class="subpageWrapper">
 
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
-  <div style="clear:both;"></div>
 
   <div class="subpageNavigation">
     <ul>

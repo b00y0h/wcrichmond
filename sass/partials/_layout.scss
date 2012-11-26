@@ -91,11 +91,14 @@
 
 .subpageWrapper {
     @include clearfix;
+    text-align:right;
 }
 .subpageNavigation {
         @include span-columns(2);
+        padding-top:42px;
 }
 .subpageContentWrapper {
+    text-align:left;
     @include span-columns(10);
     @include omega();
     .jsSubPhotoViewer,.resPhotoViewer {
@@ -127,8 +130,9 @@
 }
 
     .subpagePageTitle {
-        @include span-columns(5);
-        @include shift(7);
+        display:inline-block;
+        right:0;
+        position:relative;
     }
 
 // let's get these faux columns in check

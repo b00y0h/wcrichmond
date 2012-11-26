@@ -404,7 +404,8 @@ h2 {
 
 /* line 92, sass/partials/_layout.scss */
 .subpageWrapper {
-  zoom: 1; }
+  zoom: 1;
+  text-align: right; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .subpageWrapper:before, .subpageWrapper:after {
     content: "";
@@ -413,18 +414,20 @@ h2 {
   .subpageWrapper:after {
     clear: both; }
 
-/* line 95, sass/partials/_layout.scss */
+/* line 96, sass/partials/_layout.scss */
 .subpageNavigation {
   display: block;
   float: left;
   margin-right: 1.17647%;
-  width: 15.68627%; }
+  width: 15.68627%;
+  padding-top: 42px; }
   /* line 63, sass/neat/grid/_grid.scss */
   .subpageNavigation:last-child {
     margin-right: 0; }
 
-/* line 98, sass/partials/_layout.scss */
+/* line 100, sass/partials/_layout.scss */
 .subpageContentWrapper {
+  text-align: left;
   display: block;
   float: left;
   margin-right: 1.17647%;
@@ -433,7 +436,7 @@ h2 {
   /* line 63, sass/neat/grid/_grid.scss */
   .subpageContentWrapper:last-child {
     margin-right: 0; }
-  /* line 101, sass/partials/_layout.scss */
+  /* line 104, sass/partials/_layout.scss */
   .subpageContentWrapper .jsSubPhotoViewer, .subpageContentWrapper .resPhotoViewer {
     display: block;
     float: left;
@@ -442,11 +445,11 @@ h2 {
     /* line 63, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubPhotoViewer:last-child, .subpageContentWrapper .resPhotoViewer:last-child {
       margin-right: 0; }
-    /* line 103, sass/partials/_layout.scss */
+    /* line 106, sass/partials/_layout.scss */
     .subpageContentWrapper .jsSubPhotoViewer img, .subpageContentWrapper .resPhotoViewer img {
       width: 100%;
       height: auto; }
-  /* line 105, sass/partials/_layout.scss */
+  /* line 108, sass/partials/_layout.scss */
   .subpageContentWrapper .jsSubContentText {
     display: block;
     float: left;
@@ -455,7 +458,7 @@ h2 {
     /* line 63, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubContentText:last-child {
       margin-right: 0; }
-  /* line 108, sass/partials/_layout.scss */
+  /* line 111, sass/partials/_layout.scss */
   .subpageContentWrapper .jsSubContentFlex {
     display: block;
     float: left;
@@ -464,10 +467,10 @@ h2 {
     /* line 63, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubContentFlex:last-child {
       margin-right: 0; }
-  /* line 111, sass/partials/_layout.scss */
+  /* line 114, sass/partials/_layout.scss */
   .subpageContentWrapper.full {
     width: 100%; }
-    /* line 113, sass/partials/_layout.scss */
+    /* line 116, sass/partials/_layout.scss */
     .subpageContentWrapper.full .oneoftwelve {
       display: block;
       float: left;
@@ -476,7 +479,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .oneoftwelve:last-child {
         margin-right: 0; }
-    /* line 114, sass/partials/_layout.scss */
+    /* line 117, sass/partials/_layout.scss */
     .subpageContentWrapper.full .twooftwelve {
       display: block;
       float: left;
@@ -485,7 +488,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .twooftwelve:last-child {
         margin-right: 0; }
-    /* line 115, sass/partials/_layout.scss */
+    /* line 118, sass/partials/_layout.scss */
     .subpageContentWrapper.full .threeoftwelve {
       display: block;
       float: left;
@@ -494,7 +497,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .threeoftwelve:last-child {
         margin-right: 0; }
-    /* line 116, sass/partials/_layout.scss */
+    /* line 119, sass/partials/_layout.scss */
     .subpageContentWrapper.full .fouroftwelve {
       display: block;
       float: left;
@@ -503,7 +506,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .fouroftwelve:last-child {
         margin-right: 0; }
-    /* line 117, sass/partials/_layout.scss */
+    /* line 120, sass/partials/_layout.scss */
     .subpageContentWrapper.full .fiveoftwelve {
       display: block;
       float: left;
@@ -512,7 +515,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .fiveoftwelve:last-child {
         margin-right: 0; }
-    /* line 118, sass/partials/_layout.scss */
+    /* line 121, sass/partials/_layout.scss */
     .subpageContentWrapper.full .sixoftwelve {
       display: block;
       float: left;
@@ -521,7 +524,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .sixoftwelve:last-child {
         margin-right: 0; }
-    /* line 119, sass/partials/_layout.scss */
+    /* line 122, sass/partials/_layout.scss */
     .subpageContentWrapper.full .sevenoftwelve {
       display: block;
       float: left;
@@ -530,7 +533,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .sevenoftwelve:last-child {
         margin-right: 0; }
-    /* line 120, sass/partials/_layout.scss */
+    /* line 123, sass/partials/_layout.scss */
     .subpageContentWrapper.full .eightoftwelve {
       display: block;
       float: left;
@@ -539,7 +542,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .eightoftwelve:last-child {
         margin-right: 0; }
-    /* line 121, sass/partials/_layout.scss */
+    /* line 124, sass/partials/_layout.scss */
     .subpageContentWrapper.full .nineoftwelve {
       display: block;
       float: left;
@@ -548,7 +551,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .nineoftwelve:last-child {
         margin-right: 0; }
-    /* line 122, sass/partials/_layout.scss */
+    /* line 125, sass/partials/_layout.scss */
     .subpageContentWrapper.full .tenoftwelve {
       display: block;
       float: left;
@@ -557,7 +560,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .tenoftwelve:last-child {
         margin-right: 0; }
-    /* line 123, sass/partials/_layout.scss */
+    /* line 126, sass/partials/_layout.scss */
     .subpageContentWrapper.full .elevenoftwelve {
       display: block;
       float: left;
@@ -566,7 +569,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .elevenoftwelve:last-child {
         margin-right: 0; }
-    /* line 124, sass/partials/_layout.scss */
+    /* line 127, sass/partials/_layout.scss */
     .subpageContentWrapper.full .twelveoftwelve {
       display: block;
       float: left;
@@ -575,31 +578,26 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .twelveoftwelve:last-child {
         margin-right: 0; }
-    /* line 125, sass/partials/_layout.scss */
+    /* line 128, sass/partials/_layout.scss */
     .subpageContentWrapper.full .omega {
       margin-right: 0; }
 
-/* line 129, sass/partials/_layout.scss */
+/* line 132, sass/partials/_layout.scss */
 .subpagePageTitle {
-  display: block;
-  float: left;
-  margin-right: 1.17647%;
-  width: 40.98039%;
-  margin-left: 59.01961%; }
-  /* line 63, sass/neat/grid/_grid.scss */
-  .subpagePageTitle:last-child {
-    margin-right: 0; }
+  display: inline-block;
+  right: 0;
+  position: relative; }
 
-/* line 135, sass/partials/_layout.scss */
+/* line 139, sass/partials/_layout.scss */
 #contentWrapper .row {
   overflow: hidden; }
 
-/* line 136, sass/partials/_layout.scss */
+/* line 140, sass/partials/_layout.scss */
 #primary, #sidebar {
   margin-bottom: -99999px;
   padding-bottom: 99999px!important; }
 
-/* line 140, sass/partials/_layout.scss */
+/* line 144, sass/partials/_layout.scss */
 #primary {
   display: block;
   float: left;
@@ -609,7 +607,7 @@ h2 {
   #primary:last-child {
     margin-right: 0; }
 
-/* line 143, sass/partials/_layout.scss */
+/* line 147, sass/partials/_layout.scss */
 #sidebar {
   display: block;
   float: left;
@@ -619,11 +617,11 @@ h2 {
   #sidebar:last-child {
     margin-right: 0; }
 
-/* line 146, sass/partials/_layout.scss */
+/* line 150, sass/partials/_layout.scss */
 .lt-ie9 #sidebar {
   margin-right: 0; }
 
-/* line 151, sass/partials/_layout.scss */
+/* line 155, sass/partials/_layout.scss */
 footer .footerLogos {
   display: block;
   float: left;
@@ -633,7 +631,7 @@ footer .footerLogos {
   /* line 63, sass/neat/grid/_grid.scss */
   footer .footerLogos:last-child {
     margin-right: 0; }
-/* line 155, sass/partials/_layout.scss */
+/* line 159, sass/partials/_layout.scss */
 footer .copyText {
   display: block;
   float: left;
@@ -1412,19 +1410,19 @@ a img {
 .subpageWrapper {
   background-color: #add3cf; }
   /* line 587, sass/_orig-styles.scss */
-  body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
-    background-color: #482859; }
-  /* line 588, sass/_orig-styles.scss */
-  body[class*="arts"] .subpageWrapper {
-    background-color: #e94347; }
-  /* line 589, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
+  /* line 588, sass/_orig-styles.scss */
+  body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
+    background-color: #482859; }
+  /* line 589, sass/_orig-styles.scss */
+  body[class*="arts"] .subpageWrapper {
+    background-color: #e94347; }
   /* line 590, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
   /* line 591, sass/_orig-styles.scss */
-  body[class*="spiritual"] .subpageWrapper {
+  body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
   /* line 592, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {

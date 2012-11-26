@@ -34,7 +34,6 @@ get_header(); ?>
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
-  <div style="clear:both;"></div>
 
   <div class="subpageNavigation">
     <ul>

@@ -10,32 +10,21 @@
       })
   })
 </script>
-  <div class="subpageWrapper" style="background:url(<?php bloginfo('template_directory');?>/images/backgrounds/LC_MMPHealthCenter.png) no-repeat;">
+  <div class="subpageWrapper">
 
     <div class="subpagePageTitle">
       Mary Morton Parsons Health Center
     </div>
-    <div style="clear:both;"></div>
 
-
-    <div class="subpageContentWrapper" style="width:1025px;">
+    <div class="subpageContentWrapper full row">
       <div class="subpageCopy">
-        <div class="jsSubContent jsc_1 current_sub_content">
+        <div class="jsSubContent jsc_1 current_sub_content single">
 
 
-            <div class="jsSubContentFlex" style="padding-top:30px;">
-               <ul>
-                 <li>Team philosophy integrates physical, speech and occupational therapies</li>
-                 <li>24/7 access to RNs, LPNs, certified nursing assistants and our physician medical director</li>
-                 <li>Record low turnover means staff have a comforting familiarity</li>
-                 <li>Indoor pool and whirlpool plus outdoor gardens and courtyards for recreation</li>
-                 <li>Access to Cultural and Creative Arts Center programs</li>
-               </ul>
-            </div>
 
 
-          <div class="resPhotoViewer" style="float:left;">
-            <div class="jsSubPhotoNav"  style="margin-top:360px;">
+          <div class="resPhotoViewer fiveoftwelve">
+            <div class="jsSubPhotoNav">
                 <div id="jsubphoto_1" class="jsSubPhotoThumb current_photo_thumb">
                   <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/Thumbs/_MG_3120_th.jpg">
                 </div>
@@ -51,25 +40,33 @@
             <img  class="jsubphoto_3 jsSubPhoto" src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_MMP3.jpg" width="363" height="424">
           </div>
 
-          <div class="jsSubContentText" style="width:404px;">
+          <div class="jsSubContentText fouroftwelve">
             <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
               <div class="post" id="post-<?php the_ID(); ?>">
-         	      <div class="entry">
-            		  <?php the_content(); ?>
-              	</div>
+                  <div class="entry">
+                      <?php the_content(); ?>
+                </div>
 
               </div> <!-- .post -->
 
             <?php endwhile; endif; ?>
           </div>
+        <div class="jsSubContentFlex threeoftwelve omega">
+           <ul>
+             <li>Team philosophy integrates physical, speech and occupational therapies</li>
+             <li>24/7 access to RNs, LPNs, certified nursing assistants and our physician medical director</li>
+             <li>Record low turnover means staff have a comforting familiarity</li>
+             <li>Indoor pool and whirlpool plus outdoor gardens and courtyards for recreation</li>
+             <li>Access to Cultural and Creative Arts Center programs</li>
+           </ul>
+        </div>
 
         </div>
 
       </div><!-- .subpageCopy -->
     </div>
 
-    <div style="clear:both;"></div>
   </div>
 
 

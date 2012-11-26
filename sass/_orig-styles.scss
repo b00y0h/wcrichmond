@@ -584,11 +584,11 @@ a img {border:none;}
 }
   .subpageWrapper{
     background-color:$teal;
+    body[class*="health"] &, body[class*="memory-support"] &{background-color:$green;}
     body[class*="dining"] &,body[class*="health-center"] &{background-color:$purple;}
     body[class*="arts"] &{background-color:$salmon;}
-    body[class*="health"] &, body[class*="memory-support"] &{background-color:$green;}
     body[class*="social"] &{background-color:$orange;}
-    body[class*="spiritual"] &{background-color:$dark-teal;}
+    body[class*="spiritual"] &, body[class*="foundation"] &{background-color:$dark-teal;}
     body[class*="assisted-living"] &{background-color:$blue-teal;}
   }
 

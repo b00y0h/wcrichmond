@@ -17,22 +17,11 @@ get_header(); ?>
   })
 </script>
 
-<style type="text/css" media="screen">
-  .subpageWrapper{
-    background-color:#A2D9D5;
-  }
-  .resPhotoViewer{
-     float:left;
-   }
-
-</style>
-
 <div class="subpageWrapper">
 
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
-  <div style="clear:both;"></div>
 
   <div class="subpageNavigation">
     <ul>
