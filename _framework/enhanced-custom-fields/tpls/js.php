@@ -1,7 +1,7 @@
 <?php
 global $post;
 ?>
-<script type="text/javascript" charset="utf-8">
+<script>
 (function ($) {
 	<?php if (isset($this->parent_page)): ?>
 	    $('#parent_id').change(function () {
@@ -63,7 +63,7 @@ global $post;
 		        }
 	    }).change();
 	<?php endif; ?>
-	
+
 	<?php if(isset($this->tax_slug) && isset($this->tax_term)): ?>
 		$('#<?php echo $this->tax_slug; ?>checklist input, #<?php echo $this->tax_slug; ?>-pop input').change(function() {
 			var cont = $('#<?php echo $this->id ?>');
@@ -77,6 +77,6 @@ global $post;
 			$('#<?php echo $this->id ?>').hide();
 		};
 	<?php endif; ?>
-	
+
 })(jQuery);
 </script>

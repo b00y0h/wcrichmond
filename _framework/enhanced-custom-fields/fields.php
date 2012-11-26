@@ -1,38 +1,38 @@
 <?php
 class ECF_Field {
-	var $type;	
+	var $type;
 	var $default_value;
 	var $value, $values = array();
-	
+
 	var $post_id;
-	
+
 	var $id;
-	
+
 	var $is_subfield = false;
-		
+
 	// whether this custom field can have more than one value
 	var $is_multiply = false;
-	
+
 	// ECF_Panel sets this once the field is attached to panel object
 	var $current_post_type = null;
-	
+
 	// whether this custom field can not be empty
 	var $_is_required = false;
-	
+
 	var $labels = array(
 		'add_field'=>'Add field ...',
 		'delete_field'=>'Delete field ...',
 	);
-	
+
 	function factory($type, $name, $label=null) {
 		$type = str_replace(" ", '', ucwords(str_replace("_", ' ', $type)));
-		
+
 		$class = "ECF_Field$type";
-		
+
 		if (!class_exists($class)) {
 			ecf_conf_error("Cannot add meta field $type -- unknow type. ");
 		}
-		
+
 		// Try to guess field label from it's name
 		if (is_null($label)) {
 			// remove the leading underscore(if it's there)
@@ -40,9 +40,9 @@ class ECF_Field {
 			// split the name into words and make them capitalized
 			$label = ucwords(str_replace('_', ' ', $label));
 		}
-		
+
 		if (substr($name, 0, 1)!='_') {
-			// add underscore to custom field name -- this will remove it from 
+			// add underscore to custom field name -- this will remove it from
 			// custom fields list in administration
 			$name = "_$name";
 		}
@@ -50,21 +50,21 @@ class ECF_Field {
 		$field->type = $type;
 	    return $field;
 	}
-	
+
 	function ECF_Field($name, $label) {
 	    $this->name = $name;
 	    $this->label = $label;
-	    
+
 	    $random_string = md5(mt_rand() . $this->name . $this->label);
 	    $random_string = substr($random_string, 0, 5); // 5 chars should be enough
 	    $this->id = 'ecf-'. $random_string;
-	    
+
 	    $this->init();
 	    if (is_admin()) {
 			$this->admin_init();
 		}
 		add_action('admin_init', array(&$this, 'wp_init'));
-	    
+
 	}
 	function load() {
 		if (empty($this->post_id)) {
@@ -82,7 +82,7 @@ class ECF_Field {
 	function admin_init() {}
 	function wp_init() {}
 	/* / */
-	
+
 	function multiply() {
 		$this->is_multiply = true;
 	    return $this;
@@ -98,13 +98,13 @@ class ECF_Field {
 		} else {
 			$this->value = $value;
 		}
-	    
+
 	}
 	function set_default_value($default_value) {
 	    $this->default_value = $default_value;
 	    return $this;
 	}
-	
+
 	function help_text($help_text) {
 		$this->help_text = $help_text;
 		return $this;
@@ -116,11 +116,11 @@ class ECF_Field {
 		$field_has_options = $this->is_multiply || $this->is_subfield;
 
 		$html = '
-		<tr class="ecf-field-container"> 
+		<tr class="ecf-field-container">
 			<td class="ecf-label"><label for="' . $this->id . '">' . $this->label . '</label></td>
 			<td ' . ($field_has_options ? '' : 'colspan="2"') . '>' . $field_html . $help_text . '</td>
 		';
-		
+
 		if ($this->is_multiply) {
 			$html .= '<td class="ecf-action-cell"><a href="#" class="clone-ecf ecf-action">' . $this->labels['add_field'] . '</a></td>';
 		} else if ($this->is_subfield) {
@@ -131,17 +131,17 @@ class ECF_Field {
 		$html .= '</tr>';
 		return $html;
 	}
-	
+
 	function set_value_from_input() {
 		if (!isset($_POST[$this->name])) { return; }
 		$value = $_POST[$this->name];
-	    $this->set_value($value);	
+	    $this->set_value($value);
 	}
-	
+
 	// abstract method
 	// Called before delete_post_meta
 	function delete($value) {
-		
+
 	}
 
 	function save() {
@@ -160,7 +160,7 @@ class ECF_Field {
 						continue;
 					}
 					$updated_value = $_POST[$this->name . "_updated_vals"][$key];
-					
+
 					// empty value removes the field
 					if (empty($updated_value)) {
 						$this->delete($original_value);
@@ -174,12 +174,12 @@ class ECF_Field {
 		} else {
 			update_post_meta($this->post_id, $this->name, $this->value);
 		}
-	    
+
 	}
 
 	// abstract method
 	function render() {}
-	
+
 	function build_html_atts($tag_atts) {
 	    $default = array(
 	    	'class'=>'ecf-field ecf-' . strtolower(get_class($this)),
@@ -189,33 +189,33 @@ class ECF_Field {
 	    if ($this->_is_required) {
 	    	$default['class'] .= ' required';
 	    }
-	    
+
 	    if (isset($tag_atts['class'])) {
 	    	$tag_atts['class'] .= ' ' . $default['class'];
 	    }
-	    
+
 	    if ($this->is_multiply) {
 	    	$tag_atts['name'] .= '[]';
 	    } else if ($this->is_subfield) {
 	    	$tag_atts['name'] .= '_updated_vals[' . $this->id . ']';
 	    }
-	    
+
 	    return array_merge($default, $tag_atts);
 	}
 
-	// Builds HTML for tag. 
+	// Builds HTML for tag.
 	// example usage:
 	// echo $this->build_tag('strong', array('class'=>'red'), 'I'm bold and red');
 	// ==> <strong class="red">I'm bold and red</strong>
 	function build_tag($tag, $atts, $content=null) {
 	    $atts_text = '';
-	    
+
 	    $create_hidden_field = false;
-	    
+
 	    foreach ($atts as $key=>$value) {
 	    	$atts_text .= ' ' . $key . '="' . esc_attr($value) . '"';
 	    }
-	  
+
 	    $return = '<' . $tag . $atts_text;
 	    if (!is_null($content)) {
 	    	$return .= '>' . $content . '</' . $tag . '>';
@@ -236,7 +236,7 @@ class ECF_Field {
 				$field->is_subfield = true;
 				$return .= $field->render();
 			}
-		} 
+		}
 		$return .= $this->render();
 		return $return;
 	}
@@ -247,27 +247,27 @@ class ECF_Field {
 }
 class ECF_FieldText extends ECF_Field {
 	function render() {
-		
+
 		$input_atts = $this->build_html_atts(array(
 			'type'=>'text',
 			'name'=>$this->name,
 			'value'=>$this->value,
 		));
 		$field_html = $this->build_tag('input', $input_atts);
-		
+
 	    return $this->render_row($field_html);
 	}
 }
 class ECF_FieldHidden extends ECF_Field {
 	function render() {
-		
+
 		$input_atts = $this->build_html_atts(array(
 			'type'=>'hidden',
 			'name'=>$this->name,
 			'value'=>$this->value,
 		));
 		$field_html = $this->build_tag('input', $input_atts);
-		
+
 	    return $this->render_row($field_html);
 	}
 }
@@ -296,7 +296,7 @@ class ECF_FieldTextarea extends ECF_Field {
 			include_once('tpls/richtext.php');
 			$field_html .= ob_get_clean();
 		}
-		
+
 	    return $this->render_row($field_html . $append);
 	}
 }
@@ -322,7 +322,7 @@ class ECF_FieldSelect extends ECF_Field {
 			'name'=>$this->name,
 		));
 		$select_html = $this->build_tag('select', $select_atts, $options);
-		
+
 	    return $this->render_row($select_html);
 	}
 	function multiply() {
@@ -336,34 +336,34 @@ class ECF_FieldFile extends ECF_Field {
 		    'type'=>'file',
 		    'name'=>$this->name,
 	    ));
-	   
+
 	    if ( !empty($this->value) ) {
-	    	
+
 	    	$input_html = $this->get_file_description();
-	    	
+
 		    if ($this->is_subfield) {
 		    	$input_html .= '<input type="hidden" name="' . $this->name . '_updated_vals[' . $this->id . ']" value="' .  $this->value. '">';
 		    }
-		    
+
 	    }
-	    
+
 	    if (isset($input_html)) { $input_html .= $this->build_tag('input', $atts); } else { $input_html = $this->build_tag('input', $atts); }
-	    
+
 	    $max_upload = (int) ini_get('upload_max_filesize');
 		$max_post = (int) ini_get('post_max_size');
 		$memory_limit = (int) ini_get('memory_limit');
 		$upload_mb = min($max_upload, $max_post, $memory_limit);
 	    $input_html .= '<div style="padding:4px 0 0 0; color:#555; font-size:11px;"><strong>Maximum upload file size: '.$upload_mb.'MB.</strong> (<a href="http://www.cyberciti.biz/faq/linux-unix-apache-increase-php-upload-limit/" target="_blank">Increase Limit</a>)</div>';
-	    
+
 	    return $this->render_row($input_html);
 	}
-	
+
 	function get_file_description() {
 		$file_name = explode('/',$this->value);
 		$file_name = $file_name[1];
 	    return '<div style="margin:0 0 10px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; background:#d8edf6; border:1px solid #9dc5d7; padding:10px;"><strong>Current File:</strong> <a href="' . home_url() . '/wp-content/uploads/' . $this->value . '" alt="" target="_blank">'.$file_name.'</a> (<a style="color:#990000" href="' . add_query_arg(array('delete_field' => $this->name, 'delete_value' => urlencode($this->value))) . '" class="delete-file">Delete File</a>)</div>';
 	}
-	
+
 	function load() {
 	    ECF_Field::load();
 		if (isset($_GET['delete_field']) && $_GET['delete_field']==$this->name && isset($_GET['delete_value']) && is_admin() ) {
@@ -371,7 +371,7 @@ class ECF_FieldFile extends ECF_Field {
 			if ( (!$this->is_multiply && $delete_value != $this->value) || ($this->is_multiply && !in_array($delete_value, $this->values))) {
 				return;
 			}
-			
+
 			$this->delete($delete_value);
 			delete_post_meta($this->post_id, $this->name, $delete_value);
 			header('Location: ' . remove_query_arg(array('delete_field', 'delete_value')));
@@ -381,12 +381,12 @@ class ECF_FieldFile extends ECF_Field {
 		if ( empty($_FILES[$this->name]) ) {
 			return;
 		}
-		
+
 		$files_queue = array();
 		$files_saved = array();
-		
+
 		$files = $_FILES[$this->name];
-		
+
 		if ( $this->is_multiply && !empty($_FILES[$this->name . '_updated_vals']) ) {
 			foreach ($_FILES[$this->name . '_updated_vals'] as $key => $fields) {
 				foreach ($fields as $field_id => $value) {
@@ -394,24 +394,24 @@ class ECF_FieldFile extends ECF_Field {
 			 		$files[$key][$new_index] = $value;
 			 		$files['is_update'][$new_index] = $field_id;
 				}
-			 } 
+			 }
 		}
-		
+
 		if ( is_array($files['name']) ) {
 			foreach ($files['name'] as $i => $file_name) {
 				$files_queue[] = array(
-					'name' => $files['name'][$i], 
-					'type' => $files['type'][$i], 
-					'tmp_name' => $files['tmp_name'][$i], 
-					'error' => $files['error'][$i], 
-					'size' => $files['size'][$i], 
+					'name' => $files['name'][$i],
+					'type' => $files['type'][$i],
+					'tmp_name' => $files['tmp_name'][$i],
+					'error' => $files['error'][$i],
+					'size' => $files['size'][$i],
 					'is_update' => (isset($files['is_update'][$i]) ? $files['is_update'][$i] : false ),
 				);
 			}
 		} else {
 			$files_queue[] = $files;
 		}
-		
+
 		foreach ($files_queue as $file) {
 			if ($file['error'] != 0) { continue; }
 			if ( isset($file['is_update']) && $file['is_update'] ) {
@@ -423,15 +423,15 @@ class ECF_FieldFile extends ECF_Field {
 				$files_saved[] = $this->save_file($file);
 			}
 		}
-		
+
 		if ( $this->is_multiply ) {
 			$this->set_value($files_saved);
 		} elseif( isset($files_saved[0]) ) {
 			$this->set_value($files_saved[0]);
 		}
-		
+
 	}
-	
+
 	function get_upload_path() {
 		$upload_path = get_option( 'upload_path' );
 		$upload_path = trim($upload_path);
@@ -440,40 +440,40 @@ class ECF_FieldFile extends ECF_Field {
 		}
 		return $upload_path;
 	}
-	
+
 	function save_file($file) {
 		// Build destination path
 		$upload_path = $this->get_upload_path();
-		
+
 		$file_ext = array_pop(explode('.', $file['name']));
-		
+
 		// Build file name (+path)
 		$file_path = $this->name . '/' . $this->post_id . '-' . substr(md5(rand()), 24) . '.' . $file_ext;
-		
+
 		$file_dest = $upload_path . DIRECTORY_SEPARATOR . $file_path;
 		if ( !file_exists( dirname($file_dest) ) ) {
 			mkdir( dirname($file_dest) );
 		}
-		
+
 		if ( !empty($this->value) && $this->value != $file_path) {
 			if ( file_exists($upload_path . DIRECTORY_SEPARATOR . $this->value) ) {
 				unlink($upload_path . DIRECTORY_SEPARATOR . $this->value);
 			}
 		}
-		
+
 		// Move file
 		if ( move_uploaded_file($file['tmp_name'], $file_dest) != FALSE ) {
 	    	return $file_path;
 		}
 	}
-	
+
 	function delete($value) {
 		$upload_path = $this->get_upload_path();
 		if ( file_exists($upload_path . DIRECTORY_SEPARATOR . $value) ) {
 			unlink($upload_path . DIRECTORY_SEPARATOR . $value);
 		}
 	}
-	
+
 	function multiply() {
 	    ecf_conf_error(get_class($this) . " cannot be multiply");
 	}
@@ -481,7 +481,7 @@ class ECF_FieldFile extends ECF_Field {
 
 class ECF_FieldImage extends ECF_FieldFile {
 	var $width, $height;
-	
+
 	function set_size($width, $height) {
 	    $this->width = intval($width);
 	    $this->height = intval($height);
@@ -493,27 +493,27 @@ class ECF_FieldImage extends ECF_FieldFile {
 	function save_file($file) {
 		// Build destination path
 		$upload_path = $this->get_upload_path();
-		
+
 		$file_ext = array_pop(explode('.', $file['name']));
-		
+
 		// Build image name (+path)
 		$image_path = $this->name . '/' . $this->post_id . '-' .  substr(md5(rand()), 24) . '.' . $file_ext;
-		
+
 		$file_dest = $upload_path . DIRECTORY_SEPARATOR . $image_path;
 		if ( !file_exists( dirname($file_dest) ) ) {
 			mkdir( dirname($file_dest) );
 		}
-		
+
 		if ( !empty($this->value) && $this->value != $image_path) {
 			if ( file_exists($upload_path . DIRECTORY_SEPARATOR . $this->value) ) {
 				unlink($upload_path . DIRECTORY_SEPARATOR . $this->value);
 			}
 		}
-		
+
 		// Move file
 		if ( move_uploaded_file($file['tmp_name'], $file_dest) != FALSE ) {
 	    	$this->set_value($image_path);
-	    	
+
 			// Resize if width and height are set
 			if ( !($this->width == null && $this->height == null)) {
 				$resized = image_resize($file_dest , $this->width, $this->height, true, 'tmp');
@@ -572,7 +572,7 @@ class ECF_FieldMap extends ECF_Field {
 		$this->lat = $lat;
 		$this->long = $long;
 		$this->zoom = $zoom;
-		
+
 		return $this;
 	}
 	function multiply() {
@@ -614,7 +614,7 @@ class ECF_FieldAddress extends ECF_FieldTextarea {
 }
 
 class ECF_FieldDate extends ECF_Field {
-	function init() {	
+	function init() {
 		ECF_Field::init();
 	}
 	function render() {
@@ -636,9 +636,9 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 	    'before_widget' => '<li id="%1$s" class="widget %2$s">',
 	    'after_widget' => '</li>',
 	    'before_title' => '<h2 class="widgettitle">',
-	    'after_title' => '</h2>',	
+	    'after_title' => '</h2>',
 	);
-	
+
 	function init() {
 		add_action('init', array($this, 'add_sidebar_opts_sidebars'));
 		add_action('init', array($this, 'setup_sidebars'));
@@ -646,11 +646,11 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 	function add_sidebar_opts_sidebars() {
 		$sidebars = $this->_get_sidebars();
 		$options = array();
-		
+
 		foreach ($sidebars as $sidebar) {
 			$options[$sidebar] = $sidebar;
 		}
-		
+
 		$this->add_options($options);
 		add_action('admin_footer', array($this, '_print_js'));
 
@@ -664,7 +664,7 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 		// Make sure that all needed fields are in the options array
 		foreach ($this->sidebar_options as $key => $value) {
 			if (!isset($sidebar_options[$key])) {
-				ecf_conf_error("Provide all sidebar options for $this->name ECF: <code>" . 
+				ecf_conf_error("Provide all sidebar options for $this->name ECF: <code>" .
 					implode(', ', array_keys($this->sidebar_options)) . "</code>");
 			}
 		}
@@ -699,9 +699,9 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 			} else {
 				$msg = '';
 			}
-			
+
 			$slug = strtolower(preg_replace('~-{2,}~', '', preg_replace('~[^\w]~', '-', $sidebar)));
-			
+
 			register_sidebar(array(
 				'name'=>$sidebar,
 				'id'=>$slug,
@@ -713,10 +713,10 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 			));
 		}
 	}
-	
+
 	function _print_js() {
 		?>
-		<script type="text/javascript" charset="utf-8">
+		<script>
 	   		jQuery(function ($) {
 	          	$('#<?php echo $this->id ?>').change(function () {
 	              	if ($(this).val()=='new') {
@@ -735,7 +735,7 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 		<?php
 	    // include_once(dirname(__FILE__) . '/tpls/ecf_choose-sidebar-js.php');
 	}
-	
+
 	function _get_sidebars() {
 		global $wp_registered_sidebars;
 	    $pages_with_sidebars = get_pages("meta_key=$this->name&hierarchical=0");
@@ -749,9 +749,9 @@ class ECF_FieldChooseSidebar extends ECF_FieldSelect {
 				$sidebars[$sidebar] = 1;
 			}
 		}
-		
+
 		$sidebars = array_keys($sidebars);
-		
+
 		return $sidebars;
 	}
 }
@@ -787,7 +787,7 @@ class ECF_FieldSet extends ECF_Field {
 				$options_atts['checked'] = "checked";
 			}
 			$options_atts = $this->build_html_atts($options_atts);
-			
+
 			if ( $this->limit_options > 0 && $loopCount > $this->limit_options ) {
 				$options .= '<p style="display:none">' . $this->build_tag('input', $options_atts, $value) . '</p>';
 			} else {
@@ -797,10 +797,10 @@ class ECF_FieldSet extends ECF_Field {
 				}
 			}
 		}
-		
+
 	    return $this->render_row('<div class="ecf-set-list">' . $options . '</div>');
 	}
-	
+
 	function save() {
 		if (isset($_POST[$this->name])) {
 			update_post_meta($this->post_id, $this->name, $_POST[$this->name]);
@@ -808,7 +808,7 @@ class ECF_FieldSet extends ECF_Field {
 			update_post_meta($this->post_id, $this->name, array());
 		}
 	}
-	
+
 	function multiply() {
 	    ecf_conf_error(get_class($this) . " cannot be multiply");
 	}
@@ -843,7 +843,7 @@ class ECF_FieldForeignKey extends ECF_FieldSelect {
 			if (!isset($_GET['post_type']) && $this->current_post_type=='post') {
 				$should_show_filter = true;
 			}
-			
+
 			if ($this->is_filter_on_view_all && $should_show_filter) {
 		    	add_action('restrict_manage_posts', array(&$this, 'print_view_all_filters'));
 		    	add_action('pre_get_posts', array(&$this, 'filter_view_all_entries'));
@@ -860,9 +860,9 @@ class ECF_FieldForeignKey extends ECF_FieldSelect {
 	}
 	function print_view_all_filters() {
 	    $this->lazy_loader();
-	    
+
 	    $post_type_obj = get_post_type_object($this->post_type);
-	    
+
 	    $filter_name = "_$this->post_type";
 	    echo '<select name="' . $filter_name . '">';
 	    echo "<option value=''>Show All " . $post_type_obj->labels->name . "</option>";
@@ -905,24 +905,24 @@ class ECF_FieldColor extends ECF_Field {
 		ECF_Field::init();
 		add_action('admin_footer', array($this, 'print_js'));
 	}
-	
+
 	function set_default_color($new_color) {
 		$this->default_color = $new_color;
 	}
-	
+
     function render() {
     	if (!$this->default_color) {
     		$this->default_color = '#666666';
     	}
-    	
+
     	$curr_value = ($this->value) ? ($this->value) : $this->default_color;
-    	
+
         $field_html = '<input type="text" readonly="readonly" name="' . $this->name . '" value="' . $curr_value . '" id="' . $this->name . '" class="' . $this->html_class_name . '" /><span style="background: ' . $curr_value . ';" class="color-preview">&nbsp;</span>';
 	    return $this->render_row($field_html);
 	}
     function print_js() {
         ?>
-        <script type="text/javascript" charset="utf-8">
+        <script>
             jQuery(function ($) {
                 $('.color-preview').click(function () {
                     $(this).prev().click();
@@ -944,7 +944,7 @@ class ECF_FieldColor extends ECF_Field {
 }
 # select box with options - pages
 class ECF_FieldChoosePages extends ECF_FieldSelect {
-	
+
 	function lazy_loader() {
 		# hit the database only when it's reaaaaaly needed
 		$raw_pages = get_pages();
@@ -952,7 +952,7 @@ class ECF_FieldChoosePages extends ECF_FieldSelect {
 		foreach ($raw_pages as $p) {
 			$nice_pages[$p->ID] = $p->post_title;
 		}
-		
+
 		$this->options = $nice_pages;
 	}
 	function render() {
@@ -973,7 +973,7 @@ class ECF_FieldLinkSelect extends ECF_Field {
 	    $this->options = $options;
 	    return $this;
 	}
-	
+
     function render() {
     	if (empty($this->options)) {
     		ecf_conf_error("Add some options to $this->name");
@@ -990,19 +990,19 @@ class ECF_FieldLinkSelect extends ECF_Field {
 			'name'=>$this->name,
 		));
 		$select_html = $this->build_tag('select', $select_atts, $options);
-		
+
 	    return $this->render_row($select_html);
 	}
-	
+
 	function multiply() {
 	    ecf_conf_error(get_class($this) . " cannot be multiply");
 	}
-	
+
 	function print_js() {
         ?>
-        <script type="text/javascript" charset="utf-8">
+        <script>
             jQuery(function ($) {
-                
+
                 // Hide Everything
                 $('input[name="_slide_link_custom"]').parents('.ecf-field-container').hide();
                 $('select[name="_slide_link_page"]').parents('.ecf-field-container').hide();
@@ -1011,16 +1011,16 @@ class ECF_FieldLinkSelect extends ECF_Field {
                 $('select[name="_slide_link_video"]').parents('.ecf-field-container').hide();
                 $('select[name="_slide_link_audio"]').parents('.ecf-field-container').hide();
                 $('select[name="_slide_link_event"]').parents('.ecf-field-container').hide();
-                
+
                 // Show actively selected panel
                 var selectVal = $('.ecf-ecf_fieldlinkselect').val();
                 adjust_panels(selectVal);
-                
+
                 $('.ecf-ecf_fieldlinkselect').change(function(){
                 	var selectVal = $(this).val();
                 	adjust_panels(selectVal);
                 });
-                
+
                 function adjust_panels(selectVal){
                 	if (selectVal == ''){
                 		$('input[name="_slide_link_custom"]').parents('.ecf-field-container').hide();
@@ -1088,13 +1088,13 @@ class ECF_FieldLinkSelect extends ECF_Field {
                 		$('select[name="_slide_link_post"]').parents('.ecf-field-container').hide();
 					}
 	            }
-                
+
             });
-            
+
         </script>
         <?php
     }
-	
+
 }
 
 class ECF_FieldSlideSelect extends ECF_Field {
@@ -1109,7 +1109,7 @@ class ECF_FieldSlideSelect extends ECF_Field {
 	    $this->options = $options;
 	    return $this;
 	}
-	
+
     function render() {
     	if (empty($this->options)) {
     		ecf_conf_error("Add some options to $this->name");
@@ -1126,34 +1126,34 @@ class ECF_FieldSlideSelect extends ECF_Field {
 			'name'=>$this->name,
 		));
 		$select_html = $this->build_tag('select', $select_atts, $options);
-		
+
 	    return $this->render_row($select_html);
 	}
-	
+
 	function multiply() {
 	    ecf_conf_error(get_class($this) . " cannot be multiply");
 	}
-	
+
 	function print_js() {
         ?>
-        <script type="text/javascript" charset="utf-8">
+        <script>
             jQuery(function ($) {
-                
+
                 // Hide Everything
                 $('#slide_audio_panel').hide();
                 $('#slide_video_panel').hide();
                 $('#slide_address_panel').hide();
                 $('#slide_image_panel').hide();
-                
+
                 // Show actively selected panel
                 var selectVal = $('.ecf-ecf_fieldslideselect').val();
                 adjust_panels(selectVal);
-                
+
                 $('.ecf-ecf_fieldslideselect').change(function(){
                 	var selectVal = $(this).val();
                 	adjust_panels(selectVal);
                 });
-                
+
                 function adjust_panels(selectVal){
 	            	if (selectVal == 'audio'){
 	            		$('#slide_audio_panel').fadeIn('fast');
@@ -1177,12 +1177,12 @@ class ECF_FieldSlideSelect extends ECF_Field {
 	            		$('#slide_video_panel').hide();
 	            	}
 	            }
-                
+
             });
-            
+
         </script>
         <?php
     }
-	
+
 }
 ?>

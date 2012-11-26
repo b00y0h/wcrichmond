@@ -6,7 +6,7 @@
 <?php endif ?>
 <div class="cl">&nbsp;</div>
 <div id="map_<?php echo $this->name ?>" style="width: 500px; height: 300px; border: solid 2px #dfdfdf; overflow: hidden;"></div>
-<script type="text/javascript" charset="utf-8">
+<script>
     var map_<?php echo $this->name ?> = new GMap2(document.getElementById("map_<?php echo $this->name ?>"));
     map_<?php echo $this->name ?>.addControl(new GLargeMapControl());
     map_<?php echo $this->name ?>.addControl(new GMapTypeControl());
@@ -15,11 +15,11 @@
         var marker = new GMarker(new GLatLng(<?php echo $this->value ?>), {'draggable': true});
         marker.enableDragging();
         GEvent.addListener(marker, 'dragend', change_coords);
-        map_<?php echo $this->name ?>.addOverlay(marker);        
+        map_<?php echo $this->name ?>.addOverlay(marker);
     <?php else: ?>
         map_<?php echo $this->name ?>.setCenter(new GLatLng(<?php echo $this->lat ?>, <?php echo $this->long ?>), <?php echo $this->zoom ?>);
-    <?php endif; ?>    
-    
+    <?php endif; ?>
+
     map_<?php echo $this->name ?>.enableScrollWheelZoom();
     map_<?php echo $this->name ?>.disableDoubleClickZoom();
     function change_coords(point) {

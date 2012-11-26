@@ -1,6 +1,6 @@
-<?php /* Template Name: Health Center */ get_header(); ?> 
-<script type="text/javascript" charset="utf-8">
-  jQuery(document).ready(function($){      
+<?php /* Template Name: Health Center */ get_header(); ?>
+<script>
+  jQuery(document).ready(function($){
       $(".jsSubPhotoThumb").click(function(){
         $(".jsSubPhotoThumb").removeClass("current_photo_thumb")
         $(this).addClass("current_photo_thumb")
@@ -16,13 +16,13 @@
       Mary Morton Parsons Health Center
     </div>
     <div style="clear:both;"></div>
-    
-    
+
+
     <div class="subpageContentWrapper" style="width:1025px;">
-      <div class="subpageCopy">    
+      <div class="subpageCopy">
         <div class="jsSubContent jsc_1 current_sub_content">
-          
-          
+
+
             <div class="jsSubContentFlex" style="padding-top:30px;">
                <ul>
                  <li>Team philosophy integrates physical, speech and occupational therapies</li>
@@ -32,7 +32,7 @@
                  <li>Access to Cultural and Creative Arts Center programs</li>
                </ul>
             </div>
-          
+
 
           <div class="resPhotoViewer" style="float:left;">
             <div class="jsSubPhotoNav"  style="margin-top:360px;">
@@ -44,7 +44,7 @@
                 </div>
                 <div id="jsubphoto_3" class="jsSubPhotoThumb">
                    <img src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/Thumbs/_MG_3104_th.jpg">
-                </div>         
+                </div>
             </div>
             <img  class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_MMP1.jpg" width="363" height="424">
             <img  class="jsubphoto_2 jsSubPhoto" src="<?php bloginfo('template_directory');?>/images/lifecare_gallery/LC_MMP2.jpg" width="363" height="424">
@@ -63,7 +63,7 @@
 
             <?php endwhile; endif; ?>
           </div>
-          
+
         </div>
 
       </div><!-- .subpageCopy -->
@@ -74,8 +74,8 @@
 
 
 
-  
- 
+
+
 <?php get_sidebar('footerbanner2'); ?>
 
 <?php get_footer(); ?>

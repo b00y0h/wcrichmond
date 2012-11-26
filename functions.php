@@ -216,7 +216,7 @@ class LiveLifeWellWidget extends WP_Widget {
 
     ?>
     <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.lite.1.0.min.js"></script>
-    <script type="text/javascript" charset="utf-8">
+    <script>
       jQuery(document).ready(function($){
          $(".tipsText").cycle({
            height: '133px',

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<script type="text/javascript" charset="utf-8">
+<script>
   jQuery(document).ready(function($){
       // $ is now safe within this function
       setTimeout(function(){
