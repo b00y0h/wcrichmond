@@ -6,14 +6,14 @@
             <div id="primary" class="hfeed">
                 <div class="hero">
                     <div class="column1">
-                          <img class="source-image" src="<?php echo get_bloginfo('template_url'); ?>/images/would-love-to-hear-from-you.png" alt="Would Love To Hear From You">
-                          <p class="noshow">We would love to hear from you</p>
+                          <p><a href="/news/master-calendar">View Master Calendar</a></p>
                     </div>
                     <div class="column2">
-                        <p>Whether you are looking to Westminster Canterbury Richmond for a place to call home or just curious about all we have to offer, we are happy to help any way we can.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error voluptate maiores atque debitis nihil voluptatibus suscipit blanditiis fuga iusto quo temporibus repellendus exercitationem eaque tenetur ipsum nulla qui saepe nam.</p>
                     </div>
 
                 </div>
+
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
                 <!--BEGIN .hentry -->

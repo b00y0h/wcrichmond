@@ -1540,7 +1540,7 @@ img.full {
   border: 1px solid #8d8d8d; }
 
 /* line 52, sass/_styles.scss */
-.grey-border-bottom, #extra-footer-home, .video-items.featured .entry-content {
+.grey-border-bottom, #extra-footer-home, .video-items.featured .entry-content, .page-template-page-calendar-php .hero {
   border-bottom: 1px solid #8d8d8d;
   padding-bottom: 1em;
   margin-bottom: 1em; }
@@ -1998,6 +1998,28 @@ h2.entry-title {
   line-height: 1.2em;
   color: #8e8e8e;
   text-transform: uppercase; }
+
+/* line 493, sass/_styles.scss */
+.page-template-page-calendar-php .hero {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  background-color: #e6e6e6; }
+  /* line 498, sass/_styles.scss */
+  .page-template-page-calendar-php .hero .column1 {
+    background-color: #cc2933;
+    height: 180px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center; }
+    /* line 504, sass/_styles.scss */
+    .page-template-page-calendar-php .hero .column1 a {
+      text-decoration: none;
+      color: white; }
+  /* line 509, sass/_styles.scss */
+  .page-template-page-calendar-php .hero .column2 {
+    height: 180px;
+    background-color: #e6e6e6;
+    color: #8e8e8e; }
 
 /* line 1, sass/partials/_slidedeck.scss */
 .lens-wc-richmond {

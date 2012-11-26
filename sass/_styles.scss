@@ -489,3 +489,26 @@ h2.entry-title {
         text-transform:uppercase;
     }
 }
+
+.page-template-page-calendar-php .hero {
+    margin-top:2em;
+    margin-bottom:1.5em;
+    @extend .grey-border-bottom;
+    background-color:$grey;
+    .column1 {
+        background-color:$red;
+        height:180px;
+        font-size:2em;
+        text-transform:uppercase;
+        text-align:center;
+        a {
+            text-decoration:none;
+            color:$white;
+        }
+    }
+    .column2 {
+        height:180px;
+    background-color:$grey;
+        color:$darkgrey;
+    }
+}
