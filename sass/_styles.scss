@@ -466,6 +466,7 @@ h2.entry-title {
         color:$white;
         margin-right:1%;
         padding:1em .5em;
+        line-height:1.2em;
         &:last-of-type {margin-right:0;}
     }
 }
@@ -475,6 +476,16 @@ h2.entry-title {
     }
 }
 #offsite-calendars {
-    a {width:32.6%;background-color:$darkgrey;}
+    a {width:32.6%;background-color:$darkgrey;font-size:.9em;}
 
+}
+
+.calendar-sidebar {
+    h5 {
+        text-align:center;
+        font-size:1.2em;
+        line-height:1.2em;
+        color:$darkgrey;
+        text-transform:uppercase;
+    }
 }
