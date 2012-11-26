@@ -51,6 +51,7 @@ get_header(); ?>
         $(".current_sub_content .jsSubPhotoViewer .jsSubPhoto:first").addClass("current_photo");
 
          window.location.hash = $("a:first","#"+block).attr('id');
+         $(window).scrollTop(0);
       })
 
       $(".jsSubPhotoThumb").click(function(){
