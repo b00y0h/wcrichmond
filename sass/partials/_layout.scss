@@ -27,13 +27,13 @@
         }
     }
 }
-
 .triptic {
     @include outer-container;
     .module {
         @include span-columns(4);
     }
 }
+
 .diptic {
     @include outer-container;
     .module{
@@ -71,6 +71,9 @@
         width:16.6667%;
         display:block;
         float:left;
+        .lt-ie9 & {
+            width:16.6%;
+        }
     }
 }
 #extra-footer-home {

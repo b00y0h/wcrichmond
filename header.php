@@ -26,6 +26,9 @@
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php wp_head(); ?>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>
+<![endif]-->
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>

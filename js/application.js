@@ -5,9 +5,6 @@
  **/
   (function($){
     $(document).ready(function(){
-
-
-
         $('.thumbnail-wrap .button').on('click', function() {
 
         var vid_string = $(this).attr('href');
