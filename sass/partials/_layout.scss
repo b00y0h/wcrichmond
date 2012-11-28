@@ -110,6 +110,9 @@
     }
     .jsSubContentText {
         @include span-columns(3 of 10);
+        &.single {
+            @include span-columns(5 of 10);
+        }
     }
     .jsSubContentFlex {
         @include span-columns(2 of 10);

@@ -461,7 +461,16 @@ h2 {
     /* line 63, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubContentText:last-child {
       margin-right: 0; }
-  /* line 114, sass/partials/_layout.scss */
+    /* line 113, sass/partials/_layout.scss */
+    .subpageContentWrapper .jsSubContentText.single {
+      display: block;
+      float: left;
+      margin-right: 1.41509%;
+      width: 49.29245%; }
+      /* line 63, sass/neat/grid/_grid.scss */
+      .subpageContentWrapper .jsSubContentText.single:last-child {
+        margin-right: 0; }
+  /* line 117, sass/partials/_layout.scss */
   .subpageContentWrapper .jsSubContentFlex {
     display: block;
     float: left;
@@ -470,10 +479,10 @@ h2 {
     /* line 63, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubContentFlex:last-child {
       margin-right: 0; }
-  /* line 117, sass/partials/_layout.scss */
+  /* line 120, sass/partials/_layout.scss */
   .subpageContentWrapper.full {
     width: 100%; }
-    /* line 119, sass/partials/_layout.scss */
+    /* line 122, sass/partials/_layout.scss */
     .subpageContentWrapper.full .oneoftwelve {
       display: block;
       float: left;
@@ -482,7 +491,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .oneoftwelve:last-child {
         margin-right: 0; }
-    /* line 120, sass/partials/_layout.scss */
+    /* line 123, sass/partials/_layout.scss */
     .subpageContentWrapper.full .twooftwelve {
       display: block;
       float: left;
@@ -491,7 +500,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .twooftwelve:last-child {
         margin-right: 0; }
-    /* line 121, sass/partials/_layout.scss */
+    /* line 124, sass/partials/_layout.scss */
     .subpageContentWrapper.full .threeoftwelve {
       display: block;
       float: left;
@@ -500,7 +509,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .threeoftwelve:last-child {
         margin-right: 0; }
-    /* line 122, sass/partials/_layout.scss */
+    /* line 125, sass/partials/_layout.scss */
     .subpageContentWrapper.full .fouroftwelve {
       display: block;
       float: left;
@@ -509,7 +518,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .fouroftwelve:last-child {
         margin-right: 0; }
-    /* line 123, sass/partials/_layout.scss */
+    /* line 126, sass/partials/_layout.scss */
     .subpageContentWrapper.full .fiveoftwelve {
       display: block;
       float: left;
@@ -518,7 +527,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .fiveoftwelve:last-child {
         margin-right: 0; }
-    /* line 124, sass/partials/_layout.scss */
+    /* line 127, sass/partials/_layout.scss */
     .subpageContentWrapper.full .sixoftwelve {
       display: block;
       float: left;
@@ -527,7 +536,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .sixoftwelve:last-child {
         margin-right: 0; }
-    /* line 125, sass/partials/_layout.scss */
+    /* line 128, sass/partials/_layout.scss */
     .subpageContentWrapper.full .sevenoftwelve {
       display: block;
       float: left;
@@ -536,7 +545,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .sevenoftwelve:last-child {
         margin-right: 0; }
-    /* line 126, sass/partials/_layout.scss */
+    /* line 129, sass/partials/_layout.scss */
     .subpageContentWrapper.full .eightoftwelve {
       display: block;
       float: left;
@@ -545,7 +554,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .eightoftwelve:last-child {
         margin-right: 0; }
-    /* line 127, sass/partials/_layout.scss */
+    /* line 130, sass/partials/_layout.scss */
     .subpageContentWrapper.full .nineoftwelve {
       display: block;
       float: left;
@@ -554,7 +563,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .nineoftwelve:last-child {
         margin-right: 0; }
-    /* line 128, sass/partials/_layout.scss */
+    /* line 131, sass/partials/_layout.scss */
     .subpageContentWrapper.full .tenoftwelve {
       display: block;
       float: left;
@@ -563,7 +572,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .tenoftwelve:last-child {
         margin-right: 0; }
-    /* line 129, sass/partials/_layout.scss */
+    /* line 132, sass/partials/_layout.scss */
     .subpageContentWrapper.full .elevenoftwelve {
       display: block;
       float: left;
@@ -572,7 +581,7 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .elevenoftwelve:last-child {
         margin-right: 0; }
-    /* line 130, sass/partials/_layout.scss */
+    /* line 133, sass/partials/_layout.scss */
     .subpageContentWrapper.full .twelveoftwelve {
       display: block;
       float: left;
@@ -581,26 +590,26 @@ h2 {
       /* line 63, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .twelveoftwelve:last-child {
         margin-right: 0; }
-    /* line 131, sass/partials/_layout.scss */
+    /* line 134, sass/partials/_layout.scss */
     .subpageContentWrapper.full .omega {
       margin-right: 0; }
 
-/* line 135, sass/partials/_layout.scss */
+/* line 138, sass/partials/_layout.scss */
 .subpagePageTitle {
   display: inline-block;
   right: 0;
   position: relative; }
 
-/* line 142, sass/partials/_layout.scss */
+/* line 145, sass/partials/_layout.scss */
 #contentWrapper .row {
   overflow: hidden; }
 
-/* line 143, sass/partials/_layout.scss */
+/* line 146, sass/partials/_layout.scss */
 #primary, #sidebar {
   margin-bottom: -99999px;
   padding-bottom: 99999px!important; }
 
-/* line 147, sass/partials/_layout.scss */
+/* line 150, sass/partials/_layout.scss */
 #primary {
   display: block;
   float: left;
@@ -610,7 +619,7 @@ h2 {
   #primary:last-child {
     margin-right: 0; }
 
-/* line 150, sass/partials/_layout.scss */
+/* line 153, sass/partials/_layout.scss */
 #sidebar {
   display: block;
   float: left;
@@ -620,11 +629,11 @@ h2 {
   #sidebar:last-child {
     margin-right: 0; }
 
-/* line 153, sass/partials/_layout.scss */
+/* line 156, sass/partials/_layout.scss */
 .lt-ie9 #sidebar {
   margin-right: 0; }
 
-/* line 158, sass/partials/_layout.scss */
+/* line 161, sass/partials/_layout.scss */
 footer .footerLogos {
   display: block;
   float: left;
@@ -634,7 +643,7 @@ footer .footerLogos {
   /* line 63, sass/neat/grid/_grid.scss */
   footer .footerLogos:last-child {
     margin-right: 0; }
-/* line 162, sass/partials/_layout.scss */
+/* line 165, sass/partials/_layout.scss */
 footer .copyText {
   display: block;
   float: left;
@@ -1371,91 +1380,93 @@ a img {
 
 /* line 545, sass/_orig-styles.scss */
 .jsSubContentTitle {
-  font-size: 22px;
-  color: #222; }
+  font-size: 16px;
+  color: black;
+  font-family: 'QuicksandBook';
+  text-transform: uppercase; }
 
-/* line 552, sass/_orig-styles.scss */
+/* line 554, sass/_orig-styles.scss */
 .jsSubContentFlex {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   background-color: #e6e6e6;
   padding: 10px 20px 4px;
   font-size: 14px; }
 
-/* line 558, sass/_orig-styles.scss */
+/* line 560, sass/_orig-styles.scss */
 .jsSubContentFlex ul {
   padding: 0;
   margin: 0; }
 
-/* line 563, sass/_orig-styles.scss */
+/* line 565, sass/_orig-styles.scss */
 .jsSubContentFlex ul li {
   /*list-style-type:none;*/
   margin: 10px 0px 0px 20px; }
 
-/* line 568, sass/_orig-styles.scss */
+/* line 570, sass/_orig-styles.scss */
 .jsSubContent {
   display: none; }
 
-/* line 572, sass/_orig-styles.scss */
+/* line 574, sass/_orig-styles.scss */
 .jsSubPhotoViewer img {
   width: 100%;
   height: auto; }
 
-/* line 578, sass/_orig-styles.scss */
+/* line 580, sass/_orig-styles.scss */
 .jsSubContent.current_sub_content {
   display: block; }
 
-/* line 581, sass/_orig-styles.scss */
+/* line 583, sass/_orig-styles.scss */
 .subpageWrapper {
   background-color: #add3cf; }
-  /* line 583, sass/_orig-styles.scss */
+  /* line 585, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
-  /* line 584, sass/_orig-styles.scss */
+  /* line 586, sass/_orig-styles.scss */
   body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
     background-color: #482859; }
-  /* line 585, sass/_orig-styles.scss */
+  /* line 587, sass/_orig-styles.scss */
   body[class*="arts"] .subpageWrapper {
     background-color: #e94347; }
-  /* line 586, sass/_orig-styles.scss */
+  /* line 588, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
-  /* line 587, sass/_orig-styles.scss */
+  /* line 589, sass/_orig-styles.scss */
   body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
-  /* line 588, sass/_orig-styles.scss */
+  /* line 590, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {
     background-color: #327e85; }
 
-/* line 592, sass/_orig-styles.scss */
+/* line 594, sass/_orig-styles.scss */
 ul.tertiaryNav {
   margin: 0;
   padding: 0; }
 
-/* line 596, sass/_orig-styles.scss */
+/* line 598, sass/_orig-styles.scss */
 ul.tertiaryNav li {
   list-style: none;
   background-color: #d31145;
   /*height:37px;*/
   margin: 5px 0px; }
 
-/* line 602, sass/_orig-styles.scss */
+/* line 604, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover {
   background-color: #fff; }
 
-/* line 605, sass/_orig-styles.scss */
+/* line 607, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 609, sass/_orig-styles.scss */
+/* line 611, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 612, sass/_orig-styles.scss */
+/* line 614, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   padding-right: 105px; }
 
-/* line 615, sass/_orig-styles.scss */
+/* line 617, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
