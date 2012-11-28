@@ -1297,7 +1297,7 @@ a img {
 /* line 473, sass/_orig-styles.scss */
 .subpageNavigation li {
   list-style: none;
-  padding: 15px 15px 4px 0px;
+  padding: 15px 15px 4px 15px;
   margin-bottom: 4px;
   text-align: right;
   font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
@@ -1362,105 +1362,100 @@ a img {
 
 /* line 536, sass/_orig-styles.scss */
 .jsSubContentText {
-  padding-top: 1em;
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 18px;
+  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  font-size: 16px;
   color: #333;
   overflow: auto;
-  line-height: 22px; }
+  line-height: 24px;
+  padding: 0 .5em; }
 
-/* line 544, sass/_orig-styles.scss */
-.jsSubContentText.single {
-  padding: 40px 60px 0px 20px;
-  width: 350px; }
-
-/* line 549, sass/_orig-styles.scss */
+/* line 545, sass/_orig-styles.scss */
 .jsSubContentTitle {
   font-size: 22px;
   color: #222; }
 
-/* line 556, sass/_orig-styles.scss */
+/* line 552, sass/_orig-styles.scss */
 .jsSubContentFlex {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   background-color: #e6e6e6;
   padding: 10px 20px 4px;
   font-size: 14px; }
 
-/* line 562, sass/_orig-styles.scss */
+/* line 558, sass/_orig-styles.scss */
 .jsSubContentFlex ul {
   padding: 0;
   margin: 0; }
 
-/* line 567, sass/_orig-styles.scss */
+/* line 563, sass/_orig-styles.scss */
 .jsSubContentFlex ul li {
   /*list-style-type:none;*/
   margin: 10px 0px 0px 20px; }
 
-/* line 572, sass/_orig-styles.scss */
+/* line 568, sass/_orig-styles.scss */
 .jsSubContent {
   display: none; }
 
-/* line 576, sass/_orig-styles.scss */
+/* line 572, sass/_orig-styles.scss */
 .jsSubPhotoViewer img {
   width: 100%;
   height: auto; }
 
-/* line 582, sass/_orig-styles.scss */
+/* line 578, sass/_orig-styles.scss */
 .jsSubContent.current_sub_content {
   display: block; }
 
-/* line 585, sass/_orig-styles.scss */
+/* line 581, sass/_orig-styles.scss */
 .subpageWrapper {
   background-color: #add3cf; }
-  /* line 587, sass/_orig-styles.scss */
+  /* line 583, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
-  /* line 588, sass/_orig-styles.scss */
+  /* line 584, sass/_orig-styles.scss */
   body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
     background-color: #482859; }
-  /* line 589, sass/_orig-styles.scss */
+  /* line 585, sass/_orig-styles.scss */
   body[class*="arts"] .subpageWrapper {
     background-color: #e94347; }
-  /* line 590, sass/_orig-styles.scss */
+  /* line 586, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
-  /* line 591, sass/_orig-styles.scss */
+  /* line 587, sass/_orig-styles.scss */
   body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
-  /* line 592, sass/_orig-styles.scss */
+  /* line 588, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {
     background-color: #327e85; }
 
-/* line 596, sass/_orig-styles.scss */
+/* line 592, sass/_orig-styles.scss */
 ul.tertiaryNav {
   margin: 0;
   padding: 0; }
 
-/* line 600, sass/_orig-styles.scss */
+/* line 596, sass/_orig-styles.scss */
 ul.tertiaryNav li {
   list-style: none;
   background-color: #d31145;
   /*height:37px;*/
   margin: 5px 0px; }
 
-/* line 606, sass/_orig-styles.scss */
+/* line 602, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover {
   background-color: #fff; }
 
-/* line 609, sass/_orig-styles.scss */
+/* line 605, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 613, sass/_orig-styles.scss */
+/* line 609, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 616, sass/_orig-styles.scss */
+/* line 612, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   padding-right: 105px; }
 
-/* line 619, sass/_orig-styles.scss */
+/* line 615, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform: uppercase;

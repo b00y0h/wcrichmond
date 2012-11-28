@@ -472,7 +472,7 @@ a img {border:none;}
 .subpageNavigation ul {margin:0;padding:0;}
 .subpageNavigation li{
   list-style:none;
-  padding:15px 15px 4px 0px;
+  padding:15px 15px 4px 15px;
   margin-bottom:4px;
   text-align:right;
   font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
@@ -534,16 +534,12 @@ a img {border:none;}
 
 
 .jsSubContentText{
-    padding-top:1em;
-  font-family: $georgia;
-  font-size:18px;
+  font-family: $lucida-grande;
+  font-size:16px;
   color:#333;
   overflow:auto;
-  line-height:22px;
-}
-.jsSubContentText.single{
-  padding:40px 60px 0px 20px;
-  width:350px;
+  line-height:24px;
+  padding:0 .5em;
 }
 
 .jsSubContentTitle{
