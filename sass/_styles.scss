@@ -441,7 +441,7 @@ h2.entry-title {
 }
 
 
-.page-template-contact-us-php {
+.page-template-page-contact-php {
     #primary h3 {
         background-color:$white!important;
         font-family: 'QuicksandBook';
@@ -453,6 +453,28 @@ h2.entry-title {
         text-transform:uppercase;
         width:70%!important;
         @include box-shadow(0 5px 5px rgba(0,0,0,.2));
+    }
+    .link-to-google {
+        background-color:$red;
+        text-align:right;
+        color:$white;
+        text-transform:uppercase;
+        height:30px;
+        line-height:30px;
+        display:block;
+        text-decoration:none;
+        padding-right:1em;
+    }
+    .google-map {
+            margin-bottom:2em;
+            border:1px solid $darkgrey;
+    }
+    hr {
+        height:1px;
+        border:0;
+        border-bottom:1px solid $darkgrey;
+        margin-left:-60px;
+        margin-right:-60px;
     }
 }
 
