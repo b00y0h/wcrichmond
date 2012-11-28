@@ -26,8 +26,10 @@
 
                 <?php endwhile;  endif; ?>
                 <div class="google-map">
-                    <img class="full" src="<?php echo get_bloginfo('template_url'); ?>/images/google-map.gif" alt="Map of Westminister"><br />
-                    <small><a class="link-to-google" href="http://goo.gl/maps/Yt5aC">Click for directions in Google Maps &gt;</a></small>
+                  <a class="link-to-google" href="http://goo.gl/maps/Yt5aC">
+                    <img class="full" src="<?php echo get_bloginfo('template_url'); ?>/images/google-map.gif" alt="Map of Westminister">
+                  </a><br />
+                  <small><a class="link-to-google" href="http://goo.gl/maps/Yt5aC">Click for directions in Google Maps &gt;</a></small>
                 </div>
     <!--END #primary .hfeed-->
     </div>
