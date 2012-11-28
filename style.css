@@ -747,7 +747,7 @@ footer .copyText {
   list-style: none; }
   /* line 105, sass/partials/_menu.scss */
   #menu-sub-menu li {
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     text-align: center;
     margin-left: -20px;
     margin-right: -20px; }
@@ -1664,42 +1664,43 @@ img.full {
 /* line 165, sass/_styles.scss */
 #around-our-community p {
   font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-  color: black; }
-/* line 169, sass/_styles.scss */
+  color: black;
+  font-size: .9em; }
+/* line 170, sass/_styles.scss */
 #around-our-community .meta {
   color: black;
   text-transform: uppercase;
   font-size: .9em; }
-  /* line 173, sass/_styles.scss */
+  /* line 174, sass/_styles.scss */
   #around-our-community .meta a {
     text-decoration: none;
     color: #cc2933;
     font-family: 'QuicksandBold';
     float: right; }
 
-/* line 182, sass/_styles.scss */
+/* line 183, sass/_styles.scss */
 #life-care {
   background: transparent url("images/life-care-couple.jpg") left top no-repeat; }
 
-/* line 185, sass/_styles.scss */
+/* line 186, sass/_styles.scss */
 #lifestyle {
   background: transparent url("images/lifestyle-teacup.jpg") left top no-repeat; }
-  /* line 187, sass/_styles.scss */
+  /* line 188, sass/_styles.scss */
   #lifestyle h2 {
     display: inline-block; }
 
-/* line 196, sass/_styles.scss */
+/* line 197, sass/_styles.scss */
 #contactInfo {
   background-color: #e6e6e6;
   text-align: center;
   padding: .7em;
   margin-bottom: 1em; }
-  /* line 201, sass/_styles.scss */
+  /* line 202, sass/_styles.scss */
   #contactInfo strong {
     font-family: 'QuicksandBook';
     color: #cc2933;
     padding-left: .4em; }
-  /* line 206, sass/_styles.scss */
+  /* line 207, sass/_styles.scss */
   #contactInfo a {
     text-transform: uppercase;
     text-decoration: none;
@@ -1707,99 +1708,99 @@ img.full {
     margin-right: .4em;
     border-right: 1px solid #676767;
     white-space: nowrap; }
-    /* line 213, sass/_styles.scss */
+    /* line 214, sass/_styles.scss */
     #contactInfo a:last-child {
       border-right: none; }
 
 /* Blog Stuff */
-/* line 220, sass/_styles.scss */
+/* line 221, sass/_styles.scss */
 .blogHeading {
   color: #cc2933;
   margin: 1em 0 0 20px;
   line-height: .5em;
   text-transform: uppercase; }
 
-/* line 227, sass/_styles.scss */
+/* line 228, sass/_styles.scss */
 #primary, #sidebar {
   background-color: #e6e6e6; }
 
-/* line 230, sass/_styles.scss */
+/* line 231, sass/_styles.scss */
 #primary {
   padding: 0 60px; }
 
-/* line 233, sass/_styles.scss */
+/* line 234, sass/_styles.scss */
 h2.entry-title {
   border-bottom: 1px solid #8e8e8e;
   font-family: 'QuicksandBold';
   margin-right: -60px;
   padding-top: 20px;
   text-transform: uppercase; }
-  /* line 239, sass/_styles.scss */
+  /* line 240, sass/_styles.scss */
   h2.entry-title a {
     display: block;
     text-decoration: none;
     color: #4c4c4c; }
-  /* line 240, sass/_styles.scss */
+  /* line 241, sass/_styles.scss */
   h2.entry-title .entry-meta {
     float: right;
     font-size: 12px;
     padding-right: 10px; }
 
-/* line 246, sass/_styles.scss */
+/* line 247, sass/_styles.scss */
 .entry-content {
   font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
   line-height: 1.3em;
   font-size: .9em; }
-  /* line 250, sass/_styles.scss */
+  /* line 251, sass/_styles.scss */
   .entry-content a {
     color: #cc2933; }
 
-/* line 254, sass/_styles.scss */
+/* line 255, sass/_styles.scss */
 .more-link {
   display: block;
   padding: 1em 0; }
 
-/* line 258, sass/_styles.scss */
+/* line 259, sass/_styles.scss */
 .post-thumb img {
   width: 100%;
   height: auto; }
 
 /* Page Navigation */
-/* line 264, sass/_styles.scss */
+/* line 265, sass/_styles.scss */
 .page-navigation {
   padding: 1em 0;
   font-family: 'QuicksandBold';
   font-size: 1.3em;
   text-transform: uppercase; }
-  /* line 269, sass/_styles.scss */
+  /* line 270, sass/_styles.scss */
   .page-navigation a {
     color: #4c4c4c;
     text-decoration: none; }
 
 /* Social Buttons */
-/* line 279, sass/_styles.scss */
+/* line 280, sass/_styles.scss */
 .postShare {
   background-color: #efefef;
   clear: both;
   padding: .5em 1em;
   margin-right: -60px; }
 
-/* line 285, sass/_styles.scss */
+/* line 286, sass/_styles.scss */
 .addthis_toolbox {
   display: inline-block;
   text-transform: uppercase;
   font-size: .8em; }
-  /* line 289, sass/_styles.scss */
+  /* line 290, sass/_styles.scss */
   .addthis_toolbox a {
     color: #556fc6;
     font-weight: bold;
     text-decoration: none; }
-    /* line 293, sass/_styles.scss */
+    /* line 294, sass/_styles.scss */
     .addthis_toolbox a span {
       margin-top: -3px; }
 
 /* sidebar */
-/* line 300, sass/_styles.scss */
+/* line 301, sass/_styles.scss */
 #sidebar h3, #sidebar .jsSubContentTitle {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -1808,78 +1809,78 @@ h2.entry-title {
   text-align: center;
   color: white;
   text-transform: uppercase; }
-  /* line 307, sass/_styles.scss */
+  /* line 308, sass/_styles.scss */
   #sidebar h3 a, #sidebar .jsSubContentTitle a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
-/* line 314, sass/_styles.scss */
+/* line 315, sass/_styles.scss */
 #sidebar.contact-sidebar h3, #sidebar.contact-sidebar .jsSubContentTitle {
   background-color: white;
   color: black;
   margin: 0; }
 
-/* line 323, sass/_styles.scss */
+/* line 324, sass/_styles.scss */
 .blog-list-archive {
   font-family: 'QuicksandBold'; }
-  /* line 325, sass/_styles.scss */
+  /* line 326, sass/_styles.scss */
   .blog-list-archive .archive-sub-menu {
     display: none; }
-  /* line 328, sass/_styles.scss */
+  /* line 329, sass/_styles.scss */
   .blog-list-archive li {
     list-style: none;
     line-height: 1.2em; }
-  /* line 333, sass/_styles.scss */
+  /* line 334, sass/_styles.scss */
   .blog-list-archive > li:before {
     content: "\25B6";
     position: relative;
     left: -20px;
     font-size: .5em; }
-  /* line 339, sass/_styles.scss */
+  /* line 340, sass/_styles.scss */
   .blog-list-archive > li.selected:before {
     content: "\25BC"; }
-  /* line 343, sass/_styles.scss */
+  /* line 344, sass/_styles.scss */
   .blog-list-archive ul {
     padding-left: .6em; }
-  /* line 346, sass/_styles.scss */
+  /* line 347, sass/_styles.scss */
   .blog-list-archive a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8em; }
 
-/* line 351, sass/_styles.scss */
+/* line 352, sass/_styles.scss */
 .post-type-archive-video-items #primary {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 355, sass/_styles.scss */
+/* line 356, sass/_styles.scss */
 .video-items {
   margin-bottom: 3em;
   padding-left: 20px;
   padding-right: 20px;
   border-right: 1px solid #676767; }
-  /* line 360, sass/_styles.scss */
+  /* line 361, sass/_styles.scss */
   .video-items:nth-child(2n+1) {
     border-right: none; }
-  /* line 361, sass/_styles.scss */
+  /* line 362, sass/_styles.scss */
   .video-items img {
     width: 100%;
     height: auto; }
-  /* line 365, sass/_styles.scss */
+  /* line 366, sass/_styles.scss */
   .video-items h2 {
     color: #cc2933;
     border-bottom: none;
     font-size: 1em; }
-  /* line 370, sass/_styles.scss */
+  /* line 371, sass/_styles.scss */
   .video-items p {
     font-family: 'QuicksandLight';
     line-height: 1.5em;
     font-size: .9em; }
-  /* line 375, sass/_styles.scss */
+  /* line 376, sass/_styles.scss */
   .video-items.featured {
     margin-top: 3em;
     border-left: none; }
-    /* line 378, sass/_styles.scss */
+    /* line 379, sass/_styles.scss */
     .video-items.featured .entry-content {
       zoom: 1; }
       /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -1889,20 +1890,20 @@ h2.entry-title {
       /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
       .video-items.featured .entry-content:after {
         clear: both; }
-      /* line 381, sass/_styles.scss */
+      /* line 382, sass/_styles.scss */
       .video-items.featured .entry-content div {
         padding-left: 20px;
         padding-right: 20px; }
-    /* line 383, sass/_styles.scss */
+    /* line 384, sass/_styles.scss */
     .video-items.featured h2 {
       margin-top: 0;
       padding-top: 0; }
 
-/* line 391, sass/_styles.scss */
+/* line 392, sass/_styles.scss */
 .entry-footer {
   margin-bottom: 1em; }
 
-/* line 395, sass/_styles.scss */
+/* line 396, sass/_styles.scss */
 .tel, .email {
   background-color: #cc2933;
   color: white;
@@ -1910,26 +1911,26 @@ h2.entry-title {
   line-height: 1.2em;
   padding: 1em 1em .8em;
   border-bottom: 1px solid white; }
-  /* line 402, sass/_styles.scss */
+  /* line 403, sass/_styles.scss */
   .tel:last-of-type, .email:last-of-type {
     margin-bottom: 1em; }
-  /* line 405, sass/_styles.scss */
+  /* line 406, sass/_styles.scss */
   .tel span, .email span {
     display: block; }
-  /* line 408, sass/_styles.scss */
+  /* line 409, sass/_styles.scss */
   .tel .type, .email .type {
     text-transform: uppercase; }
-  /* line 411, sass/_styles.scss */
+  /* line 412, sass/_styles.scss */
   .tel .value, .email .value {
     font-weight: bold; }
 
-/* line 415, sass/_styles.scss */
+/* line 416, sass/_styles.scss */
 .hero {
   color: white;
   position: relative;
   margin: 0 -60px;
   background-color: #cc2933; }
-  /* line 422, sass/_styles.scss */
+  /* line 423, sass/_styles.scss */
   .hero .column1, .hero .column2 {
     display: block;
     float: left;
@@ -1939,22 +1940,22 @@ h2.entry-title {
     /* line 63, sass/neat/grid/_grid.scss */
     .hero .column1:last-child, .hero .column2:last-child {
       margin-right: 0; }
-  /* line 426, sass/_styles.scss */
+  /* line 427, sass/_styles.scss */
   .hero p {
     padding: 1em .5em 1em 0;
     line-height: 1.3em;
     margin-bottom: 0; }
-  /* line 431, sass/_styles.scss */
+  /* line 432, sass/_styles.scss */
   .hero .noshow {
     text-indent: -9999em; }
-  /* line 434, sass/_styles.scss */
+  /* line 435, sass/_styles.scss */
   .hero img.source-image {
     width: 100%;
     position: absolute;
     top: 30px;
     left: 0; }
 
-/* line 444, sass/_styles.scss */
+/* line 445, sass/_styles.scss */
 .page-template-contact-us-php #primary h3, .page-template-contact-us-php #primary .jsSubContentTitle {
   background-color: white !important;
   font-family: 'QuicksandBook';
@@ -1968,25 +1969,25 @@ h2.entry-title {
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); }
 
-/* line 458, sass/_styles.scss */
+/* line 459, sass/_styles.scss */
 .inner-wrapper {
   margin-left: -60px;
   margin-right: -60px; }
 
-/* line 463, sass/_styles.scss */
+/* line 464, sass/_styles.scss */
 #upcoming-events {
   margin-bottom: 2em;
   background-color: #cc2933;
   padding: .5em;
   color: white;
   text-align: right; }
-  /* line 469, sass/_styles.scss */
+  /* line 470, sass/_styles.scss */
   #upcoming-events a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 475, sass/_styles.scss */
+/* line 476, sass/_styles.scss */
 .calendar-list {
   zoom: 1; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -1996,7 +1997,7 @@ h2.entry-title {
   /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .calendar-list:after {
     clear: both; }
-  /* line 478, sass/_styles.scss */
+  /* line 479, sass/_styles.scss */
   .calendar-list a {
     background-color: #cc2933;
     display: block;
@@ -2008,21 +2009,21 @@ h2.entry-title {
     margin-right: 1%;
     padding: 1em .5em;
     line-height: 1.2em; }
-    /* line 489, sass/_styles.scss */
+    /* line 490, sass/_styles.scss */
     .calendar-list a:last-of-type {
       margin-right: 0; }
 
-/* line 493, sass/_styles.scss */
+/* line 494, sass/_styles.scss */
 #local-calendars a {
   width: 24.25%; }
 
-/* line 498, sass/_styles.scss */
+/* line 499, sass/_styles.scss */
 #offsite-calendars a {
   width: 32.6%;
   background-color: #8e8e8e;
   font-size: .9em; }
 
-/* line 503, sass/_styles.scss */
+/* line 504, sass/_styles.scss */
 .calendar-sidebar h5 {
   text-align: center;
   font-size: 1.2em;
@@ -2030,41 +2031,41 @@ h2.entry-title {
   color: #8e8e8e;
   text-transform: uppercase; }
 
-/* line 512, sass/_styles.scss */
+/* line 513, sass/_styles.scss */
 .page-template-page-calendar-php .hero {
   margin-top: 2em;
   margin-bottom: 1.5em;
   background-color: #e6e6e6; }
-  /* line 517, sass/_styles.scss */
+  /* line 518, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column1 {
     background-color: #cc2933;
     height: 180px;
     font-size: 2em;
     text-transform: uppercase;
     text-align: center; }
-    /* line 523, sass/_styles.scss */
+    /* line 524, sass/_styles.scss */
     .page-template-page-calendar-php .hero .column1 a {
       text-decoration: none;
       color: white; }
-  /* line 528, sass/_styles.scss */
+  /* line 529, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column2 {
     height: 180px;
     background-color: #e6e6e6;
     color: #8e8e8e; }
 
-/* line 536, sass/_styles.scss */
+/* line 537, sass/_styles.scss */
 .full-calendar #ai1ec-calendar-view {
   margin-top: 2em; }
-/* line 539, sass/_styles.scss */
+/* line 540, sass/_styles.scss */
 .full-calendar .ai1ec-filters-container {
   display: none; }
-/* line 542, sass/_styles.scss */
+/* line 543, sass/_styles.scss */
 .full-calendar #ai1ec-container {
   margin: 0; }
-/* line 545, sass/_styles.scss */
+/* line 546, sass/_styles.scss */
 .full-calendar .ai1ec-calendar-title {
   margin-left: 30px!important; }
-/* line 548, sass/_styles.scss */
+/* line 549, sass/_styles.scss */
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
