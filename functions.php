@@ -55,8 +55,13 @@ function shortcode_empty_paragraph_fix($content)
 /*-----------------------------------------------------------------------------------*/
 function _add_scripts_styles() {
     wp_deregister_script('l10n');
+    wp_register_style( 'style',
+    get_stylesheet_uri(),
+    array(),
+    '20121127',
+    'all' );
 
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
+    wp_enqueue_style( 'style' );
 
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'application', get_template_directory_uri() . '/js/application.js', array( 'jquery' ), '20120928', true );
