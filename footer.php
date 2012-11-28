@@ -17,9 +17,6 @@ foreach( $myposts as $post ) :  setup_postdata($post); ?>
         <h2 class="header">Around Our Community</h2>
     <article>
         <div class="column1">
-            <h3>
-                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-            </h3>
                 <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'homepage-thumb' );
                 } else { ?>
                 <img src="<?php echo get_bloginfo('template_url'); ?>/image-slugs/our-community-blog-thumb.jpg" alt="">
@@ -28,8 +25,12 @@ foreach( $myposts as $post ) :  setup_postdata($post); ?>
 
         </div>
         <div class="column2">
+            <h3>
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            </h3>
+
             <p>
-                <?php echo limit_words(get_the_excerpt(), '43'); ?>
+                <?php echo limit_words(get_the_excerpt(), '27'); ?>
              </p>
             <hr>
             <span class="meta"><?php the_date(); ?> <a href="<?php the_permalink(); ?>">Read More &gt;</a></span>

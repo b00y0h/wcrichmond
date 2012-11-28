@@ -12,7 +12,7 @@ if ( ! function_exists( 'wcrichmond_setup' ) ):
             update_option('thumbnail_crop', 0);
 
             add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
-            add_image_size( 'homepage-thumb', 300, 100, true ); //(cropped)
+            add_image_size( 'homepage-thumb', 280, 180, true ); //(cropped)
             add_image_size( 'blog-index', 600, '', true); // blog index/single pages
             add_image_size('featured_preview', 55, 55, true);
 
