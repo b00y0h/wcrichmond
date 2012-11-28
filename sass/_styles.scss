@@ -145,18 +145,25 @@ img.full {
     }
 }
 #extra-footer-home {@extend .grey-border-top;@extend .grey-border-bottom;}
+.copyText {
+    font-family:$lucida-grande;
+    font-size:.9em;
+    padding-right:200px;
+}
 #around-our-community {
     h3 {
-        font-family: 'QuicksandBook';
+        font-family: 'QuicksandBold';
         margin-top:0;
         text-transform:uppercase;
+        line-height:1.5em;
+        margin-bottom:.5em;
         a {
             text-decoration:none;
             color:$red;
         }
     }
     p {
-        font-family:$georgia;
+        font-family:$lucida-grande;
         color:$dark-text;
     }
     .meta {
@@ -166,7 +173,7 @@ img.full {
         a {
             text-decoration:none;
             color:$red;
-            font-family: 'QuicksandBook';
+            font-family: 'QuicksandBold';
             float: right;
         }
     }
