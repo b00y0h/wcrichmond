@@ -244,7 +244,9 @@ h2.entry-title {
     }
 }
 .entry-content {
-    font-family:$georgia;
+    font-family:$lucida-grande;
+    line-height:1.3em;
+    font-size:.9em;
     a {
         color:$red;
     }
