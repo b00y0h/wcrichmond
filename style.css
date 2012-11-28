@@ -1291,7 +1291,8 @@ a img {
   text-align: right;
   font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 24px; }
+  font-size: 24px; 
+	font-weight: lighter;}
 
 /* line 471, sass/_orig-styles.scss */
 .subpageNavigation {
@@ -1666,12 +1667,13 @@ img.full {
   /* line 160, sass/_styles.scss */
   #around-our-community h3 a, #around-our-community .jsSubContentTitle a {
     text-decoration: none;
-    color: #cc2933; }
+    color: #cc2933; 
+		font-size: .9em;}
 /* line 165, sass/_styles.scss */
 #around-our-community p {
   font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
   color: black;
-  font-size: .9em; }
+  font-size: .8em; }
 /* line 170, sass/_styles.scss */
 #around-our-community .meta {
   color: black;
