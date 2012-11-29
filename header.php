@@ -29,6 +29,16 @@
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>
 <![endif]-->
+
+<style type="text/css" media="screen">
+  h3.contact-header{ 
+    text-align: left !important;
+    padding-left:15px;
+  }
+  h3.gform_title{
+    width:80% !important;
+  }
+</style>
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>
