@@ -27,27 +27,30 @@ img.full {
         text-transform:uppercase;
         text-decoration:none;
         color:$darkgrey;
-        line-height:35px;
+        line-height:27px;
+        font-size:15px;
+        overflow:hidden;
     }
+        .icon-home{
+            background: url(images/home_icon.png) 0 0 no-repeat;
+            &:before {content:"";}
+            width:80px;
+        }
+        .icon-facebook {
+            background: url(images/facebook-icon.png) no-repeat;
+            text-indent: 9em;
+            white-space: nowrap;
+            overflow: hidden;
+
+        }
     a {
         @include box-sizing(content-box);
     }
     nav, form {
         display:inline-block;
         vertical-align:bottom;
-        .icon-home{
-            background: url(images/home_icon.png) 0 0 no-repeat;
-            &:before {content:"";}
-            width:80px;
-            font-size:15px;
-        }
-        .icon-facebook {
-            background: url(images/facebook-icon.png) no-repeat;
-            text-indent: 100%;
-            white-space: nowrap;
-            overflow: hidden;
-
-        }
+        height:28px;
+        overflow:hidden;
     }
 }
 
@@ -316,6 +319,7 @@ h2.entry-title {
             background-color:$white;
             color:$dark-text;
             margin:0;
+            text-align:left;
         }
     }
 }
@@ -451,7 +455,7 @@ h2.entry-title {
         padding:.5em!important;
         padding-left:60px!important;
         text-transform:uppercase;
-        width:70%!important;
+        width:90%!important;
         @include box-shadow(0 5px 5px rgba(0,0,0,.2));
     }
     .link-to-google {
