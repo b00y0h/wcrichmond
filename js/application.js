@@ -30,7 +30,7 @@
 						console.log(vid_html);
 		        $(this).parent().append(vid_html);
 
-		        return false;
+		        //return false;
 		    });
 
 
