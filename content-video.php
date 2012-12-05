@@ -1,4 +1,7 @@
-<?php $is_featured = get_post_meta($post->ID, '_video_featured', true);
+<?php 
+if(get_post_meta($post->ID, '_video_link', true)) :
+
+$is_featured = get_post_meta($post->ID, '_video_featured', true);
         if ($is_featured) { $is_featured = $is_featured[0]; } else { $is_featured = 0; }
         // echo $is_featured; ?>
 
@@ -14,3 +17,4 @@
 
 <!--END .entry-content -->
 </div>
+<?php endif; ?>
