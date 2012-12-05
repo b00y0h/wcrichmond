@@ -5,7 +5,7 @@
  **/
   (function($){
     $(document).ready(function(){
-        $('.thumbnail-wrap .button').each(function() {
+        $('.thumbnail-wrap .button, .thumbnail.button').each(function() {
 
         		var vid_string = $(this).attr('href');
 		        var vid_html = "";
