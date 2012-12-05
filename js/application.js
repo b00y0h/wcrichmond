@@ -27,7 +27,7 @@
 
 		        $(this).fadeOut(300);
 		        //$(this).parent().css('background', '#E6E6E6').find('img').fadeOut(300);
-						console.log(vid_html);
+						
 		        $(this).parent().append(vid_html);
 
 		        //return false;
