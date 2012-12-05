@@ -5,15 +5,7 @@
 <!--BEGIN .entry-content -->
 <div class="entry-content">
     <div class="thumbnail-wrap">
-    <?php
-    if ( has_post_thumbnail() ) { ?>
-    <a href="<?php echo get_post_meta($post->ID, '_video_link', true); ?>" class="thumbnail button">
-
-    <?php the_post_thumbnail();} ?>
-    </a>
-
-
-
+    <a href="<?php echo get_post_meta($post->ID, '_video_link', true); ?>" class="thumbnail button"><?if ( has_post_thumbnail() ) { the_post_thumbnail();} else{ the_title(); } ?></a>
     </div>
     <div class="entry-content-snippet">
     <h2 class="entry-title"><?php the_title(); ?></h2>
