@@ -47,7 +47,7 @@
 // Layout for video archive page
 .video-items {
     @include span-columns(6, 8);
-    @include nth-omega(2n);
+    &:nth-child(2n+1) {margin-right: 0;border-right: none;}
     &.featured {
         @include fill-parent;
          .entry-content {
