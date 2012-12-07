@@ -87,7 +87,6 @@
     .column1, .column2 {
         @include span-columns(6,8);
         p {margin-top:0;}
-        img {width:100%;height:auto;}
     }
 }
 .row {@include outer-container;}
@@ -165,4 +164,7 @@ footer {
     .copyText {
         @include span-columns(10);
     }
+}
+.page-template-page-contact-php {
+    #primary {@include row();}
 }

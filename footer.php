@@ -57,7 +57,7 @@ foreach( $myposts as $post ) :  setup_postdata($post); ?>
                   All material copyrighted <?php echo date('Y'); ?> Westminster Canterbury Richmond. All rights reserved.
                 </p>
                 <p>
-                  Website produced by J H I. &amp; Release the Hounds
+                  Website produced by <a href="http://jhigoodidea.com">J H I</a> &amp; <a href="http://releasethehounds.tv">Release the Hounds</a>
                 </p>
               </div>
             </div>

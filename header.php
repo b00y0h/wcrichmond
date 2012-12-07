@@ -25,6 +25,7 @@
 <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Merriweather' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>

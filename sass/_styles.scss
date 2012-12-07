@@ -134,22 +134,19 @@ img.full {
     h2 {
         line-height:81px;
     }
+    p {
+        font-family:'QuicksandBold';
+    }
 }
 #contact-us {
     position:relative; // for the full width image
     p {
         font-family:'QuicksandBold';
     }
-    img.source-image {
-        width: 90%;
-        position: absolute;
-        bottom: 0;
-        left: 15px;
-    }
 }
 #extra-footer-home {@extend .grey-border-top;@extend .grey-border-bottom;}
 .copyText {
-    font-family:$lucida-grande;
+    font-family:$body-copy;
     font-size:.9em;
     padding-right:200px;
 }
@@ -166,7 +163,7 @@ img.full {
         }
     }
     p {
-        font-family:$lucida-grande;
+        font-family:$body-copy;
         color:$dark-text;
         font-size:.9em;
     }
@@ -195,6 +192,9 @@ img.full {
 
 #footer {
     @extend .grey-border-top;
+    .copyText {
+        font-size: .8em;
+    }
 }
 
 #contactInfo {
@@ -248,7 +248,7 @@ h2.entry-title {
     }
 }
 .entry-content {
-    font-family:$lucida-grande;
+    font-family:$body-copy;
     line-height:1.3em;
     font-size:.9em;
     a {
@@ -292,7 +292,8 @@ h2.entry-title {
     font-size:.8em;
     a {
         color:#556fc6;
-        font-weight:bold;
+        font-weight:normal;
+        font-family: 'QuicksandBold';
         text-decoration:none;
         span {margin-top:-3px;}
     }
@@ -321,6 +322,8 @@ h2.entry-title {
             margin:0;
             text-align:left;
             padding-left:.8em;
+            border: 1px solid $darkgrey;
+            border-bottom: none;
         }
     }
 }
@@ -404,6 +407,12 @@ h2.entry-title {
     line-height:1.2em;
     padding:1em 1em .8em;
     border-bottom:1px solid $white;
+    border-left: 1px solid $darkgrey;
+    border-right: 1px solid $darkgrey;
+    &:last-of-type {
+        border-bottom: 1px solid $darkgrey;
+    }
+    &:hover {color:#efefef;color: hsl(0,0,90);}
     &:last-of-type {
         margin-bottom:1em;
     }
@@ -415,6 +424,7 @@ h2.entry-title {
     }
     .value {
         font-weight:bold;
+        font-family:'QuicksandBold';
     }
 }
 .hero {
@@ -439,23 +449,28 @@ h2.entry-title {
     img.source-image {
     width: 100%;
     position: absolute;
-    top: 30px;
+    top: 72px;
     left: 0;
 }
 }
 
 
 .page-template-page-contact-php {
+    .entry-content {
+        padding: 20px;
+    }
+    .hero {padding: 0 30px;margin: 0;margin-top: 1.5em;}
+    #primary {padding:0;}
     #primary h3 {
         background-color:$white!important;
         font-family: 'QuicksandBook';
         line-height:1.5em!important;
-        margin:1em 0!important;
-        margin-left:-60px!important;
-        padding:.5em!important;
-        padding-left:60px!important;
+        padding-top:.5em!important;
+        padding-bottom:.5em!important;
+        padding-left: 25px;
+        margin-left: -20px;
+        margin-bottom: 1em!important;
         text-transform:uppercase;
-        width:90%!important;
         @include box-shadow(0 5px 5px rgba(0,0,0,.2));
     }
     .link-to-google {
@@ -477,8 +492,8 @@ h2.entry-title {
         height:1px;
         border:0;
         border-bottom:1px solid $darkgrey;
-        margin-left:-60px;
-        margin-right:-60px;
+        margin-left:-30px;
+        margin-right:-30px;
     }
 }
 

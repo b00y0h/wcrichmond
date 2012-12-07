@@ -34,7 +34,7 @@
   margin:0;
 }
 .phoneNumber {
-  font-size:14px;
+  font-size:16px;
 }
 .phoneNumber span, .phoneNumber a {
   font-size:17px;
@@ -48,7 +48,7 @@
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    color: #343434;
     padding: 0.2em 0;
 }
 
@@ -61,7 +61,7 @@
 body{
   margin:0;
   padding:0;
-  background-color:#BED0D1;
+  background-color:$bg-color;
 }
 
 input{
@@ -69,7 +69,7 @@ input{
 }
 
 a{
-  color:#000;
+  color:#343434;
   text-decoration:underline;
 }
 
@@ -78,46 +78,7 @@ a:hover{
   text-decoration:underline;
 }
 
-/*
-Westminster Canturbury Website
-Main font stacks
-SANS
-font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
-text-transform: uppercase;
 
-SERIF
-font-family: Palatino, "Times New Roman", Georgia, serif;
-
-++++
-
-GLOBAL ELEMENTS
-Secondary navigation
-
-(top) Home, About Us, Contact Us, Search. (bottom) Careers, Foundation, About
-Serif, 14px
-
-Footer phone #'s
-Sans, 24px
-
-Footer small-print
-font-family: Verdana, Arial, sans-serif;
-font-size: 10px;
-++++
-
-INTERIOR PAGE
-
-Left block tabs
-Sans, 16px
-
-Copy Headlines
-Serif, 24px
-
-Copy paragraph
-Serif, 18px
-
-Right side links (and serif links elsewhere)
-Serif, 16px
-*/
 #contentWrapper{
   background-color:#fff;
   padding-bottom:10px;
@@ -157,8 +118,7 @@ Serif, 16px
   text-decoration:none;
   font-size:14px;
   text-transform:uppercase;
-  color:#000;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  color:#343434;
   margin: 0px 16px 0px 6px;
 }
 
@@ -197,10 +157,10 @@ Serif, 16px
   background:none;
   border:none;
   color:#666;
-  font-size:14px;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
+  font-size:16px;
   text-transform:uppercase;
   cursor:pointer;
+  font-family: $body-copy;
 }
 
 .subMenu{
@@ -228,10 +188,9 @@ Serif, 16px
 }
 
 #subNav ul li a{
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform:uppercase;
   text-decoration:none;
-  color:#000;
+  color:#343434;
 }
 
 .subMenu .menu-item-83:hover, .subMenu .menu-item-83.current_page_item, .subMenu .menu-item-83.active {
@@ -289,10 +248,9 @@ rapper{
 h3.blockTitle{
   padding:0;
   margin:0;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform:uppercase;
   font-size:20px;
-  color:#000;
+  color:#343434;
   font-weight:normal;
 }
 
@@ -306,7 +264,7 @@ h3.blockTitle{
 
 .newsReadMore a{
   text-decoration:none;
-  color:#000;
+  color:#343434;
 }
 
 #lifeCareBlock{
@@ -331,8 +289,7 @@ h3.blockTitle{
   padding:0px 20px 0px 15px;
   border-right:1px solid #999999;
   margin:5px;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
-}
+  }
 
 
 
@@ -365,7 +322,6 @@ h3.blockTitle{
   padding:15px 0px 10px 0px;
   background-color:#fff;
   text-transform:uppercase;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   width:284px;
   margin-left:-40px;
   text-align:center;
@@ -438,7 +394,6 @@ a img {border:none;}
 
 .positionCategory{
 	margin:30px 0px 20px 0px;
-	font-weight:bold;
 	border-bottom:1px solid #ccc;
 }
 
@@ -464,7 +419,6 @@ a img {border:none;}
   background-color:rgba(255,255,255,.8);
   padding:12px 25px 2px 100px;
   text-align:right;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size:24px;
 }
@@ -475,7 +429,6 @@ a img {border:none;}
   padding:15px 15px 4px 15px;
   margin-bottom:4px;
   text-align:right;
-  font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
   text-transform:uppercase;
   font-size:15px;
   background-color:#fff;
@@ -483,7 +436,7 @@ a img {border:none;}
   cursor:pointer;
 }
 .subpageNavigation li:hover{
-  color:#000;
+  color:#343434;
 }
 .subpageNavigation li.current{
     margin-right:-45px;
@@ -534,7 +487,7 @@ a img {border:none;}
 
 
 .jsSubContentText{
-  font-family: $lucida-grande;
+  font-family: $body-copy;
   font-size:16px;
   color:#333;
   overflow:auto;
@@ -552,10 +505,10 @@ text-transform:uppercase;
 
 
 .jsSubContentFlex{
-  font-family:$georgia;
+  font-family:$serif-body-copy;
   background-color:#e6e6e6;
   padding:10px 20px 4px;
-  font-size:14px;
+  font-size:12px;
 }
 .jsSubContentFlex ul{
   padding:0;
@@ -615,7 +568,6 @@ text-transform:uppercase;
       padding-right:105px;
     }
     ul.tertiaryNav li a{
-      font-family: "Century Gothic", Trebuchet, Helvetica, Arial, sans-serif;
       text-transform:uppercase;
       text-decoration:none;
       color:#FFF;

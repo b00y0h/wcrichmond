@@ -87,14 +87,16 @@
     }
     li:hover > a, ul ul :hover > a, a:focus {
         background: $red;
+        font-family: 'QuicksandBold';
     }
     li:hover > a, a:focus {
         background-color:$white;
+        font-family: 'QuicksandBold';
     }
     ul li:hover > ul {
         display: block; }
         .current-menu-item > a, .current-menu-ancestor > a, .current_page_item > a, .current_page_ancestor > a {
-            font-weight: bold; } }
+            font-family: 'QuicksandBold'; } }
 
     /* Home Secondary Nav (Near footer) */
     #menu-sub-menu {
@@ -129,9 +131,10 @@
    border-top:1px solid $darkgrey;
    border-bottom:1px solid $darkgrey;
    font-size:.9em;
-   padding:.75em;
    text-align:center;
    margin-bottom:.5em;
+   height: 50px;
+   line-height: 50px;
    li {
     display:inline;
     &.current-menu-item {
@@ -141,7 +144,7 @@
     }
     }
    a {
-    padding:.75em;
+    padding:0 .75em;
     text-decoration:none;
     text-transform:uppercase;
    }

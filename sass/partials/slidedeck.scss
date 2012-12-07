@@ -300,7 +300,8 @@
 .lens-wc-richmond dd .slide-content .slide-meta .slide-author,
 .lens-wc-richmond dd .sd2-node-caption .slide-meta .slide-author {
     display: none;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'QuicksandBold';
     font-size: 1em;
     margin-right: 0.4em;
 }
@@ -366,7 +367,8 @@
 }
 
 .lens-wc-richmond .date .day {
-    font: bold 30px/25px sans-serif;
+    font: normal 30px/25px sans-serif;
+    font-family: 'QuicksandBold';
 }
 
 .lens-wc-richmond .date {
@@ -876,7 +878,7 @@ border-right: 14px solid white;
 }
 .lens-wc-richmond .slide-source-custom.slide-type-video .play-video-alternative {
     display: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 .lens-wc-richmond .slide-source-custom.custom-layout-caption.custom-caption-position-top .play-video-alternative { display: inline-block; }
 
