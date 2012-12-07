@@ -437,6 +437,7 @@ h2.entry-title {
     .column1, .column2 {
         @include span-columns(5 of 10);
         position:relative;
+        p {padding-left: .5em;}
     }
     p {
         padding:1em .5em 1em 0;
@@ -464,9 +465,8 @@ h2.entry-title {
     #primary h3 {
         background-color:$white!important;
         font-family: 'QuicksandBook';
-        line-height:1.5em!important;
-        padding-top:.5em!important;
-        padding-bottom:.5em!important;
+        line-height:50px!important;
+        height: 45px!important;
         padding-left: 25px;
         margin-left: -20px;
         margin-bottom: 1em!important;
@@ -485,7 +485,7 @@ h2.entry-title {
         padding-right:1em;
     }
     .google-map {
-            margin-bottom:2em;
+            margin:auto 20px 2em;
             border:1px solid $darkgrey;
     }
     hr {

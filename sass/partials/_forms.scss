@@ -1,3 +1,5 @@
+@import "gf_forms";
+
 input {
     text-transform:uppercase;
 }
@@ -24,20 +26,23 @@ input {
     min-height: auto!important;
 }
 .page-template-page-contact-php {
+        #primary h3, #primary .gform_title {
+            @include span-columns(4 of 8);
+            + p {
+                clear: both;
+            }
+        }
     .gform_wrapper {
         margin: 0!important;
         max-width: 100%!important;
-        .gform_title {
-            @include span-columns(4 of 8);
-        }
         .gform_description {
              @include span-columns(5 of 8);
             display: block;
             margin-bottom: 1em;
         }
-    }
-    .gform_wrapper {
-        padding-right: 20px;
+        .gform_title {
+            @include span-columns(4 of 8);
+        }
     }
     #field_1_4 {
         margin-top: -29px;
@@ -50,6 +55,10 @@ input {
                 border: 2px solid $darkgrey;
                 padding:.5em;
                 @include border-radius(8px);
+                cursor: pointer;
             }
     }
+    .validation_message {display: none;}
+    .validation_error {clear: both;color:$red;margin-bottom: 1.5em;}
+    .gform_validation_error input {border-color: $red;}
 }
