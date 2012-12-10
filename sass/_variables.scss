@@ -3,7 +3,9 @@ $gutter: 12px;
 $max-width: 1024px;
 
 // $visual-grid: true;
-// $visual-grid-index: front;
+$visual-grid-index: front;
+$visual-grid-color: #f00;
+$visual-grid-opacity:.3;
 
 // Fonts
 $header-font: 'QuicksandBook', Arial, sans-serif;

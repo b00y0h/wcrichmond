@@ -51,7 +51,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 7.2549%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .oneoftwelve:last-child {
     margin-right: 0; }
 
@@ -61,7 +61,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 15.68627%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .twooftwelve:last-child {
     margin-right: 0; }
 
@@ -71,7 +71,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 24.11765%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .threeoftwelve:last-child {
     margin-right: 0; }
 
@@ -81,7 +81,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 32.54902%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .fouroftwelve:last-child {
     margin-right: 0; }
 
@@ -91,7 +91,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 40.98039%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .fiveoftwelve:last-child {
     margin-right: 0; }
 
@@ -101,7 +101,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 49.41176%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .sixoftwelve:last-child {
     margin-right: 0; }
 
@@ -111,7 +111,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 57.84314%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .sevenoftwelve:last-child {
     margin-right: 0; }
 
@@ -121,7 +121,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 66.27451%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .eightoftwelve:last-child {
     margin-right: 0; }
 
@@ -131,7 +131,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 74.70588%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .nineoftwelve:last-child {
     margin-right: 0; }
 
@@ -141,7 +141,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 83.13725%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .tenoftwelve:last-child {
     margin-right: 0; }
 
@@ -151,7 +151,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 91.56863%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .elevenoftwelve:last-child {
     margin-right: 0; }
 
@@ -161,7 +161,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 100%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .twelveoftwelve:last-child {
     margin-right: 0; }
 
@@ -173,7 +173,6 @@ h2 {
 #contentWrapper {
   zoom: 1;
   max-width: 1024px;
-  text-align: left;
   margin-left: auto;
   margin-right: auto; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -202,7 +201,7 @@ h2 {
       width: 49.41176%;
       padding-left: 75px;
       padding-bottom: 40px; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       #contentWrapper header #logo:last-child {
         margin-right: 0; }
     /* line 24, sass/partials/_layout.scss */
@@ -212,7 +211,7 @@ h2 {
       margin-right: 1.17647%;
       width: 49.41176%;
       margin-right: 0; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       #contentWrapper header #secondaryNav:last-child {
         margin-right: 0; }
 
@@ -220,7 +219,6 @@ h2 {
 .triptic {
   zoom: 1;
   max-width: 1024px;
-  text-align: left;
   margin-left: auto;
   margin-right: auto; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -236,7 +234,7 @@ h2 {
     float: left;
     margin-right: 1.17647%;
     width: 32.54902%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .triptic .module:last-child {
       margin-right: 0; }
 
@@ -244,7 +242,6 @@ h2 {
 .diptic {
   zoom: 1;
   max-width: 1024px;
-  text-align: left;
   margin-left: auto;
   margin-right: auto; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -260,7 +257,7 @@ h2 {
     float: left;
     margin-right: 1.17647%;
     width: 32.54902%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .diptic .module:last-child {
       margin-right: 0; }
     /* line 41, sass/partials/_layout.scss */
@@ -269,7 +266,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 66.27451%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .diptic .module:first-child:last-child {
         margin-right: 0; }
 
@@ -279,7 +276,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 49.41176%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .video-items:last-child {
     margin-right: 0; }
   /* line 50, sass/partials/_layout.scss */
@@ -305,7 +302,7 @@ h2 {
         float: left;
         margin-right: 1.17647%;
         width: 49.41176%; }
-        /* line 63, sass/neat/grid/_grid.scss */
+        /* line 62, sass/neat/grid/_grid.scss */
         .video-items.featured .entry-content .thumbnail-wrap:last-child {
           margin-right: 0; }
       /* line 58, sass/partials/_layout.scss */
@@ -314,7 +311,7 @@ h2 {
         float: left;
         margin-right: 1.17647%;
         width: 49.41176%; }
-        /* line 63, sass/neat/grid/_grid.scss */
+        /* line 62, sass/neat/grid/_grid.scss */
         .video-items.featured .entry-content .entry-content-snippet:last-child {
           margin-right: 0; }
 
@@ -344,7 +341,6 @@ h2 {
 #extra-footer-home {
   zoom: 1;
   max-width: 1024px;
-  text-align: left;
   margin-left: auto;
   margin-right: auto; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -361,7 +357,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 32.54902%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .menu-sub-menu:last-child {
     margin-right: 0; }
 
@@ -371,7 +367,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 66.27451%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .span-columns-8:last-child {
     margin-right: 0; }
   /* line 87, sass/partials/_layout.scss */
@@ -380,7 +376,7 @@ h2 {
     float: left;
     margin-right: 1.17647%;
     width: 49.41176%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .span-columns-8 .column1:last-child, .span-columns-8 .column2:last-child {
       margin-right: 0; }
     /* line 89, sass/partials/_layout.scss */
@@ -391,7 +387,6 @@ h2 {
 .row {
   zoom: 1;
   max-width: 1024px;
-  text-align: left;
   margin-left: auto;
   margin-right: auto; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -421,7 +416,7 @@ h2 {
   margin-right: 1.17647%;
   width: 15.68627%;
   padding-top: 43px; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .subpageNavigation:last-child {
     margin-right: 0; }
 
@@ -433,7 +428,7 @@ h2 {
   margin-right: 1.17647%;
   width: 83.13725%;
   margin-right: 0; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .subpageContentWrapper:last-child {
     margin-right: 0; }
   /* line 106, sass/partials/_layout.scss */
@@ -442,7 +437,7 @@ h2 {
     float: left;
     margin-right: 1.41509%;
     width: 49.29245%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubPhotoViewer:last-child, .subpageContentWrapper .resPhotoViewer:last-child {
       margin-right: 0; }
     /* line 108, sass/partials/_layout.scss */
@@ -455,7 +450,7 @@ h2 {
     float: left;
     margin-right: 1.41509%;
     width: 29.00943%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubContentText:last-child {
       margin-right: 0; }
     /* line 112, sass/partials/_layout.scss */
@@ -464,7 +459,7 @@ h2 {
       float: left;
       margin-right: 1.41509%;
       width: 49.29245%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper .jsSubContentText.single:last-child {
         margin-right: 0; }
   /* line 116, sass/partials/_layout.scss */
@@ -473,7 +468,7 @@ h2 {
     float: left;
     margin-right: 1.41509%;
     width: 18.86792%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .subpageContentWrapper .jsSubContentFlex:last-child {
       margin-right: 0; }
   /* line 119, sass/partials/_layout.scss */
@@ -485,7 +480,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 7.2549%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .oneoftwelve:last-child {
         margin-right: 0; }
     /* line 122, sass/partials/_layout.scss */
@@ -494,7 +489,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 15.68627%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .twooftwelve:last-child {
         margin-right: 0; }
     /* line 123, sass/partials/_layout.scss */
@@ -503,7 +498,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 24.11765%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .threeoftwelve:last-child {
         margin-right: 0; }
     /* line 124, sass/partials/_layout.scss */
@@ -512,7 +507,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 32.54902%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .fouroftwelve:last-child {
         margin-right: 0; }
     /* line 125, sass/partials/_layout.scss */
@@ -521,7 +516,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 40.98039%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .fiveoftwelve:last-child {
         margin-right: 0; }
     /* line 126, sass/partials/_layout.scss */
@@ -530,7 +525,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 49.41176%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .sixoftwelve:last-child {
         margin-right: 0; }
     /* line 127, sass/partials/_layout.scss */
@@ -539,7 +534,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 57.84314%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .sevenoftwelve:last-child {
         margin-right: 0; }
     /* line 128, sass/partials/_layout.scss */
@@ -548,7 +543,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 66.27451%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .eightoftwelve:last-child {
         margin-right: 0; }
     /* line 129, sass/partials/_layout.scss */
@@ -557,7 +552,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 74.70588%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .nineoftwelve:last-child {
         margin-right: 0; }
     /* line 130, sass/partials/_layout.scss */
@@ -566,7 +561,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 83.13725%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .tenoftwelve:last-child {
         margin-right: 0; }
     /* line 131, sass/partials/_layout.scss */
@@ -575,7 +570,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 91.56863%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .elevenoftwelve:last-child {
         margin-right: 0; }
     /* line 132, sass/partials/_layout.scss */
@@ -584,7 +579,7 @@ h2 {
       float: left;
       margin-right: 1.17647%;
       width: 100%; }
-      /* line 63, sass/neat/grid/_grid.scss */
+      /* line 62, sass/neat/grid/_grid.scss */
       .subpageContentWrapper.full .twelveoftwelve:last-child {
         margin-right: 0; }
     /* line 133, sass/partials/_layout.scss */
@@ -612,7 +607,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 66.27451%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   #primary:last-child {
     margin-right: 0; }
 
@@ -622,7 +617,7 @@ h2 {
   float: left;
   margin-right: 1.17647%;
   width: 32.54902%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   #sidebar:last-child {
     margin-right: 0; }
 
@@ -637,7 +632,7 @@ footer .footerLogos {
   margin-right: 1.17647%;
   width: 15.68627%;
   padding: 1em; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   footer .footerLogos:last-child {
     margin-right: 0; }
 /* line 164, sass/partials/_layout.scss */
@@ -646,7 +641,7 @@ footer .copyText {
   float: left;
   margin-right: 1.17647%;
   width: 83.13725%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   footer .copyText:last-child {
     margin-right: 0; }
 
@@ -1922,7 +1917,7 @@ h2.entry-title {
     margin-right: 1.41509%;
     width: 49.29245%;
     position: relative; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .hero .column1:last-child, .hero .column2:last-child {
       margin-right: 0; }
     /* line 440, sass/_styles.scss */
@@ -4819,7 +4814,7 @@ input {
   float: left;
   margin-right: 1.77515%;
   width: 49.11243%; }
-  /* line 63, sass/neat/grid/_grid.scss */
+  /* line 62, sass/neat/grid/_grid.scss */
   .page-template-page-contact-php #primary h3:last-child, .page-template-page-contact-php #primary .jsSubContentTitle:last-child, .page-template-page-contact-php #primary .gform_title:last-child {
     margin-right: 0; }
   /* line 31, sass/partials/_forms.scss */
@@ -4837,7 +4832,7 @@ input {
     width: 61.83432%;
     display: block;
     margin-bottom: 1em; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .page-template-page-contact-php .gform_wrapper .gform_description:last-child {
       margin-right: 0; }
   /* line 43, sass/partials/_forms.scss */
@@ -4846,7 +4841,7 @@ input {
     float: left;
     margin-right: 1.77515%;
     width: 49.11243%; }
-    /* line 63, sass/neat/grid/_grid.scss */
+    /* line 62, sass/neat/grid/_grid.scss */
     .page-template-page-contact-php .gform_wrapper .gform_title:last-child {
       margin-right: 0; }
 /* line 47, sass/partials/_forms.scss */
