@@ -667,13 +667,13 @@ footer .copyText {
     padding-left: 0; }
     /* line 9, sass/partials/_menu.scss */
     #access ul.menu {
-      margin: 0; }
-      /* line 12, sass/partials/_menu.scss */
+      margin: 0;
+      border-top: 1px solid #8d8d8d;
+      border-bottom: 1px solid #8d8d8d; }
+      /* line 14, sass/partials/_menu.scss */
       #access ul.menu > li {
         padding-top: 7px;
-        padding-bottom: 7px;
-        border-top: 1px solid #8d8d8d;
-        border-bottom: 1px solid #8d8d8d; }
+        padding-bottom: 7px; }
         /* line 18, sass/partials/_menu.scss */
         #access ul.menu > li.dropdown > a:after {
           position: absolute;
