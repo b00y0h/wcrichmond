@@ -4915,3 +4915,9 @@ input[type="checkbox"]:checked + label {
 -webkit-border-radius: 5px;
 border-radius: 5px;
 }
+#field_1_2{width:315px;}
+.post-15 h3{
+font-family: 'QuicksandBook' !important;
+font-size: 20px !important;
+font-weight: normal !important;
+}
