@@ -1720,8 +1720,8 @@ h2.entry-title {
 
 /* line 251, sass/_styles.scss */
 .entry-content {
-  font-family: "Source Sans Pro", sans-serif;
-  line-height: 1.3em;
+  font-family: "Merriweather", serif;
+  line-height: 2em;
   font-size: .9em; }
   /* line 255, sass/_styles.scss */
   .entry-content a {
