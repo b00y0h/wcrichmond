@@ -2148,7 +2148,7 @@ to no.
 .gform_wrapper input[type=number],
 .gform_wrapper input[type=password] {
   outline-style: none;
-  font-size: 11px;
+  font-size: 14px;
   font-family: inherit;
   padding: 2px 0 2px 0;
   letter-spacing: normal; }
