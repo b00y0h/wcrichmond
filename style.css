@@ -4882,3 +4882,8 @@ input {
 /* line 63, sass/partials/_forms.scss */
 .page-template-page-contact-php .gform_validation_error input {
   border-color: #cc2933; }
+
+
+/* Hotfixes */
+.page-template-page-contact-php #field_1_4 {
+  margin-top: 0px; }
