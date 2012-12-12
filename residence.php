@@ -415,7 +415,7 @@ get_header(); ?>
 
       </div>
 
-      <div class="jsSubContent jsc_8"><img class="full" src="<?php bloginfo('template_directory');?>/images/residence_gallery/CampusMap_Static.jpg" alt="">
+      <div class="jsSubContent jsc_8"><img class="full" src="<?php bloginfo('template_directory');?>/images/residence_gallery/CampusMap_Static.gif" alt="">
       </div>
 
     </div><!-- .subpageCopy -->
