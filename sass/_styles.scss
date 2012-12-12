@@ -461,7 +461,10 @@ h2.entry-title {
     .entry-content {
         padding: 20px;
     }
-    .hero {padding: 0 30px;margin: 0;margin-top: 1.5em;}
+    .hero {
+        padding: 0 10px 20px 30px;margin: 0;margin-top: 1.5em;
+        p {padding-right: 0}
+    }
     #primary {padding:0;}
     #primary h3 {
         background-color:$white!important;
