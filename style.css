@@ -4930,5 +4930,6 @@ font-weight: normal !important;
   margin-top: -60px;
 }
 #field_1_1{
+	display:none;
   margin-top:-100px !important;
 }
