@@ -70,7 +70,7 @@ input {
     .validation_error {clear: both;color:$red;margin-bottom: 1.5em;}
     .gform_validation_error input {border-color: $red;}
 }
-#input_1_11_4_label {display: none}
+#input_1_11_4_label, #input_1_3_4_label {display: none}
 #input_1_3_2_container, #input_1_11_3_container {
     width: 100%;
     input {width:98% !important;}
