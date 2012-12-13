@@ -4893,7 +4893,7 @@ input {
   border-color: #cc2933; }
 
 /* line 73, sass/partials/_forms.scss */
-#input_1_11_4_label {
+#input_1_11_4_label, #input_1_3_4_label {
   display: none; }
 
 /* line 74, sass/partials/_forms.scss */
