@@ -4926,8 +4926,8 @@ font-weight: normal !important;
   font-weight: 700;
 }
 
-#field_1_7 {
-  margin-top: -79px;
+.page-template-page-contact-php #field_1_7 {
+  margin-top: -71px;
 }
 #field_1_1{
   margin-top:-110px !important;
