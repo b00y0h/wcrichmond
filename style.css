@@ -4800,17 +4800,17 @@ input {
 .gform_wrapper input[type=email],
 .gform_wrapper input[type=tel],
 .gform_wrapper input[type=number],
-.gform_wrapper input[type=password] {
-  -webkit-border-radius: 14px;
-  border-radius: 14px;
+.gform_wrapper input[type=password], .gform_wrapper .textarea {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   border: 2px solid #8e8e8e;
   padding: .7em .5em .5em 1em!important;
-  font-family: 'QuicksandBold'!important; }
-
-/* line 18, sass/partials/_forms.scss */
-.gform_wrapper .textarea {
-  padding: 1em;
+  font-family: 'QuicksandBold'!important;
   font-size: 14px; }
+
+/* line 19, sass/partials/_forms.scss */
+.gform_wrapper .textarea {
+  padding: 1em; }
 
 /* line 22, sass/partials/_forms.scss */
 .gform_wrapper .top_label li.gfield {
@@ -4857,8 +4857,8 @@ input {
     .page-template-page-contact-php .gform_wrapper .gform_title:last-child {
       margin-right: 0; }
 /* line 47, sass/partials/_forms.scss */
-.page-template-page-contact-php #field_1_4 {
-  margin-top: -29px; }
+.page-template-page-contact-php #field_1_7 {
+  margin-top: -80px; }
 /* line 50, sass/partials/_forms.scss */
 .page-template-page-contact-php .gform_footer {
   text-align: right; }
@@ -4883,41 +4883,13 @@ input {
 .page-template-page-contact-php .gform_validation_error input {
   border-color: #cc2933; }
 
+/* line 65, sass/partials/_forms.scss */
+#input_1_11_4_label {
+  display: none; }
 
-/* Hotfixes */
-.page-template-page-contact-php #field_1_4 {
-  margin-top: 0px; }
-#field_1_7{
- margin-top: 120px;
-}
-#gform_submit_button_1{
- background-color:#CC2933;
- border-color:#CC2933;
- color:#fff;
- font-size:18px;
- margin-right:15px;
-}
-input[type="checkbox"]:checked + label {
- font-weight: normal!important;
-}
-#input_1_3_4_label{ display:none; }
-#input_1_3_3_container{
- width:320px;
-}
-#input_1_3_4{
- font-size:16px;
- margin-left:1px;
- margin-top:7px !important;
- width: 93% !important;
-}
-.gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"],
-.gform_wrapper textarea {
--webkit-border-radius: 5px;
-border-radius: 5px;
-}
-#field_1_2{width:315px;}
-.post-15 h3{
-font-family: 'QuicksandBook' !important;
-font-size: 20px !important;
-font-weight: normal !important;
-}
+/* line 66, sass/partials/_forms.scss */
+#input_1_3_2_container, #input_1_11_3_container {
+  width: 100%; }
+  /* line 68, sass/partials/_forms.scss */
+  #input_1_3_2_container input, #input_1_11_3_container input {
+    width: 98% !important; }

@@ -9,15 +9,15 @@ input {
 .gform_wrapper input[type=email],
 .gform_wrapper input[type=tel],
 .gform_wrapper input[type=number],
-.gform_wrapper input[type=password] {
-    @include border-radius(14px);
+.gform_wrapper input[type=password], .gform_wrapper .textarea {
+    @include border-radius(5px);
     border:2px solid $darkgrey;
     padding:.7em .5em .5em 1em!important;
     font-family: 'QuicksandBold'!important;
+    font-size: 14px;
 }
 .gform_wrapper .textarea {
     padding: 1em;
-    font-size: 14px;
 }
 .gform_wrapper .top_label li.gfield {
     margin-bottom: 0px!important;
@@ -44,8 +44,8 @@ input {
             @include span-columns(4 of 8);
         }
     }
-    #field_1_4 {
-        margin-top: -29px;
+    #field_1_7 {
+        margin-top: -80px;
     }
     .gform_footer {
         text-align: right;
@@ -62,3 +62,11 @@ input {
     .validation_error {clear: both;color:$red;margin-bottom: 1.5em;}
     .gform_validation_error input {border-color: $red;}
 }
+#input_1_11_4_label {display: none}
+#input_1_3_2_container, #input_1_11_3_container {
+    width: 100%;
+    input {width:98% !important;}
+}
+
+
+
