@@ -4922,7 +4922,7 @@ input[type="checkbox"]:checked + label {
 font-weight: normal !important;
 }
 .gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"], .gform_wrapper .textarea {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif !important;
   font-weight: 700;
 }
 
@@ -4930,5 +4930,5 @@ font-weight: normal !important;
   margin-top: -79px;
 }
 #field_1_1{
-  margin-top:-120px !important;
+  margin-top:-110px !important;
 }
