@@ -4925,7 +4925,7 @@ font-weight: normal !important;
 .gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"], .gform_wrapper .textarea {
   font-family: 'Merriweather', serif !important;
 	text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .page-template-page-contact-php #field_1_7 {
@@ -4933,4 +4933,10 @@ font-weight: normal !important;
 }
 #field_1_1{
   margin-top:-110px !important;
+}
+
+@-moz-document url-prefix() {
+  .gform_wrapper li.gfield {
+	  margin-bottom:3px !important;
+	}
 }
