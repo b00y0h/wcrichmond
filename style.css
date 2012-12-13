@@ -4902,3 +4902,17 @@ input {
   /* line 76, sass/partials/_forms.scss */
   #input_1_3_2_container input, #input_1_3_3_container input {
     width: 98% !important; }
+
+/* more hotfix */
+.post-15 h3{
+  font-size:20px !important;
+  font-weight:normal !important;
+  color:#333 !important;
+}
+.gform_footer{
+ padding-top:0 !important;
+ margin-top:5px !important;
+}
+#gform_submit_button_1{
+ float:left;
+}
