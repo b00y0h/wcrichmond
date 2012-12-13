@@ -4921,15 +4921,14 @@ input {
 input[type="checkbox"]:checked + label {
 font-weight: normal !important;
 }
-.gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"], .gform_wrapper .textarea {{
+.gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"], .gform_wrapper .textarea {
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
 
-.page-template-page-contact-php #field_1_7 {
-  margin-top: -60px;
+#field_1_7 {
+  margin-top: -79px;
 }
 #field_1_1{
-	display:none;
-  margin-top:-100px !important;
+  margin-top:-120px !important;
 }
