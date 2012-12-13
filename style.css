@@ -4926,6 +4926,7 @@ font-weight: normal !important;
   font-family: 'Merriweather', serif !important;
 	text-transform: capitalize;
   font-weight: 400 !important;
+  margin:2px 0 !important;
 }
 
 .page-template-page-contact-php #field_1_7 {
