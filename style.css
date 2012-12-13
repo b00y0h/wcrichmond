@@ -4924,6 +4924,7 @@ font-weight: normal !important;
 }
 .gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"], .gform_wrapper .textarea {
   font-family: 'Merriweather', serif !important;
+	text-transform: capitalize;
   font-weight: 700;
 }
 
