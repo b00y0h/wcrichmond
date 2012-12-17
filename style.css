@@ -4902,3 +4902,42 @@ input {
   /* line 76, sass/partials/_forms.scss */
   #input_1_3_2_container input, #input_1_3_3_container input {
     width: 98% !important; }
+
+/* more hotfix */
+.post-15 h3{
+  font-size:20px !important;
+  font-weight:normal !important;
+  color:#333 !important;
+}
+.gform_footer{
+ padding-top:0 !important;
+ margin-top:5px !important;
+}
+#gform_submit_button_1{
+ float:left;
+ font-family: 'Quicksans';
+ font-size: 20px;
+ margin-left:268px;
+}
+input[type="checkbox"]:checked + label {
+font-weight: normal !important;
+}
+.gform_wrapper input[type="text"], .gform_wrapper input[type="url"], .gform_wrapper input[type="email"], .gform_wrapper input[type="tel"], .gform_wrapper input[type="number"], .gform_wrapper input[type="password"], .gform_wrapper .textarea {
+  font-family: 'Merriweather', serif !important;
+	text-transform: capitalize;
+  font-weight: 400 !important;
+  margin:2px 0 !important;
+}
+
+.page-template-page-contact-php #field_1_7 {
+  margin-top: -71px;
+}
+#field_1_1{
+  margin-top:-110px !important;
+}
+
+@-moz-document url-prefix() {
+  .gform_wrapper li.gfield {
+	  margin-bottom:3px !important;
+	}
+}
