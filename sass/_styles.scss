@@ -584,8 +584,12 @@ h2.entry-title {
     #ai1ec-calendar-view {
         margin-top:2em;
     }
+    .ai1ec-filter-selector-container {
+        display: block;
+    }
     .ai1ec-filters-container {
-    display:none;
+        right: 0;
+        margin: 20px 0;
     }
     #ai1ec-container {
         margin:0;

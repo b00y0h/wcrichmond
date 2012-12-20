@@ -10,7 +10,7 @@ input {
 .gform_wrapper input[type=tel],
 .gform_wrapper input[type=number],
 .gform_wrapper input[type=password], .gform_wrapper .textarea {
-    @include border-radius(5px);
+    border-radius: 5px;
     border:2px solid $darkgrey;
     padding:.7em .5em .5em 1em!important;
     font-family: 'QuicksandBold'!important;
@@ -60,7 +60,7 @@ input {
                 color: $white;
                 border: 2px solid $red;
                 padding:.5em;
-                @include border-radius(8px);
+                border-radius: 8px;
                 cursor: pointer;
                 font-size: 18px;
                 margin-right: 15px;
@@ -76,5 +76,11 @@ input {
     input {width:98% !important;}
 }
 
+#gform_submit_button_1{
+ float:left;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 20px;
+ margin-left:268px;
+}
 
 
