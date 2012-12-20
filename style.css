@@ -4915,7 +4915,7 @@ input {
 }
 #gform_submit_button_1{
  float:left;
- font-family: 'Quicksans';
+ font-family: 'Quicksand', sans-serif;
  font-size: 20px;
  margin-left:268px;
 }
@@ -4933,7 +4933,7 @@ font-weight: normal !important;
   margin-top: -71px;
 }
 #field_1_1{
-  margin-top:-110px !important;
+  margin-top:0px !important;
 }
 
 @-moz-document url-prefix() {
