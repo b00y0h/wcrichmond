@@ -44,7 +44,7 @@
         </div>
 
         <?php } else { ?>
-
+        <h3><a href="http://dev.wcrichmond.org/about-us/publications/">Publications</a></h3>
     <h3><a href="#">Calendar &amp; Events</a></h3>
     <h3>Archives</h3>
     <ul class="blog-list-archive">
