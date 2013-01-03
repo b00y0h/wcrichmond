@@ -29,15 +29,15 @@
         <div class="inner-wrapper">
             <div id='upcoming-events'><a href="/news/master-calendar/?ai1ec_cat_ids=7">Vew all upcoming Events</a></div>
             <div id='local-calendars' class="calendar-list">
-                <a href="">Avalon Calendar</a>
-                <a href="">Pavilion Calendar</a>
-                <a href="">Monticello Calendar</a>
-                <a href="">Gabels Calendar</a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/rec-calendar-master-avalon-2013-jan.pdf">Avalon Calendar</a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/rec-calendar-master-pav-2013-jan.pdf">Pavilion Calendar</a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/MONT-CAL-2013-jan.pdf">Monticello Calendar</a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/rec-calendar-master-GABLES-2013-jan.pdf">Gabels Calendar</a>
             </div> <!-- .other-local-calendars -->
             <div id="offsite-calendars" class="calendar-list">
-                <a href="">Westminster Canterbury<br><span>Shenandoah Calendar</span></a>
-                <a href="">Westminster Canterbury<br><span>Chesapeake Calendar</span></a>
-                <a href="">Westminster Canterbury<br><span>Piedmont Calendar</span></a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/recreation-shenandoah-2013-jan.pdf">Westminster Canterbury<br><span>Shenandoah Calendar</span></a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/recreation-CHES-2013-jan.pdf">Westminster Canterbury<br><span>Chesapeake Calendar</span></a>
+                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/recreation-pied-2013-jan.pdf">Westminster Canterbury<br><span>Piedmont Calendar</span></a>
             </div>
         </div>
     </div>
