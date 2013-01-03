@@ -1,6 +1,6 @@
 <div class="blockWrapper">
   <div id="newsEventsBlock">
-    <h3 class="blockTitle"><a href="<?php bloginfo('home');?>/news">News &amp; Calendar</a></h3>
+    <h3 class="blockTitle"><a href="<?php bloginfo('home');?>/calendar">News &amp; Calendar</a></h3>
     <div class="newsFeed">
       <style type="text/css" media="screen">
         .newsFeed p{
