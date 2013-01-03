@@ -1,6 +1,6 @@
 <div class="triptic">
 
-    <a href="/act-now/" id="act-now" class="module">
+    <a href="/contact-us/" id="act-now" class="module">
         <h2>Act Now!</h2>
         <p>Take advantage of special incentives and limited offers before fees increase on October 1, 2012.</p>
     </a>
