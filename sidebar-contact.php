@@ -17,13 +17,14 @@
         <span class="value">804-200-1176</span>
         </div>
         <div class="tel">
+        <span class="type">Foundation</span>
+        <span class="value">804-264-6066</span>
+        </div>
+        <div class="tel">
         <span class="type">Other Inquiries</span>
         <span class="value">804-264-6000</span>
         </div>
-        <div class="tel">
-        <span class="type">Fax</span>
-        <span class="value">804-264-4579</span>
-        </div>
+        
 
     <h3 class="contact-header">By E-mail</h3>
         <a class="email" href="mailto:info@wcrichmond.org">info@wcrichmond.org</a>
