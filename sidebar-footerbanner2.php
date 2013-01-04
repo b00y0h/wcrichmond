@@ -1,6 +1,6 @@
 <div class="blockWrapper">
   <div id="newsEventsBlock">
-    <h3 class="blockTitle"><a href="<?php bloginfo('home');?>/news">News &amp; Calendar</a></h3>
+    <h3 class="blockTitle"><a href="<?php bloginfo('home');?>/calendar">News &amp; Calendar</a></h3>
     <div class="newsFeed">
       <?php $latest_news = get_posts('numberposts=1');
          foreach($latest_news as $post) :
