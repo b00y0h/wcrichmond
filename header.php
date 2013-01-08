@@ -32,7 +32,7 @@
 <![endif]-->
 
 <style type="text/css" media="screen">
-  .jsSubContentText a{
+  .jsSubContentText  .pdf_links a{
     display:block;
     height:40px;
   }
