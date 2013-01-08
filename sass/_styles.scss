@@ -422,7 +422,6 @@ h2.entry-title {
     &:last-of-type {
         border-bottom: 1px solid $darkgrey;
     }
-    &:hover {color:#efefef;color: hsl(0,0,90);}
     &:last-of-type {
         margin-bottom:1em;
     }
@@ -433,7 +432,6 @@ h2.entry-title {
         text-transform:uppercase;
     }
     .value {
-        font-weight:bold;
         font-family:'QuicksandBold';
     }
 }
