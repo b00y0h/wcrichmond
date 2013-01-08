@@ -175,7 +175,7 @@ get_header(); ?>
            The Tower offers 15 appealing floor plans, from cozy studios to one- and two-bedroom residences with dining rooms and well equipped kitchens. All have large windows, plush carpet and ample closet space, with community amenities a short, enclosed walk away.
          </p>
 
-         <p>
+         <p class="pdf_links">
            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/tower_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
          </p>
@@ -246,7 +246,7 @@ get_header(); ?>
             Tall windows flood our one-, two- and three-bedroom Courtyard residences with natural light. Each of the ten versatile floor plans – most with den or sunroom; all with balcony or patio – feature nine foot ceilings and can be decorated to personal tastes.
           </p>
 
-          <p>
+          <p class="pdf_links">
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Fee Schedule</a>
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/courtyard_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Floorplans</a>
           </p>
@@ -294,7 +294,7 @@ get_header(); ?>
             With parking just outside, the Garden Apartments offer the feel of seclusion with close proximity to all our community has to offer. Each of 11 floor plans features ceilings nine feet or higher, arched windows, and a balcony or terrace—some, even a second balcony or den or crafts-room space.
           </p>
 
-          <p>
+          <p class="pdf_links">
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/garden_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
           </p>
@@ -358,7 +358,7 @@ get_header(); ?>
            <h3 class="jsSubContentTitle">Homes on the Green</h3>
            <p>Relaxing front porches. Sunny backyard patios. Nine-foot ceilings. Large master bedrooms. Two-car garages. Our Homes on the Green have everything you like in a spacious floor plan – some with sunrooms or dens, others with finished second floors, adding two more bedrooms. </p>
 
-            <p>
+            <p class="pdf_links">
                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/homes-on-the-green-floor-plans-11-2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
              </p>
@@ -407,7 +407,7 @@ get_header(); ?>
           <h3 class="jsSubContentTitle">The Glebe Homes</h3>
           <p>Red brick exteriors, private yards with brick terraces or wood decks, and attached two-car garages characterize The Glebe Homes, our most spacious two-, three- and four-bedroom residences. Sunrooms, country kitchens, and gas fireplaces are just some of the many upgrades.  </p>
 
-          <p>
+          <p class="pdf_links">
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/glebe_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
           </p>

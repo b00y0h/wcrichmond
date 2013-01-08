@@ -30,6 +30,13 @@
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>
 <![endif]-->
+
+<style type="text/css" media="screen">
+  .jsSubContentText  .pdf_links a{
+    display:block;
+    height:40px;
+  }
+</style>
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>
