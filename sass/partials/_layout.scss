@@ -42,6 +42,14 @@
             @include span-columns(8);
         }
     }
+    &.last-child-large {
+        .module{
+            @include span-columns(4);
+            &:last-child {
+                @include span-columns(8);
+            }
+        }
+    }
 }
 
 // Layout for video archive page

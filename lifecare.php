@@ -36,6 +36,8 @@
         </div>
   </div>
 
-<?php get_sidebar('footerbanner2'); ?>
+<?php // get_sidebar('footerbanner2'); ?>
+<?php  get_template_part( 'sidebar', 'footerbanner-news-lifestyle' ); ?>
+
 
 <?php get_footer(); ?>

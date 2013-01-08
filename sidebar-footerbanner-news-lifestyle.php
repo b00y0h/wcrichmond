@@ -1,5 +1,6 @@
-<div class="blockWrapper">
-  <div id="newsEventsBlock">
+<div class="diptic last-child-large">
+
+  <div id="newsEventsBlock" class="module">
     <h3 class="blockTitle"><a href="<?php bloginfo('home');?>/calendar">News &amp; Calendar</a></h3>
     <div class="newsFeed">
       <?php $latest_news = get_posts('numberposts=1');
@@ -25,11 +26,8 @@
   </div>
 
 
-  <div id="lifeCareBlock">
-    <a href="<?php bloginfo('home');?>/lifestyle/">
-      <img src="<?php bloginfo('template_directory');?>/images/lifestyle-block.png">
+    <a href="/lifestyle/" id="lifestyle" class="module desk-image">
+        <h2 class="transparent header">LifeStyle</h2>
     </a>
-  </div>
 
-
-</div>
+</div> <!-- .diptic -->
