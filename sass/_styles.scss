@@ -545,9 +545,8 @@ h2.entry-title {
     .column1, .column2 {
         @include span-columns(5 of 10);
         position:relative;
-        p {padding-left: .5em;}
     }
-    p {
+    .column2 p {
         padding:1em .5em 1em 0;
         line-height:1.3em;
         margin-bottom:0;
@@ -677,6 +676,10 @@ h2.entry-title {
         a {
             text-decoration:none;
             color:$white;
+            height: 180px;
+            display: block;
+            line-height: 1.3em;
+            padding-top: 50px;
         }
     }
     .column2 {
