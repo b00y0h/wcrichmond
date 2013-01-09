@@ -6,6 +6,9 @@ img.full {
     width:100%;
     height:auto;
         }
+.hide {
+    display: none;
+}
 
 .pageWrapper {
     padding:0 20px;
@@ -65,13 +68,13 @@ img.full {
 }
 .grey-border-bottom {
     border-bottom:1px solid #8d8d8d;
-    padding-bottom:1em;
-    margin-bottom:1em;
+    padding-bottom:1.17647%;
+    margin-bottom:1.17647%;
 }
 .grey-border-top {
     border-top:1px solid #8d8d8d;
-    padding-top:1em;
-    margin-top:1em;
+    padding-top:1.17647%;
+    margin-top:1.17647%;
 }
 
 .triptic, .diptic {
@@ -157,6 +160,8 @@ img.full {
     padding-bottom: 3em;
 }
 #around-our-community {
+    // to match height of submenu to it's left
+    height: 280px;max-height: 280px;
     h3 {
         font-family: 'QuicksandBold';
         margin-top:0;
@@ -212,10 +217,12 @@ img.full {
     text-align:center;
     padding:.7em;
     margin-bottom:1em;
+    line-height: 1.5em;
     strong {
-        font-family:'QuicksandBook';
+        font-family:'QuicksandBold';
         color:$red;
         padding-left:.4em;
+        font-weight: normal;
     }
     a{
       text-transform: uppercase;
