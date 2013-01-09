@@ -1351,9 +1351,11 @@ a img {
   color: #333;
   overflow: auto;
   line-height: 24px;
-  padding: 0 .5em; }
+  padding: 0 .5em;
+  height: 490px;
+  overflow: auto; }
 
-/* line 492, sass/_orig-styles.scss */
+/* line 494, sass/_orig-styles.scss */
 .jsSubContentTitle {
   font-size: 16px;
   color: #343434;
@@ -1361,88 +1363,94 @@ a img {
   font-weight: normal;
   text-transform: uppercase; }
 
-/* line 502, sass/_orig-styles.scss */
+/* line 504, sass/_orig-styles.scss */
 .jsSubContentFlex {
   font-family: "Merriweather", serif;
   background-color: #e6e6e6;
-  padding: 10px 20px 4px;
-  font-size: 12px; }
+  padding: 10px;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  height: 100%; }
 
-/* line 508, sass/_orig-styles.scss */
+/* line 513, sass/_orig-styles.scss */
 .jsSubContentFlex ul {
   padding: 0;
   margin: 0; }
 
-/* line 513, sass/_orig-styles.scss */
+/* line 518, sass/_orig-styles.scss */
 .jsSubContentFlex ul li {
   /*list-style-type:none;*/
   margin: 10px 0px 0px 20px; }
 
-/* line 518, sass/_orig-styles.scss */
+/* line 523, sass/_orig-styles.scss */
 .jsSubContent {
-  display: none; }
+  display: none;
+  position: relative;
+  overflow: hidden;
+  height: 490px; }
 
-/* line 522, sass/_orig-styles.scss */
+/* line 530, sass/_orig-styles.scss */
 .jsSubPhotoViewer img {
   width: 100%;
   height: auto; }
 
-/* line 528, sass/_orig-styles.scss */
+/* line 536, sass/_orig-styles.scss */
 .jsSubContent.current_sub_content {
   display: block; }
 
-/* line 531, sass/_orig-styles.scss */
+/* line 539, sass/_orig-styles.scss */
 .subpageWrapper {
   background-color: #add3cf; }
-  /* line 533, sass/_orig-styles.scss */
+  /* line 541, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
-  /* line 534, sass/_orig-styles.scss */
+  /* line 542, sass/_orig-styles.scss */
   body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
     background-color: #482859; }
-  /* line 535, sass/_orig-styles.scss */
+  /* line 543, sass/_orig-styles.scss */
   body[class*="arts"] .subpageWrapper {
     background-color: #e94347; }
-  /* line 536, sass/_orig-styles.scss */
+  /* line 544, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
-  /* line 537, sass/_orig-styles.scss */
+  /* line 545, sass/_orig-styles.scss */
   body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
-  /* line 538, sass/_orig-styles.scss */
+  /* line 546, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {
     background-color: #327e85; }
 
-/* line 542, sass/_orig-styles.scss */
+/* line 550, sass/_orig-styles.scss */
 ul.tertiaryNav {
   margin: 0;
   padding: 0; }
 
-/* line 546, sass/_orig-styles.scss */
+/* line 554, sass/_orig-styles.scss */
 ul.tertiaryNav li {
   list-style: none;
   background-color: #d31145;
   /*height:37px;*/
   margin: 5px 0px; }
 
-/* line 552, sass/_orig-styles.scss */
+/* line 560, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover {
   background-color: #fff; }
 
-/* line 555, sass/_orig-styles.scss */
+/* line 563, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 559, sass/_orig-styles.scss */
+/* line 567, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 562, sass/_orig-styles.scss */
+/* line 570, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   padding-right: 105px; }
 
-/* line 565, sass/_orig-styles.scss */
+/* line 573, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   text-transform: uppercase;
   text-decoration: none;

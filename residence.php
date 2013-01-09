@@ -157,17 +157,6 @@ get_header(); ?>
 
         </div>
 
-        <div class="jsSubContentFlex">
-            Featuring:
-           <ul>
-             <li>One or two full baths; walk-in shower or tub with ceramic tile surround</li>
-             <li>Floor plans with dressing rooms and walk-in closets</li>
-             <li>Wood flooring in some apartments</li>
-             <li>Crown moulding throughout</li>
-             <li>Wire shelving in closets</li>
-             <li>Floor plans with washers and dryers</li>
-           </ul>
-        </div>
 
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">The Tower</h3>
@@ -180,6 +169,18 @@ get_header(); ?>
            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/tower_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
          </p>
        </div>
+
+        <div class="jsSubContentFlex">
+            Featuring:
+           <ul>
+             <li>One or two full baths; walk-in shower or tub with ceramic tile surround</li>
+             <li>Floor plans with dressing rooms and walk-in closets</li>
+             <li>Wood flooring in some apartments</li>
+             <li>Crown moulding throughout</li>
+             <li>Wire shelving in closets</li>
+             <li>Floor plans with washers and dryers</li>
+           </ul>
+        </div>
 
       </div>
 
@@ -226,6 +227,19 @@ get_header(); ?>
           <img alt=""  class="jsubphoto_9 jsSubPhoto" src="<?php bloginfo('template_directory');?>/images/residence_gallery/2_The_Courtyard/9_Courtyard.jpg" width="363" height="424">
         </div>
 
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">The Courtyard</h3>
+          <p>
+            Tall windows flood our one-, two- and three-bedroom Courtyard residences with natural light. Each of the ten versatile floor plans – most with den or sunroom; all with balcony or patio – feature nine foot ceilings and can be decorated to personal tastes.
+          </p>
+
+          <p class="pdf_links">
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Fee Schedule</a>
+            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/courtyard_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Floorplans</a>
+          </p>
+        </div>
+
         <div class="jsSubContentFlex">
             Featuring:
            <ul>
@@ -238,18 +252,6 @@ get_header(); ?>
              <li>All amenities an indoor walk away</li>
              <li>Parking garage</li>
            </ul>
-        </div>
-
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">The Courtyard</h3>
-          <p>
-            Tall windows flood our one-, two- and three-bedroom Courtyard residences with natural light. Each of the ten versatile floor plans – most with den or sunroom; all with balcony or patio – feature nine foot ceilings and can be decorated to personal tastes.
-          </p>
-
-          <p class="pdf_links">
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Fee Schedule</a>
-            <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/courtyard_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left" > Floorplans</a>
-          </p>
         </div>
 
       </div>
@@ -276,17 +278,6 @@ get_header(); ?>
           <img alt=""  class="jsubphoto_4 jsSubPhoto"  src="<?php bloginfo('template_directory');?>/images/residence_gallery/3_Garden_Apartments/4_GardenApts.jpg" width="363" height="424">
         </div>
 
-         <div class="jsSubContentFlex">
-             Featuring:
-             <ul>
-               <li>Spacious, well-appointed kitchens</li>
-               <li>One or two full baths, with ceramic tile</li>
-               <li>Wood floor in den, dining and living rooms</li>
-               <li>Crown moulding throughout</li>
-               <li>Wood shelving in closets</li>
-               <li>All amenities an indoor walk away</li>
-             </ul>
-          </div>
 
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">Garden Apartments</h3>
@@ -300,6 +291,18 @@ get_header(); ?>
           </p>
 
         </div>
+
+         <div class="jsSubContentFlex">
+             Featuring:
+             <ul>
+               <li>Spacious, well-appointed kitchens</li>
+               <li>One or two full baths, with ceramic tile</li>
+               <li>Wood floor in den, dining and living rooms</li>
+               <li>Crown moulding throughout</li>
+               <li>Wood shelving in closets</li>
+               <li>All amenities an indoor walk away</li>
+             </ul>
+          </div>
 
       </div>
 
@@ -341,6 +344,17 @@ get_header(); ?>
           <img alt=""  class="jsubphoto_8 jsSubPhoto" src="<?php bloginfo('template_directory');?>/images/residence_gallery/4_Homes_on_the_Green/8_HomesOnTheGreen.jpg" width="363" height="424">
         </div>
 
+
+        <div class="jsSubContentText">
+           <h3 class="jsSubContentTitle">Homes on the Green</h3>
+           <p>Relaxing front porches. Sunny backyard patios. Nine-foot ceilings. Large master bedrooms. Two-car garages. Our Homes on the Green have everything you like in a spacious floor plan – some with sunrooms or dens, others with finished second floors, adding two more bedrooms. </p>
+
+            <p class="pdf_links">
+               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
+               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/homes-on-the-green-floor-plans-11-2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
+             </p>
+        </div>
+
         <div class="jsSubContentFlex">
               Featuring:
              <ul>
@@ -352,16 +366,6 @@ get_header(); ?>
                <li>Second floor storage space (when not finished)</li>
                <li>Laundry room with washer and dryer </li>
              </ul>
-        </div>
-
-        <div class="jsSubContentText">
-           <h3 class="jsSubContentTitle">Homes on the Green</h3>
-           <p>Relaxing front porches. Sunny backyard patios. Nine-foot ceilings. Large master bedrooms. Two-car garages. Our Homes on the Green have everything you like in a spacious floor plan – some with sunrooms or dens, others with finished second floors, adding two more bedrooms. </p>
-
-            <p class="pdf_links">
-               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
-               <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/homes-on-the-green-floor-plans-11-2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
-             </p>
         </div>
 
       </div>
@@ -392,16 +396,6 @@ get_header(); ?>
            <img alt=""  class="jsubphoto_5 jsSubPhoto" src="<?php bloginfo('template_directory');?>/images/residence_gallery/5_The_Glebe_Homes/5_Glebe.jpg" width="363" height="424">
         </div>
 
-        <div class="jsSubContentFlex">
-              Featuring:
-             <ul>
-               <li>Breakfast room</li>
-               <li>Two or three full baths</li>
-               <li>Laundry room with washer and dryer</li>
-               <li>Wood flooring and nine-foot ceilings</li>
-               <li>Large, walk-in storage off garage</li>
-             </ul>
-        </div>
 
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">The Glebe Homes</h3>
@@ -411,6 +405,17 @@ get_header(); ?>
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/WCR_CondensedFeeSchedule2010.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Fee Schedule</a>
             <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2010/11/glebe_floor_plan.pdf"><img alt=""  src="<?php bloginfo('template_directory');?>/images/pdf.png" width="30" align="left"> Floorplans</a>
           </p>
+        </div>
+
+        <div class="jsSubContentFlex">
+              Featuring:
+             <ul>
+               <li>Breakfast room</li>
+               <li>Two or three full baths</li>
+               <li>Laundry room with washer and dryer</li>
+               <li>Wood flooring and nine-foot ceilings</li>
+               <li>Large, walk-in storage off garage</li>
+             </ul>
         </div>
 
       </div>
