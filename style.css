@@ -709,7 +709,8 @@ footer .copyText {
     position: relative; }
     /* line 36, sass/partials/_menu.scss */
     #access li:last-child a {
-      border-right: none; }
+      border-right: none;
+      margin-right: 1px; }
   /* line 38, sass/partials/_menu.scss */
   #access a {
     display: block;
@@ -1748,58 +1749,59 @@ h2.entry-title {
 .entry-content {
   font-family: "Merriweather", serif;
   line-height: 2em;
-  font-size: .9em; }
-  /* line 271, sass/_styles.scss */
+  font-size: .9em;
+  padding: 1em 0; }
+  /* line 272, sass/_styles.scss */
   .entry-content a {
     color: #cc2933; }
 
-/* line 275, sass/_styles.scss */
+/* line 276, sass/_styles.scss */
 .more-link {
   display: block;
   padding: 1em 0; }
 
-/* line 279, sass/_styles.scss */
+/* line 280, sass/_styles.scss */
 .post-thumb img {
   width: 100%;
   height: auto; }
 
 /* Page Navigation */
-/* line 285, sass/_styles.scss */
+/* line 286, sass/_styles.scss */
 .page-navigation {
   padding: 1em 0;
   font-family: 'QuicksandBold';
   font-size: 1.3em;
   text-transform: uppercase; }
-  /* line 290, sass/_styles.scss */
+  /* line 291, sass/_styles.scss */
   .page-navigation a {
     color: #4c4c4c;
     text-decoration: none; }
 
 /* Social Buttons */
-/* line 300, sass/_styles.scss */
+/* line 301, sass/_styles.scss */
 .postShare {
   background-color: #efefef;
   clear: both;
   padding: .5em 1em;
   margin-right: -60px; }
 
-/* line 306, sass/_styles.scss */
+/* line 307, sass/_styles.scss */
 .addthis_toolbox {
   display: inline-block;
   text-transform: uppercase;
   font-size: .8em; }
-  /* line 310, sass/_styles.scss */
+  /* line 311, sass/_styles.scss */
   .addthis_toolbox a {
     color: #556fc6;
     font-weight: normal;
     font-family: 'QuicksandBold';
     text-decoration: none; }
-    /* line 315, sass/_styles.scss */
+    /* line 316, sass/_styles.scss */
     .addthis_toolbox a span {
       margin-top: -3px; }
 
 /* sidebar */
-/* line 322, sass/_styles.scss */
+/* line 323, sass/_styles.scss */
 #sidebar h3, #sidebar .jsSubContentTitle {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -1808,12 +1810,12 @@ h2.entry-title {
   text-align: center;
   color: white;
   text-transform: uppercase; }
-  /* line 329, sass/_styles.scss */
+  /* line 330, sass/_styles.scss */
   #sidebar h3 a, #sidebar .jsSubContentTitle a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
-/* line 336, sass/_styles.scss */
+/* line 337, sass/_styles.scss */
 #sidebar.contact-sidebar h3, #sidebar.contact-sidebar .jsSubContentTitle {
   background-color: white;
   color: #343434;
@@ -1823,64 +1825,64 @@ h2.entry-title {
   border: 1px solid #8e8e8e;
   border-bottom: none; }
 
-/* line 349, sass/_styles.scss */
+/* line 350, sass/_styles.scss */
 .blog-list-archive {
   font-family: 'QuicksandBold'; }
-  /* line 351, sass/_styles.scss */
+  /* line 352, sass/_styles.scss */
   .blog-list-archive .archive-sub-menu {
     display: none; }
-  /* line 354, sass/_styles.scss */
+  /* line 355, sass/_styles.scss */
   .blog-list-archive li {
     list-style: none;
     line-height: 1.2em; }
-  /* line 359, sass/_styles.scss */
+  /* line 360, sass/_styles.scss */
   .blog-list-archive > li:before {
     content: "\25B6";
     position: relative;
     left: -20px;
     font-size: .5em; }
-  /* line 365, sass/_styles.scss */
+  /* line 366, sass/_styles.scss */
   .blog-list-archive > li.selected:before {
     content: "\25BC"; }
-  /* line 369, sass/_styles.scss */
+  /* line 370, sass/_styles.scss */
   .blog-list-archive ul {
     padding-left: .6em; }
-  /* line 372, sass/_styles.scss */
+  /* line 373, sass/_styles.scss */
   .blog-list-archive a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8em; }
 
-/* line 377, sass/_styles.scss */
+/* line 378, sass/_styles.scss */
 .post-type-archive-video-items #primary {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 381, sass/_styles.scss */
+/* line 382, sass/_styles.scss */
 .video-items {
   margin-bottom: 3em;
   padding-left: 20px;
   padding-right: 20px;
   border-right: 1px solid #676767; }
-  /* line 386, sass/_styles.scss */
+  /* line 387, sass/_styles.scss */
   .video-items img {
     width: 100%;
     height: auto; }
-  /* line 390, sass/_styles.scss */
+  /* line 391, sass/_styles.scss */
   .video-items h2 {
     color: #cc2933;
     border-bottom: none;
     font-size: 1em; }
-  /* line 395, sass/_styles.scss */
+  /* line 396, sass/_styles.scss */
   .video-items p {
     font-family: 'QuicksandLight';
     line-height: 1.5em;
     font-size: .9em; }
-  /* line 400, sass/_styles.scss */
+  /* line 401, sass/_styles.scss */
   .video-items.featured {
     margin-top: 3em;
     border-left: none; }
-    /* line 403, sass/_styles.scss */
+    /* line 404, sass/_styles.scss */
     .video-items.featured .entry-content {
       *zoom: 1; }
       /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -1890,20 +1892,20 @@ h2.entry-title {
       /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
       .video-items.featured .entry-content:after {
         clear: both; }
-      /* line 406, sass/_styles.scss */
+      /* line 407, sass/_styles.scss */
       .video-items.featured .entry-content div {
         padding-left: 20px;
         padding-right: 20px; }
-    /* line 408, sass/_styles.scss */
+    /* line 409, sass/_styles.scss */
     .video-items.featured h2 {
       margin-top: 0;
       padding-top: 0; }
 
-/* line 416, sass/_styles.scss */
+/* line 417, sass/_styles.scss */
 .entry-footer {
   margin-bottom: 1em; }
 
-/* line 420, sass/_styles.scss */
+/* line 421, sass/_styles.scss */
 .tel, .email {
   background-color: #cc2933;
   color: white;
@@ -1913,29 +1915,29 @@ h2.entry-title {
   border-bottom: 1px solid white;
   border-left: 1px solid #8e8e8e;
   border-right: 1px solid #8e8e8e; }
-  /* line 429, sass/_styles.scss */
+  /* line 430, sass/_styles.scss */
   .tel:last-of-type, .email:last-of-type {
     border-bottom: 1px solid #8e8e8e; }
-  /* line 432, sass/_styles.scss */
+  /* line 433, sass/_styles.scss */
   .tel:last-of-type, .email:last-of-type {
     margin-bottom: 1em; }
-  /* line 435, sass/_styles.scss */
+  /* line 436, sass/_styles.scss */
   .tel span, .email span {
     display: block; }
-  /* line 438, sass/_styles.scss */
+  /* line 439, sass/_styles.scss */
   .tel .type, .email .type {
     text-transform: uppercase; }
-  /* line 441, sass/_styles.scss */
+  /* line 442, sass/_styles.scss */
   .tel .value, .email .value {
     font-family: 'QuicksandBold'; }
 
-/* line 445, sass/_styles.scss */
+/* line 446, sass/_styles.scss */
 .hero {
   color: white;
   position: relative;
   margin: 0 -60px;
   background-color: #cc2933; }
-  /* line 452, sass/_styles.scss */
+  /* line 453, sass/_styles.scss */
   .hero .column1, .hero .column2 {
     display: block;
     float: left;
@@ -1945,39 +1947,39 @@ h2.entry-title {
     /* line 62, sass/neat/grid/_grid.scss */
     .hero .column1:last-child, .hero .column2:last-child {
       margin-right: 0; }
-    /* line 455, sass/_styles.scss */
+    /* line 456, sass/_styles.scss */
     .hero .column1 p, .hero .column2 p {
       padding-left: .5em; }
-  /* line 457, sass/_styles.scss */
+  /* line 458, sass/_styles.scss */
   .hero p {
     padding: 1em .5em 1em 0;
     line-height: 1.3em;
     margin-bottom: 0; }
-  /* line 462, sass/_styles.scss */
+  /* line 463, sass/_styles.scss */
   .hero .noshow {
     text-indent: -9999em; }
-  /* line 465, sass/_styles.scss */
+  /* line 466, sass/_styles.scss */
   .hero img.source-image {
     width: 100%;
     position: absolute;
     top: 72px;
     left: 0; }
 
-/* line 475, sass/_styles.scss */
+/* line 476, sass/_styles.scss */
 .page-template-page-contact-php .entry-content {
   padding: 20px; }
-/* line 478, sass/_styles.scss */
+/* line 479, sass/_styles.scss */
 .page-template-page-contact-php .hero {
   padding: 0 10px 20px 30px;
   margin: 0;
   margin-top: 1.5em; }
-  /* line 480, sass/_styles.scss */
+  /* line 481, sass/_styles.scss */
   .page-template-page-contact-php .hero p {
     padding-right: 0; }
-/* line 482, sass/_styles.scss */
+/* line 483, sass/_styles.scss */
 .page-template-page-contact-php #primary {
   padding: 0; }
-/* line 483, sass/_styles.scss */
+/* line 484, sass/_styles.scss */
 .page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle {
   background-color: white !important;
   font-family: 'QuicksandBold';
@@ -1990,7 +1992,7 @@ h2.entry-title {
   text-transform: uppercase;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); }
-/* line 495, sass/_styles.scss */
+/* line 496, sass/_styles.scss */
 .page-template-page-contact-php .link-to-google {
   background-color: #cc2933;
   text-align: right;
@@ -2001,11 +2003,11 @@ h2.entry-title {
   display: block;
   text-decoration: none;
   padding-right: 1em; }
-/* line 506, sass/_styles.scss */
+/* line 507, sass/_styles.scss */
 .page-template-page-contact-php .google-map {
   margin: auto 20px 2em;
   border: 1px solid #8e8e8e; }
-/* line 510, sass/_styles.scss */
+/* line 511, sass/_styles.scss */
 .page-template-page-contact-php hr {
   height: 1px;
   border: 0;
@@ -2013,25 +2015,25 @@ h2.entry-title {
   margin-left: -30px;
   margin-right: -30px; }
 
-/* line 519, sass/_styles.scss */
+/* line 520, sass/_styles.scss */
 .inner-wrapper {
   margin-left: -60px;
   margin-right: -60px; }
 
-/* line 524, sass/_styles.scss */
+/* line 525, sass/_styles.scss */
 #upcoming-events {
   margin-bottom: 2em;
   background-color: #cc2933;
   padding: .5em;
   color: white;
   text-align: right; }
-  /* line 530, sass/_styles.scss */
+  /* line 531, sass/_styles.scss */
   #upcoming-events a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 536, sass/_styles.scss */
+/* line 537, sass/_styles.scss */
 .calendar-list {
   *zoom: 1; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -2041,7 +2043,7 @@ h2.entry-title {
   /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .calendar-list:after {
     clear: both; }
-  /* line 539, sass/_styles.scss */
+  /* line 540, sass/_styles.scss */
   .calendar-list a {
     background-color: #cc2933;
     display: block;
@@ -2053,21 +2055,21 @@ h2.entry-title {
     margin-right: 1%;
     padding: 1em .5em;
     line-height: 1.2em; }
-    /* line 550, sass/_styles.scss */
+    /* line 551, sass/_styles.scss */
     .calendar-list a:last-of-type {
       margin-right: 0; }
 
-/* line 554, sass/_styles.scss */
+/* line 555, sass/_styles.scss */
 #local-calendars a {
   width: 24.25%; }
 
-/* line 559, sass/_styles.scss */
+/* line 560, sass/_styles.scss */
 #offsite-calendars a {
   width: 32.6%;
   background-color: #8e8e8e;
   font-size: .9em; }
 
-/* line 564, sass/_styles.scss */
+/* line 565, sass/_styles.scss */
 .calendar-sidebar h5 {
   text-align: center;
   font-size: 1.2em;
@@ -2075,45 +2077,45 @@ h2.entry-title {
   color: #8e8e8e;
   text-transform: uppercase; }
 
-/* line 573, sass/_styles.scss */
+/* line 574, sass/_styles.scss */
 .page-template-page-calendar-php .hero {
   margin-top: 2em;
   margin-bottom: 1.5em;
   background-color: #e6e6e6; }
-  /* line 578, sass/_styles.scss */
+  /* line 579, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column1 {
     background-color: #cc2933;
     height: 180px;
     font-size: 2em;
     text-transform: uppercase;
     text-align: center; }
-    /* line 584, sass/_styles.scss */
+    /* line 585, sass/_styles.scss */
     .page-template-page-calendar-php .hero .column1 a {
       text-decoration: none;
       color: white; }
-  /* line 589, sass/_styles.scss */
+  /* line 590, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column2 {
     height: 180px;
     background-color: #e6e6e6;
     color: #8e8e8e; }
 
-/* line 597, sass/_styles.scss */
+/* line 598, sass/_styles.scss */
 .full-calendar #ai1ec-calendar-view {
   margin-top: 2em; }
-/* line 600, sass/_styles.scss */
+/* line 601, sass/_styles.scss */
 .full-calendar .ai1ec-filter-selector-container {
   display: block; }
-/* line 603, sass/_styles.scss */
+/* line 604, sass/_styles.scss */
 .full-calendar .ai1ec-filters-container {
   right: 0;
   margin: 20px 0; }
-/* line 607, sass/_styles.scss */
+/* line 608, sass/_styles.scss */
 .full-calendar #ai1ec-container {
   margin: 0; }
-/* line 610, sass/_styles.scss */
+/* line 611, sass/_styles.scss */
 .full-calendar .ai1ec-calendar-title {
   margin-left: 30px!important; }
-/* line 613, sass/_styles.scss */
+/* line 614, sass/_styles.scss */
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
