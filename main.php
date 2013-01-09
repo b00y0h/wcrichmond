@@ -11,6 +11,6 @@ get_header(); ?>
 
 <?php get_sidebar('footerbanner'); ?>
 
-<IMG SRC="http://ad.adlegend.com/ping?spacedesc=1087894_1061349_1x1_1061349_1061349&amp;db_afcr=123&amp;group=WMC&amp;event=HomepageVT" WIDTH=1 HEIGHT=1 ALT=" ">
+<IMG class='hide' SRC="http://ad.adlegend.com/ping?spacedesc=1087894_1061349_1x1_1061349_1061349&amp;db_afcr=123&amp;group=WMC&amp;event=HomepageVT" WIDTH=1 HEIGHT=1 ALT=" ">
 
 <?php get_footer(); ?>
