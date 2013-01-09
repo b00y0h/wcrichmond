@@ -30,7 +30,7 @@ foreach( $myposts as $post ) :  setup_postdata($post); ?>
             </h3>
 
             <p>
-                <?php echo limit_words(get_the_excerpt(), '27'); ?>
+                <?php echo get_the_excerpt();?>
              </p>
             <hr>
             <span class="meta"><?php the_date(); ?> <a href="<?php the_permalink(); ?>">Read More &gt;</a></span>
