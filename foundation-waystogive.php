@@ -18,6 +18,16 @@ get_header(); ?>
 </script>
 
 <div class="subpageWrapper waysToGiveWrapper">
+<?php
+      $defaults = array(
+      'menu'            => 'foundation-submenu',
+      'container'       => 'div',
+      'container_class' => 'lifestyle-submenu',
+      'items_wrap'      => '%3$s',
+      'depth'           => 0
+      );
+      wp_nav_menu( $defaults );
+?>
 
   <div class="subpagePageTitle">
     <?php the_title(); ?>
@@ -28,8 +38,8 @@ get_header(); ?>
       <li id="jsc_1" class="jsubNavItem current">
         <br>Overview
       </li>
-      <li class="">
-        <a href="/foundation/donate-online/">Donate<br>Online</a>
+      <li id="jsc_8" class="jsubNavItem">
+        Donate<br>Online
       </li>
       <li id="jsc_2" class="jsubNavItem">
         Send A<br>Check
@@ -72,6 +82,21 @@ get_header(); ?>
 
         </div>
       </div>
+
+      <div class="jsSubContent jsc_8">
+
+        <div class="resPhotoViewer">
+          <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/waystogive/9_DonateOnlineImage.jpg" width="363" height="424">
+        </div>
+
+        <div class="jsSubContentText single">
+          <h3 class="jsSubContentTitle">Donate Online</h3>
+          <p>Support the Foundation quickly and easily by making a donation online. Click below to proceed to our online donation center.</p>
+          <a href="https://co.clickandpledge.com/?wid=49087" class='btn rounded dark-teal'>Click here to donate online</a>
+
+        </div>
+      </div>
+
 
       <div class="jsSubContent jsc_2">
         <div class="resPhotoViewer">

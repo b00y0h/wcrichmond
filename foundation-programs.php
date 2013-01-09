@@ -42,6 +42,16 @@ get_header(); ?>
 </script>
 
 <div class="subpageWrapper">
+<?php
+      $defaults = array(
+      'menu'            => 'foundation-submenu',
+      'container'       => 'div',
+      'container_class' => 'lifestyle-submenu',
+      'items_wrap'      => '%3$s',
+      'depth'           => 0
+      );
+      wp_nav_menu( $defaults );
+?>
 
   <div class="subpagePageTitle">
     <?php the_title(); ?>
@@ -84,18 +94,6 @@ get_header(); ?>
 
       <div class="jsSubContent jsc_1 current_sub_content">
 
-        <div class="jsSubContentFlex">
-           <ul>
-             <li>Recipients include new residents and existing residents.</li>
-             <li>In 2011, 109 recipients received $3.2 million in assistance.</li>
-             <li>Since 1975 more than 470 residents have received $50-million.</li>
-             <li>No part of other residents’ fees covers Fellowship assistance to others.</li>
-             <li>Fellowship is supported by gifts to the Annual Fellowship Fund and income from Fellowship Endowments.</li>
-             <li>All Fellowship grants are covered solely through charitable gifts, never as part of full-pay residents’ fees.</li>
-             <!-- <li>The 2012 Annual Fellowship Fund goal $1,300,000.</li> -->
-           </ul>
-        </div>
-
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/Foundation_Fellowship.jpg" width="363" height="585">
@@ -109,23 +107,24 @@ get_header(); ?>
           </p>
 
         </div>
+
+        <div class="jsSubContentFlex">
+           <ul>
+             <li>Recipients include new residents and existing residents.</li>
+             <li>2011, 109 recipients received $3.2 million assistance.</li>
+             <li>Since 1975, 470+ residents have received $50-million.</li>
+             <li>No part of other residents’ fees covers Fellowship assistance to others.</li>
+             <li>Fellowship is supported by gifts to the Annual Fellowship Fund and income from Fellowship Endowments.</li>
+             <li>All Fellowship grants are covered solely through charitable gifts, never as part of full-pay residents’ fees.</li>
+             <!-- <li>The 2012 Annual Fellowship Fund goal $1,300,000.</li> -->
+           </ul>
+        </div>
+
       </div>
 
 
       <div class="jsSubContent jsc_2">
 
-        <div class="jsSubContentFlex">
-           Programs and initiatives made possible through Foundation gifts:
-           <ul>
-             <li>A nurse practitioner who works with our full-time physician.</li>
-             <li>Extended nurse coverage in our Clinic.</li>
-             <li>Additional certified nursing assistance in the Parsons Health Center.</li>
-             <li>A clinical educator dedicated to the Parsons Health Center provides on-the-floor
-             and small group continuing education.</li>
-             <li>Functional fitness classes for Parsons Health Center residents promote strength,
-             flexibility and energy.</li>
-           </ul>
-        </div>
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/HealthCenter.jpg" width="363" height="585">
@@ -145,18 +144,22 @@ get_header(); ?>
           </ul>
 
        </div>
+        <div class="jsSubContentFlex">
+           Programs and initiatives made possible through Foundation gifts:
+           <ul>
+             <li>A nurse practitioner who works with our full-time physician.</li>
+             <li>Extended nurse coverage in our Clinic.</li>
+             <li>Additional certified nursing assistance in the Parsons Health Center.</li>
+             <li>A clinical educator dedicated to the Parsons Health Center provides on-the-floor
+             and small group continuing education.</li>
+             <li>Functional fitness classes for Parsons Health Center residents promote strength,
+             flexibility and energy.</li>
+           </ul>
+        </div>
 
       </div>
 
       <div class="jsSubContent jsc_3">
-        <div class="jsSubContentFlex">
-          Programs and initiatives made possible through Foundation gifts:
-          <ul>
-            <li>DAKIM Brain Fitness computer kiosks improve memory and strengthen concentration.</li>
-            <li>An audio book library for residents with impaired vision.</li>
-            <li>Functional fitness classes for health center residents promote strength, flexibility and energy.</li>
-          </ul>
-        </div>
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/Wellness.jpg" width="363" height="585">
@@ -167,24 +170,20 @@ get_header(); ?>
           <h3 class="jsSubContentTitle">Wellness</h3>
 
           <p>Seeking a healthy balance in the development of mind, body and spirit, the Foundation supports Westminster Canterbury’s Wellness Program, winner of the national Nu-Step Pinnacle Award for retirement communities in 2010.  Foundation gifts have provided support for staff, equipment and programs. The Foundation funds membership in COLLAGE, a national program that helps residents create individual goals for healthy aging.  COLLAGE also provides Westminster Canterbury with deeper knowledge of residents’ needs for wellness programming and resources.   </p>
-
-
-
        </div>
+
+        <div class="jsSubContentFlex">
+          Programs and initiatives made possible through Foundation gifts:
+          <ul>
+            <li>DAKIM Brain Fitness computer kiosks improve memory and strengthen concentration.</li>
+            <li>An audio book library for residents with impaired vision.</li>
+            <li>Functional fitness classes for health center residents promote strength, flexibility and energy.</li>
+          </ul>
+        </div>
 
       </div>
 
       <div class="jsSubContent jsc_4">
-        <div class="jsSubContentFlex">
-          Programs and initiatives made possible through Foundation gifts:
-          <ul>
-            <li>
-              Dr. Harvey Cox, the Hollis Research Professor of Divinity at Harvard University, spoke on <strong>The Future of Faith</strong> as the annual David F. Peters Lecturer in February 2011.
-            </li>
-            <li>A chaplain specializing in dementia-related pastoral care offers periodic educational opportunities for interested area clergy.</li>
-            <li>The Fuller-Rose Endowment, in memory of the late Rev. Dr. Reginald H. Fuller and the late  Dr. Ben Lacy Rose, provides two internships annually for seminarians.</li>
-          </ul>
-        </div>
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/PastoralCare.jpg" width="363" height="585">
@@ -197,18 +196,20 @@ get_header(); ?>
           <p>Our full-time Pastoral Care staff includes three chaplains providing an array of worship opportunities, as well as pastoral support of residents and staff.   The Foundation funds an additional part-time chaplain devoted to supporting residents with dementia and their families and professional caregivers.  This team shares their experience with area seminarians and recent seminary graduate interns who receive stipends through the Foundation to work and learn on our campus.  The Foundation also supports Westminster Canterbury’s pastoral care educational lectures, open to the wider community.</p>
 
        </div>
+        <div class="jsSubContentFlex">
+          Programs and initiatives made possible through Foundation gifts:
+          <ul>
+            <li>
+              Dr. Harvey Cox, the Hollis Research Professor of Divinity at Harvard University, spoke on <strong>The Future of Faith</strong> as the annual David F. Peters Lecturer in February 2011.
+            </li>
+            <li>A chaplain specializing in dementia-related pastoral care offers periodic educational opportunities for interested area clergy.</li>
+            <li>The Fuller-Rose Endowment, in memory of the late Rev. Dr. Reginald H. Fuller and the late  Dr. Ben Lacy Rose, provides two internships annually for seminarians.</li>
+          </ul>
+        </div>
 
       </div>
 
       <div class="jsSubContent jsc_5">
-        <div class="jsSubContentFlex">
-          Programs and initiatives made possible through Foundation gifts:
-          <ul>
-            <li>A Foundation-funded inclusion program embraces children with special needs.</li>
-            <li>Special programs in art and music, and summer camp enrichment opportunities.</li>
-            <li>Gifts to enhance children’s literacy skills support parents as teachers.</li>
-          </ul>
-        </div>
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/ChildDevCenter.jpg" width="363" height="585">
@@ -222,17 +223,18 @@ get_header(); ?>
 
        </div>
 
-      </div>
-
-      <div class="jsSubContent jsc_6">
         <div class="jsSubContentFlex">
           Programs and initiatives made possible through Foundation gifts:
           <ul>
-            <li>Music, the international language, helps some dementia sufferers recover memories. </li>
-            <li>Residents enjoy planting or arranging favorite flowers, cooking harvested vegetables, and stocking bird feeders.</li>
-            <li>Making art – creating it, not just looking is engaging and life-affirming.</li>
+            <li>A Foundation-funded inclusion program embraces children with special needs.</li>
+            <li>Special programs in art and music, and summer camp enrichment opportunities.</li>
+            <li>Gifts to enhance children’s literacy skills support parents as teachers.</li>
           </ul>
         </div>
+
+      </div>
+
+      <div class="jsSubContent jsc_6">
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/MemorySupport.jpg" width="363" height="585">
@@ -246,17 +248,18 @@ get_header(); ?>
 
        </div>
 
-      </div>
-
-      <div class="jsSubContent jsc_7">
         <div class="jsSubContentFlex">
           Programs and initiatives made possible through Foundation gifts:
           <ul>
-            <li>The Preservation Hall Jazz Band, The Vienna Choir Boys, and the Glenn Miller Orchestra</li>
-            <li>The Virginia Opera, Barksdale Theater, the Richmond Symphony and the Richmond Ballet</li>
-            <li>Theater seats have been "named" through gifts to the Theater Endowment</li>
+            <li>Music, the international language, helps some dementia sufferers recover memories. </li>
+            <li>Residents enjoy planting or arranging favorite flowers, cooking harvested vegetables, and stocking bird feeders.</li>
+            <li>Making art – creating it, not just looking is engaging and life-affirming.</li>
           </ul>
         </div>
+
+      </div>
+
+      <div class="jsSubContent jsc_7">
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/PerfArts.jpg" width="363" height="585">
@@ -273,16 +276,18 @@ get_header(); ?>
 
        </div>
 
-      </div>
-
-      <div class="jsSubContent jsc_8">
         <div class="jsSubContentFlex">
           Programs and initiatives made possible through Foundation gifts:
           <ul>
-            <li>Monthly group or individual shows of resident work in the Eleanor L. Melin Resident Art Gallery. </li>
-            <li>The McGue-Millhiser Art Studio and the Woodworking Shop are open for individual exploration, as well as classes taught by professionals.</li>
+            <li>The Preservation Hall Jazz Band, The Vienna Choir Boys, and the Glenn Miller Orchestra</li>
+            <li>The Virginia Opera, Barksdale Theater, the Richmond Symphony and the Richmond Ballet</li>
+            <li>Theater seats have been "named" through gifts to the Theater Endowment</li>
           </ul>
         </div>
+
+      </div>
+
+      <div class="jsSubContent jsc_8">
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/StudioArts.jpg" width="363" height="585">
@@ -296,18 +301,17 @@ get_header(); ?>
 
        </div>
 
-      </div>
-
-      <div class="jsSubContent jsc_9">
         <div class="jsSubContentFlex">
           Programs and initiatives made possible through Foundation gifts:
           <ul>
-            <li>Sandra Williams progressed from an office assistant to a certified nursing assistant and is currently a registered
-            nurse thanks to support from the Darling Healthcare Education Endowment.</li>
-
-            <li>A planned gift by the late Anise Lee Zimmerman has helped employees attend seminars and take college courses since 2004.</li>
+            <li>Monthly group or individual shows of resident work in the Eleanor L. Melin Resident Art Gallery. </li>
+            <li>The McGue-Millhiser Art Studio and the Woodworking Shop are open for individual exploration, as well as classes taught by professionals.</li>
           </ul>
         </div>
+
+      </div>
+
+      <div class="jsSubContent jsc_9">
 
         <div class="resPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/foundation_gallery/programs/EmployeeEd.jpg" width="363" height="585">
@@ -320,6 +324,16 @@ get_header(); ?>
           <p>Various Foundation funds and endowments provide tuition assistance to enhance learning and skill development for Westminster Canterbury employees.  Westminster Canterbury Richmond encourages each employee’s career development – and can share success stories as proof. Whether it’s attending a one-day, work-related seminar or earning a college degree, any interested employee can find an opportunity to grow through this program.</p>
 
        </div>
+
+        <div class="jsSubContentFlex">
+          Programs and initiatives made possible through Foundation gifts:
+          <ul>
+            <li>Sandra Williams progressed from an office assistant to a certified nursing assistant and is currently a registered
+            nurse thanks to support from the Darling Healthcare Education Endowment.</li>
+
+            <li>A planned gift by the late Anise Lee Zimmerman has helped employees attend seminars and take college courses since 2004.</li>
+          </ul>
+        </div>
 
       </div>
 

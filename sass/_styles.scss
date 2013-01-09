@@ -370,6 +370,45 @@ h2.entry-title {
     }
 }
 
+.hdr {
+    background-color:$white;
+    color:$dark-text;
+    display: block;
+    line-height:2em;
+    text-transform: uppercase;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color:$red;
+    }
+}
+.absolute {
+    position: absolute;
+    &.bottom {bottom:0;}
+    &.right {right:0;}
+}
+.calendar-link {
+    margin-right: 16%;
+    width: 26%;
+    margin-bottom: 20px;
+}
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding:.5em;
+    text-transform: uppercase;
+    &.dark-teal {
+        background-color: $dark-teal;
+        color:$white;
+    }
+}
+
+.rounded {
+    border-radius:4px;
+}
+
 /* sidebar */
 // headings
 #sidebar {

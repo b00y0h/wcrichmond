@@ -222,7 +222,9 @@ get_header(); ?>
 
     </div><!-- .subpageCopy -->
   </div>
+          <h3 class="hdr absolute bottom right calendar-link"><a href="/calendar">View Calendar</a></h3>
 </div>
+
 
 
 

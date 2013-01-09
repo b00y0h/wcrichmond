@@ -1,4 +1,4 @@
-<?php /* Template Name: Foundation */
+<?php /* Template Name: Foundation Donate Online */
 
 get_header(); ?>
 
@@ -29,7 +29,6 @@ get_header(); ?>
       wp_nav_menu( $defaults );
 ?>
 
-
   <div class="subpagePageTitle">
     <?php the_title(); ?>
   </div>
@@ -38,12 +37,6 @@ get_header(); ?>
     <ul>
       <li id="jsc_1" class="jsubNavItem current">
         <br>Overview
-      </li>
-      <li id="jsc_2" class="jsubNavItem">
-        Board of<br>Trustees
-      </li>
-      <li id="jsc_3" class="jsubNavItem">
-        Foundation<br>Staff
       </li>
     </ul>
   </div>
@@ -58,15 +51,8 @@ get_header(); ?>
 
         <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">Overview</h3>
-          <p>Since 1980, Westminster Canterbury Foundation has had a single focus: <strong>improving the lives of those we serve every day.</strong> Even before Westminster Canterbury Richmond opened its doors 1975, our founders began raising Fellowship assistance - charitable funds to assist older adults with significant financial need to become and remain residents. As our community and its needs grew, our support grew right along with it, thanks to successful fundraising and the generosity of donors.</p>
-
-         <p> Our <a href="/foundation/programs/#fellowship">Annual Fellowship</a> Fund, our only annual appeal, is solely to provide Fellowship grants.</p>
-
-         <p> Special projects fundraising has helped make possible enhanced <a href="http://www.wcrichmond.org/foundation/programs/#health-services">health services</a>, <a href="http://www.wcrichmond.org/foundation/programs/#wellness">wellness</a> and <a href="http://www.wcrichmond.org/foundation/programs/#child-development">Child Development Center</a> programming, <a href="http://www.wcrichmond.org/foundation/programs/#pastoral-care">pastoral care</a>, <a href="http://www.wcrichmond.org/foundation/programs/#memory-support">memory support therapy</a>, <a href="http://www.wcrichmond.org/foundation/programs/#performing-arts">performing</a> and <a href="http://www.wcrichmond.org/foundation/programs/#studio-arts">studio arts</a>, and <a href="http://www.wcrichmond.org/foundation/programs/#employee-education">employee education</a> assistance.</p>
-
-          <p>Current and planned <a href="/foundation/ways-to-give/">charitable gifts</a> from donors, for restricted and unrestricted purposes, make a meaningful difference in the quality of life and care at Westminster Canterbury Richmond.</p>
-
-					<p>For more information, please call <br>804-264-6066.</p>
+          <p>Support the Foundation quickly and easily by making a donation online. Click below to proceed to our online donation center.</p>
+          <a href="https://co.clickandpledge.com/?wid=49087" class='btn rounded dark-teal'>Click here to donate online</a>
 
         </div>
       </div>
