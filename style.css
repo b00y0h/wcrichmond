@@ -1286,42 +1286,43 @@ a img {
   text-align: right;
   text-transform: uppercase;
   font-size: 15px;
+  line-height: 1.2em;
   background-color: #fff;
   color: #555;
   cursor: pointer; }
 
-/* line 431, sass/_orig-styles.scss */
+/* line 432, sass/_orig-styles.scss */
 .subpageNavigation li:hover {
   color: #343434; }
 
-/* line 434, sass/_orig-styles.scss */
+/* line 435, sass/_orig-styles.scss */
 .subpageNavigation li.current {
   margin-right: -45px;
-  padding-right: 45px;
+  padding-right: 57px;
   background-color: #e6e6e6; }
 
-/* line 440, sass/_orig-styles.scss */
+/* line 441, sass/_orig-styles.scss */
 .subpageNavigation li.current:hover {
   color: #555; }
 
-/* line 443, sass/_orig-styles.scss */
+/* line 444, sass/_orig-styles.scss */
 .subpageContentWrapper {
   min-height: 424px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9); }
 
-/* line 449, sass/_orig-styles.scss */
+/* line 450, sass/_orig-styles.scss */
 .resPhotoViewer, .jsSubPhotoViewer {
   position: relative; }
 
-/* line 452, sass/_orig-styles.scss */
+/* line 453, sass/_orig-styles.scss */
 .jsSubPhotoNav {
   position: absolute;
   bottom: 30px;
   padding: 0px 5px 0px 25px;
   width: 333px; }
 
-/* line 459, sass/_orig-styles.scss */
+/* line 460, sass/_orig-styles.scss */
 .jsSubPhotoThumb {
   width: 50px;
   height: 50px;
@@ -1331,19 +1332,19 @@ a img {
   margin: 0px 10px 6px 0px;
   cursor: pointer; }
 
-/* line 469, sass/_orig-styles.scss */
+/* line 470, sass/_orig-styles.scss */
 .jsSubPhotoThumb.current_photo_thumb {
   border: 2px solid #fff; }
 
-/* line 473, sass/_orig-styles.scss */
+/* line 474, sass/_orig-styles.scss */
 .jsSubPhoto {
   display: none; }
 
-/* line 477, sass/_orig-styles.scss */
+/* line 478, sass/_orig-styles.scss */
 .jsSubPhoto.current_photo {
   display: block; }
 
-/* line 482, sass/_orig-styles.scss */
+/* line 483, sass/_orig-styles.scss */
 .jsSubContentText {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
@@ -1352,7 +1353,7 @@ a img {
   line-height: 24px;
   padding: 0 .5em; }
 
-/* line 491, sass/_orig-styles.scss */
+/* line 492, sass/_orig-styles.scss */
 .jsSubContentTitle {
   font-size: 16px;
   color: #343434;
@@ -1360,88 +1361,88 @@ a img {
   font-weight: normal;
   text-transform: uppercase; }
 
-/* line 501, sass/_orig-styles.scss */
+/* line 502, sass/_orig-styles.scss */
 .jsSubContentFlex {
   font-family: "Merriweather", serif;
   background-color: #e6e6e6;
   padding: 10px 20px 4px;
   font-size: 12px; }
 
-/* line 507, sass/_orig-styles.scss */
+/* line 508, sass/_orig-styles.scss */
 .jsSubContentFlex ul {
   padding: 0;
   margin: 0; }
 
-/* line 512, sass/_orig-styles.scss */
+/* line 513, sass/_orig-styles.scss */
 .jsSubContentFlex ul li {
   /*list-style-type:none;*/
   margin: 10px 0px 0px 20px; }
 
-/* line 517, sass/_orig-styles.scss */
+/* line 518, sass/_orig-styles.scss */
 .jsSubContent {
   display: none; }
 
-/* line 521, sass/_orig-styles.scss */
+/* line 522, sass/_orig-styles.scss */
 .jsSubPhotoViewer img {
   width: 100%;
   height: auto; }
 
-/* line 527, sass/_orig-styles.scss */
+/* line 528, sass/_orig-styles.scss */
 .jsSubContent.current_sub_content {
   display: block; }
 
-/* line 530, sass/_orig-styles.scss */
+/* line 531, sass/_orig-styles.scss */
 .subpageWrapper {
   background-color: #add3cf; }
-  /* line 532, sass/_orig-styles.scss */
+  /* line 533, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
-  /* line 533, sass/_orig-styles.scss */
+  /* line 534, sass/_orig-styles.scss */
   body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
     background-color: #482859; }
-  /* line 534, sass/_orig-styles.scss */
+  /* line 535, sass/_orig-styles.scss */
   body[class*="arts"] .subpageWrapper {
     background-color: #e94347; }
-  /* line 535, sass/_orig-styles.scss */
+  /* line 536, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
-  /* line 536, sass/_orig-styles.scss */
+  /* line 537, sass/_orig-styles.scss */
   body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
-  /* line 537, sass/_orig-styles.scss */
+  /* line 538, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {
     background-color: #327e85; }
 
-/* line 541, sass/_orig-styles.scss */
+/* line 542, sass/_orig-styles.scss */
 ul.tertiaryNav {
   margin: 0;
   padding: 0; }
 
-/* line 545, sass/_orig-styles.scss */
+/* line 546, sass/_orig-styles.scss */
 ul.tertiaryNav li {
   list-style: none;
   background-color: #d31145;
   /*height:37px;*/
   margin: 5px 0px; }
 
-/* line 551, sass/_orig-styles.scss */
+/* line 552, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover {
   background-color: #fff; }
 
-/* line 554, sass/_orig-styles.scss */
+/* line 555, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 558, sass/_orig-styles.scss */
+/* line 559, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 561, sass/_orig-styles.scss */
+/* line 562, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   padding-right: 105px; }
 
-/* line 564, sass/_orig-styles.scss */
+/* line 565, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   text-transform: uppercase;
   text-decoration: none;

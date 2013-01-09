@@ -89,10 +89,10 @@ get_header(); ?>
         <br>Overview
       </li>
       <li id="jsc_2" class="jsubNavItem"><a id="tower"></a>
-        The<br>Tower
+        <br>The Tower
       </li>
       <li id="jsc_3" class="jsubNavItem"><a id="courtyard"></a>
-        The<br>Courtyard
+        <br>The Courtyard
       </li>
       <li id="jsc_4" class="jsubNavItem"><a id="garden-apartments"></a>
         Garden Apartments
