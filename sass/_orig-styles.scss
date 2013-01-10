@@ -488,6 +488,10 @@ a img {border:none;}
   line-height:24px;
 height: $subcontentheight;
 overflow: auto;
+    .pdf_links a{
+        display:block;
+        height:40px;
+  }
 }
 
 .jsSubContentTitle{

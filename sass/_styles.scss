@@ -519,6 +519,9 @@ h2.entry-title {
     border-bottom:1px solid $white;
     border-left: 1px solid $darkgrey;
     border-right: 1px solid $darkgrey;
+    &:hover {
+        color: $white;
+    }
     &:last-of-type {
         border-bottom: 1px solid $darkgrey;
     }
@@ -533,6 +536,7 @@ h2.entry-title {
     }
     .value {
         font-family:'QuicksandBold';
+        font-size: 110%;
     }
 }
 .hero {
@@ -576,9 +580,7 @@ h2.entry-title {
         background-color:$white!important;
         font-family: 'QuicksandBold';
         font-weight: normal!important;
-        line-height:50px!important;
-        height: 45px!important;
-        padding-left: 25px;
+        padding: 1em 5px .5em 25px;
         margin-left: -20px;
         margin-bottom: 1em!important;
         text-transform:uppercase;

@@ -1,9 +1,5 @@
 @import "gf_forms";
 
-input {
-    text-transform:uppercase;
-}
-
 .gform_wrapper input[type=text],
 .gform_wrapper input[type=url],
 .gform_wrapper input[type=email],
@@ -13,7 +9,7 @@ input {
     border-radius: 5px;
     border:2px solid $darkgrey;
     padding:.7em .5em .5em 1em!important;
-    font-family: 'QuicksandBold'!important;
+    font-family: $serif-body-copy!important;
     font-size: 14px;
 }
 .gform_wrapper .textarea {
@@ -27,6 +23,7 @@ input {
 }
 .page-template-page-contact-php {
         #primary h3, #primary .gform_title {
+            color: rgb(26, 26, 26);
             @include span-columns(4 of 8);
             + p {
                 clear: both;
@@ -36,7 +33,7 @@ input {
         margin: 0!important;
         max-width: 100%!important;
         .gform_description {
-             @include span-columns(5 of 8);
+             @include span-columns(8 of 8);
             display: block;
             margin-bottom: 1em;
         }
@@ -59,11 +56,16 @@ input {
                 background-color: $red;
                 color: $white;
                 border: 2px solid $red;
-                padding:.5em;
-                border-radius: 8px;
+                padding:.2em .5em 0;
+                border-radius: 5px;
                 cursor: pointer;
-                font-size: 18px;
-                margin-right: 15px;
+                font-size: 28px!important;
+                margin-right: 0;
+                 font-family: 'QuicksandBook', sans-serif;
+                 float: right;
+                 clear: right;
+                 width: 49%;
+                 text-transform: uppercase;
             }
     }
     .validation_message {display: none;}
@@ -75,12 +77,3 @@ input {
     width: 100%;
     input {width:98% !important;}
 }
-
-#gform_submit_button_1{
- float:left;
- font-family: 'Quicksand', sans-serif;
- font-size: 20px;
- margin-left:268px;
-}
-
-
