@@ -57,6 +57,14 @@ get_header(); ?>
           <img src="<?php bloginfo('template_directory');?>/images/social_gallery/LS_Social_Events.jpg" width="363" height="424">
         </div>
 
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">Events &amp; Series</h3>
+          <p>
+            A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like. Visit <a href="<?php bloginfo('home');?>/news/">News &amp; Calendar</a> for information on recent and upcoming activities.
+          </p>
+        </div>
+
         <div class="jsSubContentFlex">
           Featuring:
           <ul>
@@ -68,18 +76,20 @@ get_header(); ?>
           </ul>
         </div>
 
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">Events &amp; Series</h3>
-          <p>
-            A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like. Visit <a href="<?php bloginfo('home');?>/news/">News &amp; Calendar</a> for information on recent and upcoming activities.
-          </p>
-        </div>
       </div>
 
       <div class="jsSubContent jsc_2">
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/social_gallery/LS_Social_Volunteering.jpg" width="363" height="424">
         </div>
+
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">Volunteer, Anyone?</h3>
+          <p>
+           Residents enrich our community by taking part in its day-to-day operation in meaningful ways. Volunteers raise funds for the Foundation, and run a number of campus shops. Many more serve on committees for everything from finance, flowers, and hosting tours to healthcare visitation, recreation and technology. A desire to help out has many outlets here.
+         </p>
+       </div>
 
         <div class="jsSubContentFlex">
            Featuring:
@@ -93,13 +103,6 @@ get_header(); ?>
              <li>Child Development Center (reading, helping on walks and art projects) </li>
            </ul>
         </div>
-
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">Volunteer, Anyone?</h3>
-          <p>
-           Residents enrich our community by taking part in its day-to-day operation in meaningful ways. Volunteers raise funds for the Foundation, and run a number of campus shops. Many more serve on committees for everything from finance, flowers, and hosting tours to healthcare visitation, recreation and technology. A desire to help out has many outlets here.
-         </p>
-       </div>
 
       </div>
 
@@ -116,6 +119,7 @@ get_header(); ?>
        </div>
 
       </div>
+          <h3 class="hdr absolute bottom right calendar-link"><a href="/calendar">View Calendar</a></h3>
 
     </div><!-- .subpageCopy -->
   </div>

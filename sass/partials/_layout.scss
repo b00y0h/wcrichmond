@@ -102,6 +102,7 @@
 .subpageWrapper {
     @include clearfix;
     text-align:right;
+    position: relative;
 }
 .subpageNavigation {
         @include span-columns(2);
@@ -119,6 +120,7 @@
         @include span-columns(3 of 10);
         &.single {
             @include span-columns(5 of 10);
+            padding-right: 1.41509%;
         }
     }
     .jsSubContentFlex {
@@ -126,6 +128,7 @@
     }
     &.full {
         @include fill-parent;
+        position: relative;
         .oneoftwelve {@include span-columns(1 of 12);}
         .twooftwelve {@include span-columns(2 of 12);}
         .threeoftwelve {@include span-columns(3 of 12);}

@@ -38,7 +38,7 @@ get_header(); ?>
   <div class="subpageNavigation">
     <ul>
       <li id="jsc_1" class="jsubNavItem current">
-        Spiritual<br>Life
+        <br>Spiritual Life
       </li>
     </ul>
   </div>

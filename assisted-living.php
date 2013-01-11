@@ -24,6 +24,16 @@
 </script>
 
   <div class="subpageWrapper">
+  <?php $defaults = array(
+    'menu'            => 'lifecare-submenu',
+    'container'       => 'div',
+    'container_class' => 'lifestyle-submenu',
+    'items_wrap'      => '%3$s',
+    'depth'           => 0
+);
+?>
+
+<?php wp_nav_menu( $defaults ) ?>
 
     <div class="subpagePageTitle">
       Assisted Living
@@ -180,6 +190,6 @@
 
 
 
-<?php get_sidebar('footerbanner2'); ?>
+<?php  get_template_part( 'sidebar', 'footerbanner-news-lifestyle' ); ?>
 
 <?php get_footer(); ?>

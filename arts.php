@@ -77,6 +77,14 @@ get_header(); ?>
           <img src="<?php bloginfo('template_directory');?>/images/arts_gallery/LS_Arts_Theater.jpg" width="363" height="424">
         </div>
 
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">Sara Belle November Theater</h3>
+          <p>
+            Located in our Cultural and Creative Arts Center, the Sara Belle November Theater stages events year round for our residents. Comfortable seating for 335, including wheelchair areas, makes music, dramas and other entertainment delightful for all. There is no charge for most programs; however, all events require tickets through the Low-November Box Office.
+          </p>
+        </div>
+
         <div class="jsSubContentFlex">
           Featuring:
            <ul>
@@ -89,12 +97,6 @@ get_header(); ?>
            </ul>
         </div>
 
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">Sara Belle November Theater</h3>
-          <p>
-            Located in our Cultural and Creative Arts Center, the Sara Belle November Theater stages events year round for our residents. Comfortable seating for 335, including wheelchair areas, makes music, dramas and other entertainment delightful for all. There is no charge for most programs; however, all events require tickets through the Low-November Box Office.
-          </p>
-        </div>
       </div>
 
       <div class="jsSubContent jsc_2">
@@ -113,6 +115,14 @@ get_header(); ?>
 
         </div>
 
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">H. Scott November Gallery</h3>
+          <p>
+           Located in the Cultural and Creative Arts Center, the H. Scott November Gallery features quarterly exhibitions of original art by established and emerging Virginia artists. Paintings, sculpture and other works are selected by an experienced professional curator familiar with the local art community.
+         </p>
+       </div>
+
         <div class="jsSubContentFlex">
           Featuring:
            <ul>
@@ -128,18 +138,19 @@ get_header(); ?>
            </ul>
         </div>
 
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">H. Scott November Gallery</h3>
-          <p>
-           Located in the Cultural and Creative Arts Center, the H. Scott November Gallery features quarterly exhibitions of original art by established and emerging Virginia artists. Paintings, sculpture and other works are selected by an experienced professional curator familiar with the local art community.
-         </p>
-       </div>
-
       </div>
 
       <div class="jsSubContent jsc_3">
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/arts_gallery/LS_Arts_WhiteheadRm.jpg" width="363" height="424">
+        </div>
+
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">Lettie Pate Whitehead Evans Room</h3>
+          <p>
+          On Foundation Hall in the Cultural and Creative Arts Center is the Lettie Pate Whitehead Evans Room, a quiet and sumptuously furnished sitting room for reading, relaxing and meetings. Available to residents for family and other private functions.
+          </p>
         </div>
 
         <div class="jsSubContentFlex">
@@ -150,13 +161,6 @@ get_header(); ?>
               <li>Writing desk</li>
               <li>Upholstered sitting</li>
            </ul>
-        </div>
-
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">Lettie Pate Whitehead Evans Room</h3>
-          <p>
-          On Foundation Hall in the Cultural and Creative Arts Center is the Lettie Pate Whitehead Evans Room, a quiet and sumptuously furnished sitting room for reading, relaxing and meetings. Available to residents for family and other private functions.
-          </p>
         </div>
 
       </div>
@@ -182,6 +186,12 @@ get_header(); ?>
           <img src="<?php bloginfo('template_directory');?>/images/arts_gallery/WoodworkingShop.jpg" width="363" height="424">
         </div>
 
+
+        <div class="jsSubContentText">
+           <h3 class="jsSubContentTitle">Woodworking Shop</h3>
+           <p>Our Woodworking Shop in the Cultural and Creative Arts Center has virtually all the hand and power tools for whatever project you may have in mind, with plenty of room for your neighbors’ projects, too. Weekly visits by a skilled instructor provide training and help as required. </p>
+        </div>
+
         <div class="jsSubContentFlex">
           Featuring:
              <ul>
@@ -193,11 +203,6 @@ get_header(); ?>
                <li>Drill press</li>
                <li>A wide variety of other tools</li>
              </ul>
-        </div>
-
-        <div class="jsSubContentText">
-           <h3 class="jsSubContentTitle">Woodworking Shop</h3>
-           <p>Our Woodworking Shop in the Cultural and Creative Arts Center has virtually all the hand and power tools for whatever project you may have in mind, with plenty of room for your neighbors’ projects, too. Weekly visits by a skilled instructor provide training and help as required. </p>
         </div>
 
       </div>
@@ -217,7 +222,9 @@ get_header(); ?>
 
     </div><!-- .subpageCopy -->
   </div>
+          <h3 class="hdr absolute bottom right calendar-link"><a href="/calendar">View Calendar</a></h3>
 </div>
+
 
 
 

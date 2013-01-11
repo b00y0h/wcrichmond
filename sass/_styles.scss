@@ -1,3 +1,56 @@
+// scroll bars
+//
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px
+    }
+
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment {
+    display: block;
+    height: 10px
+    }
+
+::-webkit-scrollbar-button:vertical:increment {
+    background-color: #fff
+    }
+
+::-webkit-scrollbar-track-piece {
+    background-color: #eee;
+    -webkit-border-radius: 0
+    }
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #ccc;
+    -webkit-border-radius: 0
+    }
+
+.panel::-webkit-scrollbar-thumb:vertical {
+    background-color: #bacefb
+    }
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 50px;
+    background-color: #ccc;
+    -webkit-border-radius: 0
+    }
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background-color: #fff
+    }
+
+::-webkit-scrollbar-track-piece:vertical:start:no-button {
+    margin-top: -10px
+    }
+
+::-webkit-scrollbar-track-piece:vertical:end:no-button {
+    margin-bottom: -25px
+    }
+
+
+
 body {font-family:$header-font;}
 
 .clearfix {@include clearfix();}
@@ -6,6 +59,9 @@ img.full {
     width:100%;
     height:auto;
         }
+.hide {
+    display: none;
+}
 
 .pageWrapper {
     padding:0 20px;
@@ -65,13 +121,13 @@ img.full {
 }
 .grey-border-bottom {
     border-bottom:1px solid #8d8d8d;
-    padding-bottom:1em;
-    margin-bottom:1em;
+    padding-bottom:1.17647%;
+    margin-bottom:1.17647%;
 }
 .grey-border-top {
     border-top:1px solid #8d8d8d;
-    padding-top:1em;
-    margin-top:1em;
+    padding-top:1.17647%;
+    margin-top:1.17647%;
 }
 
 .triptic, .diptic {
@@ -157,6 +213,8 @@ img.full {
     padding-bottom: 3em;
 }
 #around-our-community {
+    // to match height of submenu to it's left
+    height: 280px;max-height: 280px;
     h3 {
         font-family: 'QuicksandBold';
         margin-top:0;
@@ -212,10 +270,12 @@ img.full {
     text-align:center;
     padding:.7em;
     margin-bottom:1em;
+    line-height: 1.5em;
     strong {
-        font-family:'QuicksandBook';
+        font-family:'QuicksandBold';
         color:$red;
         padding-left:.4em;
+        font-weight: normal;
     }
     a{
       text-transform: uppercase;
@@ -261,6 +321,7 @@ h2.entry-title {
     font-family:$serif-body-copy;
     line-height:2em;
     font-size:.9em;
+    padding:1em 0;
     a {
         color:$red;
     }
@@ -307,6 +368,45 @@ h2.entry-title {
         text-decoration:none;
         span {margin-top:-3px;}
     }
+}
+
+.hdr {
+    background-color:$white;
+    color:$dark-text;
+    display: block;
+    line-height:2em;
+    text-transform: uppercase;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color:$red;
+    }
+}
+.absolute {
+    position: absolute;
+    &.bottom {bottom:0;}
+    &.right {right:0;}
+}
+.calendar-link {
+    margin-right: 16%;
+    width: 26%;
+    margin-bottom: 20px;
+}
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding:.5em;
+    text-transform: uppercase;
+    &.dark-teal {
+        background-color: $dark-teal;
+        color:$white;
+    }
+}
+
+.rounded {
+    border-radius:4px;
 }
 
 /* sidebar */
@@ -419,10 +519,12 @@ h2.entry-title {
     border-bottom:1px solid $white;
     border-left: 1px solid $darkgrey;
     border-right: 1px solid $darkgrey;
+    &:hover {
+        color: $white;
+    }
     &:last-of-type {
         border-bottom: 1px solid $darkgrey;
     }
-    &:hover {color:#efefef;color: hsl(0,0,90);}
     &:last-of-type {
         margin-bottom:1em;
     }
@@ -433,8 +535,8 @@ h2.entry-title {
         text-transform:uppercase;
     }
     .value {
-        font-weight:bold;
         font-family:'QuicksandBold';
+        font-size: 110%;
     }
 }
 .hero {
@@ -447,9 +549,8 @@ h2.entry-title {
     .column1, .column2 {
         @include span-columns(5 of 10);
         position:relative;
-        p {padding-left: .5em;}
     }
-    p {
+    .column2 p {
         padding:1em .5em 1em 0;
         line-height:1.3em;
         margin-bottom:0;
@@ -479,9 +580,7 @@ h2.entry-title {
         background-color:$white!important;
         font-family: 'QuicksandBold';
         font-weight: normal!important;
-        line-height:50px!important;
-        height: 45px!important;
-        padding-left: 25px;
+        padding: 1em 5px .5em 25px;
         margin-left: -20px;
         margin-bottom: 1em!important;
         text-transform:uppercase;
@@ -579,6 +678,10 @@ h2.entry-title {
         a {
             text-decoration:none;
             color:$white;
+            height: 180px;
+            display: block;
+            line-height: 1.3em;
+            padding-top: 50px;
         }
     }
     .column2 {
