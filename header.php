@@ -31,6 +31,11 @@
   <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>
 <![endif]-->
 
+<style type="text/css" media="screen">
+  .tertiaryNav li.page-item-281 a{
+    width:350px;
+  }
+</style>
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>
