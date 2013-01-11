@@ -20,8 +20,8 @@
           $children = wp_list_pages('title_li=&child_of='.$post->post_parent."&echo=0&depth=1");
         }
         }
-        if($post->ID==5 || $post->ID==28){
-        $children = wp_list_pages('title_li=&include=28&echo=0');
+        if($post->ID==5) { //|| $post->ID==28){
+        //$children = wp_list_pages('title_li=&include=28&echo=0');
         }
         ?>
         <!-- <?php echo $children; ?>-->
@@ -34,6 +34,11 @@
             // dynamic_sidebar( 'sidebar-page' );
         ?>
         <div class="extra-sideitems">
+            <a href="/contact-us/" id="act-now" class="module">
+                <h2>Act Now!</h2>
+                <p>Take advantage of special incentives and limited offers before fees increase on October 1, 2012.</p>
+            </a>
+          
             <a href="/lifestyle/" id="lifestyle" class="module">
             <h2 class="transparent header">LifeStyle</h2>
             </a>
