@@ -708,17 +708,26 @@ h2.entry-title {
     background-color:$grey;
     .column1 {
         background-color:$red;
-        height:180px;
+        @include box-shadow(inset 0 0 50px rgba(150,26,43,1));
+        height:120px;
+        margin-top: 30px;
         font-size:2em;
         text-transform:uppercase;
         text-align:center;
+        &:hover {
+            @include box-shadow(inset 0 0 50px rgba(150,26,43,.5));
+        }
+        &:active {
+            @include box-shadow(inset 0 0 50px rgba(150,26,43,1));
+        }
         a {
             text-decoration:none;
             color:$white;
-            height: 180px;
+            height: 120px;
             display: block;
             line-height: 1.3em;
-            padding-top: 50px;
+            padding-top: 25px;
+            text-shadow:1px 1px 2px rgba(0,0,0,.5);
         }
     }
     .column2 {
