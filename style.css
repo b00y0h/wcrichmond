@@ -4975,21 +4975,23 @@ body .gform_wrapper.gf_rtl_wrapper .gform_footer.left_label {
   border: 2px solid #8e8e8e;
   padding: .7em .5em .5em 1em!important;
   font-family: "Merriweather", serif !important;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 2px;
+  margin-top: 2px; }
 
-/* line 15, sass/partials/_forms.scss */
+/* line 17, sass/partials/_forms.scss */
 .gform_wrapper .textarea {
   padding: 1em; }
 
-/* line 18, sass/partials/_forms.scss */
+/* line 20, sass/partials/_forms.scss */
 .gform_wrapper .top_label li.gfield {
   margin-bottom: 0px!important; }
 
-/* line 21, sass/partials/_forms.scss */
+/* line 23, sass/partials/_forms.scss */
 .gform_wrapper .ginput_complex .ginput_left, .gform_wrapper .ginput_complex .ginput_right, .gform_wrapper .ginput_complex .ginput_full {
   min-height: auto!important; }
 
-/* line 25, sass/partials/_forms.scss */
+/* line 27, sass/partials/_forms.scss */
 .page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle, .page-template-page-contact-php #primary .gform_title {
   color: #1a1a1a;
   display: block;
@@ -4999,14 +5001,14 @@ body .gform_wrapper.gf_rtl_wrapper .gform_footer.left_label {
   /* line 62, sass/neat/grid/_grid.scss */
   .page-template-page-contact-php #primary h3:last-child, .page-template-page-contact-php #primary .jsSubContentTitle:last-child, .page-template-page-contact-php #primary .gform_title:last-child {
     margin-right: 0; }
-  /* line 28, sass/partials/_forms.scss */
+  /* line 30, sass/partials/_forms.scss */
   .page-template-page-contact-php #primary h3 + p, .page-template-page-contact-php #primary .jsSubContentTitle + p, .page-template-page-contact-php #primary .gform_title + p {
     clear: both; }
-/* line 32, sass/partials/_forms.scss */
+/* line 34, sass/partials/_forms.scss */
 .page-template-page-contact-php .gform_wrapper {
   margin: 0!important;
   max-width: 100%!important; }
-  /* line 35, sass/partials/_forms.scss */
+  /* line 37, sass/partials/_forms.scss */
   .page-template-page-contact-php .gform_wrapper .gform_description {
     display: block;
     float: left;
@@ -5017,7 +5019,7 @@ body .gform_wrapper.gf_rtl_wrapper .gform_footer.left_label {
     /* line 62, sass/neat/grid/_grid.scss */
     .page-template-page-contact-php .gform_wrapper .gform_description:last-child {
       margin-right: 0; }
-  /* line 40, sass/partials/_forms.scss */
+  /* line 42, sass/partials/_forms.scss */
   .page-template-page-contact-php .gform_wrapper .gform_title {
     display: block;
     float: left;
@@ -5026,19 +5028,19 @@ body .gform_wrapper.gf_rtl_wrapper .gform_footer.left_label {
     /* line 62, sass/neat/grid/_grid.scss */
     .page-template-page-contact-php .gform_wrapper .gform_title:last-child {
       margin-right: 0; }
-/* line 44, sass/partials/_forms.scss */
+/* line 46, sass/partials/_forms.scss */
 .page-template-page-contact-php #field_1_7 {
   margin-top: -80px; }
-/* line 47, sass/partials/_forms.scss */
+/* line 49, sass/partials/_forms.scss */
 .page-template-page-contact-php select {
   font-size: 16px;
   margin-left: 1px;
   margin-top: 7px !important;
   width: 93% !important; }
-/* line 53, sass/partials/_forms.scss */
+/* line 55, sass/partials/_forms.scss */
 .page-template-page-contact-php .gform_footer {
   text-align: right; }
-  /* line 55, sass/partials/_forms.scss */
+  /* line 57, sass/partials/_forms.scss */
   .page-template-page-contact-php .gform_footer .button {
     background-color: #cc2933;
     color: white;
@@ -5053,25 +5055,25 @@ body .gform_wrapper.gf_rtl_wrapper .gform_footer.left_label {
     clear: right;
     width: 49%;
     text-transform: uppercase; }
-/* line 71, sass/partials/_forms.scss */
+/* line 73, sass/partials/_forms.scss */
 .page-template-page-contact-php .validation_message {
   display: none; }
-/* line 72, sass/partials/_forms.scss */
+/* line 74, sass/partials/_forms.scss */
 .page-template-page-contact-php .validation_error {
   clear: both;
   color: #cc2933;
   margin-bottom: 1.5em; }
-/* line 73, sass/partials/_forms.scss */
+/* line 75, sass/partials/_forms.scss */
 .page-template-page-contact-php .gform_validation_error input {
   border-color: #cc2933; }
 
-/* line 75, sass/partials/_forms.scss */
+/* line 77, sass/partials/_forms.scss */
 #input_1_11_4_label, #input_1_3_4_label {
   display: none; }
 
-/* line 76, sass/partials/_forms.scss */
+/* line 78, sass/partials/_forms.scss */
 #input_1_3_2_container, #input_1_3_3_container {
   width: 100%; }
-  /* line 78, sass/partials/_forms.scss */
+  /* line 80, sass/partials/_forms.scss */
   #input_1_3_2_container input, #input_1_3_3_container input {
     width: 98% !important; }
