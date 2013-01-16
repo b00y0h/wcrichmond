@@ -2271,6 +2271,14 @@ h2.entry-title {
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
+/* line 752, sass/_styles.scss */
+.ai1ec-action-agenda .ai1ec-title-buttons {
+  display: none; }
+
+/* line 753, sass/_styles.scss */
+.timely .ai1ec-no-results {
+  padding-top: 1em; }
+
 /*
 ----------------------------------------------------------------
 
