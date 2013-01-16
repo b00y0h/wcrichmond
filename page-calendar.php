@@ -9,7 +9,7 @@
                           <a href="/news/master-calendar">View Master Calendar</a>
                     </div>
                     <div class="column2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error voluptate maiores atque debitis nihil voluptatibus suscipit blanditiis fuga iusto quo temporibus repellendus exercitationem eaque tenetur ipsum nulla qui saepe nam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error voluptate maiores atque debitis nihil voluptatibus suscipit blanditiis fuga</p>
                     </div>
 
                 </div>
