@@ -35,6 +35,12 @@
   .tertiaryNav li.page-item-281 a{
     width:350px;
   }
+  .ai1ec-agenda-widget-view .ai1ec-date{
+    display:none;
+  }
+  .ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today{
+    display:block;
+  }
 </style>
 </head>
 <body <?php body_class(); ?>>
