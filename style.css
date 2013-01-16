@@ -2236,19 +2236,18 @@ h2.entry-title {
     -webkit-box-shadow: inset 0 0 50px #961a2b;
     box-shadow: inset 0 0 50px #961a2b;
     height: 120px;
-    margin-top: 30px;
     font-size: 2em;
     text-transform: uppercase;
     text-align: center; }
-    /* line 717, sass/_styles.scss */
+    /* line 716, sass/_styles.scss */
     .page-template-page-calendar-php .hero .column1:hover {
       -webkit-box-shadow: inset 0 0 50px rgba(150, 26, 43, 0.5);
       box-shadow: inset 0 0 50px rgba(150, 26, 43, 0.5); }
-    /* line 720, sass/_styles.scss */
+    /* line 719, sass/_styles.scss */
     .page-template-page-calendar-php .hero .column1:active {
       -webkit-box-shadow: inset 0 0 50px #961a2b;
       box-shadow: inset 0 0 50px #961a2b; }
-    /* line 723, sass/_styles.scss */
+    /* line 722, sass/_styles.scss */
     .page-template-page-calendar-php .hero .column1 a {
       text-decoration: none;
       color: white;
@@ -2257,37 +2256,41 @@ h2.entry-title {
       line-height: 1.3em;
       padding-top: 25px;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
-  /* line 733, sass/_styles.scss */
+  /* line 732, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column2 {
-    height: 180px;
+    height: 120px;
     background-color: #e6e6e6;
-    color: #8e8e8e; }
+    color: #8e8e8e;
+    font-family: "Merriweather", serif; }
+    /* line 737, sass/_styles.scss */
+    .page-template-page-calendar-php .hero .column2 p {
+      padding-top: 0; }
 
-/* line 741, sass/_styles.scss */
+/* line 742, sass/_styles.scss */
 .full-calendar #ai1ec-calendar-view {
   margin-top: 2em; }
-/* line 744, sass/_styles.scss */
+/* line 745, sass/_styles.scss */
 .full-calendar .ai1ec-filter-selector-container {
   display: block; }
-/* line 747, sass/_styles.scss */
+/* line 748, sass/_styles.scss */
 .full-calendar .ai1ec-filters-container {
   right: 0;
   margin: 20px 0; }
-/* line 751, sass/_styles.scss */
+/* line 752, sass/_styles.scss */
 .full-calendar #ai1ec-container {
   margin: 0; }
-/* line 754, sass/_styles.scss */
+/* line 755, sass/_styles.scss */
 .full-calendar .ai1ec-calendar-title {
   margin-left: 30px!important; }
-/* line 757, sass/_styles.scss */
+/* line 758, sass/_styles.scss */
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
-/* line 761, sass/_styles.scss */
+/* line 762, sass/_styles.scss */
 .ai1ec-action-agenda .ai1ec-title-buttons {
   display: none; }
 
-/* line 762, sass/_styles.scss */
+/* line 763, sass/_styles.scss */
 .timely .ai1ec-no-results {
   padding-top: 1em; }
 
