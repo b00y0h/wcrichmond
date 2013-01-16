@@ -1783,28 +1783,25 @@ img.full {
 /* line 289, sass/_styles.scss */
 #lifestyle {
   background: transparent url("images/lifestyle-teacup.jpg") left top no-repeat; }
-  /* line 295, sass/_styles.scss */
-  #lifestyle h2 {
-    display: inline-block; }
 
-/* line 302, sass/_styles.scss */
+/* line 299, sass/_styles.scss */
 #footer .copyText {
   font-size: .8em; }
 
-/* line 307, sass/_styles.scss */
+/* line 304, sass/_styles.scss */
 #contactInfo {
   background-color: #e6e6e6;
   text-align: center;
   padding: .7em;
   margin-bottom: 1em;
   line-height: 1.5em; }
-  /* line 313, sass/_styles.scss */
+  /* line 310, sass/_styles.scss */
   #contactInfo strong {
     font-family: 'QuicksandBold';
     color: #cc2933;
     padding-left: .4em;
     font-weight: normal; }
-  /* line 319, sass/_styles.scss */
+  /* line 316, sass/_styles.scss */
   #contactInfo a {
     text-transform: uppercase;
     text-decoration: none;
@@ -1812,100 +1809,100 @@ img.full {
     margin-right: .4em;
     border-right: 1px solid #676767;
     white-space: nowrap; }
-    /* line 326, sass/_styles.scss */
+    /* line 323, sass/_styles.scss */
     #contactInfo a:last-child {
       border-right: none; }
 
 /* Blog Stuff */
-/* line 333, sass/_styles.scss */
+/* line 330, sass/_styles.scss */
 .blogHeading {
   color: #cc2933;
   margin: 1em 0 0 20px;
   line-height: .5em;
   text-transform: uppercase; }
 
-/* line 340, sass/_styles.scss */
+/* line 337, sass/_styles.scss */
 #primary, #sidebar {
   background-color: #e6e6e6; }
 
-/* line 343, sass/_styles.scss */
+/* line 340, sass/_styles.scss */
 #primary {
   padding: 0 60px; }
 
-/* line 346, sass/_styles.scss */
+/* line 343, sass/_styles.scss */
 h2.entry-title {
   border-bottom: 1px solid #8e8e8e;
   font-family: 'QuicksandBold';
   margin-right: -60px;
   padding-top: 20px;
   text-transform: uppercase; }
-  /* line 352, sass/_styles.scss */
+  /* line 349, sass/_styles.scss */
   h2.entry-title a {
     display: block;
     text-decoration: none;
     color: #4c4c4c; }
-  /* line 353, sass/_styles.scss */
+  /* line 350, sass/_styles.scss */
   h2.entry-title .entry-meta {
     float: right;
     font-size: 12px;
     padding-right: 10px; }
 
-/* line 359, sass/_styles.scss */
+/* line 356, sass/_styles.scss */
 .entry-content {
   font-family: "Merriweather", serif;
   line-height: 2em;
   font-size: .9em;
   padding: 1em 0; }
-  /* line 364, sass/_styles.scss */
+  /* line 361, sass/_styles.scss */
   .entry-content a {
     color: #cc2933; }
 
-/* line 368, sass/_styles.scss */
+/* line 365, sass/_styles.scss */
 .more-link {
   display: block;
   padding: 1em 0; }
 
-/* line 372, sass/_styles.scss */
+/* line 369, sass/_styles.scss */
 .post-thumb img {
   width: 100%;
   height: auto; }
 
 /* Page Navigation */
-/* line 378, sass/_styles.scss */
+/* line 375, sass/_styles.scss */
 .page-navigation {
   padding: 1em 0;
   font-family: 'QuicksandBold';
   font-size: 1.3em;
   text-transform: uppercase; }
-  /* line 383, sass/_styles.scss */
+  /* line 380, sass/_styles.scss */
   .page-navigation a {
     color: #4c4c4c;
     text-decoration: none; }
 
 /* Social Buttons */
-/* line 393, sass/_styles.scss */
+/* line 390, sass/_styles.scss */
 .postShare {
   background-color: #efefef;
   clear: both;
   padding: .5em 1em;
   margin-right: -60px; }
 
-/* line 399, sass/_styles.scss */
+/* line 396, sass/_styles.scss */
 .addthis_toolbox {
   display: inline-block;
   text-transform: uppercase;
   font-size: .8em; }
-  /* line 403, sass/_styles.scss */
+  /* line 400, sass/_styles.scss */
   .addthis_toolbox a {
     color: #556fc6;
     font-weight: normal;
     font-family: 'QuicksandBold';
     text-decoration: none; }
-    /* line 408, sass/_styles.scss */
+    /* line 405, sass/_styles.scss */
     .addthis_toolbox a span {
       margin-top: -3px; }
 
-/* line 412, sass/_styles.scss */
+/* line 409, sass/_styles.scss */
 .hdr {
   background-color: white;
   color: #343434;
@@ -1913,28 +1910,28 @@ h2.entry-title {
   line-height: 2em;
   text-transform: uppercase;
   text-align: center; }
-  /* line 419, sass/_styles.scss */
+  /* line 416, sass/_styles.scss */
   .hdr a {
     text-decoration: none;
     color: #cc2933; }
 
-/* line 424, sass/_styles.scss */
+/* line 421, sass/_styles.scss */
 .absolute {
   position: absolute; }
-  /* line 426, sass/_styles.scss */
+  /* line 423, sass/_styles.scss */
   .absolute.bottom {
     bottom: 0; }
-  /* line 427, sass/_styles.scss */
+  /* line 424, sass/_styles.scss */
   .absolute.right {
     right: 0; }
 
-/* line 429, sass/_styles.scss */
+/* line 426, sass/_styles.scss */
 .calendar-link {
   margin-right: 16%;
   width: 26%;
   margin-bottom: 20px; }
 
-/* line 434, sass/_styles.scss */
+/* line 431, sass/_styles.scss */
 .btn {
   cursor: pointer;
   text-decoration: none;
@@ -1942,17 +1939,17 @@ h2.entry-title {
   display: block;
   padding: .5em;
   text-transform: uppercase; }
-  /* line 441, sass/_styles.scss */
+  /* line 438, sass/_styles.scss */
   .btn.dark-teal {
     background-color: #6e8c95;
     color: white; }
 
-/* line 447, sass/_styles.scss */
+/* line 444, sass/_styles.scss */
 .rounded {
   border-radius: 4px; }
 
 /* sidebar */
-/* line 454, sass/_styles.scss */
+/* line 451, sass/_styles.scss */
 #sidebar h3, #sidebar .jsSubContentTitle {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -1961,12 +1958,12 @@ h2.entry-title {
   text-align: center;
   color: white;
   text-transform: uppercase; }
-  /* line 461, sass/_styles.scss */
+  /* line 458, sass/_styles.scss */
   #sidebar h3 a, #sidebar .jsSubContentTitle a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
-/* line 468, sass/_styles.scss */
+/* line 465, sass/_styles.scss */
 #sidebar.contact-sidebar h3, #sidebar.contact-sidebar .jsSubContentTitle {
   background-color: white;
   color: #343434;
@@ -1976,64 +1973,64 @@ h2.entry-title {
   border: 1px solid #8e8e8e;
   border-bottom: none; }
 
-/* line 481, sass/_styles.scss */
+/* line 478, sass/_styles.scss */
 .blog-list-archive {
   font-family: 'QuicksandBold'; }
-  /* line 483, sass/_styles.scss */
+  /* line 480, sass/_styles.scss */
   .blog-list-archive .archive-sub-menu {
     display: none; }
-  /* line 486, sass/_styles.scss */
+  /* line 483, sass/_styles.scss */
   .blog-list-archive li {
     list-style: none;
     line-height: 1.2em; }
-  /* line 491, sass/_styles.scss */
+  /* line 488, sass/_styles.scss */
   .blog-list-archive > li:before {
     content: "\25B6";
     position: relative;
     left: -20px;
     font-size: .5em; }
-  /* line 497, sass/_styles.scss */
+  /* line 494, sass/_styles.scss */
   .blog-list-archive > li.selected:before {
     content: "\25BC"; }
-  /* line 501, sass/_styles.scss */
+  /* line 498, sass/_styles.scss */
   .blog-list-archive ul {
     padding-left: .6em; }
-  /* line 504, sass/_styles.scss */
+  /* line 501, sass/_styles.scss */
   .blog-list-archive a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .8em; }
 
-/* line 509, sass/_styles.scss */
+/* line 506, sass/_styles.scss */
 .post-type-archive-video-items #primary {
   padding-left: 0;
   padding-right: 0; }
 
-/* line 513, sass/_styles.scss */
+/* line 510, sass/_styles.scss */
 .video-items {
   margin-bottom: 3em;
   padding-left: 20px;
   padding-right: 20px;
   border-right: 1px solid #676767; }
-  /* line 518, sass/_styles.scss */
+  /* line 515, sass/_styles.scss */
   .video-items img {
     width: 100%;
     height: auto; }
-  /* line 522, sass/_styles.scss */
+  /* line 519, sass/_styles.scss */
   .video-items h2 {
     color: #cc2933;
     border-bottom: none;
     font-size: 1em; }
-  /* line 527, sass/_styles.scss */
+  /* line 524, sass/_styles.scss */
   .video-items p {
     font-family: 'QuicksandLight';
     line-height: 1.5em;
     font-size: .9em; }
-  /* line 532, sass/_styles.scss */
+  /* line 529, sass/_styles.scss */
   .video-items.featured {
     margin-top: 3em;
     border-left: none; }
-    /* line 535, sass/_styles.scss */
+    /* line 532, sass/_styles.scss */
     .video-items.featured .entry-content {
       *zoom: 1; }
       /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -2043,20 +2040,20 @@ h2.entry-title {
       /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
       .video-items.featured .entry-content:after {
         clear: both; }
-      /* line 538, sass/_styles.scss */
+      /* line 535, sass/_styles.scss */
       .video-items.featured .entry-content div {
         padding-left: 20px;
         padding-right: 20px; }
-    /* line 540, sass/_styles.scss */
+    /* line 537, sass/_styles.scss */
     .video-items.featured h2 {
       margin-top: 0;
       padding-top: 0; }
 
-/* line 548, sass/_styles.scss */
+/* line 545, sass/_styles.scss */
 .entry-footer {
   margin-bottom: 1em; }
 
-/* line 552, sass/_styles.scss */
+/* line 549, sass/_styles.scss */
 .tel, .email {
   background-color: #cc2933;
   color: white;
@@ -2066,33 +2063,33 @@ h2.entry-title {
   border-bottom: 1px solid white;
   border-left: 1px solid #8e8e8e;
   border-right: 1px solid #8e8e8e; }
-  /* line 561, sass/_styles.scss */
+  /* line 558, sass/_styles.scss */
   .tel:hover, .email:hover {
     color: white; }
-  /* line 564, sass/_styles.scss */
+  /* line 561, sass/_styles.scss */
   .tel:last-of-type, .email:last-of-type {
     border-bottom: 1px solid #8e8e8e; }
-  /* line 567, sass/_styles.scss */
+  /* line 564, sass/_styles.scss */
   .tel:last-of-type, .email:last-of-type {
     margin-bottom: 1em; }
-  /* line 570, sass/_styles.scss */
+  /* line 567, sass/_styles.scss */
   .tel span, .email span {
     display: block; }
-  /* line 573, sass/_styles.scss */
+  /* line 570, sass/_styles.scss */
   .tel .type, .email .type {
     text-transform: uppercase; }
-  /* line 576, sass/_styles.scss */
+  /* line 573, sass/_styles.scss */
   .tel .value, .email .value {
     font-family: 'QuicksandBold';
     font-size: 110%; }
 
-/* line 581, sass/_styles.scss */
+/* line 578, sass/_styles.scss */
 .hero {
   color: white;
   position: relative;
   margin: 0 -60px;
   background-color: #cc2933; }
-  /* line 588, sass/_styles.scss */
+  /* line 585, sass/_styles.scss */
   .hero .column1, .hero .column2 {
     display: block;
     float: left;
@@ -2102,36 +2099,36 @@ h2.entry-title {
     /* line 62, sass/neat/grid/_grid.scss */
     .hero .column1:last-child, .hero .column2:last-child {
       margin-right: 0; }
-  /* line 592, sass/_styles.scss */
+  /* line 589, sass/_styles.scss */
   .hero .column2 p {
     padding: 1em .5em 1em 0;
     line-height: 1.3em;
     margin-bottom: 0; }
-  /* line 597, sass/_styles.scss */
+  /* line 594, sass/_styles.scss */
   .hero .noshow {
     text-indent: -9999em; }
-  /* line 600, sass/_styles.scss */
+  /* line 597, sass/_styles.scss */
   .hero img.source-image {
     width: 100%;
     position: absolute;
     top: 72px;
     left: 0; }
 
-/* line 610, sass/_styles.scss */
+/* line 607, sass/_styles.scss */
 .page-template-page-contact-php .entry-content {
   padding: 20px; }
-/* line 613, sass/_styles.scss */
+/* line 610, sass/_styles.scss */
 .page-template-page-contact-php .hero {
   padding: 0 10px 20px 30px;
   margin: 0;
   margin-top: 1.5em; }
-  /* line 615, sass/_styles.scss */
+  /* line 612, sass/_styles.scss */
   .page-template-page-contact-php .hero p {
     padding-right: 0; }
-/* line 617, sass/_styles.scss */
+/* line 614, sass/_styles.scss */
 .page-template-page-contact-php #primary {
   padding: 0; }
-/* line 618, sass/_styles.scss */
+/* line 615, sass/_styles.scss */
 .page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle {
   background-color: white !important;
   font-family: 'QuicksandBold';
@@ -2142,7 +2139,7 @@ h2.entry-title {
   text-transform: uppercase;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); }
-/* line 628, sass/_styles.scss */
+/* line 625, sass/_styles.scss */
 .page-template-page-contact-php .link-to-google {
   background-color: #cc2933;
   text-align: right;
@@ -2153,11 +2150,11 @@ h2.entry-title {
   display: block;
   text-decoration: none;
   padding-right: 1em; }
-/* line 639, sass/_styles.scss */
+/* line 636, sass/_styles.scss */
 .page-template-page-contact-php .google-map {
   margin: auto 20px 2em;
   border: 1px solid #8e8e8e; }
-/* line 643, sass/_styles.scss */
+/* line 640, sass/_styles.scss */
 .page-template-page-contact-php hr {
   height: 1px;
   border: 0;
@@ -2165,25 +2162,25 @@ h2.entry-title {
   margin-left: -30px;
   margin-right: -30px; }
 
-/* line 652, sass/_styles.scss */
+/* line 649, sass/_styles.scss */
 .inner-wrapper {
   margin-left: -60px;
   margin-right: -60px; }
 
-/* line 657, sass/_styles.scss */
+/* line 654, sass/_styles.scss */
 #upcoming-events {
   margin-bottom: 2em;
   background-color: #cc2933;
   padding: .5em;
   color: white;
   text-align: right; }
-  /* line 663, sass/_styles.scss */
+  /* line 660, sass/_styles.scss */
   #upcoming-events a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 669, sass/_styles.scss */
+/* line 666, sass/_styles.scss */
 .calendar-list {
   *zoom: 1; }
   /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
@@ -2193,7 +2190,7 @@ h2.entry-title {
   /* line 23, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/bourbon/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .calendar-list:after {
     clear: both; }
-  /* line 672, sass/_styles.scss */
+  /* line 669, sass/_styles.scss */
   .calendar-list a {
     background-color: #cc2933;
     display: block;
@@ -2205,21 +2202,21 @@ h2.entry-title {
     margin-right: 1%;
     padding: 1em .5em;
     line-height: 1.2em; }
-    /* line 683, sass/_styles.scss */
+    /* line 680, sass/_styles.scss */
     .calendar-list a:last-of-type {
       margin-right: 0; }
 
-/* line 687, sass/_styles.scss */
+/* line 684, sass/_styles.scss */
 #local-calendars a {
   width: 24.25%; }
 
-/* line 692, sass/_styles.scss */
+/* line 689, sass/_styles.scss */
 #offsite-calendars a {
   width: 32.6%;
   background-color: #8e8e8e;
   font-size: .9em; }
 
-/* line 697, sass/_styles.scss */
+/* line 694, sass/_styles.scss */
 .calendar-sidebar h5 {
   text-align: center;
   font-size: 1.2em;
@@ -2227,19 +2224,19 @@ h2.entry-title {
   color: #8e8e8e;
   text-transform: uppercase; }
 
-/* line 706, sass/_styles.scss */
+/* line 703, sass/_styles.scss */
 .page-template-page-calendar-php .hero {
   margin-top: 2em;
   margin-bottom: 1.5em;
   background-color: #e6e6e6; }
-  /* line 711, sass/_styles.scss */
+  /* line 708, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column1 {
     background-color: #cc2933;
     height: 180px;
     font-size: 2em;
     text-transform: uppercase;
     text-align: center; }
-    /* line 717, sass/_styles.scss */
+    /* line 714, sass/_styles.scss */
     .page-template-page-calendar-php .hero .column1 a {
       text-decoration: none;
       color: white;
@@ -2247,29 +2244,29 @@ h2.entry-title {
       display: block;
       line-height: 1.3em;
       padding-top: 50px; }
-  /* line 726, sass/_styles.scss */
+  /* line 723, sass/_styles.scss */
   .page-template-page-calendar-php .hero .column2 {
     height: 180px;
     background-color: #e6e6e6;
     color: #8e8e8e; }
 
-/* line 734, sass/_styles.scss */
+/* line 731, sass/_styles.scss */
 .full-calendar #ai1ec-calendar-view {
   margin-top: 2em; }
-/* line 737, sass/_styles.scss */
+/* line 734, sass/_styles.scss */
 .full-calendar .ai1ec-filter-selector-container {
   display: block; }
-/* line 740, sass/_styles.scss */
+/* line 737, sass/_styles.scss */
 .full-calendar .ai1ec-filters-container {
   right: 0;
   margin: 20px 0; }
-/* line 744, sass/_styles.scss */
+/* line 741, sass/_styles.scss */
 .full-calendar #ai1ec-container {
   margin: 0; }
-/* line 747, sass/_styles.scss */
+/* line 744, sass/_styles.scss */
 .full-calendar .ai1ec-calendar-title {
   margin-left: 30px!important; }
-/* line 750, sass/_styles.scss */
+/* line 747, sass/_styles.scss */
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
