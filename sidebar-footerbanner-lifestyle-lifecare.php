@@ -8,4 +8,4 @@
         <h2 class="transparent header">Life Care</h2>
     </a>
 
-</div> <!-- .triptic -->
+</div> <!-- .diptic -->

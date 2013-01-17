@@ -146,9 +146,11 @@ img.full {
         color:$red;
         text-decoration:none;
         @extend .grey-border;
+        position: relative;
         line-height:1.4em;
         padding-left:20px;
         padding-right:20px;
+        text-align: center;
     .last-child-large & {
         color:#000;
     }
@@ -168,6 +170,9 @@ img.full {
         }
     h2 {
         margin-top: 0;
+        padding-top: 1.5em;
+        font-size: 2em;
+        text-transform: uppercase;
     }
     h2.header {
         @include box-shadow(0 5px 5px rgba(0,0,0,.1));
@@ -179,6 +184,7 @@ img.full {
         padding-left:20px;
         padding-right:20px;
         text-transform:uppercase;
+        text-align: left;
 
             &.transparent {
                 background-color:rgba(255,255,255,.9);
@@ -208,13 +214,6 @@ img.full {
         border:none;
     }
     #contact-us {
-    position:relative; // for the full width image
-    text-align: center;
-    h2 {
-        padding-top: 1.5em;
-        font-size: 2em;
-        text-transform: uppercase;
-    }
     p {
         font-family:'QuicksandBook';
         margin: auto 3.4em 1em;
@@ -224,11 +223,6 @@ img.full {
 }
 #act-now {
     @extend .red-radial-gradient;
-    padding-top:50px;
-    h2 {
-        line-height:81px;
-        text-transform: uppercase;
-    }
     p {
         font-family:'QuicksandBook';
     }
