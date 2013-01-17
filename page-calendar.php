@@ -27,7 +27,7 @@
                 <?php endwhile;  endif; ?>
     <!--END #primary .hfeed-->
         <div class="inner-wrapper">
-            <div id='upcoming-events'><a href="/news/master-calendar/?ai1ec_cat_ids=7">View all upcoming Events</a></div>
+            <div id='upcoming-events'><a href="/news/master-calendar/?ai1ec_cat_ids=7">View all upcoming Events ></a></div>
             <?php
                $settings = get_option('wcrichmond_theme_options');
                
