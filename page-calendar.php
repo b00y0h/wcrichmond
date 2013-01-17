@@ -9,7 +9,7 @@
                           <a href="/news/master-calendar">View Master Calendar</a>
                     </div>
                     <div class="column2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error voluptate maiores atque debitis nihil voluptatibus suscipit blanditiis fuga</p>
+                        <p>Westminster Canterbury offers a wide range of activities. Click on View Master Calendar for detailed descriptions by month or on the headings below for brief lists by area of interest. Additional calendars can be found in the lower portion of this page.</p>
                     </div>
 
                 </div>
