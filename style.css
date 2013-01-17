@@ -42,7 +42,7 @@ h2 {
     font-size: 22px; }
 
 /* line 8, sass/partials/_typography.scss */
-h1, h2, h3, .jsSubContentTitle, h4, h5, h6 {
+h1, h2, h3, .jsSubContentTitle, .jsSubContentText h2, h4, h5, h6 {
   font-weight: normal; }
 
 /* line 1, sass/partials/_layout.scss */
@@ -1063,7 +1063,7 @@ li.menu-item-77 {
   padding: 20px; }
 
 /* line 241, sass/_orig-styles.scss */
-h3.blockTitle, .blockTitle.jsSubContentTitle {
+h3.blockTitle, .blockTitle.jsSubContentTitle, .jsSubContentText h2.blockTitle {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
@@ -1358,7 +1358,7 @@ a img {
     height: 40px; }
 
 /* line 497, sass/_orig-styles.scss */
-.jsSubContentTitle {
+.jsSubContentTitle, .jsSubContentText h2 {
   font-size: 16px;
   color: #343434;
   font-family: 'QuicksandBold';
@@ -1734,14 +1734,14 @@ img.full {
   height: 280px;
   max-height: 280px; }
   /* line 250, sass/_styles.scss */
-  #around-our-community h3, #around-our-community .jsSubContentTitle {
+  #around-our-community h3, #around-our-community .jsSubContentTitle, #around-our-community .jsSubContentText h2, .jsSubContentText #around-our-community h2 {
     font-family: 'QuicksandBold';
     margin-top: 0;
     text-transform: uppercase;
     line-height: 1.5em;
     margin-bottom: .5em; }
     /* line 256, sass/_styles.scss */
-    #around-our-community h3 a, #around-our-community .jsSubContentTitle a {
+    #around-our-community h3 a, #around-our-community .jsSubContentTitle a, #around-our-community .jsSubContentText h2 a, .jsSubContentText #around-our-community h2 a {
       text-decoration: none;
       color: #cc2933; }
   /* line 261, sass/_styles.scss */
@@ -1935,7 +1935,7 @@ h2.entry-title {
 
 /* sidebar */
 /* line 444, sass/_styles.scss */
-#sidebar h3, #sidebar .jsSubContentTitle {
+#sidebar h3, #sidebar .jsSubContentTitle, #sidebar .jsSubContentText h2, .jsSubContentText #sidebar h2 {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-color: #cc2933;
@@ -1944,12 +1944,12 @@ h2.entry-title {
   color: white;
   text-transform: uppercase; }
   /* line 451, sass/_styles.scss */
-  #sidebar h3 a, #sidebar .jsSubContentTitle a {
+  #sidebar h3 a, #sidebar .jsSubContentTitle a, #sidebar .jsSubContentText h2 a, .jsSubContentText #sidebar h2 a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
 /* line 458, sass/_styles.scss */
-#sidebar.contact-sidebar h3, #sidebar.contact-sidebar .jsSubContentTitle {
+#sidebar.contact-sidebar h3, #sidebar.contact-sidebar .jsSubContentTitle, #sidebar.contact-sidebar .jsSubContentText h2, .jsSubContentText #sidebar.contact-sidebar h2 {
   background-color: white;
   color: #343434;
   margin: 0;
@@ -2114,7 +2114,7 @@ h2.entry-title {
 .page-template-page-contact-php #primary {
   padding: 0; }
 /* line 608, sass/_styles.scss */
-.page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle {
+.page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle, .page-template-page-contact-php #primary .jsSubContentText h2, .jsSubContentText .page-template-page-contact-php #primary h2 {
   background-color: white !important;
   font-family: 'QuicksandBold';
   font-weight: normal!important;
@@ -2321,7 +2321,9 @@ to no.
 .gform_wrapper h1,
 .gform_wrapper h2,
 .gform_wrapper h3,
-.gform_wrapper .jsSubContentTitle {
+.gform_wrapper .jsSubContentTitle,
+.gform_wrapper .jsSubContentText h2,
+.jsSubContentText .gform_wrapper h2 {
   font-weight: normal;
   border: none;
   outline: none;
@@ -2673,12 +2675,14 @@ html > body .entry ul,
 .gform_wrapper .gsection .gfield_label,
 .gform_wrapper h2.gsection_title,
 .gform_wrapper h3.gform_title,
-.gform_wrapper .gform_title.jsSubContentTitle {
+.gform_wrapper .gform_title.jsSubContentTitle,
+.gform_wrapper .jsSubContentText h2.gform_title,
+.jsSubContentText .gform_wrapper h2.gform_title {
   font-weight: bold;
   font-size: 1.3em; }
 
 /* line 336, sass/partials/_gf_forms.scss */
-.gform_wrapper h3.gform_title, .gform_wrapper .gform_title.jsSubContentTitle {
+.gform_wrapper h3.gform_title, .gform_wrapper .gform_title.jsSubContentTitle, .gform_wrapper .jsSubContentText h2.gform_title, .jsSubContentText .gform_wrapper h2.gform_title {
   letter-spacing: normal !important;
   margin: 10px 0 6px 0; }
 
@@ -2690,7 +2694,9 @@ html > body .entry ul,
 .gform_wrapper h2.gsection_title,
 .gform_wrapper .gsection_description,
 .gform_wrapper h3.gform_title,
-.gform_wrapper .gform_title.jsSubContentTitle {
+.gform_wrapper .gform_title.jsSubContentTitle,
+.gform_wrapper .jsSubContentText h2.gform_title,
+.jsSubContentText .gform_wrapper h2.gform_title {
   width: 98%; }
 
 /* line 348, sass/partials/_gf_forms.scss */
@@ -3275,7 +3281,7 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
   border-bottom: 1px dotted #cccccc; }
 
 /* line 861, sass/partials/_gf_forms.scss */
-.gform_wrapper .gf_progressbar_wrapper h3.gf_progressbar_title, .gform_wrapper .gf_progressbar_wrapper .gf_progressbar_title.jsSubContentTitle {
+.gform_wrapper .gf_progressbar_wrapper h3.gf_progressbar_title, .gform_wrapper .gf_progressbar_wrapper .gf_progressbar_title.jsSubContentTitle, .gform_wrapper .gf_progressbar_wrapper .jsSubContentText h2.gf_progressbar_title, .jsSubContentText .gform_wrapper .gf_progressbar_wrapper h2.gf_progressbar_title {
   font-size: 13px;
   line-height: 1em !important;
   margin: 0 0 6px 0 !important;
@@ -4817,6 +4823,8 @@ body.rtl .gform_wrapper table tr td.gfield_list_icons,
 body.rtl .gform_wrapper div.validation_error,
 body.rtl .gform_wrapper h3.gform_title,
 body.rtl .gform_wrapper .gform_title.jsSubContentTitle,
+body.rtl .gform_wrapper .jsSubContentText h2.gform_title,
+.jsSubContentText body.rtl .gform_wrapper h2.gform_title,
 body.rtl .gform_wrapper span.gform_description,
 body.rtl .gform_wrapper .gform_footer,
 body .gform_wrapper.gf_rtl_wrapper ul li,
@@ -4839,6 +4847,8 @@ body .gform_wrapper.gf_rtl_wrapper table tr td.gfield_list_icons,
 body .gform_wrapper.gf_rtl_wrapper div.validation_error,
 body .gform_wrapper.gf_rtl_wrapper h3.gform_title,
 body .gform_wrapper.gf_rtl_wrapper .gform_title.jsSubContentTitle,
+body .gform_wrapper.gf_rtl_wrapper .jsSubContentText h2.gform_title,
+.jsSubContentText body .gform_wrapper.gf_rtl_wrapper h2.gform_title,
 body .gform_wrapper.gf_rtl_wrapper span.gform_description,
 body .gform_wrapper.gf_rtl_wrapper .gform_footer {
   text-align: right !important;
@@ -5007,17 +5017,17 @@ body .gform_wrapper.gf_rtl_wrapper .gform_footer.left_label {
   min-height: auto!important; }
 
 /* line 27, sass/partials/_forms.scss */
-.page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle, .page-template-page-contact-php #primary .gform_title {
+.page-template-page-contact-php #primary h3, .page-template-page-contact-php #primary .jsSubContentTitle, .page-template-page-contact-php #primary .jsSubContentText h2, .jsSubContentText .page-template-page-contact-php #primary h2, .page-template-page-contact-php #primary .gform_title {
   color: #1a1a1a;
   display: block;
   float: left;
   margin-right: 1.77515%;
   width: 49.11243%; }
   /* line 62, sass/neat/grid/_grid.scss */
-  .page-template-page-contact-php #primary h3:last-child, .page-template-page-contact-php #primary .jsSubContentTitle:last-child, .page-template-page-contact-php #primary .gform_title:last-child {
+  .page-template-page-contact-php #primary h3:last-child, .page-template-page-contact-php #primary .jsSubContentTitle:last-child, .page-template-page-contact-php #primary .jsSubContentText h2:last-child, .jsSubContentText .page-template-page-contact-php #primary h2:last-child, .page-template-page-contact-php #primary .gform_title:last-child {
     margin-right: 0; }
   /* line 30, sass/partials/_forms.scss */
-  .page-template-page-contact-php #primary h3 + p, .page-template-page-contact-php #primary .jsSubContentTitle + p, .page-template-page-contact-php #primary .gform_title + p {
+  .page-template-page-contact-php #primary h3 + p, .page-template-page-contact-php #primary .jsSubContentTitle + p, .page-template-page-contact-php #primary .jsSubContentText h2 + p, .jsSubContentText .page-template-page-contact-php #primary h2 + p, .page-template-page-contact-php #primary .gform_title + p {
     clear: both; }
 /* line 34, sass/partials/_forms.scss */
 .page-template-page-contact-php .gform_wrapper {

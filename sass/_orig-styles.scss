@@ -494,7 +494,7 @@ overflow: auto;
   }
 }
 
-.jsSubContentTitle{
+.jsSubContentTitle, .jsSubContentText h2{
  font-size:16px;
  color:$dark-text;
  @extend h3;
