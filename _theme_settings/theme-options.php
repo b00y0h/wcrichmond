@@ -40,6 +40,8 @@ function wcrichmond_theme_options_init() {
    add_settings_field( 'shenandoah_calendar_url', __( 'Shenandoah Calendar', 'wcrichmond' ), 'wcrichmond_settings_shenandoah_calendar', 'theme_options', 'general' );
    add_settings_field( 'chesapeake_calendar_url', __( 'Chesapeake Calendar', 'wcrichmond' ), 'wcrichmond_settings_chesapeake_calendar', 'theme_options', 'general' );
    add_settings_field( 'piedmont_calendar_url', __( 'Piedmont Calendar', 'wcrichmond' ), 'wcrichmond_settings_piedmont_calendar', 'theme_options', 'general' );
+   
+   add_settings_field( 'act_now_text', __( 'Act Now Text', 'wcrichmond' ), 'wcrichmond_settings_act_now', 'theme_options', 'general' );
   /*
 	// Register our individual settings fields
 	add_settings_field(
@@ -169,7 +171,8 @@ function wcrichmond_get_theme_options() {
 		'gables_calendar_url' => '',
 		'shenandoah_calendar_url' => '',
 		'chesapeake_calendar_url'  => '',
-		'piedmont_calendar_url'  => ''
+		'piedmont_calendar_url'  => '',
+		'act_now_text' => 'Take advantage of special incentives and limited offers before fees increase on October 1, 2012.'
 	);
 
 	$defaults = apply_filters( 'wcrichmond_default_theme_options', $defaults );
@@ -178,6 +181,18 @@ function wcrichmond_get_theme_options() {
 	$options = array_intersect_key( $options, $defaults );
 
 	return $options;
+}
+
+
+
+/**
+ * Renders the sample textarea setting field.
+ */
+function wcrichmond_settings_wcrichmond_settings_act_now() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<textarea class="large-text" type="text" name="wcrichmond_theme_options[act_now_text]" id="act_now_text" cols="50" rows="5" /><?php echo esc_textarea( $options['act_now_text'] ); ?></textarea>
+	<?php
 }
 
 /**
@@ -302,7 +317,11 @@ function wcrichmond_theme_options_render_page() {
  */
 function wcrichmond_theme_options_validate( $input ) {
 	$output = array();
-
+    
+    // The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['act_now_text'] ) && ! empty( $input['act_now_text'] ) )
+		$output['act_now_text'] = ( $input['act_now_text'] );
+    
 	  // The sample text input must be safe text with no HTML tags
  	  if ( isset( $input['avalon_calendar_url'] ) && ! empty( $input['avalon_calendar_url'] ) )
 		$output['avalon_calendar_url'] = wp_filter_nohtml_kses( $input['avalon_calendar_url'] );
