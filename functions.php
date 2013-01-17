@@ -37,6 +37,10 @@ require('_framework/enhanced-custom-fields/enhanced-custom-fields.php');
 require('_theme_settings/theme-post-types.php');
 require('_theme_settings/theme-custom-fields.php');
 
+require('_theme_settings/theme-options.php');
+
+
+
 
 // Fix <p>'s and <br>'s from showing up around shortcodes.
 add_filter('the_content', 'shortcode_empty_paragraph_fix');
