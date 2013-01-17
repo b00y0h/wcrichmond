@@ -39,6 +39,9 @@
   ul.tertiaryNav li a, ul.tertiaryNav li {
     background-color:#A52121;
   }
+  .jsSubContent.jsc_8.current_sub_content{
+    height:424px;
+  }
 </style>
 </head>
 <body <?php body_class(); ?>>
