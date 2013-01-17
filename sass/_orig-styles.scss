@@ -550,18 +550,17 @@ text-transform:uppercase;
   }
 
 
-    ul.tertiaryNav{
+    .tertiaryNav{
       margin:0;
       padding:0;
-    }
-    ul.tertiaryNav li{
-      list-style:none;
-      background-color:#d31145;
-      /*height:37px;*/
-      margin:5px 0px;
-    }
-    ul.tertiaryNav li:hover{
-      background-color:#fff;
+      li, li a {
+          list-style:none;
+          background-color:#A52121;
+          margin:5px 0px;
+              &:hover{
+              background-color:#fff;
+            }
+      }
     }
     ul.tertiaryNav li:hover a{
       color:#d31145;
@@ -577,7 +576,6 @@ text-transform:uppercase;
       text-transform:uppercase;
       text-decoration:none;
       color:#FFF;
-      background-color:#d31145;
       font-size:14px;
       padding:10px 75px 10px 10px;
       width:200px;

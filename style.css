@@ -1424,40 +1424,36 @@ a img {
     background-color: #327e85; }
 
 /* line 553, sass/_orig-styles.scss */
-ul.tertiaryNav {
+.tertiaryNav {
   margin: 0;
   padding: 0; }
+  /* line 556, sass/_orig-styles.scss */
+  .tertiaryNav li, .tertiaryNav li a {
+    list-style: none;
+    background-color: #A52121;
+    margin: 5px 0px; }
+    /* line 560, sass/_orig-styles.scss */
+    .tertiaryNav li:hover, .tertiaryNav li a:hover {
+      background-color: #fff; }
 
-/* line 557, sass/_orig-styles.scss */
-ul.tertiaryNav li {
-  list-style: none;
-  background-color: #d31145;
-  /*height:37px;*/
-  margin: 5px 0px; }
-
-/* line 563, sass/_orig-styles.scss */
-ul.tertiaryNav li:hover {
-  background-color: #fff; }
-
-/* line 566, sass/_orig-styles.scss */
+/* line 565, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 570, sass/_orig-styles.scss */
+/* line 569, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 573, sass/_orig-styles.scss */
+/* line 572, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   width: 350px; }
 
-/* line 576, sass/_orig-styles.scss */
+/* line 575, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   text-transform: uppercase;
   text-decoration: none;
   color: #FFF;
-  background-color: #d31145;
   font-size: 14px;
   padding: 10px 75px 10px 10px;
   width: 200px;
@@ -1648,7 +1644,7 @@ img.full {
     border-left: none; }
   /* line 164, sass/_styles.scss */
   .module:last-child {
-    border-right: none; }
+    border-right: 1px solid #969c9b; }
   /* line 167, sass/_styles.scss */
   .module:hover {
     color: inherit;
