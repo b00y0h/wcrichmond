@@ -188,7 +188,7 @@ function wcrichmond_get_theme_options() {
 /**
  * Renders the sample textarea setting field.
  */
-function wcrichmond_settings_wcrichmond_settings_act_now() {
+function wcrichmond_settings_settings_act_now() {
 	$options = wcrichmond_get_theme_options();
 	?>
 	<textarea class="large-text" type="text" name="wcrichmond_theme_options[act_now_text]" id="act_now_text" cols="50" rows="5" /><?php echo esc_textarea( $options['act_now_text'] ); ?></textarea>
