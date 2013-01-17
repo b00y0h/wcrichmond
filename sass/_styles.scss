@@ -759,5 +759,9 @@ h2.entry-title {
         margin-right:30px!important;
     }
 }
-.ai1ec-action-agenda .ai1ec-title-buttons { display: none;}
+// agenda page
+.ai1ec-action-agenda {
+    .ai1ec-title-buttons { display: none;}
+    .ai1ec-filters-container {line-height: 0;}
+}
 .timely .ai1ec-no-results {padding-top:1em;}

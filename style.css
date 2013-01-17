@@ -2286,11 +2286,14 @@ h2.entry-title {
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
-/* line 762, sass/_styles.scss */
+/* line 764, sass/_styles.scss */
 .ai1ec-action-agenda .ai1ec-title-buttons {
   display: none; }
+/* line 765, sass/_styles.scss */
+.ai1ec-action-agenda .ai1ec-filters-container {
+  line-height: 0; }
 
-/* line 763, sass/_styles.scss */
+/* line 767, sass/_styles.scss */
 .timely .ai1ec-no-results {
   padding-top: 1em; }
 
