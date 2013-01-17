@@ -115,6 +115,9 @@ img.full {
     @include radial-gradient(#cc2933, darken(#b42027,8));
     h2,p {color:#fff;}
     h2 {background-color:transparent;}
+    &:hover {
+        @include radial-gradient(#cc2933, darken(#b42027,3));
+    }
 }
 .grey-border {
     border:1px solid #8d8d8d;
