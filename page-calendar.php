@@ -28,16 +28,20 @@
     <!--END #primary .hfeed-->
         <div class="inner-wrapper">
             <div id='upcoming-events'><a href="/news/master-calendar/?ai1ec_cat_ids=7">View all upcoming Events</a></div>
+            <?php
+               $settings = get_option('wcrichmond_theme_options');
+               
+            ?>
             <div id='local-calendars' class="calendar-list">
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/rec-calendar-master-avalon-2013-jan.pdf">Avalon Calendar</a>
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/rec-calendar-master-pav-2013-jan.pdf">Pavilion Calendar</a>
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/MONT-CAL-2013-jan.pdf">Monticello Calendar</a>
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/rec-calendar-master-GABLES-2013-jan.pdf">Gables Calendar</a>
+                <a href="<?php echo $settings['avalon_calendar_url']; ?>">Avalon Calendar</a>
+                <a href="<?php echo $settings['pavilion_calendar_url']; ?>">Pavilion Calendar</a>
+                <a href="<?php echo $settings['monticello_calendar_url']; ?>">Monticello Calendar</a>
+                <a href="<?php echo $settings['gables_calendar_url']; ?>">Gables Calendar</a>
             </div> <!-- .other-local-calendars -->
             <div id="offsite-calendars" class="calendar-list">
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/recreation-shenandoah-2013-jan.pdf">Westminster Canterbury<br><span>Shenandoah Calendar</span></a>
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/recreation-CHES-2013-jan.pdf">Westminster Canterbury<br><span>Chesapeake Calendar</span></a>
-                <a href="http://www.wcrichmond.org/phpages/wp-content/uploads/2013/01/recreation-pied-2013-jan.pdf">Westminster Canterbury<br><span>Piedmont Calendar</span></a>
+                <a href="<?php echo $settings['shenandoah_calendar_url']; ?>">Westminster Canterbury<br><span>Shenandoah Calendar</span></a>
+                <a href="<?php echo $settings['chesapeake_calendar_url']; ?>">Westminster Canterbury<br><span>Chesapeake Calendar</span></a>
+                <a href="<?php echo $settings['piedmont_calendar_url']; ?>">Westminster Canterbury<br><span>Piedmont Calendar</span></a>
             </div>
         </div>
     </div>
