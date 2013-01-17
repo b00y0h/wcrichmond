@@ -1454,7 +1454,7 @@ ul.tertiaryNav li.current_page_item {
 
 /* line 573, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
-  padding-right: 105px; }
+  width: 350px; }
 
 /* line 576, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
