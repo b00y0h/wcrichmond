@@ -41,7 +41,10 @@
             </a>
             <a href="/contact-us/" id="act-now" class="module">
                 <h2>Act Now!</h2>
-                <p>Take advantage of special incentives and limited offers before fees increase on October 1, 2012.</p>
+                <?php
+                  $options = wcrichmond_get_theme_options();
+                ?>
+                <p><?php echo stripslashes($options['act_now_text']); ?></p>
             </a>
 
         </div>
