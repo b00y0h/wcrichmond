@@ -2292,8 +2292,11 @@ h2.entry-title {
 /* line 765, sass/_styles.scss */
 .ai1ec-action-agenda .ai1ec-filters-container {
   line-height: 0; }
+/* line 766, sass/_styles.scss */
+.ai1ec-action-agenda .entry-content {
+  padding: 0; }
 
-/* line 767, sass/_styles.scss */
+/* line 768, sass/_styles.scss */
 .timely .ai1ec-no-results {
   padding-top: 1em; }
 
