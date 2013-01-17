@@ -30,18 +30,6 @@
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>
 <![endif]-->
-
-<style type="text/css" media="screen">
-  .tertiaryNav li.page-item-281 a{
-    width:350px;
-  }
-  .ai1ec-agenda-widget-view .ai1ec-date{
-    display:none;
-  }
-  .ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today{
-    display:block;
-  }
-</style>
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>
