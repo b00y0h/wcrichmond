@@ -30,16 +30,6 @@
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="<?php bloginfo('template_directory');?>/library/selectivizr-min.js"></script>
 <![endif]-->
-
-<style type="text/css" media="screen">
-  #contactInfo {
-    /* Fix overlap of stripe hanging over right edge */
-    width:1023px; 
-  }
-  ul.tertiaryNav li a, ul.tertiaryNav li {
-    background-color:#A52121;
-  }
-</style>
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 7]>

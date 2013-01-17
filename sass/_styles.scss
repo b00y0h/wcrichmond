@@ -162,7 +162,7 @@ img.full {
             border-left:none;
         }
         &:last-child {
-            border-right:none;
+            border-right: 1px solid #969c9b;
         }
         &:hover {
             color:inherit;
