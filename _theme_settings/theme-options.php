@@ -264,124 +264,6 @@ function wcrichmond_settings_avalon_calendar() {
 }
 
 
-
-
-
-
-/**
- * Renders the sample checkbox setting field.
- */
-function wcrichmond_settings_field_enable_video_checkbox_checkbox() {
-	$options = wcrichmond_get_theme_options();
-	?>
-	<label for="enable-video-checkbox">
-		<input type="checkbox" name="wcrichmond_theme_options[enable_video_checkbox]" id="enable-video-checkbox" <?php checked( 'on', $options['enable_video_checkbox'] ); ?> />
-		<?php _e( 'Click to enable video overlay', 'wcrichmond' ); ?>
-	</label>
-	<?php
-}
-
-/**
- * Renders the video url text input setting field.
- */
-function wcrichmond_settings_field_video_url_input() {
-	$options = wcrichmond_get_theme_options();
-	?>
-	<input type="text" name="wcrichmond_theme_options[video_url]" id="video-url" value="<?php echo esc_attr( $options['video_url'] ); ?>" size="80" />
-	<label class="description" for="video-url"><?php _e( '(youtube, vimeo)', 'wcrichmond' ); ?></label>
-	<?php
-}
-
-/**
- * Renders the video title text input setting field.
- */
-function wcrichmond_settings_field_video_title_input() {
-    $options = wcrichmond_get_theme_options();
-    ?>
-    <input type="text" name="wcrichmond_theme_options[video_title]" id="video-title" value="<?php echo esc_attr( $options['video_title'] ); ?>" size="40" />
-    <?php
-}
-
-/**
- * Renders the video title link to input setting field.
- */
-function wcrichmond_settings_field_video_link_to() {
-    $options = wcrichmond_get_theme_options();
-    ?>
-    <input type="text" name="wcrichmond_theme_options[video_link_to]" id="video-link-to" value="<?php echo esc_attr( $options['video_link_to'] ); ?>" size="80" />
-    <label class="description" for="video-link-to"><?php _e( 'Where do you want this page to link to?', 'wcrichmond' ); ?></label>
-    <?php
-}
-
-/**
- * Renders the video link text to input setting field.
- */
-function wcrichmond_settings_field_video_link_text() {
-    $options = wcrichmond_get_theme_options();
-    ?>
-    <input type="text" name="wcrichmond_theme_options[video_link_text]" id="video-link-text" value="<?php echo esc_attr( $options['video_link_text'] ); ?>" />
-    <label class="description" for="video-link-text"><?php _e( 'Text of the link in the description. Defaults to: Take Action', 'wcrichmond' ); ?></label>
-    <?php
-}
-
-
-
-/**
- * Renders the sample select options setting field.
- */
-function wcrichmond_settings_field_sample_select_options() {
-	$options = wcrichmond_get_theme_options();
-	?>
-	<select name="wcrichmond_theme_options[sample_select_options]" id="sample-select-options">
-		<?php
-			$selected = $options['sample_select_options'];
-			$p = '';
-			$r = '';
-
-			foreach ( wcrichmond_sample_select_options() as $option ) {
-				$label = $option['label'];
-				if ( $selected == $option['value'] ) // Make default first in list
-					$p = "\n\t<option style=\"padding-right: 10px;\" selected='selected' value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-				else
-					$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-			}
-			echo $p . $r;
-		?>
-	</select>
-	<label class="description" for="sample_theme_options[selectinput]"><?php _e( 'Sample select input', 'wcrichmond' ); ?></label>
-	<?php
-}
-
-/**
- * Renders the radio options setting field.
- *
- * @since WCRichmond 1.0
- */
-function wcrichmond_settings_field_sample_radio_buttons() {
-	$options = wcrichmond_get_theme_options();
-
-	foreach ( wcrichmond_sample_radio_buttons() as $button ) {
-	?>
-	<div class="layout">
-		<label class="description">
-			<input type="radio" name="wcrichmond_theme_options[sample_radio_buttons]" value="<?php echo esc_attr( $button['value'] ); ?>" <?php checked( $options['sample_radio_buttons'], $button['value'] ); ?> />
-			<?php echo $button['label']; ?>
-		</label>
-	</div>
-	<?php
-	}
-}
-
-/**
- * Renders the sample textarea setting field.
- */
-function wcrichmond_settings_field_video_description() {
-	$options = wcrichmond_get_theme_options();
-	?>
-	<textarea class="large-text" type="text" name="wcrichmond_theme_options[video_description]" id="video-description" cols="50" rows="5" /><?php echo esc_textarea( $options['video_description'] ); ?></textarea>
-	<?php
-}
-
 /**
  * Renders the Theme Options administration screen.
  *
@@ -420,35 +302,44 @@ function wcrichmond_theme_options_render_page() {
  */
 function wcrichmond_theme_options_validate( $input ) {
 	$output = array();
+    
+    'avalon_calendar_url' => '',
+		'pavilion_calendar_url'       => '',
+		'monticello_calendar_url'     => '',
+		'gables_calendar_url' => '',
+		'shenandoah_calendar_url' => '',
+		'chesapeake_calendar_url'  => '',
+		'piedmont_calendar_url'  => ''
 
-	// Checkboxes will only be present if checked.
-	if ( isset( $input['enable_video_checkbox'] ) )
-		$output['enable_video_checkbox'] = 'on';
+	  // The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['avalon_calendar_url'] ) && ! empty( $input['avalon_calendar_url'] ) )
+		$output['avalon_calendar_url'] = wp_filter_nohtml_kses( $input['avalon_calendar_url'] );
 
-	// The sample text input must be safe text with no HTML tags
-	if ( isset( $input['video_url'] ) && ! empty( $input['video_url'] ) )
-		$output['video_url'] = wp_filter_nohtml_kses( $input['video_url'] );
+    // The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['pavilion_calendar_url'] ) && ! empty( $input['pavilion_calendar_url'] ) )
+		$output['pavilion_calendar_url'] = wp_filter_nohtml_kses( $input['pavilion_calendar_url'] );
+		
+		// The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['monticello_calendar_url'] ) && ! empty( $input['monticello_calendar_url'] ) )
+		$output['monticello_calendar_url'] = wp_filter_nohtml_kses( $input['monticello_calendar_url'] );
+		
+		// The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['gables_calendar_url'] ) && ! empty( $input['gables_calendar_url'] ) )
+		$output['gables_calendar_url'] = wp_filter_nohtml_kses( $input['gables_calendar_url'] );
+		
+		// The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['shenandoah_calendar_url'] ) && ! empty( $input['shenandoah_calendar_url'] ) )
+		$output['shenandoah_calendar_url'] = wp_filter_nohtml_kses( $input['shenandoah_calendar_url'] );
+		
+		// The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['chesapeake_calendar_url'] ) && ! empty( $input['chesapeake_calendar_url'] ) )
+		$output['chesapeake_calendar_url'] = wp_filter_nohtml_kses( $input['chesapeake_calendar_url'] );
+		
+		// The sample text input must be safe text with no HTML tags
+ 	  if ( isset( $input['piedmont_calendar_url'] ) && ! empty( $input['piedmont_calendar_url'] ) )
+		$output['piedmont_calendar_url'] = wp_filter_nohtml_kses( $input['piedmont_calendar_url'] );
 
-    if ( isset( $input['video_title'] ) && ! empty( $input['video_title'] ) )
-        $output['video_title'] = wp_filter_nohtml_kses( $input['video_title'] );
 
-    if ( isset( $input['video_link_text'] ) && ! empty( $input['video_link_text'] ) )
-        $output['video_link_text'] = wp_filter_nohtml_kses( $input['video_link_text'] );  
-      
-    if ( isset( $input['video_link_to'] ) && ! empty( $input['video_link_to'] ) )
-        $output['video_link_to'] = wp_filter_nohtml_kses( $input['video_link_to'] );
-
-	// The sample select option must actually be in the array of select options
-	if ( isset( $input['sample_select_options'] ) && array_key_exists( $input['sample_select_options'], wcrichmond_sample_select_options() ) )
-		$output['sample_select_options'] = $input['sample_select_options'];
-
-	// The sample radio button value must be in our array of radio button values
-	if ( isset( $input['sample_radio_buttons'] ) && array_key_exists( $input['sample_radio_buttons'], wcrichmond_sample_radio_buttons() ) )
-		$output['sample_radio_buttons'] = $input['sample_radio_buttons'];
-
-	// The sample textarea must be safe text with the allowed tags for posts
-	if ( isset( $input['video_description'] ) && ! empty( $input['video_description'] ) )
-		$output['video_description'] = wp_filter_post_kses( $input['video_description'] );
 
 	return apply_filters( 'wcrichmond_theme_options_validate', $output, $input );
 }
