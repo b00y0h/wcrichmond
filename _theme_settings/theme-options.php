@@ -31,7 +31,16 @@ function wcrichmond_theme_options_init() {
 		'__return_false', // Section callback (we don't want anything)
 		'theme_options' // Menu slug, used to uniquely identify the page; see wcrichmond_theme_options_add_page()
 	);
-
+  
+   add_settings_field( 'avalon_calendar_url', __( 'Avalon Calendar', 'wcrichmond' ), 'wcrichmond_settings_avalon_calendar', 'theme_options', 'general' );
+   add_settings_field( 'pavilion_calendar_url', __( 'Pavilion Calendar', 'wcrichmond' ), 'wcrichmond_settings_pavilion_calendar', 'theme_options', 'general' );
+   add_settings_field( 'monticello_calendar_url', __( 'Monticello Calendar', 'wcrichmond' ), 'wcrichmond_settings_monticello_calendar', 'theme_options', 'general' ); 
+   add_settings_field( 'gables_calendar_url', __( 'Gables Calendar', 'wcrichmond' ), 'wcrichmond_settings_gables_calendar', 'theme_options', 'general' );
+   
+   add_settings_field( 'shenandoah_calendar_url', __( 'Shenandoah Calendar', 'wcrichmond' ), 'wcrichmond_settings_shenandoah_calendar', 'theme_options', 'general' );
+   add_settings_field( 'chesapeake_calendar_url', __( 'Chesapeake Calendar', 'wcrichmond' ), 'wcrichmond_settings_chesapeake_calendar', 'theme_options', 'general' );
+   add_settings_field( 'piedmont_calendar_url', __( 'Piedmont Calendar', 'wcrichmond' ), 'wcrichmond_settings_piedmont_calendar', 'theme_options', 'general' );
+  /*
 	// Register our individual settings fields
 	add_settings_field(
 		'enable_video_checkbox', // Unique identifier for the field for this section
@@ -40,7 +49,8 @@ function wcrichmond_theme_options_init() {
 		'theme_options', // Menu slug, used to uniquely identify the page; see wcrichmond_theme_options_add_page()
 		'general' // Settings section. Same as the first argument in the add_settings_section() above
 	);
-
+  
+  
     // add_settings_field( 'sample_text_input', __( 'Sample Text Input', 'wcrichmond' ), 'wcrichmond_settings_field_sample_text_input', 'theme_options', 'general' );
     add_settings_field( 'video_url', __( 'Video Url', 'wcrichmond' ), 'wcrichmond_settings_field_video_url_input', 'theme_options', 'general' );
     add_settings_field( 'video_title', __( 'Video Title', 'wcrichmond' ), 'wcrichmond_settings_field_video_title_input', 'theme_options', 'general' );
@@ -49,6 +59,7 @@ function wcrichmond_theme_options_init() {
 	add_settings_field( 'video_description', __( 'Description of video', 'wcrichmond' ), 'wcrichmond_settings_field_video_description', 'theme_options', 'general' );
 	add_settings_field( 'video_link_text', __( 'Link text', 'wcrichmond' ), 'wcrichmond_settings_field_video_link_text', 'theme_options', 'general' );
     add_settings_field( 'video_link_to', __( 'Link to', 'wcrichmond' ), 'wcrichmond_settings_field_video_link_to', 'theme_options', 'general' );
+    */
 }
 add_action( 'admin_init', 'wcrichmond_theme_options_init' );
 
@@ -152,12 +163,13 @@ function wcrichmond_sample_radio_buttons() {
 function wcrichmond_get_theme_options() {
 	$saved = (array) get_option( 'wcrichmond_theme_options' );
 	$defaults = array(
-        'enable_video_checkbox' => '',
-		'video_url'       => '',
-		'video_title'     => '',
-		'video_link_text' => '',
-		'video_link_to' => '',
-		'video_description'  => '',
+    'avalon_calendar_url' => '',
+		'pavilion_calendar_url'       => '',
+		'monticello_calendar_url'     => '',
+		'gables_calendar_url' => '',
+		'shenandoah_calendar_url' => '',
+		'chesapeake_calendar_url'  => '',
+		'piedmont_calendar_url'  => ''
 	);
 
 	$defaults = apply_filters( 'wcrichmond_default_theme_options', $defaults );
@@ -167,6 +179,94 @@ function wcrichmond_get_theme_options() {
 
 	return $options;
 }
+
+/**
+ * Renders the Piedmont Calendar url
+ */
+function wcrichmond_settings_piedmont_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[piedmont_calendar_url]" id="piedmont_calendar_url" value="<?php echo esc_attr( $options['piedmont_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="piedmont_calendar_url"><?php _e( 'Piedmont Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+
+/**
+ * Renders the Chesapeake Calendar url
+ */
+function wcrichmond_settings_chesapeake_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[chesapeake_calendar_url]" id="chesapeake_calendar_url" value="<?php echo esc_attr( $options['chesapeake_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="chesapeake_calendar_url"><?php _e( 'Chesapeake Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+
+/**
+ * Renders the Shenandoah Calendar url
+ */
+function wcrichmond_settings_shenandoah_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[shenandoah_calendar_url]" id="shenandoah_calendar_url" value="<?php echo esc_attr( $options['shenandoah_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="shenandoah_calendar_url"><?php _e( 'Shenandoah Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+
+
+/**
+ * Renders the Gables Calendar url
+ */
+function wcrichmond_settings_gables_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[gables_calendar_url]" id="gables_calendar_url" value="<?php echo esc_attr( $options['gables_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="gables_calendar_url"><?php _e( 'Gables Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+
+/**
+ * Renders the Monticello Calendar url
+ */
+function wcrichmond_settings_monticello_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[monticello_calendar_url]" id="monticello_calendar_url" value="<?php echo esc_attr( $options['monticello_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="monticello_calendar_url"><?php _e( 'Monticello Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+
+/**
+ * Renders the Pavilion Calendar url
+ */
+function wcrichmond_settings_pavilion_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[pavilion_calendar_url]" id="pavilion_calendar_url" value="<?php echo esc_attr( $options['pavilion_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="pavilion_calendar_url"><?php _e( 'Pavilion Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+/**
+ * Renders the Avalon Calendar url
+ */
+function wcrichmond_settings_avalon_calendar() {
+	$options = wcrichmond_get_theme_options();
+	?>
+	<input type="text" name="wcrichmond_theme_options[avalon_calendar_url]" id="avalon_calendar_url" value="<?php echo esc_attr( $options['avalon_calendar_url'] ); ?>" size="80" />
+	<label class="description" for="avalon_calendar_url"><?php _e( 'Avalon Calendar URL', 'wcrichmond' ); ?></label>
+	<?php
+}
+
+
+
+
+
 
 /**
  * Renders the sample checkbox setting field.
@@ -296,7 +396,7 @@ function wcrichmond_theme_options_render_page() {
 		<?php settings_errors(); ?>
 
 		<form method="post" action="options.php">
-		  <h1>Takeover Video</h1>
+		  <h1>Calendar Links</h1>
 			<?php
 				settings_fields( 'wcrichmond_options' );
 				do_settings_sections( 'theme_options' );
