@@ -1393,63 +1393,67 @@ a img {
   height: 490px; }
 
 /* line 533, sass/_orig-styles.scss */
+.jsSubContent.jsc_8.current_sub_content {
+  height: 424px; }
+
+/* line 538, sass/_orig-styles.scss */
 .jsSubPhotoViewer img {
   width: 100%;
   height: auto; }
 
-/* line 539, sass/_orig-styles.scss */
+/* line 544, sass/_orig-styles.scss */
 .jsSubContent.current_sub_content {
   display: block; }
 
-/* line 542, sass/_orig-styles.scss */
+/* line 547, sass/_orig-styles.scss */
 .subpageWrapper {
   background-color: #add3cf; }
-  /* line 544, sass/_orig-styles.scss */
+  /* line 549, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
-  /* line 545, sass/_orig-styles.scss */
+  /* line 550, sass/_orig-styles.scss */
   body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
     background-color: #482859; }
-  /* line 546, sass/_orig-styles.scss */
+  /* line 551, sass/_orig-styles.scss */
   body[class*="arts"] .subpageWrapper {
     background-color: #e94347; }
-  /* line 547, sass/_orig-styles.scss */
+  /* line 552, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
-  /* line 548, sass/_orig-styles.scss */
+  /* line 553, sass/_orig-styles.scss */
   body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
-  /* line 549, sass/_orig-styles.scss */
+  /* line 554, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {
     background-color: #327e85; }
 
-/* line 553, sass/_orig-styles.scss */
+/* line 558, sass/_orig-styles.scss */
 .tertiaryNav {
   margin: 0;
   padding: 0; }
-  /* line 556, sass/_orig-styles.scss */
+  /* line 561, sass/_orig-styles.scss */
   .tertiaryNav li, .tertiaryNav li a {
     list-style: none;
     background-color: #A52121;
     margin: 5px 0px; }
-    /* line 560, sass/_orig-styles.scss */
+    /* line 565, sass/_orig-styles.scss */
     .tertiaryNav li:hover, .tertiaryNav li a:hover {
       background-color: #fff; }
 
-/* line 565, sass/_orig-styles.scss */
+/* line 570, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 569, sass/_orig-styles.scss */
+/* line 574, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 572, sass/_orig-styles.scss */
+/* line 577, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   width: 350px; }
 
-/* line 575, sass/_orig-styles.scss */
+/* line 580, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   text-transform: uppercase;
   text-decoration: none;

@@ -529,6 +529,11 @@ text-transform:uppercase;
   overflow: hidden;
   height: $subcontentheight;
 }
+// fix for map
+  .jsSubContent.jsc_8.current_sub_content{
+    height:424px;
+  }
+
 .jsSubPhotoViewer {
     img {
        width:100%;
