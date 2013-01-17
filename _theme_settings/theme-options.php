@@ -302,14 +302,6 @@ function wcrichmond_theme_options_render_page() {
  */
 function wcrichmond_theme_options_validate( $input ) {
 	$output = array();
-    
-    'avalon_calendar_url' => '',
-		'pavilion_calendar_url'       => '',
-		'monticello_calendar_url'     => '',
-		'gables_calendar_url' => '',
-		'shenandoah_calendar_url' => '',
-		'chesapeake_calendar_url'  => '',
-		'piedmont_calendar_url'  => ''
 
 	  // The sample text input must be safe text with no HTML tags
  	  if ( isset( $input['avalon_calendar_url'] ) && ! empty( $input['avalon_calendar_url'] ) )
