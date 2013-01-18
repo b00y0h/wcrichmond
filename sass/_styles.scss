@@ -154,6 +154,7 @@ img.full {
         padding-left:20px;
         padding-right:20px;
         text-align: center;
+        overflow: hidden;
     .last-child-large & {
         color:#000;
     }
@@ -176,6 +177,7 @@ img.full {
         padding-top: 1.5em;
         font-size: 2em;
         text-transform: uppercase;
+        line-height: 1em;
     }
     h2.header {
         @include box-shadow(0 5px 5px rgba(0,0,0,.1));
@@ -215,13 +217,6 @@ img.full {
         height:280px;
         border:none;
     }
-    #contact-us {
-    p {
-        font-family:'QuicksandBook';
-        margin: auto 3.4em 1em;
-    }
-}
-
 }
 #act-now {
     @extend .red-radial-gradient;
@@ -233,11 +228,18 @@ img.full {
     position:relative; // for the full width image
     text-align: center;
     p {
-        font-family:'QuicksandBold';
         color:#808080;
+        font-family:'QuicksandBook';
+        margin: auto 3.4em 0;
     }
     img {
         width: 100%
+    }
+}
+#act-now, #contact-us {
+    h2 {
+        font-size: 2.3em;
+        margin-bottom: .8em;
     }
 }
 #extra-footer-home {@extend .grey-border-top;@extend .grey-border-bottom;}
