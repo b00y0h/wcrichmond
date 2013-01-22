@@ -708,6 +708,7 @@ h2.entry-title {
     margin-bottom:1.5em;
     @extend .grey-border-bottom;
     background-color:$grey;
+    padding-bottom: 4.17647%;
     .column1 {
         background-color:$red;
         @include box-shadow(inset 0 0 50px rgba(150,26,43,1));
@@ -733,10 +734,11 @@ h2.entry-title {
     }
     .column2 {
         height:120px;
-    background-color:$grey;
-        color:$darkgrey;
+        background-color:$grey;
+        color:$dark-text;
         font-family: $serif-body-copy;
-        p {padding-top: 0;}
+        font-size: 14px;
+        p {padding: 0 1.7em 0 1em;margin-top: 0;line-height: 1.75em;}
     }
 }
 
