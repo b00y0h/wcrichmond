@@ -121,6 +121,9 @@
                 font-size:1.4em;
                 text-decoration:none;
                 text-transform:uppercase;
+                &:hover {
+                    @include box-shadow(inset 0 0 50px rgba(0,0,0,.1));
+                }
             }
         }
     }

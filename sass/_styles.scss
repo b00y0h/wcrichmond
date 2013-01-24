@@ -115,6 +115,9 @@ img.full {
     @include radial-gradient(#cc2933, darken(#b42027,8));
     h2,p {color:#fff;}
     h2 {background-color:transparent;}
+    &:hover {
+        @include radial-gradient(#cc2933, darken(#b42027,3));
+    }
 }
 .grey-border {
     border:1px solid #8d8d8d;
@@ -151,6 +154,7 @@ img.full {
         padding-left:20px;
         padding-right:20px;
         text-align: center;
+        overflow: hidden;
     .last-child-large & {
         color:#000;
     }
@@ -173,6 +177,7 @@ img.full {
         padding-top: 1.5em;
         font-size: 2em;
         text-transform: uppercase;
+        line-height: 1em;
     }
     h2.header {
         @include box-shadow(0 5px 5px rgba(0,0,0,.1));
@@ -212,13 +217,6 @@ img.full {
         height:280px;
         border:none;
     }
-    #contact-us {
-    p {
-        font-family:'QuicksandBook';
-        margin: auto 3.4em 1em;
-    }
-}
-
 }
 #act-now {
     @extend .red-radial-gradient;
@@ -230,11 +228,18 @@ img.full {
     position:relative; // for the full width image
     text-align: center;
     p {
-        font-family:'QuicksandBold';
         color:#808080;
+        font-family:'QuicksandBook';
+        margin: auto 3.4em 0;
     }
     img {
         width: 100%
+    }
+}
+#act-now, #contact-us {
+    h2 {
+        font-size: 2.3em;
+        margin-bottom: .8em;
     }
 }
 #extra-footer-home {@extend .grey-border-top;@extend .grey-border-bottom;}
@@ -353,6 +358,10 @@ h2.entry-title {
     padding:1em 0;
     a {
         color:$red;
+    }
+    .size-large {
+        width: 100%;
+        height: auto;
     }
 }
 .more-link {
@@ -699,6 +708,7 @@ h2.entry-title {
     margin-bottom:1.5em;
     @extend .grey-border-bottom;
     background-color:$grey;
+    padding-bottom: 4.17647%;
     .column1 {
         background-color:$red;
         @include box-shadow(inset 0 0 50px rgba(150,26,43,1));
@@ -724,10 +734,11 @@ h2.entry-title {
     }
     .column2 {
         height:120px;
-    background-color:$grey;
-        color:$darkgrey;
+        background-color:$grey;
+        color:$dark-text;
         font-family: $serif-body-copy;
-        p {padding-top: 0;}
+        font-size: 14px;
+        p {padding: 0 1.7em 0 1em;margin-top: 0;line-height: 1.75em;}
     }
 }
 
