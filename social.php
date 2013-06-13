@@ -61,7 +61,7 @@ get_header(); ?>
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">Events &amp; Series</h3>
           <p>
-            A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like. Visit <a href="<?php bloginfo('home');?>/news/">News &amp; Calendar</a> for information on recent and upcoming activities.
+            A typical week on the Westminster Canterbury campus presents a range of opportunities to enjoy events with friends (and friends-to-be). You might attend a lecture, play bridge, go to a book club meeting, or see a film. Do as much, or as little, as you like.
           </p>
         </div>
 
