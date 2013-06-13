@@ -79,7 +79,7 @@ get_header(); ?>
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">Health Clinic</h3>
           <p>
-           Our Health Clinic is open daily and staffed with nurses to help you monitor your health and prevent illness. Residents may make appointments with our full time medical director or continue seeing their current physician, or see both. Specialists in podiatry, ophthalmology, psychiatry, audiology, dentistry and other fields also maintain regular hours in the clinic.
+           Our Health Clinic is open daily and staffed with nurses to help you monitor your health and prevent illness. Residents may choose one of our primary care physicians to manage their medical needs. Specialists in podiatry, ophthalmology, psychiatry, audiology, dentistry and other fields also maintain scheduled office hours in the clinic for consultation. All physicians are seen by appointment.
          </p>
 
        </div>
