@@ -203,7 +203,7 @@ get_header(); ?>
 
         <div class="jsSubContentText single">
            <h3 class="jsSubContentTitle">Library</h3>
-           <p>Conveniently located in The Tower, the Westminster Canterbury Library has a constantly growing collection of more than 5000 volumes, from popular classics to the latest best-sellers: in most genres of fiction and on a wide variety of non-fiction subjects. The library remains open at all hours. </p>
+           <p>Conveniently located in The Tower, the Westminster Canterbury Library has a constantly growing collection of more than 6000 books and audiobooks, from popular classics to the latest best-sellers: in most genres of fiction and on a wide variety of non-fiction subjects. The library remains open at all hours. </p>
         </div>
 
       </div>
