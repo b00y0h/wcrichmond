@@ -120,7 +120,7 @@ get_header(); ?>
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">H. Scott November Gallery</h3>
           <p>
-           Located in the Cultural and Creative Arts Center, the H. Scott November Gallery features quarterly exhibitions of original art by established and emerging Virginia artists. Paintings, sculpture and other works are selected by an experienced professional curator familiar with the local art community.
+           Located in the Cultural and Creative Arts Center, the H. Scott November Gallery features quarterly exhibitions of original art by established and emerging artists who exhibit locally, regionally and nationally. Paintings, sculpture and other works are selected by an experienced professional curator familiar with the local art community.
          </p>
        </div>
 
