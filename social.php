@@ -46,6 +46,9 @@ get_header(); ?>
       <li id="jsc_3" class="jsubNavItem">
         EXCURSIONS &amp;<br>TRAVEL
       </li>
+      <li id="jsc_4" class="jsubNavItem">
+        TECHNOLOGY<br>CLASSES
+      </li>
     </ul>
   </div>
 
