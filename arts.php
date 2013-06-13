@@ -176,7 +176,7 @@ get_header(); ?>
         <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">McGue-Millhiser Arts Studio</h3>
           <p>
-            The McGue-Millhiser Arts Studio has whatever the artist in you needs to answer your inner muse, from handlooms and artist easels to a wheelchair accessible kiln, plus room to work and plenty of natural light for inspiration. Popular classes include drawing, flower arranging, jewelry making, painting, printmaking, weaving and working in clay.
+            The McGue-Millhiser Arts Studio has whatever the artist in you needs to answer your inner muse, from weaving looms and artist easels to a fully-equipped pottery room, plus lots of space to work and plenty of natural light for inspiration. Join a class or work independently. Popular classes include drawing, fused glass, jewelry making, painting, printmaking, weaving and working in clay.
           </p>
         </div>
 
