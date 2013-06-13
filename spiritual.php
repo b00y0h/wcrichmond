@@ -54,7 +54,7 @@ get_header(); ?>
         <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">Spiritual Life</h3>
           <p>
-            Exploring aspects of spiritual life and taking part in spiritual activities are a big part of our community. The Chaplain’s Lecture Series features guest speakers on a wide range of religious subjects. The weekly schedule includes nearly two dozen opportunities for prayer, study and discussion that is respectful of all faith traditions.
+            Exploring aspects of spiritual life and taking part in spiritual activities are a big part of our community. The weekly schedule includes more than  two dozen opportunities for prayer, study and discussion that is respectful of all faith traditions. Highlights of our programming includes our popular guest lecture series, among them, The Chaplain’s Lecture Series, Theological Thursdays and Seminary Mondays.
           </p>
         </div>
       </div>
