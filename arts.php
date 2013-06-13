@@ -188,22 +188,9 @@ get_header(); ?>
         </div>
 
 
-        <div class="jsSubContentText">
+        <div class="jsSubContentText single">
            <h3 class="jsSubContentTitle">Woodworking Shop</h3>
            <p>Our Woodworking Shop in the Cultural and Creative Arts Center has virtually all the hand and power tools for whatever project you may have in mind, with plenty of room for your neighbors’ projects, too. Weekly visits by a skilled instructor provide training and help as required. </p>
-        </div>
-
-        <div class="jsSubContentFlex">
-          Featuring:
-             <ul>
-               <li>Table saw</li>
-               <li>Band saw</li>
-               <li>Scroll saw</li>
-               <li>Lathe</li>
-               <li>Joiner</li>
-               <li>Drill press</li>
-               <li>A wide variety of other tools</li>
-             </ul>
         </div>
 
       </div>
