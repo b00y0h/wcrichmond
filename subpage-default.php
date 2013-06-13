@@ -36,7 +36,7 @@ get_header(); ?>
         Canterbury<br>Room
       </li>
       <li id="jsc_4" class="jsubNavItem">
-        Sidewalk<br>Cafe
+        Sidewalk<br>Café
       </li>
     </ul>
   </div>

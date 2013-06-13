@@ -50,7 +50,7 @@ get_header(); ?>
         Canterbury<br>Room
       </li>
       <li id="jsc_5" class="jsubNavItem">
-        Sidewalk<br>Cafe
+        Sidewalk<br>Café
       </li>
     </ul>
   </div>
@@ -68,7 +68,7 @@ get_header(); ?>
         <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">Overview</h3>
           <p>
-            Few things in life speak more to the spirit of living well than eating well. Our Promenade Room, Canterbury Room and Sidewalk Cafe offer a range of tempting menu selections, with seasonal changes, and our chefs are happy to accommodate special dietary needs. Dress up for dinner or go casual. Meet friends for a drink at Kathleen's, our cocktail lounge. Entertain in a private dining room or get take out. When cooking is a bother, why bother, with so many choices so close by?
+            Few things in life speak more to the spirit of living well than eating well. Our Promenade Room, Canterbury Room and Sidewalk Café offer a range of tempting menu selections, with seasonal changes, and our chefs are happy to accommodate special dietary needs. Dress up for dinner or go casual. Meet friends for a drink at Kathleen's, our cocktail lounge. Entertain in a private dining room or get take out. When cooking is a bother, why bother, with so many choices so close by?
          </p>
        </div>
 
@@ -124,7 +124,7 @@ get_header(); ?>
 
 
         <div class="jsSubContentText single">
-          <h3 class="jsSubContentTitle">Sidewalk Cafe</h3>
+          <h3 class="jsSubContentTitle">Sidewalk Café</h3>
           <p>
            For a sandwich or wrap, salad or platter, our casual Sidewalk Café serves breakfast and lunch for a quick sit-down or carryout meal. The menu includes “A Taste of Health”  section. Come as you are, anytime from 7:00 a.m. to 3:30 p.m. daily.
           </p>
