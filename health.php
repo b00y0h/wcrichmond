@@ -45,7 +45,18 @@ get_header(); ?>
 
   <div class="subpageNavigation">
     <ul>
-      <li id="jsc_1" class="jsubNavItem current">
+      <li id="jsc_4" class="jsubNavItem current">
+        Health<br>Clinic
+      </li>
+      <li id="jsc_5" class="jsubNavItem">
+        <br>
+        Pharmacy
+      </li>
+      <li id="jsc_6" class="jsubNavItem">
+        <br>
+        Rehabilitation
+      </li>
+      <li id="jsc_1" class="jsubNavItem">
         Aquatic<br>Center
       </li>
       <li id="jsc_2" class="jsubNavItem">
@@ -54,19 +65,63 @@ get_header(); ?>
       <li id="jsc_3" class="jsubNavItem">
         Brain<br>Fitness
       </li>
-      <li id="jsc_4" class="jsubNavItem">
-        Health<br>Clinic
-      </li>
-      <li id="jsc_5" class="jsubNavItem">
-        <br>
-        Pharmacy
-      </li>
     </ul>
   </div>
 
   <div class="subpageContentWrapper">
     <div class="subpageCopy">
-      <div class="jsSubContent jsc_1 current_sub_content">
+
+      <div class="jsSubContent jsc_4 current_sub_content">
+        <div class="jsSubPhotoViewer">
+          <img class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/health_gallery/HealthClinic1.jpg" width="363" height="424">
+        </div>
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">Health Clinic</h3>
+          <p>
+           Our Health Clinic is open daily and staffed with nurses to help you monitor your health and prevent illness. Residents may make appointments with our full time medical director or continue seeing their current physician, or see both. Specialists in podiatry, ophthalmology, psychiatry, audiology, dentistry and other fields also maintain regular hours in the clinic.
+         </p>
+
+       </div>
+
+        <div class="jsSubContentFlex">
+          Featuring:
+           <ul>
+             <li>RNs and LPN nurses on staff</li>
+             <li>On-staff physician available by appointment Monday through Friday.</li>
+             <li>Blood pressure, glucose levels, cholesterol and heart rate checks</li>
+             <li>Hearing tests, eye exams, and other regular screenings</li>
+           </ul>
+        </div>
+
+      </div>
+
+      <div class="jsSubContent jsc_5">
+        <div class="jsSubPhotoViewer">
+          <img class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/health_gallery/HealthClinic2.jpg" width="363" height="424">
+        </div>
+
+
+        <div class="jsSubContentText">
+          <h3 class="jsSubContentTitle">Pharmacy</h3>
+          <p>
+           Our pharmacy stocks everything from over-the-counter to special-order medications and is at your service daily, Monday through Friday. Customer records are carefully monitored to safeguard against drug interactions and prevent duplication. Pharmacists are always available for private medication counseling.
+         </p>
+       </div>
+
+        <div class="jsSubContentFlex">
+          Featuring:
+           <ul>
+             <li>Private medication counseling</li>
+             <li>Medication profile for physician or tax-filing reference</li>
+             <li>Well-stocked over-the-counter medicines</li>
+           </ul>
+        </div>
+
+      </div>
+
+
+      <div class="jsSubContent jsc_1">
 
         <div class="jsSubPhotoViewer">
           <img src="<?php bloginfo('template_directory');?>/images/health_gallery/AquaticCenter.jpg" width="363" height="424">
@@ -137,54 +192,6 @@ get_header(); ?>
 
       </div>
 
-      <div class="jsSubContent jsc_4">
-        <div class="jsSubPhotoViewer">
-          <img class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/health_gallery/HealthClinic1.jpg" width="363" height="424">
-        </div>
-
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">Health Clinic</h3>
-          <p>
-           Our Health Clinic is open daily and staffed with nurses to help you monitor your health and prevent illness. Residents may make appointments with our full time medical director or continue seeing their current physician, or see both. Specialists in podiatry, ophthalmology, psychiatry, audiology, dentistry and other fields also maintain regular hours in the clinic.
-         </p>
-
-       </div>
-
-        <div class="jsSubContentFlex">
-          Featuring:
-           <ul>
-             <li>RNs and LPN nurses on staff</li>
-             <li>On-staff physician available by appointment Monday through Friday.</li>
-             <li>Blood pressure, glucose levels, cholesterol and heart rate checks</li>
-             <li>Hearing tests, eye exams, and other regular screenings</li>
-           </ul>
-        </div>
-
-      </div>
-
-      <div class="jsSubContent jsc_5">
-        <div class="jsSubPhotoViewer">
-          <img class="jsubphoto_1 jsSubPhoto current_photo" src="<?php bloginfo('template_directory');?>/images/health_gallery/HealthClinic2.jpg" width="363" height="424">
-        </div>
-
-
-        <div class="jsSubContentText">
-          <h3 class="jsSubContentTitle">Pharmacy</h3>
-          <p>
-           Our pharmacy stocks everything from over-the-counter to special-order medications and is at your service daily, Monday through Friday. Customer records are carefully monitored to safeguard against drug interactions and prevent duplication. Pharmacists are always available for private medication counseling.
-         </p>
-       </div>
-
-        <div class="jsSubContentFlex">
-          Featuring:
-           <ul>
-             <li>Private medication counseling</li>
-             <li>Medication profile for physician or tax-filing reference</li>
-             <li>Well-stocked over-the-counter medicines</li>
-           </ul>
-        </div>
-
-      </div>
           <h3 class="hdr absolute bottom right calendar-link"><a href="/calendar">View Calendar</a></h3>
 
     </div><!-- .subpageCopy -->
