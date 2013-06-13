@@ -3,3 +3,4 @@ Thumbs.db
 
 .sass-cache
 codekit-config.json
+*.sublime-workspace
