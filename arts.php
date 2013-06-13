@@ -81,8 +81,9 @@ get_header(); ?>
         <div class="jsSubContentText">
           <h3 class="jsSubContentTitle">Sara Belle November Theater</h3>
           <p>
-            Located in our Cultural and Creative Arts Center, the Sara Belle November Theater stages events year round for our residents. Comfortable seating for 335, including wheelchair areas, makes music, dramas and other entertainment delightful for all. There is no charge for most programs; however, all events require tickets through the Low-November Box Office.
+            Westminster Canterbury Richmond is one of the few retirement communities nationwide with a theater on campus. The Sara Belle November Theater has 335 seats, including wheelchair areas.
           </p>
+          <p>Thanks to gifts through Westminster Canterbury Foundation (link to Foundation page), the Sara Belle November Theater has hosted live performances by The Vienna Boys Choir, Chamber Orchestra Kremlin, The Glenn Miller Orchestra, Tom Netherton, Neil Berg’s 100 Years of Broadway, John Brown Quintet, Dallas Brass, Bayanihan Philippine National Dance Company, Celtic Crossroads, Piano 4, Jeanne Robertson, Virginia Opera, Richmond Symphony, Richmond Ballet and Virginia Repertory Theatre, to name a few. On average, there are more than 35 performances each year with total audiences of more than 20,000.</p>
         </div>
 
         <div class="jsSubContentFlex">
