@@ -111,7 +111,7 @@ get_header(); ?>
         <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">Canterbury Room</h3>
           <p>
-          Located in The Center for Creative Living at the heart of our community is the popular Canterbury Room. It offers seated or carryout service for lunch and dinner six days a week, as well as Sunday brunch. And it’s located next to our popular cocktail lounge, Kathleen’s.
+          Located in The Center for Creative Living at the heart of our community is the popular Canterbury Room. This fine dining venue, offers seated and carryout service. Lunch is available five days a week. Dinner six days a week. After your meal, enjoy cocktails with friends at Kathleen’s.
           </p>
         </div>
 
