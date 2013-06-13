@@ -44,7 +44,7 @@ get_header(); ?>
         VOLUNTEER,<br>ANYONE?
       </li>
       <li id="jsc_3" class="jsubNavItem">
-        EXCURSIONS &amp;<br>TRAVEL
+        SOCIAL &amp;<br>EXCURSIONS
       </li>
       <li id="jsc_4" class="jsubNavItem">
         TECHNOLOGY<br>CLASSES
