@@ -97,7 +97,7 @@ get_header(); ?>
         <div class="jsSubContentText single">
           <h3 class="jsSubContentTitle">Promenade Room</h3>
           <p>
-           Looking out on The Ellipse from the first floor of The Tower, the Promenade Room offers a restaurant-like feel for breakfast, lunch and dinner buffets as well as fast seated service, both seven days a week. Residents may also call ahead for carryout service.
+           Looking out on The Ellipse from the first floor of The Tower, the Promenade Room offers breakfast, lunch and dinner buffets as well as a cooked to order, restaurant style menu. If residents prefer they can pick-up lunch or dinner from our popular take-out service. The Promenade Room is open 7 days a week.
          </p>
        </div>
 
