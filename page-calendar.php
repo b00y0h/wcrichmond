@@ -33,9 +33,9 @@
                 <a class="red-bg" href="<?php echo $settings['gables_calendar_url']; ?>">Gables<br/>Calendar</a>
             </div> <!-- .other-local-calendars -->
             <div id="offsite-calendars" class="calendar-list">
-                <a class="red-bg" href="<?php echo $settings['shenandoah_calendar_url']; ?>">Parsons Health Center<br><span>Shenandoah Calendar</span></a>
                 <a class="red-bg" href="<?php echo $settings['chesapeake_calendar_url']; ?>">Parsons Health Center<br><span>Chesapeake Calendar</span></a>
                 <a class="red-bg" href="<?php echo $settings['piedmont_calendar_url']; ?>">Parsons Health Center<br><span>Piedmont Calendar</span></a>
+                <a class="red-bg" href="<?php echo $settings['shenandoah_calendar_url']; ?>">Parsons Health Center<br><span>Shenandoah Calendar</span></a>
             </div>
         </div>
     </div>
