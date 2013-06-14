@@ -5,13 +5,7 @@
             <!--BEGIN #primary .hfeed-->
             <div id="primary" class="hfeed">
                 <div class="hero">
-                    <div class="column1">
-                          <a href="/news/master-calendar">View Master Calendar</a>
-                    </div>
-                    <div class="column2">
-                        <p>Westminster Canterbury offers a wide range of activities. Click on View Master Calendar for detailed descriptions by month or on the headings below for brief lists by area of interest.</p>
-                    </div>
-
+                    <p>Westminster Canterbury offers a wide range of activities. Click on View Master Calendar for detailed descriptions by month or on the headings below for brief lists by area of interest.</p>
                 </div>
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
