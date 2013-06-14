@@ -2314,12 +2314,12 @@ h2.entry-title {
 .ai1ec-agenda-widget-view {
   font-size: 1.2em;
   line-height: 2.2em; }
-
-/* line 793, sass/_styles.scss */
-.ai1ec-date-title {
-  font-size: 1.5em;
-  margin-bottom: .8em;
-  border-bottom: 1px solid #8e8e8e; }
+  /* line 792, sass/_styles.scss */
+  .ai1ec-agenda-widget-view .ai1ec-date-title {
+    font-size: 1.5em;
+    margin-bottom: .8em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #8e8e8e; }
 
 /*
 ----------------------------------------------------------------
