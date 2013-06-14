@@ -33,7 +33,7 @@
         <?php endif;
             // dynamic_sidebar( 'sidebar-page' );
         ?>
-        <?php  get_template_part( 'sidebar', 'extrasideitems' ); ?>
+        <?php  // get_template_part( 'sidebar', 'extrasideitems' ); ?>
 
 
         <?php } else { ?>
