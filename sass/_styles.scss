@@ -670,7 +670,6 @@ h2.entry-title {
     @extend .grey-border-top;
     @include clearfix();
     a {
-        background-color:$red;
         display:block;
         float:left;
         text-align:center;
@@ -689,8 +688,14 @@ h2.entry-title {
     }
 }
 #offsite-calendars {
-    a {width:32.6%;background-color:$darkgrey;font-size:.9em;}
+    a {width:32.6%;font-size:.9em;}
 
+}
+.darkgrey-bg {
+    background-color: $darkgrey;
+}
+.red-bg {
+    background-color:$red;
 }
 
 .calendar-sidebar {

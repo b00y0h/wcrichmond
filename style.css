@@ -2185,7 +2185,6 @@ h2.entry-title {
     clear: both; }
   /* line 672, sass/_styles.scss */
   .calendar-list a {
-    background-color: #cc2933;
     display: block;
     float: left;
     text-align: center;
@@ -2195,21 +2194,28 @@ h2.entry-title {
     margin-right: 1%;
     padding: 1em .5em;
     line-height: 1.2em; }
-    /* line 683, sass/_styles.scss */
+    /* line 682, sass/_styles.scss */
     .calendar-list a:last-of-type {
       margin-right: 0; }
 
-/* line 687, sass/_styles.scss */
+/* line 686, sass/_styles.scss */
 #local-calendars a {
   width: 24.25%; }
 
-/* line 692, sass/_styles.scss */
+/* line 691, sass/_styles.scss */
 #offsite-calendars a {
   width: 32.6%;
-  background-color: #8e8e8e;
   font-size: .9em; }
 
+/* line 694, sass/_styles.scss */
+.darkgrey-bg {
+  background-color: #8e8e8e; }
+
 /* line 697, sass/_styles.scss */
+.red-bg {
+  background-color: #cc2933; }
+
+/* line 702, sass/_styles.scss */
 .calendar-sidebar h5 {
   text-align: center;
   font-size: 1.2em;
@@ -2217,36 +2223,36 @@ h2.entry-title {
   color: #343434;
   text-transform: uppercase; }
 
-/* line 706, sass/_styles.scss */
+/* line 711, sass/_styles.scss */
 .view-calendar {
   height: 120px;
   font-size: 2em;
   text-transform: uppercase;
   text-align: center; }
-  /* line 711, sass/_styles.scss */
+  /* line 716, sass/_styles.scss */
   .view-calendar a {
     height: 120px;
     display: block;
     line-height: 1.3em;
     padding-top: 25px; }
 
-/* line 718, sass/_styles.scss */
+/* line 723, sass/_styles.scss */
 .red-gradient-bg {
   background-color: #cc2933;
   box-shadow: inset 0 0 50px #961a2b; }
-  /* line 722, sass/_styles.scss */
+  /* line 727, sass/_styles.scss */
   .red-gradient-bg:hover {
     box-shadow: inset 0 0 50px rgba(150, 26, 43, 0.5); }
-  /* line 725, sass/_styles.scss */
+  /* line 730, sass/_styles.scss */
   .red-gradient-bg:active {
     box-shadow: inset 0 0 50px #961a2b; }
-  /* line 728, sass/_styles.scss */
+  /* line 733, sass/_styles.scss */
   .red-gradient-bg a {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
 
-/* line 735, sass/_styles.scss */
+/* line 740, sass/_styles.scss */
 .page-template-page-calendar-php .hero {
   margin-top: 2em;
   margin-bottom: 1.5em;
@@ -2257,59 +2263,59 @@ h2.entry-title {
   color: #343434;
   font-family: "Merriweather", serif;
   font-size: 14px; }
-  /* line 746, sass/_styles.scss */
+  /* line 751, sass/_styles.scss */
   .page-template-page-calendar-php .hero p {
     padding: 0 2em;
     margin-top: 0;
     line-height: 1.75em; }
 
-/* line 750, sass/_styles.scss */
+/* line 755, sass/_styles.scss */
 .full-calendar #ai1ec-calendar-view {
   margin-top: 2em; }
-/* line 753, sass/_styles.scss */
+/* line 758, sass/_styles.scss */
 .full-calendar .ai1ec-filter-selector-container {
   display: block; }
-/* line 756, sass/_styles.scss */
+/* line 761, sass/_styles.scss */
 .full-calendar .ai1ec-filters-container {
   right: 0;
   margin: 20px 0; }
-/* line 760, sass/_styles.scss */
+/* line 765, sass/_styles.scss */
 .full-calendar #ai1ec-container {
   margin: 0; }
-/* line 763, sass/_styles.scss */
+/* line 768, sass/_styles.scss */
 .full-calendar .ai1ec-calendar-title {
   margin-left: 30px!important; }
-/* line 766, sass/_styles.scss */
+/* line 771, sass/_styles.scss */
 .full-calendar .ai1ec-title-buttons {
   margin-right: 30px!important; }
 
-/* line 772, sass/_styles.scss */
+/* line 777, sass/_styles.scss */
 .ai1ec-action-agenda .ai1ec-title-buttons {
   display: none; }
-/* line 773, sass/_styles.scss */
+/* line 778, sass/_styles.scss */
 .ai1ec-action-agenda .ai1ec-filters-container {
   line-height: 0; }
-/* line 774, sass/_styles.scss */
+/* line 779, sass/_styles.scss */
 .ai1ec-action-agenda .entry-content {
   padding: 0; }
 
-/* line 776, sass/_styles.scss */
+/* line 781, sass/_styles.scss */
 .timely .ai1ec-no-results {
   padding-top: 1em; }
 
-/* line 780, sass/_styles.scss */
+/* line 785, sass/_styles.scss */
 .ai1ec-date-events li {
   margin-bottom: 1.4em; }
-  /* line 782, sass/_styles.scss */
+  /* line 787, sass/_styles.scss */
   .ai1ec-date-events li p.ai1ec-popup-excerpt {
     font-size: .8em; }
 
-/* line 784, sass/_styles.scss */
+/* line 789, sass/_styles.scss */
 .ai1ec-agenda-widget-view {
   font-size: 1.2em;
   line-height: 2.2em; }
 
-/* line 788, sass/_styles.scss */
+/* line 793, sass/_styles.scss */
 .ai1ec-date-title {
   font-size: 1.5em;
   margin-bottom: .8em;
