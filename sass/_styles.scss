@@ -774,3 +774,19 @@ h2.entry-title {
     .entry-content {padding:0;}
 }
 .timely .ai1ec-no-results {padding-top:1em;}
+
+
+// calendar sidebar
+.ai1ec-date-events li {
+    margin-bottom: 1.4em;
+    p.ai1ec-popup-excerpt {font-size: .8em;}
+}
+.ai1ec-agenda-widget-view {
+    font-size: 1.2em;
+    line-height: 2.2em;
+}
+.ai1ec-date-title {
+    font-size: 1.5em;
+    margin-bottom: .8em;
+    border-bottom: 1px solid $darkgrey;
+}
