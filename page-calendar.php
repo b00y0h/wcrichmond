@@ -42,7 +42,7 @@
 <?php get_sidebar('calendar'); ?>
 
 </div> <!-- .row -->
-<?php  get_template_part( 'sidebar', 'footerbanner-lifestyle-lifecare' ); ?>
+<?php  get_template_part( 'sidebar', 'footerbanner' ); ?>
 
 
 <IMG SRC="http://ad.adlegend.com/ping?spacedesc=1087894_1061349_1x1_1061349_1061349&amp;db_afcr=123&amp;group=WMC&amp;event=ContactUs" WIDTH=1 HEIGHT=1 ALT=" ">
