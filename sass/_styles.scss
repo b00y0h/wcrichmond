@@ -696,6 +696,12 @@ h2.entry-title {
 }
 .red-bg {
         background-color:$red;
+        &.menu-item a {
+            color: $white;
+            &:hover {
+                color: $red;
+            }
+        }
 }
 
 .calendar-sidebar {
