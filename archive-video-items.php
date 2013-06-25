@@ -1,5 +1,17 @@
 <?php get_header(); ?>
 
+  <?php $defaults = array(
+    'menu'            => 'about-menu',
+    'container'       => 'div',
+    'container_class' => 'lifestyle-submenu tertiary-menu',
+    'items_wrap'      => '%3$s',
+    'depth'           => 0
+);
+?>
+
+<?php wp_nav_menu( $defaults ) ?>
+
+
 <h1 class="blogHeading">Live Life Well</h1>
 
 
