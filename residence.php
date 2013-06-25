@@ -171,7 +171,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-            Featuring:
+            <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>One or two full baths; walk-in shower or tub with ceramic tile surround</li>
              <li>Floor plans with dressing rooms and walk-in closets</li>
@@ -241,7 +241,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentFlex">
-            Featuring:
+            <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>Full bath with tile floor for each bedroom</li>
              <li>Wood foyer floor</li>
@@ -293,7 +293,7 @@ get_header(); ?>
         </div>
 
          <div class="jsSubContentFlex">
-             Featuring:
+             <h3 class="jsSubContentFlexTitle">Featuring:</h3>
              <ul>
                <li>Spacious, well-appointed kitchens</li>
                <li>One or two full baths, with ceramic tile</li>
@@ -356,7 +356,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentFlex">
-              Featuring:
+              <h3 class="jsSubContentFlexTitle">Featuring:</h3>
              <ul>
                <li>Ceramic tile floors in all baths</li>
                <li>Wood foyer, dining and living room floors</li>
@@ -408,7 +408,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentFlex">
-              Featuring:
+              <h3 class="jsSubContentFlexTitle">Featuring:</h3>
              <ul>
                <li>Breakfast room</li>
                <li>Two or three full baths</li>

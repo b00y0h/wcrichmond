@@ -512,16 +512,27 @@ text-transform:uppercase;
   position: absolute;
   right: 0;
   height: 100%;
+  ul {
+    padding:0;
+    margin:0;
+    font-size: 13px;
+    list-style-position: inside;
+  }
+  li{
+    list-style-type: none;
+    margin:10px 0px 0px 3px;
+    &:before {
+    content: "•";
+    font-size: 90%; /* or whatever */
+    padding-right: 5px;
 }
-.jsSubContentFlex ul{
-  padding:0;
-  margin:0;
+    }
+}
+.jsSubContentFlexTitle {
+    font-family:$header-font;
+    text-transform: uppercase;
 }
 
-.jsSubContentFlex ul li{
-  /*list-style-type:none;*/
-  margin:10px 0px 0px 10px;
-}
 
 .jsSubContent{
   display:none;

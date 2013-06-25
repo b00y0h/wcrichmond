@@ -85,7 +85,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>RNs and LPN nurses on staff</li>
              <li>On-staff physician available by appointment Monday through Friday.</li>
@@ -110,7 +110,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>Private medication counseling</li>
              <li>Medication profile for physician or tax-filing reference</li>
@@ -136,7 +136,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
               <li>"Back on Track" classes for back strengthening</li>
               <li>"Rusty Hinges" joint conditioning</li>
@@ -163,7 +163,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>High Intensity Strength Training</li>
              <li>Stretch, Tone, and Relax</li>

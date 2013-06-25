@@ -1383,86 +1383,97 @@ a img {
   position: absolute;
   right: 0;
   height: 100%; }
+  /* line 515, sass/_orig-styles.scss */
+  .jsSubContentFlex ul {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    list-style-position: inside; }
+  /* line 521, sass/_orig-styles.scss */
+  .jsSubContentFlex li {
+    list-style-type: none;
+    margin: 10px 0px 0px 3px; }
+    /* line 524, sass/_orig-styles.scss */
+    .jsSubContentFlex li:before {
+      content: "•";
+      font-size: 90%;
+      /* or whatever */
+      padding-right: 5px; }
 
-/* line 516, sass/_orig-styles.scss */
-.jsSubContentFlex ul {
-  padding: 0;
-  margin: 0; }
+/* line 531, sass/_orig-styles.scss */
+.jsSubContentFlexTitle {
+  font-family: "QuicksandBook", Arial, sans-serif;
+  text-transform: uppercase; }
 
-/* line 521, sass/_orig-styles.scss */
-.jsSubContentFlex ul li {
-  /*list-style-type:none;*/
-  margin: 10px 0px 0px 10px; }
-
-/* line 526, sass/_orig-styles.scss */
+/* line 537, sass/_orig-styles.scss */
 .jsSubContent {
   display: none;
   position: relative;
   overflow: hidden;
   height: 490px; }
 
-/* line 533, sass/_orig-styles.scss */
+/* line 544, sass/_orig-styles.scss */
 .jsSubContent.jsc_8.current_sub_content {
   height: 424px; }
 
-/* line 538, sass/_orig-styles.scss */
+/* line 549, sass/_orig-styles.scss */
 .jsSubPhotoViewer img {
   width: 100%;
   height: auto; }
 
-/* line 544, sass/_orig-styles.scss */
+/* line 555, sass/_orig-styles.scss */
 .jsSubContent.current_sub_content {
   display: block; }
 
-/* line 547, sass/_orig-styles.scss */
+/* line 558, sass/_orig-styles.scss */
 .subpageWrapper {
   background-color: #add3cf; }
-  /* line 549, sass/_orig-styles.scss */
+  /* line 560, sass/_orig-styles.scss */
   body[class*="health"] .subpageWrapper, body[class*="memory-support"] .subpageWrapper {
     background-color: #86b243; }
-  /* line 550, sass/_orig-styles.scss */
+  /* line 561, sass/_orig-styles.scss */
   body[class*="dining"] .subpageWrapper, body[class*="health-center"] .subpageWrapper {
     background-color: #482859; }
-  /* line 551, sass/_orig-styles.scss */
+  /* line 562, sass/_orig-styles.scss */
   body[class*="arts"] .subpageWrapper {
     background-color: #e94347; }
-  /* line 552, sass/_orig-styles.scss */
+  /* line 563, sass/_orig-styles.scss */
   body[class*="social"] .subpageWrapper {
     background-color: #e5b257; }
-  /* line 553, sass/_orig-styles.scss */
+  /* line 564, sass/_orig-styles.scss */
   body[class*="spiritual"] .subpageWrapper, body[class*="foundation"] .subpageWrapper {
     background-color: #6e8c95; }
-  /* line 554, sass/_orig-styles.scss */
+  /* line 565, sass/_orig-styles.scss */
   body[class*="assisted-living"] .subpageWrapper {
     background-color: #327e85; }
 
-/* line 558, sass/_orig-styles.scss */
+/* line 569, sass/_orig-styles.scss */
 .tertiaryNav {
   margin: 0;
   padding: 0; }
-  /* line 561, sass/_orig-styles.scss */
+  /* line 572, sass/_orig-styles.scss */
   .tertiaryNav li, .tertiaryNav li a {
     list-style: none;
     background-color: #A52121;
     margin: 5px 0px; }
-    /* line 565, sass/_orig-styles.scss */
+    /* line 576, sass/_orig-styles.scss */
     .tertiaryNav li:hover, .tertiaryNav li a:hover {
       background-color: #fff; }
 
-/* line 570, sass/_orig-styles.scss */
+/* line 581, sass/_orig-styles.scss */
 ul.tertiaryNav li:hover a {
   color: #d31145;
   background-color: #fff; }
 
-/* line 574, sass/_orig-styles.scss */
+/* line 585, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item {
   margin-left: -30px; }
 
-/* line 577, sass/_orig-styles.scss */
+/* line 588, sass/_orig-styles.scss */
 ul.tertiaryNav li.current_page_item a {
   width: 350px; }
 
-/* line 580, sass/_orig-styles.scss */
+/* line 591, sass/_orig-styles.scss */
 ul.tertiaryNav li a {
   text-transform: uppercase;
   text-decoration: none;

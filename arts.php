@@ -87,7 +87,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>Musicals</li>
              <li>Classical music concerts</li>
@@ -125,7 +125,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
               <li>Oil paintings </li>
               <li>Acrylic paintings </li>
@@ -155,7 +155,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
               <li>Antique furniture</li>
               <li>Library</li>

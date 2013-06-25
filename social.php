@@ -69,7 +69,7 @@ get_header(); ?>
         </div>
 
         <div class="jsSubContentFlex">
-          Featuring:
+          <h3 class="jsSubContentFlexTitle">Featuring:</h3>
           <ul>
              <li>Cultural Film Series</li>
              <li>Campus Events</li>
@@ -95,7 +95,7 @@ get_header(); ?>
        </div>
 
         <div class="jsSubContentFlex">
-           Featuring:
+           <h3 class="jsSubContentFlexTitle">Featuring:</h3>
            <ul>
              <li>Resident Committees</li>
              <li>Gift Shop</li>
