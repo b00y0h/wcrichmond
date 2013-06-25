@@ -826,6 +826,9 @@ footer .copyText {
 /* line 155, sass/partials/_menu.scss */
 .tertiary-menu {
   margin-top: 1em; }
+  /* line 158, sass/partials/_menu.scss */
+  .tertiary-menu.current-menu-item a {
+    color: #cc2933; }
 
 /* line 2, sass/_orig-styles.scss */
 #subNav {

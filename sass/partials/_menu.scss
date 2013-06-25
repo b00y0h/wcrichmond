@@ -154,4 +154,9 @@
 
 .tertiary-menu {
     margin-top: 1em;
+        &.current-menu-item {
+        a {
+            color:$red;
+        }
+    }
 }
