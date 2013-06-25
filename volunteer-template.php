@@ -1,4 +1,4 @@
-<?php /* Template Name: About Pages */ get_header(); ?>
+<?php /* Template Name: Volunteer Pages */ get_header(); ?>
 
 
   <?php $defaults = array(
