@@ -681,17 +681,18 @@ footer .copyText {
 /* Main Header Navigation */
 /* line 3, sass/partials/_menu.scss */
 #access {
-  clear: both; }
-  /* line 5, sass/partials/_menu.scss */
+  clear: both;
+  position: relative; }
+  /* line 6, sass/partials/_menu.scss */
   #access ul {
     list-style: none;
     padding-left: 0; }
-    /* line 9, sass/partials/_menu.scss */
+    /* line 10, sass/partials/_menu.scss */
     #access ul.menu {
       margin: 0;
       border-top: 1px solid #8d8d8d;
       border-bottom: 1px solid #8d8d8d; }
-      /* line 16, sass/partials/_menu.scss */
+      /* line 17, sass/partials/_menu.scss */
       #access ul.menu > li.dropdown > a:after {
         position: absolute;
         display: block;
@@ -703,14 +704,14 @@ footer .copyText {
         border-top: 6px solid #e6e6e6;
         border-left: 6px solid transparent;
         border-right: 6px solid transparent; }
-  /* line 34, sass/partials/_menu.scss */
+  /* line 35, sass/partials/_menu.scss */
   #access li {
     position: relative; }
-    /* line 36, sass/partials/_menu.scss */
+    /* line 37, sass/partials/_menu.scss */
     #access li:last-child a {
       border-right: none;
       margin-right: 1px; }
-  /* line 38, sass/partials/_menu.scss */
+  /* line 39, sass/partials/_menu.scss */
   #access a {
     display: block;
     line-height: 34px;
@@ -719,7 +720,7 @@ footer .copyText {
     text-decoration: none;
     text-transform: uppercase;
     border-right: 1px solid #8d8d8d; }
-  /* line 47, sass/partials/_menu.scss */
+  /* line 48, sass/partials/_menu.scss */
   #access .sub-menu {
     display: none;
     float: left;
@@ -730,23 +731,23 @@ footer .copyText {
     width: 250px;
     z-index: 99999;
     border-top: 1px solid #8d8d8d; }
-    /* line 60, sass/partials/_menu.scss */
+    /* line 61, sass/partials/_menu.scss */
     #access .sub-menu li {
       border: 2px solid #c0c0c0;
       border-bottom-width: 1px;
       border-top: none; }
-      /* line 64, sass/partials/_menu.scss */
+      /* line 65, sass/partials/_menu.scss */
       #access .sub-menu li:last-child {
         border-bottom-width: 2px; }
-    /* line 70, sass/partials/_menu.scss */
+    /* line 71, sass/partials/_menu.scss */
     #access .sub-menu li:hover a {
       background-color: #cc2933;
       color: white; }
-    /* line 74, sass/partials/_menu.scss */
+    /* line 75, sass/partials/_menu.scss */
     #access .sub-menu ul {
       left: 100%;
       top: 0; }
-    /* line 77, sass/partials/_menu.scss */
+    /* line 78, sass/partials/_menu.scss */
     #access .sub-menu a {
       background: white;
       color: #444;
@@ -756,38 +757,38 @@ footer .copyText {
       line-height: 1.4em;
       padding: 10px 10px;
       border: none; }
-  /* line 88, sass/partials/_menu.scss */
+  /* line 89, sass/partials/_menu.scss */
   #access li:hover > a, #access ul ul :hover > a, #access a:focus {
     background: #cc2933;
     font-family: 'QuicksandBold'; }
-  /* line 92, sass/partials/_menu.scss */
+  /* line 93, sass/partials/_menu.scss */
   #access li:hover > a, #access a:focus {
     background-color: white;
     font-family: 'QuicksandBold'; }
-  /* line 96, sass/partials/_menu.scss */
+  /* line 97, sass/partials/_menu.scss */
   #access ul li:hover > ul {
     display: block; }
-  /* line 98, sass/partials/_menu.scss */
+  /* line 99, sass/partials/_menu.scss */
   #access .current-menu-item > a, #access .current-menu-ancestor > a, #access .current_page_item > a, #access .current_page_ancestor > a {
     font-family: 'QuicksandBold'; }
 
 /* Home Secondary Nav (Near footer) */
-/* line 102, sass/partials/_menu.scss */
+/* line 103, sass/partials/_menu.scss */
 #menu-sub-menu {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   list-style: none; }
-  /* line 107, sass/partials/_menu.scss */
+  /* line 108, sass/partials/_menu.scss */
   #menu-sub-menu li {
     margin-bottom: 4px;
     text-align: center;
     margin-left: -20px;
     margin-right: -20px; }
-    /* line 113, sass/partials/_menu.scss */
+    /* line 114, sass/partials/_menu.scss */
     #menu-sub-menu li:last-child {
       margin-bottom: 0; }
-    /* line 116, sass/partials/_menu.scss */
+    /* line 117, sass/partials/_menu.scss */
     #menu-sub-menu li a {
       color: white;
       display: block;
@@ -796,11 +797,11 @@ footer .copyText {
       font-size: 1.4em;
       text-decoration: none;
       text-transform: uppercase; }
-      /* line 125, sass/partials/_menu.scss */
+      /* line 126, sass/partials/_menu.scss */
       #menu-sub-menu li a:hover {
         box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.1); }
 
-/* line 132, sass/partials/_menu.scss */
+/* line 133, sass/partials/_menu.scss */
 .lifestyle-submenu {
   background-color: white;
   border-top: 1px solid #8e8e8e;
@@ -810,22 +811,22 @@ footer .copyText {
   margin-bottom: .5em;
   height: 50px;
   line-height: 50px; }
-  /* line 141, sass/partials/_menu.scss */
+  /* line 142, sass/partials/_menu.scss */
   .lifestyle-submenu li {
     display: inline; }
-    /* line 144, sass/partials/_menu.scss */
+    /* line 145, sass/partials/_menu.scss */
     .lifestyle-submenu li.current-menu-item a {
       color: #cc2933; }
-  /* line 149, sass/partials/_menu.scss */
+  /* line 150, sass/partials/_menu.scss */
   .lifestyle-submenu a {
     padding: 0 .75em;
     text-decoration: none;
     text-transform: uppercase; }
 
-/* line 156, sass/partials/_menu.scss */
+/* line 157, sass/partials/_menu.scss */
 .tertiary-menu {
   margin-top: 1em; }
-  /* line 159, sass/partials/_menu.scss */
+  /* line 160, sass/partials/_menu.scss */
   .tertiary-menu.current-menu-item a {
     color: #cc2933; }
 
