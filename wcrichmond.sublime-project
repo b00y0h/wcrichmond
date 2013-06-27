@@ -1,0 +1,13 @@
+{
+ "folders": [
+  {
+   "folder_exclude_patterns": [
+    ".sass-cache"
+   ],
+   "path": "/Users/bobby/Documents/Source/wordpress/themes/wcrichmond",
+   "file_exclude_patterns": [
+    "codekit-config.json"
+   ]
+  }
+ ]
+}
