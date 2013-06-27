@@ -27,10 +27,10 @@
         <!-- <?php echo $children; ?>-->
 
         <?php if($children): ?>
-            <ul class="tertiaryNav">
+<!--             <ul class="tertiaryNav">
               <?php echo $children; ?>
             </ul>
-        <?php endif;
+ -->        <?php endif;
             // dynamic_sidebar( 'sidebar-page' );
         ?>
         <?php  // get_template_part( 'sidebar', 'extrasideitems' ); ?>
